@@ -1,0 +1,416 @@
+[
+  {
+    "id": "style_31_internet_populer",
+    "name": "31. ESTETIKA INTERNET POPULER (POPULAR CORES)",
+    "accentColor": "pink",
+    "icon": "fas fa-laptop-code",
+    "definition": [
+      "Kumpulan gaya visual yang lahir dan berkembang pesat di media sosial, seringkali didorong oleh nostalgia terhadap era digital tertentu atau idealisasi gaya hidup.",
+      "Mencakup tren yang berulang seperti Y2K, Vaporwave, dan berbagai 'cores' yang berpusat pada subkultur atau tema tertentu yang mudah diidentifikasi.",
+      "Visual yang sangat berorientasi pada warna, pola, dan editing digital untuk menciptakan atmosfer yang kuat dan trendi."
+    ],
+    "substyles": [
+      {
+        "name": "Vaporwave Aesthetic",
+        "description": "Kombinasi patung klasik, grafik komputer 90-an yang usang, warna pastel neon (ungu, pink), dan grid 3D. Menciptakan nostalgia ironis. [Image of Vaporwave Aesthetic]",
+        "examplePrompt": "A 3D render in the Vaporwave aesthetic of a bust of Julius Caesar floating on a purple and pink wireframe grid, set against a sunset made of low-resolution gradients. VHS tracking effect, glitch art."
+      },
+      {
+        "name": "Retrowave / Synthwave Aesthetic",
+        "description": "Terinspirasi oleh fiksi ilmiah, musik, dan video game 80-an. Ditandai dengan warna neon ungu dan merah muda, mobil sport, dan siluet di bawah matahari terbenam yang besar.",
+        "examplePrompt": "A Synthwave illustration of a sleek black sports car driving down a deserted highway at night, lit only by deep purple and hot pink neon lights. Horizon is a giant setting sun, grid perspective, Retrowave aesthetic."
+      },
+      {
+        "name": "Y2K Aesthetic",
+        "description": "Gaya visual akhir 90-an hingga awal 2000-an: plastik gelembung, transparan, warna permen, elemen futuristik naif, dan glossy.",
+        "examplePrompt": "A Y2K Aesthetic digital illustration of a chunky, transparent pink computer mouse surrounded by metallic silver bubble shapes. Glossy texture, bright pop colors, bold, geometric shapes."
+      },
+      {
+        "name": "Frutiger Aero Aesthetic",
+        "description": "Estetika digital 2004-2013: refleksi mengkilap, gelembung kaca, objek 3D yang lembut, alam, dan skeuomorphism (objek digital meniru bentuk fisik).",
+        "examplePrompt": "A Frutiger Aero style desktop background featuring a giant, transparent glass orb floating above a lush green field with a bright blue sky. Water droplets on the screen, skeuomorphic design, vibrant, soft colors."
+      },
+      {
+        "name": "Cottagecore Aesthetic",
+        "description": "Idealitas kehidupan pedesaan yang damai, kebun yang subur, dan pakaian vintage longgar. Fokus pada kedamaian dan pelarian dari modernitas.",
+        "examplePrompt": "A whimsical photograph in the Cottagecore Aesthetic of a small, wooden hut surrounded by an overgrown flower garden, dappled sunlight, soft focus, hand-knitted blanket on a porch chair."
+      },
+      {
+        "name": "Dark Academia Aesthetic",
+        "description": "Fokus pada pendidikan tinggi, arsitektur gothic, perpustakaan tua, dan pakaian vintage formal. Warna didominasi coklat tua, hijau hutan, dan emas.",
+        "examplePrompt": "An image in the Dark Academia Aesthetic showing a pile of ancient leather-bound books and a half-written manuscript on an old wooden desk, lit by a single brass desk lamp. Rich, muted colors, deep shadows."
+      },
+      {
+        "name": "Light Academia Aesthetic",
+        "description": "Mirip Dark Academia tetapi lebih cerah dan optimis. Warna didominasi krem, putih, pastel, dan linen.",
+        "examplePrompt": "A Light Academia aesthetic photograph of two students reading on a bright, sunny library balcony. White linen shirts, soft natural light, warm beige and white color palette."
+      },
+      {
+        "name": "Kawaii Aesthetic",
+        "description": "Gaya visual Jepang yang sangat menekankan pada kelucuan, kepolosan, dan warna pastel cerah. Digunakan untuk karakter dan objek.",
+        "examplePrompt": "A digital illustration in the Kawaii Aesthetic of a small, round cat drinking boba tea, featuring big sparkling eyes, soft pink and yellow colors, thick outlines, and simple, delightful design."
+      },
+      {
+        "name": "E-Girl / E-Boy Aesthetic",
+        "description": "Gaya yang dipengaruhi budaya game/anime/emo/goth. Ciri khas: rambut berwarna cerah, rantai, riasan mata dramatis, dan pakaian bergaris.",
+        "examplePrompt": "A portrait of an E-Girl with bright pink split-dyed hair, dramatic black eyeliner, silver chains, and a checkered skirt, filtered with a subtle chromatic aberration effect."
+      },
+      {
+        "name": "Baddie Aesthetic",
+        "description": "Gaya yang berfokus pada kemewahan modern, kepercayaan diri, kosmetik yang sempurna, dan tren mode terkini (siluet ketat, label desainer).",
+        "examplePrompt": "A fashion photograph in the Baddie Aesthetic of a woman posing in a high-end streetwear outfit against a sleek black sports car, high gloss finish, flawless makeup, powerful, confident stance."
+      },
+      {
+        "name": "Solarpunk Aesthetic",
+        "description": "Masa depan berkelanjutan yang optimis, menggabungkan teknologi hijau dengan alam. Banyak tanaman merambat di gedung-gedung dan desain ramah lingkungan.",
+        "examplePrompt": "An architectural concept in the Solarpunk Aesthetic showing a massive skyscraper covered in lush vertical gardens and solar panels, integrated seamlessly with a green, clean city landscape. Bright, hopeful lighting, clean energy theme."
+      },
+      {
+        "name": "Cyberpunk Aesthetic",
+        "description": "Gaya futuristik distopia: teknologi tinggi/hidup rendah. Neon, hujan, jalanan ramai, dan perangkat cybernetic. Palet warna biru, merah, dan ungu tua.",
+        "examplePrompt": "A highly detailed Cyberpunk street scene at night, dominated by blue and pink neon signs reflecting off wet asphalt, crowded by augmented individuals, dark and atmospheric."
+      },
+      {
+        "name": "Fairycore / Fae Aesthetic",
+        "description": "Estetika fantasi yang berfokus pada peri, hutan ajaib, jamur, pakaian yang mengalir, dan cahaya alami yang berkilauan (efek *glow*).",
+        "examplePrompt": "A digital painting in the Fairycore Aesthetic of a small fairy perched on a glowing mushroom in a mossy, sun-dappled forest clearing. Soft, magical lighting, deep green and earth tones."
+      },
+      {
+        "name": "Witchcore Aesthetic",
+        "description": "Fokus pada ilmu sihir tradisional, astrologi, herbal, ritual, dan alam gelap. Palet warna hijau tua, hitam, ungu, dan emas.",
+        "examplePrompt": "A dark, moody photograph in the Witchcore Aesthetic of a wooden table covered in dried herbs, tarot cards, glowing crystals, and a smoking cauldron, lit by candlelight."
+      },
+      {
+        "name": "Royalcore Aesthetic",
+        "description": "Idealitas kemewahan bangsawan: gaun mewah, kastil besar, dan suasana sejarah yang agung dan sering kali melankolis.",
+        "examplePrompt": "A detailed digital painting in the Royalcore Aesthetic of a young queen sitting alone on a massive gold throne in a dark, vaulted castle hall. Dramatic lighting, rich velvet textures."
+      },
+      {
+        "name": "Cabincore Aesthetic",
+        "description": "Idealitas kehidupan di kabin yang terpencil di hutan, fokus pada kenyamanan, kayu, api unggun, buku, dan isolasi yang tenang.",
+        "examplePrompt": "A warm, cozy photograph in the Cabincore Aesthetic of a wooden cabin interior during winter, with a roaring fireplace, wool blankets, and steaming hot chocolate on a rustic table."
+      },
+      {
+        "name": "Grandmacore Aesthetic",
+        "description": "Perayaan terhadap kenyamanan dan estetika rumah nenek: rajutan, sulaman, teh, porselen vintage, dan desain floral yang ramah.",
+        "examplePrompt": "An image in the Grandmacore Aesthetic showing a warm kitchen table set with mismatched floral porcelain teacups and a handmade crocheted doily, soft morning light."
+      },
+      {
+        "name": "Indie Kid Aesthetic",
+        "description": "Mode dan warna cerah dari budaya indie tahun 2000-an dan 2010-an. Pakaian longgar, motif grafis yang unik, dan warna yang kuat.",
+        "examplePrompt": "A colorful digital illustration in the Indie Kid Aesthetic of a group of friends wearing mismatched thrift store clothes and bucket hats, bright primary colors, playful, high contrast."
+      },
+      {
+        "name": "VSCO Girl Aesthetic",
+        "description": "Estetika santai yang berfokus pada elemen pantai, persahabatan, dan lingkungan. Ditandai dengan warna pastel, gelang manik-manik, dan botol minum berstiker.",
+        "examplePrompt": "A flat-lay photograph in the VSCO Girl Aesthetic of a hydro flask covered in pastel stickers, scrunchies, a polaroid camera, and shell necklaces on a beach towel. Bright, airy lighting."
+      },
+      {
+        "name": "Normcore Aesthetic",
+        "description": "Gaya yang berfokus pada keseragaman dan ketidakmenonjolan yang disengaja. Visual yang sangat mendasar, universal, dan tidak bermerek, mengabaikan tren.",
+        "examplePrompt": "A simple photograph using the Normcore Aesthetic of a plain gray t-shirt folded neatly on a bare white table. Utterly average, non-stylized, clean, minimalist."
+      },
+      {
+        "name": "Aesthetic of Maximalism",
+        "description": "Prinsip 'lebih banyak adalah lebih baik'. Komposisi yang padat, penuh warna, tekstur yang tumpang tindih, pola, dan hiasan berlebihan.",
+        "examplePrompt": "A room interior designed with the Aesthetic of Maximalism, featuring multiple conflicting wallpaper patterns, brightly colored furniture, dozens of hanging picture frames, and overflowing plant life. Highly detailed, colorful chaos."
+      },
+      {
+        "name": "Aesthetic of Minimalism (Internet)",
+        "description": "Fokus pada garis bersih, bentuk geometris sederhana, dan palet warna yang terbatas, diinterpretasikan melalui estetika digital (ala Apple/desain bersih).",
+        "examplePrompt": "A clean, empty room designed with the Aesthetic of Minimalism: white walls, single black line drawing on the floor, perfectly balanced, no clutter, high-key lighting."
+      },
+      {
+        "name": "Lo-Fi Aesthetic (Visual)",
+        "description": "Kualitas visual yang sengaja rendah: warna pudar, kontras rendah, film grain, atau artefak kompresi JPEG/VHS yang disimulasikan. Menciptakan suasana melankolis.",
+        "examplePrompt": "A still image of a quiet street captured with a Lo-Fi Aesthetic, heavy film grain, muted colors dominated by soft browns and yellows, low resolution, a feeling of gentle melancholy."
+      },
+      {
+        "name": "Webcore Aesthetic",
+        "description": "Estetika yang merayakan desain web awal tahun 90-an: GIF animasi, ikon piksel, halaman MySpace/Geocities, dan warna dasar RGB yang berisik.",
+        "examplePrompt": "A chaotic digital collage in the Webcore Aesthetic, featuring flashing banner ads, pixelated stars, spinning globes (GIF), and mismatched basic fonts, reminiscent of a 90s website."
+      },
+      {
+        "name": "Glitch Art Aesthetic",
+        "description": "Seni yang dibuat dengan sengaja merusak data digital untuk menciptakan distorsi visual yang tak terduga, menghasilkan estetika kerusakan digital.",
+        "examplePrompt": "A portrait of a person severely corrupted by Glitch Art Aesthetic, featuring horizontal color shifts, blocky pixel distortion, and diagonal scan lines, intense magenta and cyan colors."
+      }
+    ]
+  },
+  {
+    "id": "style_32_psycho_visual",
+    "name": "32. PSYCHO-VISUAL & RUANG LIMINAL",
+    "accentColor": "orange",
+    "icon": "fas fa-brain",
+    "definition": [
+      "Gaya yang berfokus pada visualisasi keadaan mental, mimpi, ketidaknyamanan psikologis, dan ruang transisional yang menimbulkan rasa disorientasi atau 'uncanny'.",
+      "Sangat bergantung pada pencahayaan yang tidak wajar, simetri yang mengganggu, dan ketidakhadiran manusia (kenopsia).",
+      "Bertujuan membangkitkan emosi yang kuat seperti kegelisahan, nostalgia yang salah tempat (anemoia), atau rasa aman yang palsu."
+    ],
+    "substyles": [
+      {
+        "name": "Liminal Space Aesthetic",
+        "description": "Penggambaran ruang transisional (koridor, lobi, mal, kolam renang) yang sepi, menimbulkan rasa cemas dan nostalgia aneh (anemoia). ",
+        "examplePrompt": "A wide, empty hallway of an indoor water park at 3 AM. The lighting is harsh and fluorescent, no people, unsettling quiet atmosphere, Liminal Space aesthetic."
+      },
+      {
+        "name": "Dreamcore Aesthetic",
+        "description": "Meniru visual mimpi: tidak masuk akal, berwarna-warni namun menakutkan, sering menggunakan objek anak-anak yang diletakkan dalam konteks yang asing.",
+        "examplePrompt": "A Dreamcore illustration of a giant, smiling red phone floating in a pastel blue sky above a field of oversized yellow flowers. Lo-fi quality, heavy VHS tracking lines, bright but eerie colors, 4:3 aspect ratio."
+      },
+      {
+        "name": "Weirdcore Aesthetic",
+        "description": "Menggunakan editing lo-fi, gambar stok usang, dan grafik sederhana untuk menciptakan pemandangan sureal yang mengganggu, seringkali dengan teks yang tidak logis.",
+        "examplePrompt": "An image in the Weirdcore style of a low-resolution photograph showing a long, identical corridor with yellow walls and fluorescent lights buzzing. Distorted colors and a single, unsettling phrase 'WHERE ARE YOU'. Lo-fi digital photography."
+      },
+      {
+        "name": "Traumacore Aesthetic",
+        "description": "Fokus pada representasi visual dari trauma masa kecil atau memori yang terdistorsi. Sering menggunakan elemen anak-anak yang hancur dan teks yang mengkhawatirkan.",
+        "examplePrompt": "A Traumacore style image featuring a heavily edited photograph of an empty, brightly colored indoor playground, with unsettling, fragmented text overlaid in comic sans font, creating deep psychological unease."
+      },
+      {
+        "name": "Anemoia Visual",
+        "description": "Visualisasi rasa nostalgia untuk waktu yang belum pernah dialami. Sering menggunakan gambar dari arsip lama dengan sentuhan melankolis yang kuat.",
+        "examplePrompt": "A cinematic photograph in the Anemoia Visual style of a 1950s diner at dusk, lit by orange neon, evoking a strong sense of longing for a bygone era, strong film grain."
+      },
+      {
+        "name": "Surreal Isolation Visual",
+        "description": "Penggambaran subjek tunggal di lingkungan yang luas dan aneh, menekankan kesendirian dan keterasingan yang luar biasa dalam skala kosmik.",
+        "examplePrompt": "A detailed digital painting of a tiny human figure standing on a giant, floating red cube in the middle of a swirling, colorful nebula. Surreal Isolation aesthetic."
+      },
+      {
+        "name": "Hyper-realistic Dreamscape",
+        "description": "Pemandangan mimpi yang dirender dengan detail fotografi yang ekstrem, membuat hal yang mustahil terlihat seolah-olah nyata dan dapat disentuh.",
+        "examplePrompt": "A hyper-realistic Dreamscape photograph of a living room where all the furniture is made of melting chocolate and a giant goldfish is swimming in the air. Perfect lighting, extreme detail."
+      },
+      {
+        "name": "Visual Paradox (Escher-like)",
+        "description": "Komposisi yang menampilkan ilusi optik atau objek yang melanggar hukum fisika dan logika dalam upaya visual yang membingungkan. [Image of Visual Paradox]",
+        "examplePrompt": "An M.C. Escher-inspired Visual Paradox illustration of a staircase that eternally ascends and descends, rendered in black ink cross-hatching."
+      },
+      {
+        "name": "The Uncanny Valley Effect",
+        "description": "Visual yang dibuat agar tampak hampir, tetapi tidak sepenuhnya, manusiawi atau realistis, menimbulkan perasaan aneh atau ketidaknyamanan mendalam.",
+        "examplePrompt": "A 3D render of a humanoid robot's face with smooth, flawless skin and unnervingly perfect, unblinking eyes, achieving The Uncanny Valley Effect."
+      },
+      {
+        "name": "Psychological Horror Visual (Subtle)",
+        "description": "Menekankan rasa takut melalui ketidakpastian, distorsi, atau ketidaktepatan (uncanny), bukan kekerasan eksplisit. Menciptakan teror yang lambat.",
+        "examplePrompt": "A photograph with a Psychological Horror Visual aesthetic of a seemingly normal suburban house at night, but with all the windows slightly stretched and warped, creating subtle, deep unease."
+      },
+      {
+        "name": "Fragmented Memory Visual",
+        "description": "Kolase atau montase yang menyatukan potongan-potongan visual yang terpisah, menyerupai proses otak mengingat peristiwa yang tidak lengkap atau rusak.",
+        "examplePrompt": "A digital collage in the Fragmented Memory Visual style, blending several faded photographs, disconnected dialogue snippets, and blurry objects into a single, confusing composition."
+      },
+      {
+        "name": "Visual Manifestation of Anxiety",
+        "description": "Menggambarkan kegelisahan melalui distorsi fisik, pola berulang yang menekan, atau objek yang mengancam subjek.",
+        "examplePrompt": "An illustration showing a character being physically squeezed or enveloped by chaotic, repeating geometric patterns and heavy shadow, representing Visual Manifestation of Anxiety."
+      },
+      {
+        "name": "Visual Representation of Time Dilation",
+        "description": "Visual yang menunjukkan waktu bergerak secara berbeda, seperti subjek yang buram/melar sementara lingkungan tetap tajam, atau banyak versi subjek di tempat yang sama.",
+        "examplePrompt": "A digital painting showing a single clock face melting and stretching across a static landscape, representing the subjective distortion of time (Time Dilation Visual)."
+      },
+      {
+        "name": "Cognitive Dissonance Visual",
+        "description": "Menggambarkan dua ide yang bertentangan secara visual dalam satu bingkai, menciptakan ketidaknyamanan mental pada penonton.",
+        "examplePrompt": "An oil painting showing a serene, smiling child holding a sharp, menacing weapon. The contradictory elements create Cognitive Dissonance Visual."
+      },
+      {
+        "name": "Emotional Color Palette (Extreme)",
+        "description": "Penggunaan warna secara simbolis dan ekstrem untuk mewakili suasana hati atau emosi (merah untuk kemarahan, biru untuk kesedihan) pada subjek yang netral.",
+        "examplePrompt": "A portrait rendered entirely with an Emotional Color Palette of neon cyan and deep purple, making the subject's neutral expression feel overwhelmingly sad and cold."
+      },
+      {
+        "name": "Sensory Overload Visual",
+        "description": "Komposisi yang kelebihan rangsangan (warna, pola, tekstur) yang membuat penonton merasa kewalahan, meniru pengalaman mental yang terbebani.",
+        "examplePrompt": "A highly saturated, maximalist painting depicting a street fair, using the Sensory Overload Visual aesthetic, with too many colors, flashing lights, patterns, and conflicting movements in the same frame."
+      },
+      {
+        "name": "Kenopsia Visual (Kekosongan)",
+        "description": "Menggambarkan atmosfer dari suatu tempat yang biasanya ramai tetapi kini ditinggalkan dan sepi. Fokus pada kontras antara fungsi dan kekosongan.",
+        "examplePrompt": "A photograph in the Kenopsia Visual style of a fully decorated but empty ballroom after a party has ended. Harsh, solitary fluorescent lighting, scattered debris, overwhelming silence."
+      },
+      {
+        "name": "Eerie Purity Aesthetic",
+        "description": "Ruang yang sangat bersih, simetris, dan 'sempurna', tetapi ketidakhadiran atau keseragamannya menimbulkan rasa tidak enak atau steril yang mengganggu.",
+        "examplePrompt": "A 3D render in the Eerie Purity Aesthetic of an endless white corridor with symmetrical doors and flawless, smooth lighting. The perfection creates a feeling of being trapped."
+      },
+      {
+        "name": "Nostalgic Horror",
+        "description": "Mengambil ikonografi masa kecil (maskot, taman bermain) dan menyajikan dalam konteks yang menakutkan, kotor, atau rusak.",
+        "examplePrompt": "An oil painting in the Nostalgic Horror style of an old, faded amusement park mascot standing in a derelict playground at dusk. Eyes glowing faintly, worn colors, unsettling atmosphere."
+      },
+      {
+        "name": "Existential Dread Visual",
+        "description": "Visual yang berfokus pada skala kecil manusia di hadapan alam semesta yang luas dan dingin, menimbulkan pertanyaan tentang makna hidup.",
+        "examplePrompt": "A minimalist photograph showing a tiny figure standing on a vast, cracked desert floor under an overwhelming, starless night sky. Existential Dread Visual, monochrome."
+      },
+      {
+        "name": "Nihilist Monochrome",
+        "description": "Penggunaan palet hitam, putih, dan abu-abu yang suram untuk menggambarkan ketidakberartian atau kekosongan, seringkali tanpa kontras yang kuat.",
+        "examplePrompt": "A photograph of an empty factory floor rendered in Nihilist Monochrome, using only washed-out grays and subtle textures, giving a sense of futility and decay."
+      },
+      {
+        "name": "Visual Depiction of Silence",
+        "description": "Menggambarkan ketiadaan suara melalui keheningan visual yang berlebihan: tidak ada tekstur, warna yang diredam, dan komposisi yang kosong.",
+        "examplePrompt": "A photograph in the Visual Depiction of Silence style: an empty room with closed windows, heavy velvet curtains, and muted beige walls, giving an overwhelming sense of acoustic isolation."
+      },
+      {
+        "name": "Concept of Absolute Zero Visual",
+        "description": "Visualisasi ekstrem dari ketiadaan energi atau gerakan, seringkali digambarkan sebagai keheningan yang beku dan mutlak.",
+        "examplePrompt": "A minimalist 3D render representing the Concept of Absolute Zero Visual: a perfectly smooth, white cube suspended in a black void, with the surface appearing impossibly still and cold."
+      },
+      {
+        "name": "Asemic Writing Visual (Tulisan Asemik)",
+        "description": "Penggunaan garis dan simbol yang menyerupai tulisan tangan atau bahasa, tetapi tidak memiliki makna linguistik nyata, berfokus pada estetika grafis dan misteri.",
+        "examplePrompt": "An abstract ink drawing featuring dense clusters of symbols and swirls that look like an unknown ancient script, rendered in the Asemic Writing Visual style, emphasizing texture and pattern over meaning."
+      },
+      {
+        "name": "Subliminal Messaging Art",
+        "description": "Karya seni yang sengaja menyembunyikan gambar atau teks kecil yang dirancang untuk memengaruhi alam bawah sadar penonton. [Image of Subliminal Messaging Art]",
+        "examplePrompt": "A poster design created with Subliminal Messaging Art, where abstract shapes subtly form the word 'BUY' when viewed from a specific angle, highly detailed digital illustration."
+      }
+    ]
+  },
+  {
+    "id": "style_33_subkultur_digital",
+    "name": "33. ESTETIKA SUBKULTUR DIGITAL & FASHION NICHE",
+    "accentColor": "gold",
+    "icon": "fas fa-mask",
+    "definition": [
+      "Gaya visual yang berakar pada perpaduan mode, teknologi, dan budaya internet yang sangat spesifik dan seringkali merupakan sub-genre dari estetika yang lebih besar.",
+      "Fokus pada idealisasi gaya hidup yang sangat niche, seperti gaya hidup di alam liar, gaya pakaian tertentu, atau fantasi retro-futurisme.",
+      "Visual yang sangat detail pada pakaian, tekstur, dan lingkungan yang spesifik."
+    ],
+    "substyles": [
+      {
+        "name": "Goblincore Aesthetic",
+        "description": "Perayaan terhadap alam yang kotor, jamur, katak, koin mengkilap, dan benda-benda remeh (trinkets). Tema 'penghuni hutan' yang menyenangkan dan kotor.",
+        "examplePrompt": "An illustration in the Goblincore Aesthetic of a small, cheerful frog wearing a tiny knitted sweater, sitting on a pile of moss and dirty, shiny coins."
+      },
+      {
+        "name": "Gloomcore Aesthetic",
+        "description": "Estetika yang merayakan kesuraman, kelembaban, dan kehancuran yang tenang. Fokus pada jamur, lumut, katak, hujan, dan rumah yang ditinggalkan.",
+        "examplePrompt": "A photograph captured in the Gloomcore Aesthetic of an abandoned greenhouse overgrown with thick moss and ferns, constant rain outside, subdued, dark green and gray color palette."
+      },
+      {
+        "name": "Sporecore Aesthetic",
+        "description": "Sub-estetika yang sangat terfokus pada jamur, spora, dan simbiosis alam di lingkungan yang gelap dan lembab. Seringkali memiliki rasa horror/fantasi yang lembut.",
+        "examplePrompt": "A detailed illustration in the Sporecore Aesthetic of a human figure completely covered in various types of bioluminescent fungi and moss in a dark cave environment. Eerie glowing mushrooms, intricate biological textures."
+      },
+      {
+        "name": "Steampunk Aesthetic",
+        "description": "Genre fiksi ilmiah yang didasarkan pada teknologi uap era Victoria. Visual yang fokus pada roda gigi kuningan, kulit, kacamata, dan mesin yang rumit.",
+        "examplePrompt": "A highly detailed digital painting of a sophisticated flying machine designed with the Steampunk Aesthetic, featuring exposed brass mechanisms, leather trim, and heavy smoke from the steam engines."
+      },
+      {
+        "name": "Dieselpunk Aesthetic",
+        "description": "Mirip dengan Steampunk tetapi didasarkan pada teknologi era Perang Dunia I dan II (1920-1950). Mesin diesel, pesawat besar, dan suasana 'noir' yang gelap.",
+        "examplePrompt": "An illustration in the Dieselpunk Aesthetic of a massive, heavily armored train moving through a dark, rainy city. Art Deco influences, gritty texture, dark sepia tones."
+      },
+      {
+        "name": "Atompunk Aesthetic",
+        "description": "Retro-futurisme, berfokus pada optimisme dan paranoia tahun 1950-an tentang nuklir dan ruang angkasa. Robot, jetpack, dan desain membulat.",
+        "examplePrompt": "An illustration in the Atompunk Aesthetic of a happy family using a futuristic, bubble-shaped car in a clean 1950s suburb. Bright, optimistic colors, stylized space-age design."
+      },
+      {
+        "name": "Tiki Culture Aesthetic",
+        "description": "Estetika yang terinspirasi dari budaya pulau Pasifik yang diidealisasi dan dipopulerkan di AS tahun 40-an-60-an. Topeng kayu, warna tropis, dan koktail berlilin.",
+        "examplePrompt": "A detailed illustration of a dark, moody bar interior in the Tiki Culture Aesthetic, featuring carved wooden masks, glowing glass floats, and bamboo walls, lush tropical atmosphere."
+      },
+      {
+        "name": "Spacecore Aesthetic",
+        "description": "Estetika yang berpusat pada eksplorasi ruang angkasa, astronomi, galaksi, dan benda langit, seringkali dalam warna biru tua, ungu, dan hitam.",
+        "examplePrompt": "An illustration in the Spacecore Aesthetic of a hand holding a glowing, swirling nebula in a jar, with Saturn rings visible in the background. Bright, cosmic colors, dreamy, high-contrast."
+      },
+      {
+        "name": "Cluttercore Aesthetic",
+        "description": "Perayaan terhadap akumulasi barang dan kekacauan pribadi yang terorganisir. Visual yang ramai, intim, dan penuh koleksi objek yang dicintai.",
+        "examplePrompt": "A cozy, dimly lit bedroom photograph featuring the Cluttercore Aesthetic, with shelves overflowing with random trinkets, stacks of books on the floor, and mismatched vintage fabrics, creating a sense of personalized warmth."
+      },
+      {
+        "name": "Chaotic Neutral Aesthetic",
+        "description": "Visual yang penuh kekacauan yang disengaja, benda yang tidak sesuai, dan tumpang tindih. Humor dan absurdisme dalam komposisi yang ramai.",
+        "examplePrompt": "A digital collage in the Chaotic Neutral Aesthetic featuring a cat wearing a tiny hat, a brightly colored traffic cone, a random medieval sword, and a blurry photo of a sandwich, all overlapping randomly."
+      },
+      {
+        "name": "Opulent Minimalist Aesthetic",
+        "description": "Minimalisme yang mahal dan mewah. Fokus pada ruang kosong yang luas, bahan alami berkualitas tinggi (marmer, sutra), dan palet warna netral yang kaya.",
+        "examplePrompt": "An interior design photograph in the Opulent Minimalist Aesthetic: a vast, empty room with a single, massive piece of custom marble furniture, soft beige tones, and high, diffused lighting."
+      },
+      {
+        "name": "Avant-Garde Fashion Visual",
+        "description": "Visual yang berfokus pada desain mode yang eksperimental, non-konvensional, dan menantang, seringkali menggunakan bentuk dan tekstur yang tidak praktis.",
+        "examplePrompt": "A fashion photograph in the Avant-Garde Fashion Visual style, showing a model wearing a geometrically impossible dress made of sharp, reflective silver plates, set against a dark, minimalist backdrop."
+      },
+      {
+        "name": "Grungecore Aesthetic",
+        "description": "Fokus pada mode grunge 90-an secara ekstrem: flanel, jeans robek, sepatu bot tebal, dan warna yang pudar/gelap, seringkali dengan pencahayaan yang suram.",
+        "examplePrompt": "A portrait of a person in the Grungecore Aesthetic wearing layered, ripped flannel shirts and faded jeans, standing under a flickering fluorescent streetlamp. Heavy grain, dark, raw texture."
+      },
+      {
+        "name": "Riot Grrrl Aesthetic",
+        "description": "Estetika yang terinspirasi dari gerakan punk feminis awal 90-an. Ditandai dengan DIY, tulisan tangan tebal, kolase, dan motif yang memprotes.",
+        "examplePrompt": "A mixed-media digital poster in the Riot Grrrl Aesthetic, featuring rough, hand-drawn typography, photocopied images, bold black and pink colors, and chaotic, angry energy."
+      },
+      {
+        "name": "Future Funk Visual",
+        "description": "Mirip dengan Vaporwave, tetapi lebih cerah dan fokus pada musik 'City Pop' Jepang tahun 80-an. Warna-warna cerah, animasi *loop* yang funky, dan unsur pop.",
+        "examplePrompt": "A vibrant digital illustration in the Future Funk Visual style, showing a futuristic version of a 1980s Japanese street scene, using bright pink, turquoise, and yellow, with animated elements and a glossy finish."
+      },
+      {
+        "name": "Post-Internet Art",
+        "description": "Seni konseptual yang membahas internet dan dampak digital dalam kehidupan nyata. Sering menggunakan kualitas gambar JPEG yang rusak atau objek 3D yang aneh.",
+        "examplePrompt": "A 3D render in the Post-Internet Art style of a perfectly smooth, photorealistic banana resting on a bed of highly pixelated, low-resolution marble texture. Conflicting realism and digital artifacts."
+      },
+      {
+        "name": "Soft Girl Aesthetic",
+        "description": "Estetika yang sangat feminin, manis, dan lembut, menggunakan warna pastel, awan, hati, dan filter yang membuat kulit tampak sempurna.",
+        "examplePrompt": "A hyper-feminine digital portrait in the Soft Girl Aesthetic, using dreamy pastel pinks and blues, a cloud motif, subtle glitter overlays, and soft, diffused lighting."
+      },
+      {
+        "name": "Goth Aesthetic (Traditional)",
+        "description": "Gaya Goth klasik, berakar pada mode Victoria dan arsitektur gotik. Pakaian hitam berlapis, renda, korset, dan tema romantis yang gelap.",
+        "examplePrompt": "A portrait of a woman in the Traditional Gothic Aesthetic wearing an ornate black velvet gown and heavy lace, posing in a dilapidated mansion, dramatic shadows, romantic gloom."
+      },
+      {
+        "name": "Pastel Goth Aesthetic",
+        "description": "Menggabungkan elemen Goth (tengkorak, jaring laba-laba) dengan warna pastel lembut (lavender, mint, pink). Menciptakan suasana yang menyeramkan namun manis.",
+        "examplePrompt": "An illustration in the Pastel Goth Aesthetic of a cute, sad skull wearing a black lace bow, colored entirely in soft lavender and mint green tones. Spooky yet sweet, ironic contrast."
+      },
+      {
+        "name": "Grunge Aesthetic (Visual)",
+        "description": "Estetika 90-an yang dipengaruhi oleh musik rock alternatif: foto yang buram, gelap, filter hitam-putih, dan perasaan apatis, fokus pada tekstur kasar.",
+        "examplePrompt": "A black and white photograph captured in the Grunge Aesthetic of a band playing in a poorly lit basement, heavy film grain, out of focus areas, raw and unpolished look."
+      },
+      {
+        "name": "Nu-Metal Aesthetic",
+        "description": "Estetika akhir 90-an/awal 2000-an: desain industri yang gelap, logo tribal, tekstur logam yang kotor, dan pakaian longgar hitam.",
+        "examplePrompt": "A gritty digital poster in the Nu-Metal Aesthetic featuring a distorted, screaming face overlaid with thick tribal tattoos and industrial metal textures. Dark, desaturated colors, aggressive feel."
+      },
+      {
+        "name": "Post-Apocalyptic Chic",
+        "description": "Mode yang terinspirasi dari kelangsungan hidup pasca-bencana: pakaian berlapis, kulit usang, perban, topeng gas, dan elemen *mad max* yang bergaya.",
+        "examplePrompt": "A fashion photograph in the Post-Apocalyptic Chic style of a model wearing layered, distressed leather and metallic armor pieces, posing in a dusty, abandoned cityscape. High contrast, sepia tones."
+      },
+      {
+        "name": "Urban Explorer Visual",
+        "description": "Visual yang fokus pada eksplorasi dan fotografi bangunan yang ditinggalkan (urbex). Menekankan pembusukan, lumut, dan peninggalan masa lalu.",
+        "examplePrompt": "A photograph in the Urban Explorer Visual style of a grand, abandoned theater with peeling paint and vines growing through the ceiling. Natural light streaming in, high detail on decay."
+      },
+      {
+        "name": "Slimecore Aesthetic",
+        "description": "Estetika yang berfokus pada cairan tebal, lendir, gunk, dan tekstur biologis aneh. Seringkali menggunakan warna neon berlendir dan tekstur mengkilap/menjijikkan.",
+        "examplePrompt": "A hyper-detailed 3D render in the Slimecore Aesthetic of a teddy bear completely covered in glowing, neon green ooze, set against a dark background, slimy texture, high gloss."
+      },
+      {
+        "name": "Cottagegoth Aesthetic",
+        "description": "Perpaduan antara Cottagecore (alam, pedesaan) dan Goth (gelap, sihir). Fokus pada hutan belantara yang gelap, jamu beracun, dan ritual yang tenang.",
+        "examplePrompt": "A photograph in the Cottagegoth Aesthetic of a small, wooden table in a dark forest clearing, covered with black candles, dried poisonous flowers, and an open grimoire. Moody, shadowy lighting."
+      }
+    ]
+  }
+]
