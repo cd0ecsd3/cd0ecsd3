@@ -1,1 +1,555 @@
-.
+[
+  {
+    "id": "digital_modern",
+    "name": "1. SENI DIGITAL & MODERN",
+    "accentColor": "blue",
+    "icon": "fas fa-palette",
+    "definition": [
+      "Mengacu pada karya seni yang dibuat menggunakan teknologi digital (perangkat lunak/keras), yang memungkinkan fleksibilitas tak terbatas dalam iterasi dan detail.",
+      "Gaya ini mencakup spektrum luas, dari meniru lukisan fisik hingga menghasilkan desain vektor dan seni berbasis 3D yang sangat kompleks.",
+      "Ciri khasnya adalah detail yang tajam, kontrol warna yang presisi, dan kesan akhir yang mulus atau disempurnakan (post-processed)."
+    ],
+    "substyles": [
+      {
+        "name": "Digital Painting",
+        "description": "Meniru teknik lukisan tradisional (minyak, akrilik) dengan sapuan kuas digital yang realistis dan lapisan warna yang mendalam.",
+        "examplePrompt": "A hyper-detailed digital painting portrait of a wise, older woman with glowing cybernetic implants, dramatic rim lighting from the side, deep shadows, cinematic color grading, smooth skin texture, 8K resolution, trending on ArtStation."
+      },
+      {
+        "name": "Concept Art Environment",
+        "description": "Visualisasi lingkungan, dunia, atau latar belakang fiksi untuk film dan game. Fokus pada skala, komposisi, dan mood.",
+        "examplePrompt": "An epic concept art landscape of a massive, glowing citadel built into the side of a volcanic mountain range. Heavy atmosphere, volumetric fog, dynamic angle, high contrast, wide-shot, designed by Sparth."
+      },
+      {
+        "name": "Low Poly 3D",
+        "description": "Model 3D yang menggunakan jumlah poligon yang sangat minim, menciptakan tampilan yang sudut-sudutnya jelas dan bersegmentasi. Populer untuk game indie.",
+        "examplePrompt": "A minimalist low poly 3D render of a small, cozy log cabin nestled next to a frozen lake. Soft diffused lighting, clear blue sky, flat shading with distinct polygons, isometric perspective, clean and calming aesthetic."
+      },
+      {
+        "name": "Voxel Art",
+        "description": "Seni yang dibangun dari kubus 3D kecil (piksel volume), mirip dengan Minecraft tetapi dengan detail dan warna yang lebih kompleks.",
+        "examplePrompt": "A detailed voxel art scene of a futuristic food truck market at night. Bright neon signs, numerous tiny block characters, warm glow from the stalls, isometric view, cute and blocky style."
+      },
+      {
+        "name": "Glitch Art / Datamoshing",
+        "description": "Seni yang mensimulasikan kerusakan data digital, menghasilkan pola warna yang terdistorsi, blok piksel, dan garis-garis patah yang abstrak.",
+        "examplePrompt": "An abstract photorealistic render of a classical sculpture disintegrating into corrupted, colorful digital glitch artifacts. Intense RGB split effects, block distortion, VHS tracking lines, noisy and chaotic aesthetic."
+      },
+      {
+        "name": "Vector Art / Flat Design",
+        "description": "Ilustrasi minimalis yang menggunakan bentuk geometris yang bersih, warna datar solid, dan garis luar yang tipis. Ideal untuk ikonografi dan poster.",
+        "examplePrompt": "A visually striking flat design vector poster illustrating the concept of 'remote work'. A person sitting at a desk inside a glowing laptop screen, minimalist shapes, bright teal and orange color palette, no shading, clean composition, Adobe Illustrator style."
+      },
+      {
+        "name": "Synthwave / Retrowave",
+        "description": "Estetika yang terinspirasi dari tahun 80-an: neon pink dan teal, kisi-kisi (grid) yang tak terbatas, mobil sport, dan pemandangan matahari terbenam fiksi.",
+        "examplePrompt": "A stunning Synthwave landscape of a lone Ferrari Testarossa driving on an infinite chrome grid over a neon-pink ocean under a purple sky. Highly stylized, deep saturation, grain filter, 1980s VHS aesthetic."
+      },
+      {
+        "name": "Vaporwave",
+        "description": "Gaya yang mengkritik kapitalisme dan budaya 90-an. Ditandai dengan patung Romawi, warna pastel, dan teks kanji yang tidak pada tempatnya.",
+        "examplePrompt": "A Vaporwave aesthetic image featuring a marble bust of Apollo resting on a checkered floor, surrounded by pink palm trees and floating Windows 95 icons. Soft pastel pink, cyan, and lavender colors, grainy filter, nostalgic and surreal atmosphere."
+      },
+      {
+        "name": "Liquid Metal / Chrome Effect",
+        "description": "Seni yang menampilkan permukaan yang sangat reflektif dan mengkilap, seringkali berbentuk cairan atau logam yang meleleh, dengan pantulan lingkungan yang detail.",
+        "examplePrompt": "A dynamic 3D render of a futuristic robot made entirely of highly polished, liquid chrome and gold. Distorted reflections of a brightly lit studio, smooth fluid surfaces, dramatic contrast, high-quality V-Ray render."
+      },
+      {
+        "name": "Abstract Geometric",
+        "description": "Seni abstrak yang hanya menggunakan bentuk geometris murni, garis lurus, dan warna-warna yang berani, seringkali merujuk pada gerakan Suprematisme atau De Stijl.",
+        "examplePrompt": "A complex Abstract Geometric composition using only squares, circles, and straight lines. Primary colors (red, blue, yellow) against a stark white background, Suprematism style, perfect mathematical precision, clean rendering."
+      },
+      {
+        "name": "Photobashing Illustration",
+        "description": "Teknik yang menggabungkan dan memanipulasi berbagai foto untuk menciptakan komposisi ilustrasi baru yang realistis. Populer untuk konsep cepat.",
+        "examplePrompt": "An intense Photobashing illustration of a massive industrial shipyard at night, heavily processed with painted details, smoke, and grime textures. Dark, moody lighting, composite image realism, designed by Jama Jurabaev."
+      },
+      {
+        "name": "Hyperrealism Digital",
+        "description": "Seni yang bertujuan meniru foto dengan tingkat detail yang ekstrem, termasuk tekstur kulit, serat kain, dan pantulan cahaya kecil.",
+        "examplePrompt": "A digital hyperrealistic painting of a single water droplet resting on a perfectly smooth red rose petal. Macro lens perspective, microscopic detail, precise focus stacking, subtle texture variation, breathtaking clarity."
+      },
+      {
+        "name": "Pixel Art (8-bit)",
+        "description": "Gaya seni digital dengan resolusi sangat rendah (seperti game NES lama), menggunakan palet warna terbatas dan piksel besar yang terlihat jelas.",
+        "examplePrompt": "A nostalgic 8-bit Pixel Art scene of a hero navigating a dark dungeon. Low color count palette (browns, greys, primary colors), minimal animation frames, top-down perspective, retro NES game aesthetic."
+      },
+      {
+        "name": "Pixel Art (16-bit)",
+        "description": "Gaya piksel dengan palet warna dan detail yang lebih kaya (seperti game SNES/Genesis), memungkinkan kedalaman dan pencahayaan yang lebih baik.",
+        "examplePrompt": "A vibrant 16-bit Pixel Art side-scrolling platformer level featuring a lush tropical jungle and ancient ruins. Rich color gradients, parallax scrolling background, detailed sprite work, Chrono Trigger or Metal Slug style."
+      },
+      {
+        "name": "Generative Art (Code-based)",
+        "description": "Seni yang dihasilkan oleh algoritma dan kode. Seringkali menampilkan pola kompleks yang berulang, fraktal, atau kurva organik.",
+        "examplePrompt": "A complex Generative Art piece based on L-system algorithms, creating an intricate network of glowing lines that resemble a fractal root system. Dark background, electric blue and yellow lines, mathematical precision, plotter art style."
+      },
+      {
+        "name": "Digital Collage",
+        "description": "Menggabungkan elemen-elemen dari berbagai sumber, seperti gambar, teks, dan pola, untuk menciptakan komposisi yang berlapis dan seringkali sureal.",
+        "examplePrompt": "A striking Digital Collage featuring fragmented vintage photographs of people interwoven with abstract floral patterns and torn newspaper clippings. Layered textures, high contrast, surreal juxtaposition, Dada movement influence."
+      },
+      {
+        "name": "Cybernetic/Biopunk Aesthetics",
+        "description": "Fokus pada integrasi teknologi dengan biologi. Tubuh yang dimodifikasi secara ekstrem, implan organik, dan mesin yang tampak hidup.",
+        "examplePrompt": "A visceral Biopunk illustration of a human heart encased in a pulsating, translucent bio-mechanical lattice. Dark, moist environment, glowing green organic fluid, extreme detail on veins and wires, high-contrast render."
+      },
+      {
+        "name": "Retrofuturism (Atompunk)",
+        "description": "Mencitrakan masa depan seperti yang dibayangkan pada tahun 1950-an: kendaraan bersayap, robot pelayan canggih, dan arsitektur berbentuk parabola.",
+        "examplePrompt": "A bright Retrofuturism scene of a family having a picnic on a floating platform over a sparkling city. Chrome and pastel colors, exaggerated bubble-shaped technology, 1950s atomic age aesthetic, clean lines, Syd Mead style."
+      },
+      {
+        "name": "Digital Etching/Engraving",
+        "description": "Meniru seni ukiran pelat tembaga atau kayu yang sangat rinci, menggunakan garis-garis tipis paralel (hatching) untuk membuat bayangan monokromatik.",
+        "examplePrompt": "A highly detailed Digital Etching illustration of a griffin perched on a Gothic cathedral spire. Fine line work, deep black ink on textured paper, cross-hatching to create depth, Gustave Doré style."
+      },
+      {
+        "name": "Abstract Expressionism Digital",
+        "description": "Penekanan pada proses artistik, menampilkan sapuan kuas digital yang tebal, tetesan warna yang spontan, dan komposisi yang emosional dan tidak terstruktur.",
+        "examplePrompt": "A dynamic Abstract Expressionism digital painting featuring aggressive, gestural strokes of black, red, and yellow paint splashed across the canvas. High texture, chaotic composition, emotive and visceral feel, inspired by Jackson Pollock."
+      },
+      {
+        "name": "3D Wireframe / Mesh",
+        "description": "Tampilan visual dari model 3D dalam mode wireframe, seringkali dengan pencahayaan neon yang menonjolkan garis-garis topologi model.",
+        "examplePrompt": "A minimalist 3D Wireframe render of a complex anatomical human head model floating in a dark void. Glowing cyan lines, low-light environment, clean and technical aesthetic, precise polygonal structure."
+      },
+      {
+        "name": "Neo-Geo (Keith Haring Style)",
+        "description": "Seni yang menggunakan garis tebal, bentuk-bentuk yang disederhanakan, dan warna-warna primer yang cerah untuk menggambarkan gerakan atau energi sosial.",
+        "examplePrompt": "A mural-style illustration in the Neo-Geo style, depicting several dancing figures connected by glowing, energetic lines. Bold black outlines, flat primary colors (red, blue, green), dynamic movement, street art influence, by Keith Haring."
+      },
+      {
+        "name": "Isometric Perspective",
+        "description": "Gaya yang menggunakan proyeksi tiga dimensi tanpa perspektif (semua garis paralel tetap sejajar), ideal untuk game strategi dan ilustrasi kota yang detail.",
+        "examplePrompt": "A cheerful Isometric Perspective illustration of a bustling, futuristic market square with tiny, detailed vendors and customers. Soft shadows, clean colors, high level of environmental detail, video game pixel art style, but rendered smoothly."
+      },
+      {
+        "name": "Cinematic Lighting",
+        "description": "Fokus pada teknik pencahayaan yang digunakan dalam sinematografi, seperti three-point lighting, rim light, dan god rays untuk efek dramatis.",
+        "examplePrompt": "A close-up cinematic photograph of a mysterious astronaut standing on a desert dune at night. Dramatic side rim lighting in deep orange, high-contrast shadows, soft light spill, foggy atmosphere, blockbuster movie still quality."
+      },
+      {
+        "name": "Minimalist Line Art",
+        "description": "Seni yang menggunakan garis tunggal dan berkelanjutan (one-line drawing) atau garis minimal untuk mendefinisikan bentuk, menekankan kesederhanaan dan bentuk murni.",
+        "examplePrompt": "A single, continuous minimalist line art drawing of a complex cityscape. The line never breaks, forming the outline of buildings and streets, black ink on white paper, elegant and sophisticated composition."
+      }
+    ]
+  },
+  {
+    "id": "fantasy_scifi",
+    "name": "2. FANTASTIK & FIKSI ILMIAH",
+    "accentColor": "violet",
+    "icon": "fas fa-dragon",
+    "definition": [
+      "Melibatkan penciptaan dunia, karakter, dan skenario yang melampaui kenyataan. Gaya ini berakar kuat pada imajinasi dan penceritaan (storytelling) visual.",
+      "Seringkali ditandai dengan elemen magis, teknologi masa depan yang mutakhir, arsitektur yang tidak mungkin, dan makhluk mitologi.",
+      "Gaya ini populer di industri game dan film, menuntut imajinasi visual yang kaya dan detail yang dramatis."
+    ],
+    "substyles": [
+      {
+        "name": "High Fantasy Illustration",
+        "description": "Menggambarkan dunia epik dengan sihir yang jelas, makhluk mitologis, dan fokus pada detail kostum/senjata. Mirip dengan ilustrasi D&D atau LOTR.",
+        "examplePrompt": "An epic High Fantasy digital painting of a golden dragon soaring above a besieged castle during a thunder storm. Dramatic lightning illuminating the scales, detailed medieval architecture, cinematic atmosphere, painted by Brom and Frank Frazetta."
+      },
+      {
+        "name": "Cyberpunk Neo-Tokyo",
+        "description": "Masa depan distopia 'High tech, low life' dengan neon basah, jalanan kumuh yang ramai, dan dominasi teknologi sibernetik.",
+        "examplePrompt": "A busy, rainy night street in a futuristic Neo-Tokyo Cyberpunk city, high-contrast pink and blue neon signs reflecting on the wet pavement, high-angle shot, dense verticality, Blade Runner 2049 aesthetic."
+      },
+      {
+        "name": "Steampunk",
+        "description": "Kombinasi teknologi uap era Victoria dengan desain fiksi ilmiah. Menampilkan mekanisme roda gigi kuningan, kulit, dan mesin terbang bertenaga uap.",
+        "examplePrompt": "A detailed illustration of a majestic Steampunk hot air balloon fleet ascending above a stylized London. Exposed brass pipes and gears, ornate leather details, deep sepia and copper tones, intricate mechanical design, inspired by Jules Verne."
+      },
+      {
+        "name": "Post-Apocalyptic / Wasteland",
+        "description": "Menggambarkan sisa-sisa peradaban yang runtuh. Ditandai dengan lanskap gurun, reruntuhan, dan kendaraan yang dimodifikasi (Mad Max style).",
+        "examplePrompt": "A desolate Post-Apocalyptic wasteland landscape featuring a lone, heavily armored survivor standing next to a makeshift vehicle. Orange dust storm atmosphere, desaturated colors, deep shadows, cinematic wide-shot, inspired by Fallout."
+      },
+      {
+        "name": "Lovecraftian Horror",
+        "description": "Seni yang berfokus pada horor kosmik, entitas purba yang tak dapat dipahami, dan arsitektur non-Euclidean yang mengerikan.",
+        "examplePrompt": "A disturbing Lovecraftian scene of a terrified man gazing up at a massive, tentacled, cyclopean entity emerging from a stormy sea. Non-Euclidean geometry in the background, deep blues and blacks, sense of overwhelming dread, cosmic horror."
+      },
+      {
+        "name": "Solarpunk Utopia",
+        "description": "Masa depan yang optimis di mana teknologi hijau dan alam berintegrasi secara harmonis. Menampilkan arsitektur organik, panel surya, dan tumbuhan yang subur.",
+        "examplePrompt": "A vibrant Solarpunk cityscape where towering bamboo structures are covered in vertical gardens and solar panels. Bright, natural lighting, clean air, harmonious blend of green and glass, utopian future aesthetic."
+      },
+      {
+        "name": "Space Opera",
+        "description": "Fantasi ruang angkasa yang dramatis dan penuh petualangan. Fokus pada kapal luar angkasa yang ikonik, pahlawan, dan planet-planet eksotis.",
+        "examplePrompt": "An epic Space Opera scene of two massive star cruisers engaging in a fierce laser battle above a gas giant planet. Dramatic lens flare, thousands of tiny fighter ships, deep space colors (blue, purple, orange), high-action cinematic lighting."
+      },
+      {
+        "name": "Dark Fantasy / Grimdark",
+        "description": "Gaya fantasi yang muram dan brutal, tanpa moralitas yang jelas. Fokus pada kengerian, kerusakan, dan kekerasan. (Contoh: Berserk).",
+        "examplePrompt": "A gritty Dark Fantasy illustration of a heavily scarred mercenary covered in grime and blood, standing over a slain beast. Low-key lighting, muted color palette dominated by browns and greys, realistic texture detail, grim and brutal mood."
+      },
+      {
+        "name": "Dieselpunk",
+        "description": "Berakar dari estetika perang dunia awal (WWI/WWII). Menampilkan teknologi besar yang terbuat dari baja, paku keling, dan mesin pembakaran internal yang kotor.",
+        "examplePrompt": "A detailed Dieselpunk concept art of a massive, heavily armored tank rolling through a muddy trench landscape. Riveted steel plating, smoke and oil stains, dark and grim atmosphere, Art Deco influence on the technology."
+      },
+      {
+        "name": "Mecha / Giant Robot Design",
+        "description": "Seni yang berfokus pada desain mekanis robot raksasa, menekankan detail bagian-bagian, sendi, dan lapis baja yang kompleks.",
+        "examplePrompt": "A detailed Mecha concept design of an agile, sleek humanoid combat robot landing in a plume of dust. Focus on intricate hydraulic joints and armor panels, high-tech military aesthetic, dramatic three-quarter view, Gundam style."
+      },
+      {
+        "name": "Sword and Sorcery",
+        "description": "Subgenre fantasi yang kasar, berfokus pada petualangan seorang pahlawan individu, sihir yang primitif, dan pertarungan jarak dekat. (Contoh: Conan).",
+        "examplePrompt": "A powerful Sword and Sorcery painting of a muscular barbarian holding a bloody axe, standing triumphantly over a serpent beast in a misty jungle ruin. Dynamic pose, high contrast, raw energy, inspired by Frazetta's pulp covers."
+      },
+      {
+        "name": "Fairy Tale Illustration (Dark)",
+        "description": "Ilustrasi buku cerita dengan sentuhan gotik atau gelap, mempertahankan keindahan tetapi menambahkan unsur misteri dan bahaya.",
+        "examplePrompt": "A detailed illustration for a dark fairy tale book, showing a young girl lost in a forest filled with twisted, gnarled trees and glowing eyes in the background. Woodcut texture influence, muted earthy colors, slightly surreal and ominous."
+      },
+      {
+        "name": "Planetary Geography Sci-Fi",
+        "description": "Seni yang berfokus pada penggambaran lanskap dan geologi planet fiksi yang unik, seperti planet kristal, dunia lava, atau bulan es.",
+        "examplePrompt": "A breathtaking Planetary Geography scene of a massive, alien jungle where all the flora is made of glowing, crystalline structures. Two distant explorers observing the spectacle, dense bioluminescence, unique geological formations, 16K wallpaper quality."
+      },
+      {
+        "name": "Cyber-Gothic",
+        "description": "Campuran antara teknologi sibernetik modern dan arsitektur/fashion Gotik yang gelap dan rumit. Seringkali menampilkan gereja neon dan jubah berteknologi tinggi.",
+        "examplePrompt": "A striking Cyber-Gothic portrait of a pale figure wearing intricate black lace and high-tech wiring integrated into their clothes, standing in front of a glowing red holographic cross. Dark atmosphere, high contrast, dramatic shadows."
+      },
+      {
+        "name": "Gaslamp Fantasy",
+        "description": "Gaya fantasi yang berlatar belakang era Victoria, menggabungkan sihir dan makhluk mitologi dengan teknologi seperti lampu gas dan kereta kuda.",
+        "examplePrompt": "A moody Gaslamp Fantasy illustration of a shadowy sorcerer casting a spell in a foggy, cobblestone London alleyway illuminated only by the faint glow of a gas lamp. Mysterious atmosphere, historical clothing, subtle magic effects."
+      },
+      {
+        "name": "Cosmic Horror (The Void)",
+        "description": "Fokus pada ruang angkasa yang dingin, hampa, dan tak berujung, serta ketidakberartian manusia di dalamnya. Estetika yang luas dan menakutkan.",
+        "examplePrompt": "A vast, terrifying Cosmic Horror scene of a tiny, lone research vessel drifting near a swirling black void in deep space. Subtle, indescribable tentacles emerging from the darkness, cold color palette, overwhelming sense of scale."
+      },
+      {
+        "name": "High Tech Military Sci-Fi",
+        "description": "Seni yang berfokus pada fiksi ilmiah militer yang realistis dan mutakhir, seperti prajurit bertenaga (power armor) dan senjata futuristik.",
+        "examplePrompt": "A detailed concept art of a futuristic military squad leader in advanced power armor, kneeling in a ruined urban area. Realistic grime and weathering, practical and aggressive design, dark blue and grey color scheme, high realism."
+      },
+      {
+        "name": "Artifact/Relic Design",
+        "description": "Fokus pada desain objek tunggal dari dunia fiksi, seperti artefak kuno, senjata magis, atau peralatan teknologi alien.",
+        "examplePrompt": "A close-up studio shot of a glowing, alien technological artifact shaped like a Möbius strip. Highly detailed textures, soft studio lighting, subtle green internal glow, clean white background, product photography style."
+      },
+      {
+        "name": "Techno-Fantasy",
+        "description": "Perpaduan sihir dan teknologi di mana keduanya bekerja sama, sering menampilkan mesin yang ditenagai kristal atau pedang bertenaga plasma.",
+        "examplePrompt": "A vibrant Techno-Fantasy scene of a wizard using a glowing, crystal-powered staff to generate an energy shield against an attacking mechanical golem. Bright sparks and magic effects, detailed mechanical parts, dynamic action pose."
+      },
+      {
+        "name": "Ruins and Archaeology",
+        "description": "Gaya yang fokus pada reruntuhan peradaban kuno atau alien, menekankan keindahan dan misteri struktur yang telah ditinggalkan.",
+        "examplePrompt": "A cinematic shot of a group of archaeologists exploring a massive, overgrown alien ruin on a jungle planet. Sunlight filtering through the collapsed roof, high level of structural detail, atmospheric and adventurous mood, Indiana Jones meets sci-fi."
+      },
+      {
+        "name": "Clockwork / Automata",
+        "description": "Seni yang berfokus pada mesin yang sepenuhnya mekanis dan ditenagai pegas, seringkali berbentuk makhluk hidup atau manusia buatan.",
+        "examplePrompt": "A detailed illustration of an elegant Clockwork bird automaton perched on a windowsill, its internal gears and springs partially visible beneath a polished brass casing. Soft daylight, intricate mechanical details, detailed blueprint style."
+      },
+      {
+        "name": "Dinosaur Fantasy",
+        "description": "Seni yang menggabungkan dinosaurus atau reptil purba dengan elemen fantasi atau fiksi ilmiah, seperti prajurit berkuda T-Rex.",
+        "examplePrompt": "An action-packed Dinosaur Fantasy scene of a fierce Amazon warrior riding a feathered Velociraptor through a tropical rainforest. Dramatic lighting, realistic animal anatomy, tribal armor design, vibrant prehistoric setting."
+      },
+      {
+        "name": "Grimoire / Magical Text",
+        "description": "Fokus pada ilustrasi halaman buku sihir kuno, dengan teks runic, diagram ritual, dan ilustrasi tinta yang menakutkan.",
+        "examplePrompt": "A photorealistic image of an open page from an ancient Grimoire. Hand-drawn diagrams in red and black ink, Latin text calligraphy, aged parchment texture, flickering candlelight on the page, occult aesthetic."
+      },
+      {
+        "name": "Mushroomcore / Fungi Fantasy",
+        "description": "Dunia fantasi yang didominasi oleh jamur raksasa, spora yang bercahaya, dan makhluk-makhluk kecil yang hidup di ekosistem jamur.",
+        "examplePrompt": "A whimsical Fungi Fantasy landscape of a deep forest where giant, bioluminescent mushrooms serve as the homes for tiny forest sprites. Soft blue and purple glowing light, mossy textures, deep perspective, magical and cozy."
+      },
+      {
+        "name": "Horror B-Movie Poster",
+        "description": "Gaya poster film horor klasik tahun 50-an atau 60-an, dengan warna-warna yang sangat jenuh, teks yang dramatis, dan komposisi yang campy.",
+        "examplePrompt": "A Retro Horror B-Movie Poster illustration of a giant, radioactive insect attacking a small town. Highly saturated colors (neon green and red), distressed paper texture, dramatic, hand-painted title font, 1950s pulp style."
+      }
+    ]
+  },
+  {
+    "id": "traditional_classic",
+    "name": "3. SENI TRADISIONAL & KLASIK",
+    "accentColor": "amber",
+    "icon": "fas fa-brush",
+    "definition": [
+      "Menirukan gaya seni fisik yang umum sebelum era fotografi, berfokus pada teknik, medium, dan tekstur asli dari bahan baku.",
+      "Mencakup spektrum dari lukisan klasik Renaisans yang detail hingga gerakan yang lebih modern seperti Impresionisme dan Kubisme.",
+      "Fokus utamanya adalah pada komposisi, pencahayaan alami, dan kesan sentuhan dari pigmen, kertas, atau kanvas."
+    ],
+    "substyles": [
+      {
+        "name": "Classical Oil Painting",
+        "description": "Menghasilkan lukisan dengan kedalaman warna, pencahayaan dramatis (chiaroscuro), dan tekstur kuas tebal (impasto), mirip dengan pelukis master Eropa.",
+        "examplePrompt": "A dramatic Classical Oil Painting portrait of a figure shrouded in velvet robes. Deep Chiaroscuro lighting, rich, visible impasto texture on the cloak, dark background, meticulous detail on the eyes, 17th-century Baroque style, by Caravaggio."
+      },
+      {
+        "name": "Watercolor Sketch",
+        "description": "Teknik cat air dengan sapuan kuas yang ringan, transparan, dan fokus pada atmosfer lembut serta sketsa garis yang cepat dan bebas.",
+        "examplePrompt": "A loose, expressive Watercolor sketch of a busy marketplace on a sunny day. Soft, transparent washes of color, minimal ink line work defining shapes, blurred background, delicate atmosphere, Moleskine sketchbook paper texture."
+      },
+      {
+        "name": "Charcoal and Graphite",
+        "description": "Seni monokromatik yang meniru gambar arang atau grafit, berfokus pada gradasi halus (smudging) untuk membentuk volume dan bayangan.",
+        "examplePrompt": "A highly detailed Charcoal and Graphite drawing of a mountain lion resting on a rock. Focus on the realistic texture of the fur and rough stone, deep blacks and bright whites, precise blending and smudging technique, photorealistic monochrome."
+      },
+      {
+        "name": "Impressionism",
+        "description": "Fokus pada menangkap kesan sesaat, terutama cahaya, menggunakan sapuan kuas yang pendek dan tebal, warna cerah yang diletakkan berdampingan.",
+        "examplePrompt": "An Impressionist painting of a field of sunflowers under the midday sun. Short, broken brushstrokes capturing the vibrating heat and light, vibrant yellow and green colors, blurry background, by Claude Monet."
+      },
+      {
+        "name": "Post-Impressionism",
+        "description": "Menggunakan teknik Impresionisme tetapi dengan fokus lebih pada bentuk, emosi, dan simbolisme. Kuas tebal, kontur yang jelas.",
+        "examplePrompt": "A Post-Impressionist painting of a starry night sky above a small European town. Swirling, thick brushstrokes, exaggerated colors (deep blue and yellow), simplified forms, emotionally charged, inspired by Vincent van Gogh."
+      },
+      {
+        "name": "Surrealism (Dali Style)",
+        "description": "Menggambarkan alam mimpi bawah sadar, menampilkan objek sehari-hari dalam komposisi yang aneh dan tidak logis, seringkali dengan rendering yang fotorealistik.",
+        "examplePrompt": "A meticulous Surrealist painting of a melting pocket watch draped over a branch of a bare tree in a vast, empty desert landscape. Hyper-realistic rendering, strange juxtaposition of objects, deep perspective, inspired by Salvador Dalí."
+      },
+      {
+        "name": "Cubism (Analytic)",
+        "description": "Objek dipecah menjadi bentuk geometris dan direpresentasikan dari banyak sudut pandang secara bersamaan. Palet warna yang terbatas dan monokromatik.",
+        "examplePrompt": "An Analytic Cubism painting of a person playing a violin. The figure and instrument are fragmented into sharp, overlapping geometric planes, muted brown and grey color palette, complex composition, inspired by early Pablo Picasso."
+      },
+      {
+        "name": "Art Nouveau Poster",
+        "description": "Gaya poster akhir abad ke-19 yang menampilkan garis-garis organik melengkung (whiplash curve), pola bunga, dan sosok wanita yang anggun.",
+        "examplePrompt": "A decorative Art Nouveau poster for a Parisian opera. Features an elegant woman with flowing red hair that forms intricate, vine-like patterns, stylized floral borders, flat muted colors, lithograph print texture, inspired by Alphonse Mucha."
+      },
+      {
+        "name": "Fauvism",
+        "description": "Ditandai dengan penggunaan warna yang sangat berani dan tidak natural, dilepaskan dari fungsi deskriptifnya untuk mengekspresikan emosi.",
+        "examplePrompt": "A vibrant Fauvist painting of a landscape featuring bright red trees, purple grass, and a shocking yellow sky. Aggressive, non-naturalistic color choices, thick and spontaneous brushstrokes, highly expressive, inspired by Henri Matisse."
+      },
+      {
+        "name": "Pointillism",
+        "description": "Teknik di mana gambar dibangun hanya dari titik-titik kecil yang berdekatan dari warna murni, mengandalkan mata untuk menggabungkannya secara optik.",
+        "examplePrompt": "A complex Pointillist painting of people relaxing by a river on a sunny afternoon. The entire scene is composed of tiny, distinct dots of pure color, precise composition, large scale, inspired by Georges Seurat."
+      },
+      {
+        "name": "Renaissance Portraiture",
+        "description": "Lukisan klasik yang fokus pada realisme anatomi, pencahayaan lembut, dan komposisi segitiga, seringkali dengan latar belakang yang detail.",
+        "examplePrompt": "A Renaissance Portrait of a noblewoman wearing a pearl necklace. Soft sfumato shading, three-quarter pose, serene expression, highly detailed fabric folds, subtle lighting, inspired by Leonardo da Vinci."
+      },
+      {
+        "name": "Sketchbook Pen and Ink",
+        "description": "Gambar cepat yang dibuat dengan pena dan tinta, menekankan garis yang ekspresif, hatching, dan tekstur kertas yang terlihat.",
+        "examplePrompt": "A quick, energetic Pen and Ink sketch of a crowded coffee shop. Loose, confident line work, minimal hatching for shading, slight coffee stain on textured sketchbook paper, black and white monochrome."
+      },
+      {
+        "name": "Woodcut / Linocut Printmaking",
+        "description": "Seni grafis yang kasar, dibuat dengan ukiran. Ditandai dengan garis tebal, area hitam solid, dan kontras yang sangat tinggi (monokromatik atau dua warna).",
+        "examplePrompt": "A striking Woodcut print of a peasant woman working in a field. Bold, thick black lines, heavily stylized, sharp contrast between black and white, rough paper texture, Expressionist printmaking style."
+      },
+      {
+        "name": "Fresco Painting",
+        "description": "Meniru lukisan dinding yang dibuat di plester basah, memberikan tekstur matte, warna yang lembut, dan seringkali skala yang monumental.",
+        "examplePrompt": "A monumental Fresco painting on a large arched ceiling, depicting a mythological scene of gods gathering. Matte, pastel colors typical of plaster, figures with idealized classical anatomy, subtle crackle texture, inspired by Michelangelo."
+      },
+      {
+        "name": "Gouache Illustration",
+        "description": "Menggunakan cat gouache (cat air buram), memberikan hasil akhir yang rata, matte, dan penuh warna, sering digunakan untuk ilustrasi buku anak-anak retro.",
+        "examplePrompt": "A bright, cheerful Gouache illustration of a group of children playing in a lush forest. Flat, opaque colors, defined borders, slight visible brushstrokes, retro mid-century children's book style."
+      },
+      {
+        "name": "Trompe-l'oeil",
+        "description": "Seni ilusi yang bertujuan 'menipu mata', membuat objek yang dilukis tampak seperti objek tiga dimensi nyata di atas permukaan datar.",
+        "examplePrompt": "A photorealistic Trompe-l'oeil painting on a wall, depicting a tattered piece of paper seemingly taped to the surface with a shadow underneath. Extreme realism, perfect lighting and shadow matching the environment, intended to fool the viewer."
+      },
+      {
+        "name": "Gothic Illuminated Manuscript",
+        "description": "Seni kaligrafi dan ilustrasi yang sangat rumit dari buku-buku abad pertengahan. Ditandai dengan batas-batas emas (gilding) dan detail tumbuhan.",
+        "examplePrompt": "A detailed close-up of a page from a Gothic Illuminated Manuscript. Intricate border designs of gold leaf and swirling vines, blackletter calligraphy, miniature painting of a medieval scene in the main initial, Book of Kells style."
+      },
+      {
+        "name": "Miniature Painting (Persian)",
+        "description": "Lukisan buku berskala sangat kecil, kaya warna, dan menampilkan pola dan figur datar tanpa perspektif, berakar dari seni Timur Tengah.",
+        "examplePrompt": "A detailed Persian Miniature painting of two figures resting in an ornate garden with tiled fountains. Flat perspective, extremely bright and saturated colors (lapis lazuli and gold), intricate floral and geometric patterns, highly decorative."
+      },
+      {
+        "name": "Encaustic Painting",
+        "description": "Teknik kuno yang menggunakan lilin lebah yang dipanaskan dan dicampur pigmen, menghasilkan tekstur yang tebal, berlumut, dan semi-transparan.",
+        "examplePrompt": "An abstract Encaustic painting featuring thick layers of red and white wax scraped and fused together. Highly textured, semi-transparent layers, visible heat-induced distress, organic and raw aesthetic."
+      },
+      {
+        "name": "Mosaic Art",
+        "description": "Seni yang dibuat dari potongan-potongan kecil kaca atau batu (tesserae), menghasilkan gambar dengan batas-batas kasar dan efek pencahayaan berkilauan.",
+        "examplePrompt": "A large-scale Mosaic artwork depicting a scene of a goddess standing in a garden. The image is composed of tiny, rough square tiles (tesserae), shimmering gold leaf background, rich but slightly broken color, Byzantine style."
+      },
+      {
+        "name": "Pop Art (Warhol/Lichtenstein)",
+        "description": "Gaya pasca-perang yang menantang seni 'tinggi', menggunakan teknik dari iklan dan komik, seperti Benday Dots dan warna primer yang mencolok.",
+        "examplePrompt": "A Pop Art close-up portrait of a woman crying. Bold primary colors (red, yellow, black), thick black outlines, exaggerated Benday Dots pattern for shading, comic book aesthetic, Roy Lichtenstein style."
+      },
+      {
+        "name": "Expressionism",
+        "description": "Menyampaikan emosi dan pengalaman subyektif daripada realitas objektif, menggunakan distorsi, warna yang kuat, dan goresan yang gelisah.",
+        "examplePrompt": "An Expressionist painting of a figure walking down a winding street under a swirling, emotional red sky. Distorted forms, agitated brushwork, strong symbolic colors, sense of anxiety and inner turmoil, inspired by Edvard Munch."
+      },
+      {
+        "name": "Constructivism Poster",
+        "description": "Gerakan seni revolusioner Soviet. Menampilkan bentuk-bentuk geometris yang sederhana, garis-garis diagonal, fotografi, dan palet warna terbatas (merah, hitam, putih).",
+        "examplePrompt": "A bold Constructivism propaganda poster demanding industrial action. Features sharp, angled geometric shapes, limited color palette of red, black, and white, strong sans-serif typography, dynamic composition, inspired by Alexander Rodchenko."
+      },
+      {
+        "name": "Pre-Raphaelite",
+        "description": "Gaya abad ke-19 yang kembali ke detail Renaisans awal. Ditandai dengan warna yang sangat jenuh, fokus pada detail flora, dan subjek mitologis atau sastra yang puitis.",
+        "examplePrompt": "A detailed Pre-Raphaelite painting of a beautiful woman with long, flowing hair surrounded by highly detailed wildflowers and ivy in a dense forest. Extremely saturated color, melancholic pose, romantic and symbolic, inspired by John Everett Millais."
+      },
+      {
+        "name": "Art Deco",
+        "description": "Gaya dekoratif tahun 1920-an/30-an yang menampilkan geometri yang ramping, simetri, dan garis-garis vertikal. Mewakili kemewahan dan modernitas mekanis.",
+        "examplePrompt": "A stylized Art Deco illustration of a luxurious cruise ship sailing past a towering cityscape. Strong vertical lines, streamlined geometric forms, gold, black, and cream color palette, glamorous and symmetrical composition."
+      }
+    ]
+  },
+  {
+    "id": "asian_aesthetics",
+    "name": "4. ESTETIKA ASIA & ANIME",
+    "accentColor": "pink",
+    "icon": "fas fa-fan",
+    "definition": [
+      "Gaya yang berakar dari seni visual Asia Timur (Jepang, Korea, Tiongkok), yang kemudian berkembang menjadi genre global seperti Anime, Manga, dan Webtoon.",
+      "Ditandai dengan estetika yang unik, baik itu melalui seni cetak tradisional yang damai maupun gaya animasi modern yang dinamis dan berenergi tinggi.",
+      "Fokus pada garis yang bersih, ekspresi emosi yang jelas, dan palet warna yang khas, seringkali menggunakan garis tebal dan bayangan yang solid."
+    ],
+    "substyles": [
+      {
+        "name": "Anime Cel-Shading",
+        "description": "Gaya khas yang menggunakan bayangan datar dan tajam tanpa gradasi (cel-shading), garis luar tebal, dan palet warna yang cerah. Mirip dengan serial animasi TV.",
+        "examplePrompt": "A full-body illustration of a determined anime swordsman mid-attack, set against a crumbling futuristic background. Bright, clean cel-shading, strong black outlines, dynamic action pose, vibrant blue and yellow energy effects, high-quality anime key visual style."
+      },
+      {
+        "name": "Studio Ghibli Style",
+        "description": "Lukisan latar belakang yang lembut dan mendetail dengan sentuhan kuas cat air, karakter yang sederhana, dan fokus pada nuansa lingkungan yang hangat dan penuh keajaiban.",
+        "examplePrompt": "A cozy, lush village scene nestled in a mountain valley, highly detailed background painting with soft watercolor textures, simple and expressive child character, warm afternoon lighting, deep sense of wonder and peacefulness, Studio Ghibli inspired."
+      },
+      {
+        "name": "Traditional Ukiyo-e",
+        "description": "Seni cetak balok kayu Jepang dari era Edo. Ditandai dengan garis luar tebal, komposisi datar, dan warna-warna yang kuat dan kontras.",
+        "examplePrompt": "A Ukiyo-e woodblock print illustration of a fierce Samurai warrior standing atop a stormy, swirling sea wave. Flat perspective, thick black outlines, limited but contrasting color palette (indigo, vermillion, white), dynamic composition, inspired by Kuniyoshi."
+      },
+      {
+        "name": "Manga Black & White Panel",
+        "description": "Gaya komik Jepang yang fokus pada sketsa, penggunaan *screentone* (pola titik) untuk bayangan, dan garis kecepatan untuk adegan aksi.",
+        "examplePrompt": "A dramatic Manga panel (black and white) of a superhero punching a monster. Intense hatching and cross-hatching for shading, heavy use of black areas for impact, sharp speed lines radiating from the punch, strong ink lines, shonen manga aesthetic."
+      },
+      {
+        "name": "Korean Manhwa Webtoon Style",
+        "description": "Gaya komik Korea yang biasanya berwarna penuh, digital, dan menggunakan gradasi halus, populer untuk cerita fantasi atau romansa vertikal.",
+        "examplePrompt": "A full-color Korean Manhwa Webtoon illustration of a male protagonist standing in a futuristic city intersection at sunset. Soft, digital airbrush shading, glowing light effects, high detail on clothing and hair, vertical panel format."
+      },
+      {
+        "name": "Sumi-e (Ink Wash Painting)",
+        "description": "Seni lukis kuas Tiongkok/Jepang yang menggunakan tinta hitam (sumi) yang diencerkan untuk menciptakan berbagai gradasi abu-abu, menekankan spontanitas dan Zen.",
+        "examplePrompt": "A minimalist Sumi-e ink wash painting of a single, powerful bamboo stalk swaying in the wind. Expressive brush strokes, various shades of black and grey wash on textured rice paper, Zen aesthetic, dynamic and simple composition."
+      },
+      {
+        "name": "Chibi / Super Deformed",
+        "description": "Gaya karakter yang lucu dengan kepala sangat besar, tubuh kecil, dan fitur wajah yang disederhanakan, menekankan keimutan (Kawaii).",
+        "examplePrompt": "A cute Chibi / Super Deformed illustration of a tiny, smiling witch holding a giant lollipop. Exaggeratedly large head, small body, big sparkling eyes, bright pastel colors, clean digital rendering, perfect for stickers."
+      },
+      {
+        "name": "Moé Art Style",
+        "description": "Gaya anime yang fokus pada karakter wanita/gadis yang sangat imut dan menarik, dengan fitur yang dilebih-lebihkan seperti mata besar dan rambut berkilauan.",
+        "examplePrompt": "A detailed Moé Art illustration of a girl sitting next to a window reading a book. Highly detailed hair with shine effects, soft lighting, large, expressive eyes, cute and gentle expression, light pink and yellow color palette."
+      },
+      {
+        "name": "Mecha Anime (Retro)",
+        "description": "Gaya robot raksasa yang terinspirasi dari anime 70-an atau 80-an (misalnya: Mazinger, Getter Robo). Kotak, warna-warna primer, dan efek ledakan yang dramatis.",
+        "examplePrompt": "A retro Mecha Anime illustration of a brightly colored, blocky super robot firing a large beam weapon. Thick black outlines, solid primary colors, aggressive pose, exaggerated dynamic effects, 1980s aesthetic, Go Nagai style."
+      },
+      {
+        "name": "Shōjo Manga Style",
+        "description": "Gaya manga yang ditujukan untuk gadis remaja. Ditandai dengan mata berkilauan, garis yang lembut, dan seringkali menggunakan efek bunga, gelembung, atau bintang (sparkle).",
+        "examplePrompt": "A beautiful Shōjo Manga illustration of a couple embracing under a cherry blossom tree. Soft lines, heavily stylized hair, lots of sparkle and flower petal effects, delicate shading, romantic and dreamy atmosphere."
+      },
+      {
+        "name": "Wuxia / Martial Arts Fantasy",
+        "description": "Seni yang mengacu pada novel dan film seni bela diri Tiongkok, menampilkan pegunungan berkabut, pakaian tradisional yang dramatis, dan gerakan yang anggun.",
+        "examplePrompt": "A cinematic Wuxia-style painting of two martial artists fighting in the air above a misty, jagged mountain range. Flowing robes, dramatic action poses, intense depth of field, subtle use of green and grey ink wash aesthetic."
+      },
+      {
+        "name": "Chinese Scroll Painting (Landscape)",
+        "description": "Lukisan pemandangan Tiongkok tradisional pada gulungan sutra. Menekankan kabut, pegunungan yang tinggi, dan penggunaan tinta hitam yang berlapis.",
+        "examplePrompt": "A majestic Chinese Scroll Painting of towering, mist-shrouded mountains and a tiny scholar resting in a pavilion. Vertical composition, subtle use of blue and green ink, emphasis on negative space and scale, traditional literati style."
+      },
+      {
+        "name": "Jianzi / Chinese Paper Cutting",
+        "description": "Seni memotong kertas Tiongkok. Ilustrasi yang dibuat dari siluet tunggal, sangat detail dan seringkali menampilkan hewan atau simbol keberuntungan.",
+        "examplePrompt": "A highly intricate red Jianzi Chinese Paper Cutting illustration depicting a scene of dancing dragons and floral patterns. Monochromatic red, complex filigree details, symmetrical and layered, traditional folk art style."
+      },
+      {
+        "name": "Yōkai / Japanese Mythology",
+        "description": "Menggambarkan hantu, monster, dan roh dari mitologi Jepang. Seringkali menggunakan gaya yang menyeramkan atau aneh dengan akar Ukiyo-e.",
+        "examplePrompt": "A chilling illustration of a Kitsune (fox spirit) transforming in a bamboo forest at night. Ukiyo-e style lines, vibrant yet dark colors (reds and blacks), focus on the eerie and supernatural, Japanese folklore."
+      },
+      {
+        "name": "Aesthetic / Lo-Fi Anime",
+        "description": "Gaya yang populer di internet. Menampilkan karakter dalam situasi sehari-hari yang damai (seringkali hujan/malam), dengan filter VHS dan palet warna yang tenang.",
+        "examplePrompt": "A peaceful Lo-Fi Anime illustration of a girl sitting on a balcony watching the rain fall over a city at night. Grainy texture, muted neon purple and blue colors, simple character design, calming and nostalgic mood."
+      },
+      {
+        "name": "Pixel Art Anime (VN style)",
+        "description": "Kombinasi gaya piksel 16-bit dengan estetika karakter anime modern (Visual Novel). Ekspresif, detail, tetapi tetap berpiksel.",
+        "examplePrompt": "A highly detailed Pixel Art Anime background for a visual novel, showing a clean, empty high school classroom at dusk. Detailed shadows and lighting, vibrant but soft color palette, classic 16-bit resolution."
+      },
+      {
+        "name": "Kawaii Aesthetic (Pop)",
+        "description": "Estetika yang ekstrem dan cerah, mencakup elemen-elemen super imut (seperti Hello Kitty) dengan warna-warna pastel yang kuat dan objek berkilauan.",
+        "examplePrompt": "A super cute and vibrant Kawaii Pop illustration of a smiling cloud with rainbow colored rain, surrounded by tiny sparkling stars and anthropomorphic desserts. Bright pastel colors, thick bubbly lines, Sanrio style."
+      },
+      {
+        "name": "Mecha Anime (Realistic)",
+        "description": "Gaya robot raksasa yang mencoba lebih realistis dan militeristik, menekankan detail mekanis yang masuk akal dan desain fungsional.",
+        "examplePrompt": "A gritty, realistic Mecha Anime concept art of a large, weathered industrial robot standing in a snowy terrain. Heavy weathering, dirt and grime, detailed mechanical joints, muted military green and grey colors, inspired by Ghost in the Shell."
+      },
+      {
+        "name": "Suibokuga (Minimalist Ink)",
+        "description": "Sub-gaya Sumi-e yang sangat minimalis, seringkali hanya menggunakan beberapa sapuan kuas untuk menangkap esensi subjek, dengan banyak ruang negatif.",
+        "examplePrompt": "A stunning minimalist Suibokuga ink painting of a single fisherman's boat on a vast, foggy lake. Only essential black ink strokes, abundant negative space (white paper), focus on atmosphere and emptiness, Japanese Zen art."
+      },
+      {
+        "name": "Vaporwave Anime",
+        "description": "Gaya anime tahun 80-an yang digabungkan dengan estetika Vaporwave. Karakter-karakter tua dengan latar belakang patung dan warna neon.",
+        "examplePrompt": "A classic 80s Anime scene of a character standing on a balcony overlooking a retro-futuristic city, with the whole image filtered with a grainy VHS effect and dominated by teal and pink neon colors. Nostalgic aesthetic, minimal movement blur."
+      },
+      {
+        "name": "Gekiga / Dramatic Manga",
+        "description": "Genre manga dewasa yang lebih serius dan dramatis, menggunakan gaya gambar yang lebih realistis dan sinematik daripada manga arus utama.",
+        "examplePrompt": "A dramatic Gekiga style ink drawing of a man sitting alone in a small bar at night. Heavy realism, deep shadows created by intense hatching, smoke and grime texture, film noir-like composition, inspired by Yoshihiro Tatsumi."
+      },
+      {
+        "name": "Shōnen Action (Clean)",
+        "description": "Gaya manga/anime yang berfokus pada aksi, tetapi dengan garis yang bersih, warna yang cerah, dan penekanan pada anatomi dinamis.",
+        "examplePrompt": "A dynamic Shōnen Anime action illustration of a male protagonist unleashing a powerful energy attack. Clean line art, vibrant energy glow in blue and yellow, detailed muscle definition, high contrast, clean digital coloring, My Hero Academia style."
+      },
+      {
+        "name": "Korean Ink Painting (Modern)",
+        "description": "Seni lukis tinta yang menggabungkan teknik tradisional Korea dengan perspektif modern dan subjek kontemporer.",
+        "examplePrompt": "A modern Korean Ink Painting of a bustling city street viewed from above. Traditional ink wash for atmosphere and sky, fine line details for buildings, subtle splashes of bright color (red umbrella), harmonious blend of old and new."
+      },
+      {
+        "name": "Hanafuda Card Style",
+        "description": "Gaya ilustrasi kartu permainan Jepang, dengan fokus pada ikonografi yang disederhanakan dari flora dan fauna, warna-warna solid yang kuat, dan komposisi yang kaku.",
+        "examplePrompt": "An illustration in the Hanafuda Card style of a deer jumping under a maple tree. Highly stylized, flat color blocks, strong black outlines, simple and elegant composition, traditional Japanese card game aesthetic."
+      },
+      {
+        "name": "Tattoo Flash Art (Irezumi)",
+        "description": "Desain tato tradisional Jepang (Irezumi), menampilkan naga, koi. Ditandai dengan gelombang air yang bergulir dan latar belakang yang bergaya.",
+        "examplePrompt": "A detailed traditional Japanese Tattoo Flash sheet featuring a large, ornate Koi fish swimming up a waterfall. Dynamic waves and swirling wind patterns, thick black outlines, bold colors (red, gold, black), full-sleeve style design."
+      }
+    ]
+  }
+]
+
