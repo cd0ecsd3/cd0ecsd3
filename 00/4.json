@@ -1,0 +1,274 @@
+[
+  {
+    "id": "texture_material",
+    "name": "9. SENI TEKSTUR & BAHAN",
+    "accentColor": "sienna",
+    "icon": "fas fa-thumbtack",
+    "definition": [
+      "Menitikberatkan pada representasi visual dari tekstur dan material yang spesifik, baik dalam media seni murni maupun kerajinan. Fokus pada detail taktil, kedalaman material, dan proses pembuatan."
+    ],
+    "substyles": [
+      {
+        "name": "Mosaic Art (Byzantine Style)",
+        "description": "Gambar yang dibuat dari ribuan potongan kecil kaca atau batu (tesserae), dengan garis-garis yang terlihat jelas dan efek refleksi cahaya yang terfragmentasi.",
+        "examplePrompt": "A Byzantine Mosaic Art panel depicting an ornate eagle. Visible square tesserae (smalti) of varying sizes, gold leaf backing in the glass pieces, rough surface texture, glittering fragmented light effect."
+      },
+      {
+        "name": "Stained Glass Window Art",
+        "description": "Desain yang meniru jendela kaca patri, dengan potongan kaca berwarna tebal yang diikat oleh garis timah hitam (cames).",
+        "examplePrompt": "A detailed Stained Glass Window Art design of a mythical sea serpent. Bold black lead lines, large sections of richly colored (deep blue, red, amber) transparent glass, focus on light passing through the glass."
+      },
+      {
+        "name": "Tapestry/Weaving Art (Flemish)",
+        "description": "Seni yang meniru tekstil tenunan yang rumit, dengan benang yang terlihat, pola simetris, dan tekstur kain yang lembut dan kusut.",
+        "examplePrompt": "A Flemish Tapestry artwork depicting a medieval hunting scene. Highly detailed weaving texture, vertical warp and horizontal weft threads visible, muted wool colors, slightly faded and aged fabric look."
+      },
+      {
+        "name": "Quilling/Paper Filigree",
+        "description": "Seni membuat desain 3D dari gulungan, lipatan, dan lingkaran kertas tipis yang dilem, menciptakan tekstur yang sangat halus dan detail.",
+        "examplePrompt": "An intricate Quilling paper filigree artwork of a flowering vine. Tiny rolled paper strips forming petals and leaves, shallow depth of field, focus on the delicate 3D relief of the paper rolls."
+      },
+      {
+        "name": "Bas-Relief Sculpture (Terra Cotta)",
+        "description": "Patung relief dangkal (low relief) yang dibuat dari tanah liat (terakota), dengan detail yang menonjol dan tekstur tanah liat yang kasar.",
+        "examplePrompt": "A terra cotta Bas-Relief sculpture depicting a Roman procession. Shallow depth carving, visible texture of fired clay, warm orange-brown color, dramatic side lighting to emphasize relief."
+      },
+      {
+        "name": "Embroidery Art (French Knot)",
+        "description": "Seni sulam dengan fokus pada teknik simpul Prancis (*French knot*), menciptakan tekstur titik-titik yang padat dan sangat bertekstur.",
+        "examplePrompt": "A modern Embroidery Art piece using only the French Knot technique to create a portrait. Dense, highly textured surface of small thread knots, bright cotton thread colors on a linen backing, tactile and dimensional."
+      },
+      {
+        "name": "Macrame/Knotting Art",
+        "description": "Seni yang dibuat dari simpul tali (Macrame), menampilkan pola geometris dari serat yang diikat.",
+        "examplePrompt": "A detailed Macrame wall hanging with a complex diamond knot pattern. Thick, unbleached cotton rope texture, clean, sharp knots, soft natural light, bohemian aesthetic."
+      },
+      {
+        "name": "Sand Art Layering",
+        "description": "Seni yang dibuat dengan menumpuk berbagai warna pasir dalam botol, menghasilkan lapisan horizontal yang halus.",
+        "examplePrompt": "A Sand Art layering illustration of a desert sunset. Smooth, distinct horizontal layers of colored sand (orange, red, purple, black) in a clear glass bottle, focus on the fine granularity of the sand."
+      },
+      {
+        "name": "Resin Art (Fluid Pour)",
+        "description": "Seni lukis yang menggunakan resin epoksi yang dicampur pigmen, menghasilkan pola cairan yang mengalir, efek marbling, dan lapisan yang sangat mengkilap.",
+        "examplePrompt": "A Fluid Resin Art piece with swirling patterns of deep teal, gold shimmer, and white cells. Extremely glossy, thick transparent resin layer, organic, flowing abstract design."
+      },
+      {
+        "name": "Wax Sculpture (Lost-Wax Casting Style)",
+        "description": "Patung yang terlihat seperti model lilin yang digunakan untuk *lost-wax casting*, dengan detail yang lembut, permukaan yang berminyak, dan tekstur yang halus.",
+        "examplePrompt": "A detailed wax sculpture bust of a medieval knight. Smooth, yellowish-white wax material, fine, slightly melted detail lines, soft, translucent surface quality."
+      },
+      {
+        "name": "Metal Repoussé/Chasing",
+        "description": "Seni menempa dan memukul logam dari belakang (repoussé) untuk menciptakan relief, dengan detail yang rumit di permukaan.",
+        "examplePrompt": "A detailed Metal Repoussé artwork on a copper sheet depicting a swirling mythological bird. Hammered texture, high relief from the back, dark patina finish, strong metallic shine on the raised details."
+      },
+      {
+        "name": "Pysanky Egg Decorating",
+        "description": "Seni dekorasi telur Pysanky, menggunakan lilin (*wax-resist*) dan pewarna, menghasilkan pola geometris yang halus dan warna yang berlapis.",
+        "examplePrompt": "A hyper-detailed Pysanky egg design with complex geometric and floral patterns. Multiple vibrant color layers, fine wax lines separating the colors, glossy finished eggshell texture."
+      },
+      {
+        "name": "Cross-Stitch Embroidery",
+        "description": "Seni bordir dengan jahitan silang kecil yang membentuk gambar piksel, dengan tekstur kain Aida yang terlihat.",
+        "examplePrompt": "A Cross-Stitch embroidery piece of a small house and a tree. Visible 'X' stitches, soft cotton thread texture on a gridded linen fabric (Aida cloth), bright, uniform colors, handicraft aesthetic."
+      },
+      {
+        "name": "Woodburning (Pyrography)",
+        "description": "Seni membakar gambar ke permukaan kayu dengan alat panas, menghasilkan garis dan bayangan cokelat yang berbeda.",
+        "examplePrompt": "A detailed Woodburning (Pyrography) artwork of an old owl sitting on a branch. Varying shades of brown burn marks on light-colored wood grain, subtle smoky texture, deep, rustic aesthetic."
+      },
+      {
+        "name": "Paper Mache Sculpture (Rough)",
+        "description": "Patung 3D yang dibuat dari bubur kertas, dengan permukaan yang kasar, lapisan kertas yang terlihat, dan cat yang sederhana.",
+        "examplePrompt": "A playful Paper Mache sculpture of a cartoon monster. Rough, textured surface from the layered paper strips, simple, opaque acrylic paint, light-weight and handcrafted look."
+      },
+      {
+        "name": "Shibori Dyeing (Japanese)",
+        "description": "Seni pewarnaan tekstil Jepang Shibori, dengan pola lipatan, lipatan, dan ikatan yang menghasilkan bentuk geometris yang kabur.",
+        "examplePrompt": "A textile design using the Shibori dyeing technique. Deep indigo blue and white colors, complex, fuzzy geometric patterns created by resisting the dye in tightly tied areas, soft, wet fabric texture."
+      },
+      {
+        "name": "Cork Art (Material Collage)",
+        "description": "Seni kolase yang dibuat dari potongan-potongan gabus (cork) alami, menekankan pada tekstur butiran dan warna cokelat yang alami.",
+        "examplePrompt": "A material collage artwork of a mountain range using various thickness and textures of natural cork pieces. Visible granulated texture, warm light and shadow emphasizing the relief, earthy tones."
+      },
+      {
+        "name": "Scrimshaw Art (Bone Engraving)",
+        "description": "Seni ukiran halus pada tulang atau gading (Scrimshaw), dengan garis tipis dan tinta hitam yang dimasukkan ke dalam goresan.",
+        "examplePrompt": "A fine Scrimshaw artwork engraved onto a piece of polished bone. Extremely fine, delicate black line work, smooth, pale white surface, classic maritime theme (whaling ship)."
+      },
+      {
+        "name": "Glassblowing (Iridescent)",
+        "description": "Seni patung kaca yang ditiup, dengan bentuk yang organik dan efek iridesen (pelangi) yang menciptakan warna-warna yang berubah-ubah.",
+        "examplePrompt": "A delicate glassblowing sculpture of a jellyfish. Organic, flowing shape, highly translucent glass with strong iridescent (oil-slick) sheen, deep blues and greens, smooth and shiny surface."
+      },
+      {
+        "name": "Felt Needle Felting (Wool)",
+        "description": "Patung 3D yang dibuat dengan menusuk serat wol dengan jarum khusus, menghasilkan tekstur yang padat dan kabur.",
+        "examplePrompt": "A tiny, photorealistic Felt Needle Felting sculpture of a small bird. Very dense, slightly fuzzy wool texture, soft, muted natural colors, delicate, handmade object."
+      },
+      {
+        "name": "String Art (Nails and Thread)",
+        "description": "Seni yang menggunakan benang yang diregangkan di antara paku yang dipalu pada papan, menciptakan bentuk geometris linier.",
+        "examplePrompt": "A String Art piece of a geometric spiral. Hundreds of thin black threads stretched between small nails on a wooden board, creating an illusion of a curved surface, technical and precise."
+      },
+      {
+        "name": "Batik Tulis (Crackle Effect)",
+        "description": "Seni Batik tradisional yang menggunakan lilin panas (malam) untuk menahan pewarna, dengan fokus pada efek retakan lilin (*crackle effect*).",
+        "examplePrompt": "A detailed Batik Tulis textile with traditional Javanese motifs. Rich brown and indigo dyes, fine lines, extensive *crackle* network where the wax broke, visible cloth texture."
+      },
+      {
+        "name": "Salt Dough Sculpture",
+        "description": "Patung yang terbuat dari adonan garam, dengan permukaan yang kasar, retakan kecil, dan hasil akhir yang kering.",
+        "examplePrompt": "A simple Salt Dough sculpture of a decorative heart. Rough, slightly cracked surface texture, painted with simple, matte acrylic paint, rustic, baked aesthetic."
+      },
+      {
+        "name": "Hand-Pressed Pottery Stamp",
+        "description": "Desain yang meniru stempel yang ditekan ke tanah liat yang lembut, menghasilkan relief yang dalam dengan tepi yang sedikit kabur.",
+        "examplePrompt": "A pattern for hand-pressed pottery stamps (like Mesopotamian seals). Deep, uniform relief in soft clay, visible fingerprints and subtle damp texture, simple repetitive geometric or animal motif."
+      },
+      {
+        "name": "Collage from Torn Paper",
+        "description": "Seni kolase yang dibuat hanya dengan merobek dan menempelkan potongan-potongan kertas berwarna, dengan tepi robekan yang terlihat jelas.",
+        "examplePrompt": "A vibrant collage portrait created entirely from torn and layered colored paper. Visible ragged edges of the torn paper, textured surface, layered depth, rich color blocks."
+      }
+    ]
+  },
+  {
+    "id": "surreal_dark_fantasy",
+    "name": "10. SENI SUREALISME & FANTASI GELAP",
+    "accentColor": "midnightblue",
+    "icon": "fas fa-skull-crossbones",
+    "definition": [
+      "Mencakup gaya visual yang berfokus pada ketidaksadaran, mimpi, absurditas, dan eksplorasi tema yang gelap, menakutkan, atau metafisik, seringkali dengan sentuhan hiper-realisme atau atmosfer yang kuat."
+    ],
+    "substyles": [
+      {
+        "name": "Classic Metaphysical Painting (De Chirico)",
+        "description": "Pemandangan Surealis yang sepi dengan arsitektur klasik, bayangan panjang dan dalam, serta benda-benda aneh yang ditempatkan secara misterius.",
+        "examplePrompt": "A metaphysical painting of a deserted Italian piazza with deep, unnatural shadows stretching from a single classical statue. The sky is an unsettling yellow-green, a train is visible in the distance, highly precise perspective, De Chirico style."
+      },
+      {
+        "name": "Biomechanical Horror (Giger-esque)",
+        "description": "Gaya horor yang gelap, menggabungkan organik (tulang, kulit) dengan elemen mesin yang dingin dan basah, menciptakan estetika *alien* dan seksual.",
+        "examplePrompt": "A detailed biomechanical horror illustration of a creature with polished chrome limbs emerging from a fleshy, wet cavern wall. Dark, monochromatic color palette, emphasis on tubes, wires, and organic ribs, H.R. Giger style."
+      },
+      {
+        "name": "Lowbrow/Pop Surrealism",
+        "description": "Seni Surealis yang ceria namun mengganggu, seringkali menampilkan karakter kartun bermata besar atau gadis-gadis cantik dalam adegan-adegan aneh dan gelap.",
+        "examplePrompt": "A Lowbrow Pop Surrealism painting of a beautiful girl with massive, teary eyes floating in a teacup in a dark forest. Glossy finish, vibrant yet unsettling colors (pink and black), Juxtapoz Magazine aesthetic."
+      },
+      {
+        "name": "Dark Academia Aesthetic",
+        "description": "Estetika yang gelap, intelektual, dan gotik, berfokus pada perpustakaan tua, manuskrip, tengkorak, dan cahaya lilin yang redup.",
+        "examplePrompt": "A dark academia photograph-like scene of an old oak desk in a forgotten library. Dust motes in the single shaft of low candlelight, stacks of antique leather-bound books, an open, illuminated manuscript, sepia tones."
+      },
+      {
+        "name": "Dreamy Vaporwave Scene",
+        "description": "Pemandangan Surealis yang lembut, menggabungkan patung klasik, grid neon, dan estetika retro-futuristik dengan warna-warna pastel yang luntur.",
+        "examplePrompt": "A dreamy vaporwave scene of a classical Greek bust floating in a pink and blue fog. Wireframe grid floor, palm trees, low-resolution pixelated effect, soft, lofi, washed-out color palette."
+      },
+      {
+        "name": "Dada Collage (Randomness)",
+        "description": "Kolase Surealis yang dibuat dari potongan-potongan gambar acak, menciptakan komposisi yang tidak masuk akal, nihilistik, dan terfragmentasi.",
+        "examplePrompt": "A Dada collage created from cutouts of 1920s newspaper advertisements, medical diagrams, and machine parts. Arbitrary placement, black and white with one splash of red color, chaotic and nonsensical."
+      },
+      {
+        "name": "Cosmic Horror (Lovecraftian)",
+        "description": "Seni yang menggambarkan entitas yang melampaui pemahaman manusia, dengan skala yang luas, desain yang non-Euclidean, dan suasana ketakutan yang mendalam.",
+        "examplePrompt": "A cosmic horror painting of a massive, star-covered entity looming over a tiny fishing village. Non-Euclidean geometry, unsettling scale, deep blacks and unsettling greens, crushing sense of insignificance."
+      },
+      {
+        "name": "Alchemy Diagram (Occult)",
+        "description": "Ilustrasi yang meniru diagram atau manuskrip kuno yang berkaitan dengan ilmu kimia, okultisme, atau simbolisme tersembunyi.",
+        "examplePrompt": "An occult alchemy diagram detailing the process of transforming lead to gold. Intricate symbols (planets, elements), hand-drawn ink on aged vellum, complex circles and text, dark and scholarly aesthetic."
+      },
+      {
+        "name": "Steampunk Macabre",
+        "description": "Kombinasi antara estetika Steampunk (gigi roda, tembaga) dengan subjek horor atau kematian (tengkorak, mayat hidup).",
+        "examplePrompt": "A Steampunk Macabre illustration of a mechanical skeleton powered by steam and brass gears. Dark sepia tones, visible rivets and copper tubing, menacing and elegant at the same time."
+      },
+      {
+        "name": "The Sublime in Horror",
+        "description": "Pemandangan yang sangat luas dan indah (Sublime), namun di bawahnya terdapat ancaman atau kengerian yang tersembunyi.",
+        "examplePrompt": "A vast, beautiful landscape painting of a massive glacier and fjord. The scale is overwhelming, but tiny figures are trying to escape a horrifying, barely visible shadow in the distance, dramatic light and scale, Caspar David Friedrich influence but with a monster."
+      },
+      {
+        "name": "Hypnagogic Imagery",
+        "description": "Visual yang meniru ilusi sensorik yang dialami saat tidur/terjaga (Hypnagogic), seringkali dengan warna yang bersinar, bentuk yang berubah, dan fokus yang tidak stabil.",
+        "examplePrompt": "An illustration of a field of sunflowers where the heads are subtly turning into eyeballs. Soft focus, bright, almost glowing colors, sense of shapes melting and changing, dreamlike and unsettling."
+      },
+      {
+        "name": "Folk Horror/Witchcraft Art",
+        "description": "Seni yang berfokus pada ritual, simbolisme alam pedesaan yang gelap, dan kengerian kuno yang berbasis di masyarakat.",
+        "examplePrompt": "A painting depicting a dark pagan ritual in a dense, mossy forest. Figures in animal masks, firelight, woven straw effigies, earthy, muted greens and browns, deep sense of ancient dread."
+      },
+      {
+        "name": "Ukiyo-e Horror (Yōkai)",
+        "description": "Gaya cetak kayu Ukiyo-e Jepang yang digunakan untuk menggambarkan hantu, monster (Yōkai), dan adegan-adegan yang mengerikan.",
+        "examplePrompt": "A Japanese Ukiyo-e woodblock print illustration of a massive, multi-tailed Fox Spirit (Kitsune) materializing in a misty street. Strong black outlines, flat colors (red, white, black), dramatic waves and clouds, traditional horror aesthetic."
+      },
+      {
+        "name": "Gothic Black Metal Album Art",
+        "description": "Ilustrasi atau foto yang sangat gelap, buram, dan kontras tinggi, seringkali menampilkan hutan beku, reruntinan, dan font yang tidak terbaca.",
+        "examplePrompt": "A dark, high-contrast black and white photograph of an icy, ruined castle in a blizzard. Extremely high grain, blurry and atmospheric, designed to look like a black metal album cover, raw and menacing."
+      },
+      {
+        "name": "Neo-Noir Surrealism",
+        "description": "Kombinasi pencahayaan Film Noir (kontras tinggi, bayangan tirai jendela) dengan subjek Surealis dan tidak logis.",
+        "examplePrompt": "A Neo-Noir Surrealist illustration of a detective sitting at a desk made of melting clocks. Harsh Venetian blind shadows, dramatic side lighting, limited color palette (black, white, neon red), unsettling and moody atmosphere."
+      },
+      {
+        "name": "Psychonautic Vision",
+        "description": "Pemandangan yang sangat kompleks, fraktal, dan kaleidoskopik, meniru pengalaman visual halusinogen.",
+        "examplePrompt": "A painting of a psychonautic vision: a tunnel composed of infinitely repeating, brightly colored fractal patterns and kaleidoscopic geometry. Extreme detail, hyper-saturated neon colors, overwhelming complexity."
+      },
+      {
+        "name": "Found Footage VHS Horror",
+        "description": "Visual yang meniru tampilan rekaman video yang ditemukan di VHS, dengan kualitas rendah, *time stamp*, dan efek *tracking* yang rusak.",
+        "examplePrompt": "A still image from a Found Footage VHS Horror film of a shadowy figure in a hallway. Poor quality, heavy grain, date/time stamp visible in the corner, distorted colors, analog video noise."
+      },
+      {
+        "name": "Memento Mori Still Life",
+        "description": "Lukisan benda mati (still life) yang berfokus pada simbol-simbol kematian dan kefanaan (tengkorak, lilin padam, jam pasir).",
+        "examplePrompt": "A highly detailed Memento Mori still life painting of a human skull next to an hourglass and a half-eaten loaf of bread. Baroque lighting (Chiaroscuro), dark background, rich oil paint texture, Vanitas theme."
+      },
+      {
+        "name": "Post-Human/Singularity Art",
+        "description": "Seni yang mengeksplorasi konsep setelah kemanusiaan, seperti kesadaran yang diunggah, struktur AI yang tidak manusiawi, atau transhumanisme.",
+        "examplePrompt": "A conceptual rendering of a Post-Human Singularity entity: a massive, abstract, geometric structure composed of pure light and data, floating above the ruined Earth. Cold blue and white light, incomprehensible scale."
+      },
+      {
+        "name": "Occult Geometry/Sigil Art",
+        "description": "Desain yang sangat teknis dan rumit, dibuat dari garis-garis, lingkaran, dan simbol yang saling terkait untuk membentuk segel (sigil) magis.",
+        "examplePrompt": "An intricate Occult Geometry sigil artwork. Perfect black lines on aged gold leaf, complex overlapping circles and symbols, precise and ritualistic design."
+      },
+      {
+        "name": "Grotesque Caricature (Gargoyle)",
+        "description": "Patung atau gambar yang menekankan pada karakteristik yang mengerikan, berlebihan, dan aneh, seperti patung gargoyle di gereja gotik.",
+        "examplePrompt": "A detailed, grotesque caricature sculpture of a smiling demonic face. Jagged teeth, deeply wrinkled skin texture, dark granite material, dripping with water, gothic horror aesthetic."
+      },
+      {
+        "name": "Surrealist Montage (Ernst/Magritte)",
+        "description": "Komposisi yang menggabungkan elemen realistis secara non-logis, menciptakan kejutan dan narasi yang ambigu.",
+        "examplePrompt": "A surrealist montage painting of a man's head replaced by a bouquet of red roses, floating in a plain blue sky over a desert. Flawless, realistic rendering of the elements, deep shadow, unsettling contrast, Magritte/Ernst influence."
+      },
+      {
+        "name": "Wabi-Sabi Horror",
+        "description": "Horor yang berasal dari ketidaksempurnaan, ketidakkekalan, dan kesederhanaan (Wabi-Sabi), menekankan pada kerusakan material dan pelapukan.",
+        "examplePrompt": "A Wabi-Sabi Horror scene of an ancient, perfectly plain wooden house that is slowly being enveloped by a black, fungal growth. Focus on the delicate texture of the decaying wood, quiet and subtle sense of dread, limited natural light."
+      },
+      {
+        "name": "Baroque Fantastic Art",
+        "description": "Seni Fantasi yang digambar dengan teknik dan kemegahan lukisan Barok, dengan pencahayaan dramatis dan komposisi yang ramai.",
+        "examplePrompt": "A Baroque Fantastic Art painting of a fierce battle between winged demons and human knights in the sky. Chiaroscuro lighting, dynamic, swirling composition, rich dark colors, highly detailed drapery and muscle structure."
+      },
+      {
+        "name": "Body Horror (Cronenberg-esque)",
+        "description": "Gaya horor yang melibatkan mutasi, transformasi, dan kelainan bentuk tubuh yang menjijikkan dan biologis.",
+        "examplePrompt": "A body horror illustration of a human hand slowly fusing with a vintage rotary phone. Wet, fleshy texture, visible bone and sinew merging with the plastic and metal, dark red and grey color palette, disturbing biological realism."
+      }
+    ]
+  }
+]

@@ -1,0 +1,410 @@
+[
+  {
+    "id": "architectural_design",
+    "name": "6. SENI ARSITEKTUR & DESAIN INDUSTRI",
+    "accentColor": "darkorange",
+    "icon": "fas fa-drafting-compass",
+    "definition": [
+      "Menitikberatkan pada representasi visual yang akurat dan teknis. Fokus pada proporsi, perspektif, rencana, dan detail struktural, yang seringkali meniru gambar teknik dan rendering produk profesional."
+    ],
+    "substyles": [
+      {
+        "name": "Architectural Blueprint (Detailed)",
+        "description": "Sketsa desain arsitektur dengan garis teknis, notasi dimensi, dan bayangan minimal di atas kertas kalkir biru atau putih.",
+        "examplePrompt": "A detailed architectural blueprint of a spiral staircase in a modern minimalist house. Shows cross-sections, precise dimensions (in meters), hidden details in thin white lines on a dark blue background, technical drawing style."
+      },
+      {
+        "name": "Isometric Vector Illustration",
+        "description": "Ilustrasi 3D yang disederhanakan dalam proyeksi isometrik (tanpa perspektif), menggunakan bentuk geometris yang bersih dan palet warna datar.",
+        "examplePrompt": "A complex city block rendered in isometric vector illustration. Clean lines, flat shades of pastel blue and grey, showing all building layers from a high angle, highly stylized and clean."
+      },
+      {
+        "name": "Patent Drawing Style (19th Century)",
+        "description": "Gambar teknik yang digambar tangan dengan tinta hitam, fokus pada fungsi mekanis, garis tebal, dan label huruf kapital yang kuno.",
+        "examplePrompt": "A 19th-century patent drawing of a clockwork automaton. Black ink on aged parchment paper, showing all internal mechanisms with numbered labels and arrows, detailed cross-section, old-fashioned technical illustration."
+      },
+      {
+        "name": "Product Render (Photorealistic)",
+        "description": "Rendering 3D fotorealistik yang menunjukkan produk baru dengan material yang sangat detail (krom, plastik, kaca) dan pencahayaan studio yang tajam.",
+        "examplePrompt": "A photorealistic product render of a high-end wireless headphone. Sleek black matte finish, subtle studio lighting with sharp reflections, floating against a neutral grey background, extremely high detail on mesh and buttons."
+      },
+      {
+        "name": "Cutaway Diagram (Technical)",
+        "description": "Ilustrasi yang memotong objek atau mesin untuk menunjukkan bagian dalamnya, sering digunakan dalam manual teknis atau buku sains.",
+        "examplePrompt": "A complex cutaway diagram of a nuclear reactor core. Shows internal structure in vivid color coding, labeled components, transparent outer shell, detailed technical drawing style."
+      },
+      {
+        "name": "Brutalist Architecture Sketch",
+        "description": "Sketsa kasar arsitektur Brutalis, menekankan pada massa beton yang berat, bentuk geometris yang kasar, dan tekstur material yang tidak diolah.",
+        "examplePrompt": "A rough sketch of a massive Brutalist public library. Heavy, blocky concrete forms, strong contrast between light and shadow, raw pencil texture, imposing and monolithic feel."
+      },
+      {
+        "name": "Cross-Hatching for Architecture",
+        "description": "Penggunaan arsir silang (cross-hatching) yang padat untuk menciptakan kedalaman dan bayangan pada gambar desain bangunan.",
+        "examplePrompt": "A pen-and-ink drawing of a Gothic cathedral facade using dense cross-hatching technique to define the shadows and texture of the stone, highly detailed black and white illustration."
+      },
+      {
+        "name": "Industrial Design Sketch (Marker)",
+        "description": "Sketsa konsep produk yang cepat, menggunakan spidol untuk bayangan dan sorotan, menciptakan kesan volume dan kecepatan.",
+        "examplePrompt": "A quick industrial design marker sketch of a futuristic electric car dashboard. Broad strokes for shading (grey markers), white gel pen highlights, emphasis on ergonomics and form."
+      },
+      {
+        "name": "Interior Visualization (Cozy)",
+        "description": "Rendering 3D ruang interior yang realistis, difokuskan pada suasana, tekstil yang lembut, dan pencahayaan yang hangat.",
+        "examplePrompt": "A photorealistic interior visualization of a cozy living room. Soft focus, warm yellow ambient lighting, detailed textures on a chunky knit blanket and wooden floor, hyper-realistic, V-Ray render."
+      },
+      {
+        "name": "Elevation Drawing (Architectural)",
+        "description": "Gambar tampak depan atau samping bangunan tanpa perspektif, menampilkan semua detail fasad.",
+        "examplePrompt": "A precise architectural elevation drawing of a Victorian townhouse facade. Shows window and door placement, material changes, clean black lines on white, scale indicated."
+      },
+      {
+        "name": "Exploded View Drawing",
+        "description": "Ilustrasi yang menunjukkan bagian-bagian komponen produk dalam susunan terpisah namun terkait, untuk perakitan atau manual.",
+        "examplePrompt": "An exploded view drawing of a complex robotic arm. All components are floating in their relative positions, thin dashed lines showing connection points, white on light grey background, technical illustration."
+      },
+      {
+        "name": "Line Art Perspective (Urban)",
+        "description": "Gambar garis tinta hitam yang sangat detail dari pemandangan kota, fokus pada perspektif satu atau dua titik yang dalam.",
+        "examplePrompt": "A precise, intricate black line art drawing of a winding city alleyway. Extreme one-point perspective, all details are rendered with consistent thin black lines, no color or shading, M.C. Escher influence."
+      },
+      {
+        "name": "Massing Model (Conceptual)",
+        "description": "Representasi visual sederhana dari bentuk dan volume bangunan, seringkali seperti model busa putih tanpa detail.",
+        "examplePrompt": "A conceptual massing model of a new skyscraper complex. Rendered as simple white blocks and geometric shapes, minimal texture, focus on volume and composition, clean studio lighting."
+      },
+      {
+        "name": "Infra-Red Architecture Photography",
+        "description": "Fotografi arsitektur yang menggunakan efek inframerah, menghasilkan daun yang bersinar putih dan langit yang gelap, menciptakan suasana sureal.",
+        "examplePrompt": "An infra-red photograph of a large, classical public park building. Foliage is glowing white, sky is deep black, high contrast, surreal and dreamlike architectural image."
+      },
+      {
+        "name": "Schematic Diagram (Electronic)",
+        "description": "Diagram berbasis simbol untuk rangkaian elektronik atau sistem yang kompleks.",
+        "examplePrompt": "A clean schematic diagram for a modular analog synthesizer circuit. Standard electronic symbols (resistors, capacitors, op-amps) connected by sharp lines, white on black background, technical layout."
+      },
+      {
+        "name": "Architectural Watercolor Sketch",
+        "description": "Sketsa arsitektur cepat yang diberi warna menggunakan cat air, memberikan kesan suasana dan tekstur material yang lembut.",
+        "examplePrompt": "A light architectural watercolor sketch of a European plaza cafe. Loose, wet washes of color for the background and sky, fine pen lines for building details, soft light and shadow."
+      },
+      {
+        "name": "Neo-Fauvism Architecture",
+        "description": "Gaya arsitektur yang diwakili dengan warna-warna non-representasional yang liar dan berani, sapuan kuas yang kasar, dan fokus pada emosi.",
+        "examplePrompt": "A painting of a winding residential street in Neo-Fauvism style. Buildings are colored bright red, sky is electric green, thick, energetic brushstrokes, intense and emotional color palette."
+      },
+      {
+        "name": "CAD Drawing Style (Wireframe)",
+        "description": "Representasi 3D objek hanya dengan garis-garis tepi (wireframe) tanpa permukaan padat, seperti tampilan di perangkat lunak CAD.",
+        "examplePrompt": "A complex 3D model of a sports car rendered entirely in white wireframe on a solid black background. All polygons and edges are visible, technical and geometric aesthetic."
+      },
+      {
+        "name": "Post-Apocalyptic Ruin Concept",
+        "description": "Desain lingkungan konsep yang menunjukkan bangunan modern setelah mengalami kehancuran dan pelapukan.",
+        "examplePrompt": "A concept art painting of a crumbling megastructure partially submerged in a flooded city. Overgrown with moss and vines, heavy, desaturated color palette, dramatic volumetric lighting, post-apocalyptic atmosphere."
+      },
+      {
+        "name": "Design Storyboard (Product Use)",
+        "description": "Serangkaian panel sederhana yang menunjukkan langkah-langkah penggunaan suatu produk baru, fokus pada aksi dan narasi.",
+        "examplePrompt": "A simple 6-panel design storyboard showing a person unboxing and using a new coffee machine. Rough pencil sketches with minimal shading, emphasis on user experience and sequence."
+      },
+      {
+        "name": "Art Deco Facade Design",
+        "description": "Desain fasad bangunan dengan motif geometris yang berulang, garis vertikal yang kuat, dan ornamen yang sangat bergaya (stylized).",
+        "examplePrompt": "An Art Deco facade design for a luxury hotel. Symmetrical layout, streamlined geometric patterns (chevrons, sunbursts), gold and deep blue color palette, stylized relief sculpture."
+      },
+      {
+        "name": "Biomimicry Architecture",
+        "description": "Desain yang meniru bentuk dan struktur yang ditemukan di alam (sarang lebah, pohon, cangkang) untuk bangunan.",
+        "examplePrompt": "A conceptual design of a skyscraper based on the structure of a termite mound. Organic, porous texture, naturally ventilated, rendered in white matte material, high-tech biomimicry."
+      },
+      {
+        "name": "Dystopian Cityscape Render",
+        "description": "Pemandangan kota yang padat, gelap, dan futuristik dengan pencahayaan neon yang keras dan polusi udara yang tebal.",
+        "examplePrompt": "A detailed render of a massive, densely packed dystopian cityscape at night. Heavy rain, harsh blue and purple neon lighting, flying vehicles, Blade Runner influence, deep shadows."
+      },
+      {
+        "name": "Hand-Drawn Map (Fantasy)",
+        "description": "Peta yang digambar tangan dengan gaya kuno untuk dunia fiksi, lengkap dengan kompas mawar dan ilustrasi batas.",
+        "examplePrompt": "A finely detailed hand-drawn map of a sprawling fantasy continent. Sepia tones, ornate calligraphy for labels, small illustrations of castles and dragons in the borders, aged parchment texture."
+      },
+      {
+        "name": "Architectural Section Model",
+        "description": "Representasi 3D dari model potongan bangunan, menunjukkan hubungan ruang interior dan struktur.",
+        "examplePrompt": "A conceptual architectural section model of a multi-story public library. Rendered in wood and white plastic, with miniature figures to show scale, emphasizing the vertical space and light wells."
+      }
+    ]
+  },
+  {
+    "id": "kids_toys",
+    "name": "7. GAYA SENI ANAK & MAINAN",
+    "accentColor": "gold",
+    "icon": "fas fa-puzzle-piece",
+    "definition": [
+      "Mencakup gaya visual yang dirancang untuk audiens muda, dari ilustrasi buku bergambar yang lembut hingga estetika desain mainan fisik dan animasi stop-motion yang ceria."
+    ],
+    "substyles": [
+      {
+        "name": "Children's Book Illustration (Watercolor)",
+        "description": "Ilustrasi buku bergambar dengan warna cat air yang lembut, garis pensil yang ramah, dan karakter yang ekspresif.",
+        "examplePrompt": "A gentle watercolor illustration for a children's book of a small bear reading a giant book under a glowing mushroom. Soft pastel colors, visible paper texture, friendly, rounded shapes, Mary Blair style."
+      },
+      {
+        "name": "Claymation/Stop-Motion Aesthetic",
+        "description": "Visual yang meniru tampilan boneka fisik yang dibuat dari tanah liat (clay) atau material lainnya, dengan tekstur yang nyata dan sedikit ketidaksempurnaan.",
+        "examplePrompt": "A stop-motion scene of a quirky, felt-fabric alien riding a tiny, hand-knitted bicycle. Visible seams, slightly grainy texture, warm practical lighting, highly detailed claymation aesthetic, reminiscent of Wes Anderson's animated films."
+      },
+      {
+        "name": "Wooden Toy Design (Minimalist)",
+        "description": "Desain mainan yang sangat disederhanakan, terbuat dari kayu yang dipoles dengan warna-warna primer yang terbatas, fokus pada bentuk dasar.",
+        "examplePrompt": "A minimalist wooden toy design of a small elephant on wheels. Smooth, natural wood grain, simple round shapes, painted only in red and yellow primary colors, retro Danish toy style."
+      },
+      {
+        "name": "Crayon Drawing (Textured)",
+        "description": "Meniru gambar yang dibuat dengan krayon, dengan tekstur kasar, blok warna yang tumpang tindih, dan garis besar yang sedikit goyah.",
+        "examplePrompt": "A textured crayon drawing of a smiling sun and a blue house with a purple roof. Thick crayon lines, areas where colors are heavily layered, bright, messy, child-like aesthetic."
+      },
+      {
+        "name": "Felt and Fabric Applique",
+        "description": "Gaya yang meniru seni aplikasi (menempelkan kain) dengan potongan kain dan benang yang terlihat, menciptakan tampilan 3D yang lembut dan berlapis.",
+        "examplePrompt": "A detailed felt and fabric applique artwork of a forest scene. Layered felt pieces (green trees, brown logs), visible hand-stitching in thick colored thread, soft, matte texture, playful folk art style."
+      },
+      {
+        "name": "Kawaii Chibi Style",
+        "description": "Ilustrasi karakter dengan kepala besar, tubuh kecil, mata besar, dan ekspresi yang sangat menggemaskan (Kawaii).",
+        "examplePrompt": "A Kawaii Chibi illustration of a tiny ninja girl holding a massive plushie weapon. Oversized head, sparkling eyes, simplified rounded features, bright pastel pink and purple colors, super cute aesthetic."
+      },
+      {
+        "name": "Pop-up Book Mechanism",
+        "description": "Ilustrasi yang menunjukkan desain tiga dimensi dari halaman buku *pop-up*, menampilkan lipatan dan engsel kertas.",
+        "examplePrompt": "A conceptual pop-up book page showing a medieval castle folding out of the page. Visible paper construction, sharp folds, bright storybook colors, showing the tabs and slots of the mechanism."
+      },
+      {
+        "name": "School Art Project (Poster Paint)",
+        "description": "Meniru lukisan yang dibuat dengan cat poster (gouache/tempera) di sekolah, dengan warna-warna solid yang cerah dan sedikit ketidakrataan.",
+        "examplePrompt": "A simple school art project style painting of a farmyard. Flat, bright, primary colors (red barn, green grass), thick, opaque poster paint texture, slightly uneven application, child-like charm."
+      },
+      {
+        "name": "Ligne Claire (Kid's Adventure)",
+        "description": "Gaya garis bersih yang tebal (Ligne Claire) yang digunakan untuk cerita petualangan anak-anak, dengan warna solid dan detail yang jelas.",
+        "examplePrompt": "A Ligne Claire illustration of two children exploring a mysterious cave with flashlights. Thick, consistent black outlines, flat primary colors, clear shadows, simple and clean comic book style, Tintin influence."
+      },
+      {
+        "name": "Paper Cutout Animation Style",
+        "description": "Visual yang terlihat seperti karakter dan latar yang dipotong dari kertas dan dianimasikan, dengan bayangan yang kaku dan gerakan yang patah-patah.",
+        "examplePrompt": "A scene in the style of paper cutout animation (like South Park) of a talking dog wearing a tiny hat. Jagged paper edges, flat color planes, visible layering and shadows, stop-motion look."
+      },
+      {
+        "name": "Bubblegum Pop Aesthetic",
+        "description": "Estetika yang sangat cerah, hiper-realis, dan manis, seringkali menggunakan warna neon, plastik berkilau, dan elemen permen/manisan.",
+        "examplePrompt": "A maximalist bubblegum pop illustration of a unicorn riding a rainbow. Extremely glossy, vibrant neon pink and electric blue, filled with glitter, sprinkles, and candy imagery, ultra-sweet and hyper-real."
+      },
+      {
+        "name": "Spirograph Pattern Art",
+        "description": "Seni yang dihasilkan dari alat Spirograph: pola geometris yang sangat kompleks dan berulang yang dibuat dengan pena.",
+        "examplePrompt": "An intricate Spirograph pattern artwork created with overlapping circles and gears. Thin, precise lines in multiple bright colors (cyan, magenta, yellow), perfect mathematical complexity."
+      },
+      {
+        "name": "Doodle Art (Ballpoint Pen)",
+        "description": "Gaya yang meniru coretan spontan di buku catatan, menggunakan pena biasa dengan garis yang berulang dan detail kecil yang padat.",
+        "examplePrompt": "A dense doodle art illustration of a person's face composed entirely of small, interconnected, repetitive ballpoint pen scribbles and patterns. Black ink on lined notebook paper, messy and detailed."
+      },
+      {
+        "name": "Pop Mart/Blind Box Toy Concept",
+        "description": "Desain mainan vinyl koleksi kecil (Blind Box) dengan bentuk yang sangat bergaya, minimalis, dan finishing yang halus.",
+        "examplePrompt": "A concept design for a 'Blind Box' vinyl toy of a sad cloud character. Smooth, matte finish, simple, rounded geometric shapes, very limited color palette (white, grey, light blue), stylized collectible toy aesthetic."
+      },
+      {
+        "name": "Finger Painting (Thick Texture)",
+        "description": "Meniru lukisan yang dibuat dengan jari, dengan cat yang tebal, warna yang bercampur, dan tekstur bergaris yang jelas.",
+        "examplePrompt": "A textured finger painting of a colorful landscape (hills and sun). Very thick, impasto paint texture, swirling colors that are messily blended, large, abstract shapes, innocent and vibrant."
+      },
+      {
+        "name": "Fluffy Plush Toy Aesthetic",
+        "description": "Tampilan visual yang meniru tekstur dan estetika boneka mewah (plushie), dengan serat yang lembut dan mata yang besar.",
+        "examplePrompt": "A close-up photograph-like render of a giant, extremely fluffy plush toy monster. Long, soft synthetic fur texture, large black plastic safety eyes, cute and huggable aesthetic."
+      },
+      {
+        "name": "Vintage Golden Book Style",
+        "description": "Ilustrasi yang meniru buku anak-anak tahun 40-an hingga 60-an, dengan garis tinta tebal, warna primer, dan tampilan cetakan yang khas.",
+        "examplePrompt": "An illustration in the style of a vintage Golden Book of a little dog chasing a butterfly in a sunny field. Black outlines, limited palette of bright, flat colors (yellow, red, sky blue), nostalgic and classic look."
+      },
+      {
+        "name": "Pipe Cleaner Craft",
+        "description": "Tampilan objek yang dibuat dari kawat berbulu (pipe cleaner/chenille stems), dengan bentuk yang kaku, berserat, dan lucu.",
+        "examplePrompt": "A whimsical sculpture of a small, fuzzy monster made entirely out of brightly colored pipe cleaners. Visible fuzzy texture of the stems, geometric, twisted forms, craft project aesthetic."
+      },
+      {
+        "name": "Hand Puppet Theater Design",
+        "description": "Desain latar dan karakter untuk pertunjukan boneka tangan tradisional, dengan gaya cat yang sederhana dan fokus pada ekspresi wajah.",
+        "examplePrompt": "A hand puppet theater set design of a whimsical forest clearing. Simple painted cardboard backdrop (flat trees), wooden stage, characters with oversized, comical painted expressions."
+      },
+      {
+        "name": "Spiro-Lattice (Geometric Art)",
+        "description": "Seni yang menggunakan garis-garis lurus dan lingkaran yang tumpang tindih untuk menciptakan ilusi kedalaman dan pola geometris yang kompleks.",
+        "examplePrompt": "A black and white Spiro-Lattice geometric artwork. Hundreds of fine straight lines forming curves and optical illusions, mathematically precise, abstract pattern."
+      },
+      {
+        "name": "Block Print (Kids' Stamps)",
+        "description": "Meniru cetakan stempel sederhana dengan blok kayu atau karet, menghasilkan bentuk yang tebal, kasar, dan warna solid.",
+        "examplePrompt": "A block print illustration of a group of stick figures playing. Thick, solid black shapes with visible ink texture, simple and bold design, reminiscent of a child's potato stamp."
+      },
+      {
+        "name": "Retro Arcade Marquee Art",
+        "description": "Gaya ilustrasi yang cerah, penuh aksi, dan terkadang sedikit vulgar dari panel judul mesin *arcade* tahun 80-an.",
+        "examplePrompt": "A vibrant, airbrushed retro arcade marquee art illustration of a laser space battle. Intense red and purple neon colors, dynamic action pose, slightly exaggerated characters, 1980s gaming aesthetic."
+      },
+      {
+        "name": "Coloring Book Page (Pre-Coloring)",
+        "description": "Gambar yang dirancang untuk buku mewarnai, hanya terdiri dari garis luar hitam yang tebal dan jelas, tanpa bayangan atau warna.",
+        "examplePrompt": "A detailed, clean black line art drawing of a complex robotic zoo in the style of a coloring book page. Thick, consistent black lines, all areas are open for coloring, clear and inviting composition."
+      },
+      {
+        "name": "Fuzzy Poster Art (Velvet Texture)",
+        "description": "Ilustrasi yang dicetak dengan garis luar beludru hitam, menciptakan tekstur yang lembut dan area untuk diwarnai dengan spidol cerah.",
+        "examplePrompt": "An illustration that simulates a fuzzy velvet poster of a mystical cat. Thick black velvet outlines, bright neon marker colors filling the spaces, soft textured background."
+      },
+      {
+        "name": "Play-Doh Sculpture",
+        "description": "Tampilan patung yang dibuat dari adonan Play-Doh, dengan tekstur yang lembut, cetakan jari yang terlihat, dan warna-warna cerah yang dicampur.",
+        "examplePrompt": "A cheerful sculpture of a small dinosaur made from Play-Doh. Visible finger marks and rolling traces, bright, slightly mixed primary colors, simple, malleable texture."
+      }
+    ]
+  },
+  {
+    "id": "pixel_retro_comp",
+    "name": "8. SENI PIKSEL & RETRO KOMPUTER",
+    "accentColor": "maroon",
+    "icon": "fas fa-dice",
+    "definition": [
+      "Mencakup gaya visual yang berasal dari keterbatasan perangkat keras komputer dan konsol game awal, menekankan pada resolusi rendah, palet warna terbatas, dan efek visual berbasis digital yang kuno."
+    ],
+    "substyles": [
+      {
+        "name": "8-bit Pixel Art (NES Style)",
+        "description": "Gambar piksel beresolusi sangat rendah (sekitar 256x240), dengan palet warna yang sangat terbatas (kurang dari 16 warna), dan *dithering* yang terlihat jelas.",
+        "examplePrompt": "A full-scene 8-bit pixel art of a fantasy warrior standing on a mountain peak. Low resolution (NES console style), visible pixel grid, limited bright color palette (red, cyan, black, white), simple block shadows."
+      },
+      {
+        "name": "ASCII Art (Modern)",
+        "description": "Seni yang dibuat seluruhnya dari karakter teks (huruf, angka, simbol) untuk menciptakan gambar, dengan detail yang rumit.",
+        "examplePrompt": "A detailed ASCII art portrait of a famous musician. Created entirely using text characters, complex shading and tones achieved by varied character density, white text on black background, full character set."
+      },
+      {
+        "name": "CRT Monitor Display",
+        "description": "Visual yang tampak seperti dilihat pada monitor tabung katoda (CRT) yang kuno, dengan garis pindai (scanlines) yang tebal dan tepi yang sedikit melengkung.",
+        "examplePrompt": "A first-person view of a hacking screen on an old CRT monitor. Green monochromatic text (like a terminal), thick curved scanlines, subtle screen flicker effect, deep green glow."
+      },
+      {
+        "name": "Low-Poly 3D (PS1 Era)",
+        "description": "Model 3D yang dibuat dengan jumlah poligon yang sangat sedikit, tekstur resolusi rendah yang kabur, dan masalah *vertex-snapping* yang khas pada konsol era PlayStation 1.",
+        "examplePrompt": "A low-poly 3D model of a giant robot standing in a fog-filled city street. Extremely low polygon count, grainy and stretching low-res textures (PS1 style), hard vertex snapping, dark and moody lighting."
+      },
+      {
+        "name": "CGA Graphics (4 Colors)",
+        "description": "Grafik komputer yang terbatas pada 4 warna (biasanya Cyan, Magenta, White, Black atau Brown, Green, Red, Yellow), resolusi rendah, dan palet yang sangat khas.",
+        "examplePrompt": "A CGA graphics illustration of a jungle scene using only 4 colors (Magenta, Cyan, White, Black). Simple geometric shapes, distinct color clashes, retro PC gaming aesthetic."
+      },
+      {
+        "name": "MS Paint Artwork (Unfiltered)",
+        "description": "Seni digital yang dibuat dengan antarmuka yang sangat mendasar (seperti MS Paint), menggunakan alat sederhana, *fill bucket*, dan *pixel-by-pixel* editing.",
+        "examplePrompt": "A detailed landscape painting created in the style of unfiltered MS Paint. Uses only the basic 'bucket fill' tool and 'pencil' brush, pixelated edges, bright and sometimes garish colors, rudimentary digital art."
+      },
+      {
+        "name": "Handheld Console Monochrome",
+        "description": "Grafik piksel dengan hanya 2 warna (hitam dan putih/hijau) dan resolusi yang sangat rendah, seperti pada konsol genggam awal.",
+        "examplePrompt": "A monochrome pixel illustration of a spaceship landing. Uses only black and a light pea-green color, low resolution (Game Boy style), heavy dithering for shadows, iconic retro handheld look."
+      },
+      {
+        "name": "Vector Graphic '80s Aesthetic",
+        "description": "Grafik vektor yang sangat geometris, dengan gradasi linier, warna neon, dan desain yang dipengaruhi oleh film 'Tron' (Grid).",
+        "examplePrompt": "A vector graphic illustration of a neon-grid city from the 1980s. Sharp geometric shapes, linear gradients, hot pink and electric blue colors, wireframe grid floor, 'Synthwave' aesthetic."
+      },
+      {
+        "name": "Teletext/Minitel Art",
+        "description": "Seni yang sangat primitif yang menggunakan blok karakter terbatas, biasanya hanya 6-8 warna, dan resolusi sangat rendah.",
+        "examplePrompt": "A Teletext/Minitel art image of a weather forecast icon (sun and clouds). Very blocky characters, limited to 8 colors (red, blue, green, etc.), low-fidelity digital look."
+      },
+      {
+        "name": "Point-and-Click Adventure Scenery",
+        "description": "Latar belakang yang dilukis dengan detail piksel yang tinggi (sekitar 320x200), dengan palet 256 warna, dari game petualangan PC awal.",
+        "examplePrompt": "A highly detailed pixel art background of a dark, cluttered inventor's lab. 256-color palette (Amiga/early PC adventure game style), visible pixel shading, static and atmospheric scene."
+      },
+      {
+        "name": "Glitch Art (Compression Artifacts)",
+        "description": "Seni yang sengaja memasukkan artefak kompresi (seperti blok JPG yang besar) atau kesalahan data (datamoshing) untuk efek yang terdistorsi.",
+        "examplePrompt": "A portrait that has been intentionally corrupted with heavy Glitch Art effects. Large, multicolored JPG compression blocks, horizontal data bending and color bleeding, digital distortion aesthetic."
+      },
+      {
+        "name": "Voxel Art (Cube-based 3D)",
+        "description": "Model 3D yang dibangun dari kubus-kubus (voxel) kecil yang seragam, memberikan tampilan blok bangunan yang terstruktur.",
+        "examplePrompt": "A Voxel Art scene of a peaceful valley with a river and a small cabin. All elements are composed of small, brightly colored cubes, isometric view, clean and blocky 3D aesthetic."
+      },
+      {
+        "name": "Old School 2D Platformer Sprite",
+        "description": "Karakter atau objek yang disajikan sebagai sprite game platformer 2D klasik, dengan animasi bingkai yang kaku.",
+        "examplePrompt": "A large, highly detailed sprite of an ancient, mechanical boss enemy. 16-bit pixel art style (SNES/Mega Drive), full animation frame, intricate metallic texture achieved with dithering."
+      },
+      {
+        "name": "Digital Dithering Portrait (Monochromatic)",
+        "description": "Penggunaan pola titik yang disengaja (dithering) untuk menciptakan ilusi gradasi bayangan pada gambar hitam putih.",
+        "examplePrompt": "A portrait created using only black and white pixels with strong digital dithering patterns (Bayer matrix) to simulate grey tones. High contrast, technical and retro printing aesthetic."
+      },
+      {
+        "name": "ZX Spectrum Color Clash",
+        "description": "Ilustrasi piksel yang menampilkan fenomena 'color clash' (bentrokan warna) yang khas dari konsol ZX Spectrum, di mana batas warna meluas.",
+        "examplePrompt": "A pixel art scene of a spaceship flying through a nebula, showing strong ZX Spectrum color clash effects. Limited color per 8x8 block, jarring and brightly colored, low resolution."
+      },
+      {
+        "name": "RenderMan Style (Early CGI)",
+        "description": "Tampilan rendering 3D yang mengingatkan pada CGI awal tahun 90-an (seperti Pixar awal), dengan permukaan yang sangat mulus, pencahayaan yang sederhana, dan tekstur yang agak plastik.",
+        "examplePrompt": "A 3D render in the style of early RenderMan CGI of a talking lamp. Extremely smooth, perfect surface shading, simple spot lighting, slight plastic look, vintage computer animation aesthetic."
+      },
+      {
+        "name": "ASCII Art (3D Wireframe)",
+        "description": "Representasi 3D objek yang dirender hanya dengan karakter ASCII dan garis untuk menciptakan wireframe.",
+        "examplePrompt": "A complex ASCII art 3D wireframe render of a rotating DNA helix. Uses dashes and pipes to create the structure, simple geometric form, early computer rendering look."
+      },
+      {
+        "name": "Doom/Wolfenstein Sprite Look",
+        "description": "Sprite 2D beresolusi tinggi yang digunakan dalam lingkungan 3D awal, dengan pencahayaan dan *perspective warp* yang kasar.",
+        "examplePrompt": "A detailed 2D sprite of a demonic soldier rendered with the style of early 90s first-person shooters (Doom/Wolfenstein). High-res pixel painting, dark and gritty texture, static appearance in a 3D space."
+      },
+      {
+        "name": "Rotoscope Animation (Early Digital)",
+        "description": "Animasi yang dilacak dari rekaman video (rotoscope), dengan garis yang kasar dan warna solid yang khas dari proses digital awal.",
+        "examplePrompt": "A rotoscope animation frame of a dancer moving, rendered with rough, hand-drawn lines and flat, simple colors (like A-ha's 'Take On Me' video), jerky, stylized motion."
+      },
+      {
+        "name": "Video Game Character Select Screen",
+        "description": "Ilustrasi karakter yang bergaya, dengan bingkai, font retro, dan latar belakang yang khas dari layar pemilihan karakter game konsol.",
+        "examplePrompt": "A detailed character portrait in the style of a 16-bit fighting game character select screen. Unique background, stylized font for the name and stats, dynamic pose, vibrant arcade colors."
+      },
+      {
+        "name": "Abstract Digital Noise",
+        "description": "Seni yang berfokus pada pola acak atau terstruktur dari noise digital, seperti *perlin noise* atau *TV static*.",
+        "examplePrompt": "An abstract image composed entirely of structured digital noise (Perlin noise and static). Monochromatic greys and blacks, creating fractal-like textures, high-tech abstract art."
+      },
+      {
+        "name": "Hand-Drawn Iconography (Macintosh 1984)",
+        "description": "Ikon hitam dan putih beresolusi sangat rendah yang digambar dengan piksel, seperti antarmuka pengguna Macintosh orisinal.",
+        "examplePrompt": "A simple black and white pixel icon of a smiling floppy disk. Very low resolution (32x32 pixels), minimal details, black pixels on a white background, classic 1984 Mac OS aesthetic."
+      },
+      {
+        "name": "Game Boy Camera Photo",
+        "description": "Gambar yang terlihat seperti diambil dengan kamera Game Boy awal, dengan resolusi 4-shade grayscale yang sangat rendah dan kontras yang keras.",
+        "examplePrompt": "A portrait photo rendered to look like it was taken with the Game Boy Camera. Extremely low resolution, only 4 shades of grey/green, heavy pixelation, high contrast, unique vintage digital photo look."
+      },
+      {
+        "name": "Glitch Art (VHS Tape Tracking)",
+        "description": "Visual yang meniru distorsi gambar dari kesalahan pelacakan (tracking) pita VHS yang rusak.",
+        "examplePrompt": "A landscape image distorted with VHS tape tracking errors. Horizontal color bands, wavy lines, color bleeding at the bottom of the screen, classic analogue video glitch effect."
+      },
+      {
+        "name": "Text Mode RPG Map",
+        "description": "Peta atau tampilan dunia yang dibuat dengan karakter teks yang disederhanakan, seperti pada game RPG berbasis teks kuno.",
+        "examplePrompt": "A simple text-mode map of a dungeon maze. Uses symbols like '#' for walls, '.' for floor, and '@' for the player, green text on black, minimalist and conceptual RPG interface."
+      }
+    ]
+  }
+]
