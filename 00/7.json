@@ -1,0 +1,416 @@
+[
+  {
+    "id": "style_28_camera_basic",
+    "name": "28. KOMPOSISI DASAR & SUDUT KAMERA",
+    "accentColor": "purple",
+    "icon": "fas fa-video",
+    "definition": [
+      "Mengacu pada posisi dasar kamera atau pandangan mata yang diarahkan ke subjek, yang secara drastis mengubah persepsi audiens terhadap skala, mood, dan hubungan antar objek.",
+      "Mencakup pilihan bidikan utama (close-up, full shot) dan sudut yang menciptakan dampak emosional dasar (tinggi, rendah, datar).",
+      "Elemen fundamental dalam sinematografi dan fotografi untuk menciptakan narasi visual yang kuat."
+    ],
+    "substyles": [
+      {
+        "name": "High-Angle Shot (Bidikan Sudut Tinggi)",
+        "description": "Kamera diposisikan di atas subjek, melihat ke bawah. Membuat subjek terlihat kecil, rentan, atau inferior. ",
+        "examplePrompt": "A high-angle shot photograph of a solitary man sitting on a park bench in a sprawling, empty plaza. The man is dwarfed by the environment, creating a sense of isolation and insignificance. Wide lens, muted colors."
+      },
+      {
+        "name": "Low-Angle Shot (Bidikan Sudut Rendah)",
+        "description": "Kamera diposisikan di bawah subjek, melihat ke atas. Membuat subjek tampak besar, kuat, atau heroik. ",
+        "examplePrompt": "A low-angle shot digital painting of a superhero landing on a rooftop, with the camera looking up at them against the dramatic, cloudy sky. Extreme close-up on the boots and flowing cape, powerful, dynamic lighting, ultra-wide lens perspective."
+      },
+      {
+        "name": "Eye-Level Shot (Bidikan Sejajar Mata)",
+        "description": "Kamera diletakkan sejajar dengan mata subjek. Paling alami dan objektif, menciptakan rasa kedekatan dan koneksi langsung dengan penonton.",
+        "examplePrompt": "An eye-level shot portrait of a girl smiling directly at the camera, natural daylight, soft focus, creating an intimate and genuine moment."
+      },
+      {
+        "name": "Worm's-Eye View (Bidikan Cacing)",
+        "description": "Bidikan ekstrem dari tanah, membuat subjek tampak menjulang tinggi dan terdistorsi secara dramatis. Mirip Low-Angle, tetapi lebih ekstrem.",
+        "examplePrompt": "A Worm's-Eye View photograph looking up at the towering, geometric architecture of a modern skyscraper. Distorted perspective, massive scale, monochrome."
+      },
+      {
+        "name": "Bird's-Eye View (Bidikan Mata Burung)",
+        "description": "Bidikan ekstrem dari atas (drone/helikopter), menunjukkan pemandangan dari perspektif peta. Fokus pada pola lantai/lanskap.",
+        "examplePrompt": "A Bird's-Eye View drone shot of a massive, winding river cutting through a vibrant green forest, emphasizing the natural patterns and scale. Aerial perspective."
+      },
+      {
+        "name": "Extreme Close-Up (ECU)",
+        "description": "Bidikan yang sangat dekat, hanya menunjukkan bagian kecil dari subjek (misalnya mata atau detail tekstur), menekankan emosi intens.",
+        "examplePrompt": "An extreme close-up photograph of a single tear rolling down a subject's cheek. Shallow depth of field, dramatic lighting, intense focus on skin texture."
+      },
+      {
+        "name": "Close-Up (CU)",
+        "description": "Bidikan yang fokus pada wajah subjek, menekankan ekspresi dan emosi.",
+        "examplePrompt": "A close-up cinematic shot of an actor's face showing subtle fear, focused eyes, soft key lighting, minimal background distraction."
+      },
+      {
+        "name": "Medium Close-Up (MCU)",
+        "description": "Bidikan dari dada ke atas, menyeimbangkan emosi wajah dengan bahasa tubuh bagian atas.",
+        "examplePrompt": "A medium close-up portrait of a woman wearing a heavy coat, looking off-camera into the fog. Moody lighting, strong atmosphere."
+      },
+      {
+        "name": "Medium Shot (MS)",
+        "description": "Bidikan yang menunjukkan subjek dari pinggang ke atas. Paling umum untuk dialog, menyeimbangkan ekspresi dan konteks.",
+        "examplePrompt": "A medium shot of two people talking in a busy cafe, the focus is on their interaction, with moderate background blur (bokeh)."
+      },
+      {
+        "name": "Cowboy Shot (American Shot)",
+        "description": "Bidikan dari pertengahan paha ke atas, menunjukkan tangan subjek dan senjata (khususnya untuk genre Western).",
+        "examplePrompt": "A cowboy shot photograph of a gunslinger standing in a dusty saloon doorway, hands hovering over his holsters. Gritty texture, high contrast lighting."
+      },
+      {
+        "name": "Full Shot (FS)",
+        "description": "Bidikan yang menunjukkan seluruh tubuh subjek dari kepala sampai kaki, termasuk latar belakang yang relevan.",
+        "examplePrompt": "A full shot of a ballerina performing a complicated leap on a large stage. Emphasizing the full silhouette and form of the movement."
+      },
+      {
+        "name": "Wide Shot (WS)",
+        "description": "Bidikan yang menunjukkan seluruh subjek dalam konteks lingkungan yang luas. Subjek tampak kecil.",
+        "examplePrompt": "A wide shot photograph of a lone hiker standing at the edge of a massive, snow-covered mountain range, emphasizing the scale of the environment."
+      },
+      {
+        "name": "Establishing Shot (E-Shot)",
+        "description": "Bidikan lebar di awal adegan untuk menetapkan lokasi geografis, skala, dan waktu, memberikan konteks bagi penonton.",
+        "examplePrompt": "An expansive, wide establishing shot of a futuristic Tokyo skyline at sunset, showing the sheer scale of the city. Highly detailed matte painting."
+      },
+      {
+        "name": "Master Shot",
+        "description": "Bidikan tunggal, jangka panjang yang mencakup seluruh aksi dari adegan film. Seringkali bidikan lebar/full.",
+        "examplePrompt": "A detailed Master Shot illustration of a medieval market square, capturing all characters and activities within a single, expansive frame."
+      },
+      {
+        "name": "Two Shot",
+        "description": "Bidikan yang menampilkan dua karakter, seringkali dari pinggang ke atas, menunjukkan hubungan atau interaksi mereka.",
+        "examplePrompt": "A two-shot photograph of an elderly couple holding hands on a park bench, soft, romantic lighting."
+      },
+      {
+        "name": "Over-the-Shoulder Shot (OTS)",
+        "description": "Bidikan dari belakang bahu satu karakter, mengarah ke karakter lain. Umum dalam percakapan untuk menghubungkan dua subjek.",
+        "examplePrompt": "An over-the-shoulder shot photograph of a tense conversation between two businessmen in a dimly lit office. Focus is sharp on the character being spoken to."
+      },
+      {
+        "name": "Point-of-View Shot (POV)",
+        "description": "Kamera bertindak sebagai mata karakter, menempatkan penonton di posisi karakter tersebut.",
+        "examplePrompt": "A first-person Point-of-View shot looking down the barrel of a smoking, recently fired antique pistol. Hand visible in the frame, hyper-realistic detail."
+      },
+      {
+        "name": "Reaction Shot",
+        "description": "Bidikan yang secara cepat fokus pada reaksi emosional karakter terhadap suatu peristiwa di luar bingkai.",
+        "examplePrompt": "A tight close-up Reaction Shot of a subject's face showing sudden, stunned realization. Intense lighting on the eyes."
+      },
+      {
+        "name": "Insert Shot",
+        "description": "Bidikan ekstrem close-up dari detail kecil yang penting (misalnya jam tangan, kunci, tulisan di kertas), sering digunakan untuk informasi plot.",
+        "examplePrompt": "An insert shot photograph of a single, antique key resting on a worn wooden table. Shallow depth of field, focused on the key's intricate detail."
+      },
+      {
+        "name": "Clean Single",
+        "description": "Bidikan close-up dari satu subjek tanpa ada bagian tubuh subjek lain di latar depan (kebalikan dari OTS).",
+        "examplePrompt": "A clean single shot portrait of a confident woman sitting at a large mahogany table, isolated focus, professional setting."
+      },
+      {
+        "name": "Dirty Single",
+        "description": "Bidikan close-up dari satu subjek, tetapi dengan sedikit bahu atau kepala subjek lain terlihat di latar depan (mirip OTS, tetapi lebih fokus pada subjek di depan).",
+        "examplePrompt": "A dirty single shot of a character looking worried, with the blurred shoulder of their interrogator visible in the immediate foreground, dramatic tension."
+      },
+      {
+        "name": "Cutaway Shot",
+        "description": "Bidikan yang menyela aksi untuk menunjukkan subjek lain atau detail di tempat lain, sebelum kembali ke aksi utama (misalnya: penonton, detail lingkungan).",
+        "examplePrompt": "A cutaway shot photograph of a pigeon landing on a distant window ledge, momentarily interrupting a tense indoor scene. Sharp focus, distant context."
+      },
+      {
+        "name": "Low-Key Lighting",
+        "description": "Pencahayaan dramatis yang menggunakan bayangan dominan dan kontras tinggi untuk menciptakan mood misterius, gelap, atau menakutkan (Chiaroscuro).",
+        "examplePrompt": "A portrait lit with Low-Key Lighting, the subject's face is mostly shrouded in deep shadow, with only one side dramatically illuminated. Noir aesthetic, high contrast."
+      },
+      {
+        "name": "High-Key Lighting",
+        "description": "Pencahayaan cerah dan rata yang mengurangi bayangan dan kontras. Menciptakan mood ceria, optimis, atau steril.",
+        "examplePrompt": "An interior photograph utilizing High-Key Lighting, the room is flooded with bright, even white light, minimal shadows, clean, modern, optimistic mood."
+      },
+      {
+        "name": "Rule of Thirds Composition",
+        "description": "Subjek ditempatkan di sepertiga bingkai, menggunakan grid imajiner untuk menciptakan keseimbangan, harmoni, dan minat visual.",
+        "examplePrompt": "A landscape photograph where the horizon is placed on the lower third line, and a single boat is placed on one of the intersecting points (Rule of Thirds composition). Golden hour lighting."
+      }
+    ]
+  },
+  {
+    "id": "style_29_camera_advance",
+    "name": "29. PERGERAKAN KAMERA & KOMPOSISI LANJUTAN",
+    "accentColor": "gold",
+    "icon": "fas fa-film",
+    "definition": [
+      "Teknik sinematik yang berfokus pada dinamika gerakan kamera atau penempatan komposisi yang non-standar untuk mempengaruhi narasi dan emosi.",
+      "Meliputi pergerakan fisik (dolly, crane, handheld) dan teknik komposisi yang kompleks (simetri, rasio emas).",
+      "Pergerakan ini sering kali bertujuan untuk mensimulasikan pandangan manusia atau meningkatkan ketegangan dramatis."
+    ],
+    "substyles": [
+      {
+        "name": "Bidikan Pan (Pan Shot)",
+        "description": "Kamera berputar horizontal dari satu sisi ke sisi lain sambil tetap di satu titik. Digunakan untuk menyapu pemandangan atau mengikuti subjek yang bergerak.",
+        "examplePrompt": "A cinematic illustration mimicking a Pan Shot, showing the blurred movement of a vast desert landscape as the camera quickly moves horizontally, emphasizing speed and scale."
+      },
+      {
+        "name": "Bidikan Tilt (Tilt Shot)",
+        "description": "Kamera bergerak vertikal (atas ke bawah atau sebaliknya) dari satu titik. Digunakan untuk mengungkap skala subjek atau informasi baru.",
+        "examplePrompt": "A photograph mimicking a Tilt Shot, starting high on the top of a giant, ancient statue and slowly moving down to reveal a tiny person standing at its base, emphasizing the height."
+      },
+      {
+        "name": "Bidikan Dolly (Dolly Shot / Tracking Shot)",
+        "description": "Kamera bergerak maju, mundur, atau paralel dengan subjek di atas rel (dolly) atau roda. Menciptakan perasaan imersi atau ketegangan yang stabil.",
+        "examplePrompt": "A cinematic shot mimicking a Dolly Shot, where the camera glides smoothly forward through a crowded marketplace, keeping sharp focus on the path ahead, dynamic and immersive."
+      },
+      {
+        "name": "Bidikan Crane / Jib (Crane Shot)",
+        "description": "Kamera bergerak di udara (naik, turun, atau mengelilingi) menggunakan lengan derek. Digunakan untuk bidikan pembuka/penutup yang agung atau untuk mengungkap pemandangan secara dramatis.",
+        "examplePrompt": "An aerial view mimicking a Crane Shot, where the camera is high above a small group of people, slowly descending towards them in a large, empty courtyard, creating a grand sense of scale and revelation."
+      },
+      {
+        "name": "Bidikan Steadicam",
+        "description": "Kamera yang distabilkan untuk memungkinkan pergerakan halus (berlari, menaiki tangga) seolah-olah mengambang. Menciptakan kehalusan yang imersif.",
+        "examplePrompt": "A seamless, dynamic illustration mimicking a long Steadicam shot, following a character smoothly running through a complex, winding urban alleyway."
+      },
+      {
+        "name": "Bidikan Handheld (Handheld Shot)",
+        "description": "Kamera dipegang tangan, menciptakan gerakan yang tidak stabil, bergoyang, atau gelisah. Digunakan untuk menciptakan kesan realisme, urgensi, atau POV kacau.",
+        "examplePrompt": "A gritty, Handheld Shot photograph of a chaotic crowd during a protest. The image is slightly shaky and blurred, conveying urgency and raw realism, heavy film grain."
+      },
+      {
+        "name": "Bidikan Whip Pan (Whip Pan)",
+        "description": "Pergerakan Pan yang sangat cepat, menghasilkan blur horizontal yang ekstrem, digunakan sebagai transisi cepat antara dua adegan/subjek.",
+        "examplePrompt": "An abstract illustration mimicking a Whip Pan, where the entire image is a smear of horizontal, blurred colors (red and blue), suggesting a fast, jarring transition."
+      },
+      {
+        "name": "SnorriCam (Body-Mounted Camera)",
+        "description": "Kamera dipasang langsung ke badan subjek, sehingga subjek tampak tetap di tempatnya sementara latar belakang berputar/bergerak liar, menciptakan disorientasi.",
+        "examplePrompt": "A photograph mimicking a SnorriCam shot: a person's face is in sharp, static focus, while the surrounding environment (a busy carnival) spins and blurs dramatically around them, creating a dizzying effect."
+      },
+      {
+        "name": "Dutch Angle / Canted Angle (Sudut Miring)",
+        "description": "Kamera dimiringkan pada sumbu lateral, membuat cakrawala tidak horizontal. Digunakan untuk menciptakan perasaan ketegangan, kekacauan, atau kegelisahan psikologis.",
+        "examplePrompt": "A highly distorted, Dutch Angle photograph of an old, abandoned house on a stormy night. The building and horizon are aggressively tilted, creating a sense of imbalance and psychological horror."
+      },
+      {
+        "name": "Leading Lines Composition",
+        "description": "Penggunaan garis alami (jalan, rel, sungai, pagar) untuk memandu mata penonton ke titik fokus atau subjek gambar. ",
+        "examplePrompt": "An architectural photograph using strong Leading Lines Composition, where the railings and ceiling beams of a subway tunnel converge powerfully towards a distant light source. Symmetrical design."
+      },
+      {
+        "name": "Symmetry Composition",
+        "description": "Penempatan elemen secara seimbang pada kedua sisi bingkai (sering menggunakan refleksi), menciptakan rasa ketertiban, keindahan formal, atau formalitas.",
+        "examplePrompt": "A perfectly symmetrical photograph of a reflection of a temple in a still pool of water. Perfect balance, calming, minimalist aesthetic."
+      },
+      {
+        "name": "Frame within a Frame",
+        "description": "Menggunakan objek alami (jendela, pintu, lengkungan) di latar depan untuk membingkai subjek utama, menambahkan kedalaman dan fokus.",
+        "examplePrompt": "A scene where a character is framed within the archway of an old stone ruin, emphasizing isolation and depth (Frame within a Frame technique). Backlit."
+      },
+      {
+        "name": "Golden Ratio/Spiral Composition",
+        "description": "Menggunakan rasio emas (1:1.618) untuk penempatan elemen kunci, menciptakan komposisi yang harmonis dan alami yang enak dilihat.",
+        "examplePrompt": "A detailed nature photograph where the spiraling pattern of a seashell perfectly aligns with the Golden Ratio Composition, creating a balanced and visually satisfying image."
+      },
+      {
+        "name": "Headroom",
+        "description": "Jumlah ruang kosong di atas kepala subjek dalam bingkai. Mengurangi headroom menciptakan bidikan yang ketat; terlalu banyak menciptakan kesan ruang yang luas/asing.",
+        "examplePrompt": "A close-up portrait with intentionally minimal Headroom, making the subject feel tightly constrained and intense, cinematic style."
+      },
+      {
+        "name": "Looking Room (Nose Room)",
+        "description": "Ruang yang sengaja dibiarkan kosong di depan subjek yang melihat atau bergerak ke samping, memberikan ruang untuk mata subjek.",
+        "examplePrompt": "A medium shot of a character looking intently to the left, with significant Looking Room (empty space) on the left side of the frame, giving anticipation to what they are looking at."
+      },
+      {
+        "name": "Tracking Shot (Parallel)",
+        "description": "Kamera bergerak sejajar dengan subjek, menjaga jarak konstan. Umum dalam adegan lari atau pergerakan yang berkelanjutan.",
+        "examplePrompt": "A cinematic illustration mimicking a Parallel Tracking Shot, following a lone train car moving through a snowy landscape, maintaining a steady side-view."
+      },
+      {
+        "name": "Push In",
+        "description": "Kamera bergerak maju secara perlahan ke subjek (dolly-in), menekankan momen realisasi, urgensi, atau penemuan.",
+        "examplePrompt": "A portrait mimicking a Push In: the background appears to be slowly zooming in towards the subject's intense face, emphasizing a sudden moment of psychological clarity."
+      },
+      {
+        "name": "Pull Back",
+        "description": "Kamera bergerak mundur dari subjek (dolly-out), sering digunakan untuk mengungkap lingkungan yang lebih besar atau meninggalkan subjek dalam isolasi.",
+        "examplePrompt": "A cinematic shot mimicking a Pull Back: the camera starts on a close-up of two people arguing and slowly moves backward to reveal they are on a tiny boat in the middle of a vast, stormy ocean."
+      },
+      {
+        "name": "Match Cut (Implied)",
+        "description": "Dua bidikan yang berbeda digabungkan secara visual melalui bentuk atau komposisi yang serupa, menciptakan transisi visual yang halus (misalnya: bentuk tulang berubah menjadi bentuk pesawat).",
+        "examplePrompt": "An illustration designed for a Match Cut transition, showing a large, circular clock face framed exactly like a full moon in the next panel, emphasizing visual continuity."
+      },
+      {
+        "name": "Bidikan Obyektif",
+        "description": "Kamera bertindak sebagai pengamat yang netral dan tidak terlibat, tanpa menunjukkan sudut pandang karakter tertentu.",
+        "examplePrompt": "An objective shot photograph of a crowded room seen from a distance, where no single person is the focus, capturing the entire scene neutrally."
+      },
+      {
+        "name": "Bidikan Subjektif",
+        "description": "Bidikan yang menunjukkan apa yang dilihat atau dirasakan oleh karakter (seringkali POV, tetapi bisa juga terdistorsi atau buram).",
+        "examplePrompt": "A cinematic illustration mimicking a Subjective Shot, showing the view through the eyes of a dizzy, sick character: the edges are blurred, colors are slightly off, and the image is subtly tilted."
+      },
+      {
+        "name": "Deep Space Composition",
+        "description": "Penggunaan kedalaman dan perspektif untuk menempatkan subjek penting di latar depan, tengah, dan belakang, menciptakan drama spasial.",
+        "examplePrompt": "A scene utilizing Deep Space Composition: a figure is sharply in focus in the foreground, another figure is clear in the middle ground, and a third figure is visible in the distant background, all equally important."
+      },
+      {
+        "name": "Placing on Diagonals",
+        "description": "Menempatkan subjek dan elemen utama pada garis diagonal untuk meningkatkan dinamika, gerakan, dan ketegangan visual dalam bingkai statis.",
+        "examplePrompt": "A sports photograph where the runner and the finish line are placed along a strong, ascending diagonal line, emphasizing speed and forward momentum."
+      },
+      {
+        "name": "Triangle Composition",
+        "description": "Mengatur tiga elemen kunci dalam bentuk segitiga (stabil atau terbalik) untuk menciptakan komposisi yang seimbang dan kuat secara struktural.",
+        "examplePrompt": "A family portrait utilizing Triangle Composition: three subjects arranged in a low, stable triangle formation, conveying unity and strength."
+      },
+      {
+        "name": "Foreground Framing",
+        "description": "Menggunakan objek yang buram di latar depan untuk menonjolkan kedalaman dan mengarahkan fokus ke subjek yang tajam di latar tengah atau belakang.",
+        "examplePrompt": "A photograph where a cluster of out-of-focus, dark leaves in the foreground frame a brightly lit figure standing on a balcony in the middle ground."
+      }
+    ]
+  },
+  {
+    "id": "style_30_camera_teknik",
+    "name": "30. TEKNIK LENSA & PENCIPTAAN VISUAL SINEMATIK",
+    "accentColor": "teal",
+    "icon": "fas fa-lightbulb",
+    "definition": [
+      "Mengacu pada penggunaan efek optik spesifik, filter, dan rasio aspek untuk memanipulasi tampilan akhir gambar, memberikan karakter visual yang unik.",
+      "Teknik ini seringkali menentukan 'look' atau 'feel' keseluruhan dari sebuah film atau proyek visual.",
+      "Melibatkan kedalaman ruang, distorsi, dan manipulasi warna pada tahap pasca-produksi (atau saat pengambilan gambar)."
+    ],
+    "substyles": [
+      {
+        "name": "Shallow Focus / Bokeh",
+        "description": "Hanya subjek utama yang fokus, latar depan dan latar belakang buram. Umum untuk potret, menonjolkan subjek dan memisahkan dari konteks. [Image of Bokeh]",
+        "examplePrompt": "A portrait with extremely Shallow Depth of Field, the subject's face is sharp, but the background dissolves into soft, colorful orbs of light (strong bokeh effect)."
+      },
+      {
+        "name": "Deep Focus",
+        "description": "Seluruh bingkai, dari latar depan hingga latar belakang yang jauh, berada dalam fokus yang tajam. Menciptakan banyak titik fokus dan detail (ala Orson Welles).",
+        "examplePrompt": "A detailed street scene captured with Deep Focus, where every object, from the newspaper in the foreground to the distant billboard, is perfectly sharp. Orson Welles style."
+      },
+      {
+        "name": "Rack Focus",
+        "description": "Perubahan fokus secara cepat dari satu subjek ke subjek lain di dalam bidikan yang sama, secara dramatis mengarahkan perhatian penonton.",
+        "examplePrompt": "A cinematic shot using Rack Focus, where the initial focus on an object in the foreground quickly shifts to the character looking surprised in the background."
+      },
+      {
+        "name": "Lensa Fisheye (Fisheye Lens)",
+        "description": "Lensa sudut super lebar yang menciptakan distorsi visual melengkung yang ekstrem, sering digunakan untuk efek komedi atau rasa terjebak/terdistorsi.",
+        "examplePrompt": "A photograph captured with a Fisheye Lens of a skater doing a trick in a bowl, the edges of the frame are extremely warped, creating a circular, claustrophobic view."
+      },
+      {
+        "name": "Lensa Telefoto (Telephoto Lens)",
+        "description": "Lensa yang 'memampatkan' latar depan dan latar belakang, membuat jarak tampak lebih dekat dan latar belakang tampak besar. Menciptakan ilusi kecepatan atau bahaya.",
+        "examplePrompt": "A cinematic shot captured with a Telephoto Lens of a character walking towards the camera on a busy city street, the background traffic appears dangerously close and compressed, creating a sense of urgency."
+      },
+      {
+        "name": "Lensa Sudut Lebar (Wide Angle Lens)",
+        "description": "Lensa yang membesar-besarkan kedalaman dan membuat objek yang dekat tampak lebih besar, sementara objek jauh tampak lebih kecil. Digunakan untuk bidikan lanskap atau claustrophobia.",
+        "examplePrompt": "An extreme Wide Angle Lens photograph of a small, cramped kitchen, making the foreground objects (a knife block) look exaggeratedly large and threatening, emphasizing tight space."
+      },
+      {
+        "name": "Lensa Anamorfik (Anamorphic Lens)",
+        "description": "Lensa yang menghasilkan rasio aspek lebar sinematik (2.35:1) dan menghasilkan *lens flare* horizontal yang khas dan bentuk bokeh oval.",
+        "examplePrompt": "A dark, atmospheric cinematic image captured with an Anamorphic Lens, featuring strong horizontal blue lens flares and a wide 2.35:1 aspect ratio, rich blacks."
+      },
+      {
+        "name": "Lens Flare (Cahaya Lensa)",
+        "description": "Cahaya yang masuk ke lensa dan menciptakan lingkaran atau garis cahaya yang terlihat. Digunakan untuk menambahkan realisme atau keindahan visual yang berlebihan (ala J.J. Abrams).",
+        "examplePrompt": "A digital painting featuring an intense Lens Flare effect: bright sunlight streaks across the frame, creating dramatic, glowing circles and lines, high-saturation, strong backlight."
+      },
+      {
+        "name": "Split Diopter Shot",
+        "description": "Penggunaan filter lensa khusus untuk menempatkan objek yang sangat dekat (foreground) dan objek yang jauh (background) dalam fokus yang tajam secara bersamaan, menciptakan kedalaman yang ekstrem.",
+        "examplePrompt": "A cinematic still mimicking a Split Diopter Shot: a character's hand is in sharp focus right next to the camera, while a distant, important object is also perfectly sharp, creating a jarring depth."
+      },
+      {
+        "name": "Filter Pro-Mist / Black Pro-Mist",
+        "description": "Filter yang melembutkan cahaya terang, mengurangi kontras, dan menciptakan cahaya yang sedikit menyebar (*halation*), memberikan tampilan yang 'bermimpi' atau nostalgia.",
+        "examplePrompt": "A portrait captured using a Black Pro-Mist Filter: highlights (like lamps or windows) bloom gently, shadows are lifted slightly, giving the image a soft, ethereal, and nostalgic look."
+      },
+      {
+        "name": "Filter Hitam-Putih (Monochrome)",
+        "description": "Penggunaan hanya warna hitam, putih, dan abu-abu, menekankan tekstur, bentuk, dan kontras dramatis (ala Film Noir atau fotografi klasik).",
+        "examplePrompt": "A Black and White photograph with stark, High Contrast, emphasizing the texture of an old brick wall and the angular shadow cast by a single streetlamp. Film Noir aesthetic."
+      },
+      {
+        "name": "Rasio Aspek 4:3",
+        "description": "Rasio layar yang lebih persegi, menciptakan tampilan yang 'vintage' (TV lama) atau rasa terkurung/klaustrofobia.",
+        "examplePrompt": "An image rendered in the 4:3 Aspect Ratio, showing a tight portrait in a small room, emphasizing the cramped composition and vintage video look. VHS grain added."
+      },
+      {
+        "name": "Rasio Aspek 2.35:1 (Cinemascope)",
+        "description": "Rasio layar lebar yang ekstrem, menciptakan tampilan 'epik' sinematik yang luar biasa.",
+        "examplePrompt": "An expansive landscape rendered in the 2.35:1 Aspect Ratio (Cinemascope), showing a wide, dramatic canyon at sunrise, emphasizing the breathtaking scale and cinematic quality."
+      },
+      {
+        "name": "Vignette Effect",
+        "description": "Pengurangan kecerahan atau saturasi secara halus di tepi bingkai, yang secara alami mengarahkan mata penonton ke tengah gambar.",
+        "examplePrompt": "A vintage portrait photograph with a subtle, dark Vignette Effect around the edges, focusing all attention on the subject's brightly lit face."
+      },
+      {
+        "name": "Grain/Noise Digital",
+        "description": "Penambahan butiran atau noise digital ke gambar untuk meniru tampilan film lama atau kamera digital dengan ISO tinggi, menambah tekstur mentah.",
+        "examplePrompt": "A night time street photograph with heavy Digital Grain/Noise, giving it a raw, documentary-style look and emphasizing the low light conditions."
+      },
+      {
+        "name": "Chromatic Aberration",
+        "description": "Distorsi lensa yang menyebabkan kegagalan lensa untuk memfokuskan semua warna pada titik yang sama, menciptakan 'fringe' warna di tepi kontras tinggi. Digunakan untuk efek distopia/sci-fi.",
+        "examplePrompt": "A futuristic portrait with intense Chromatic Aberration around the edges, giving the appearance of visual glitching and technological distortion. Neon colors, high contrast."
+      },
+      {
+        "name": "Hard Light",
+        "description": "Pencahayaan yang menciptakan bayangan yang tajam dan terdefinisi dengan baik. Digunakan untuk menambah drama, kontras, atau rasa bahaya.",
+        "examplePrompt": "A high-contrast scene lit with Hard Light, where sharp, angular shadows cut across the floor and walls, creating a geometric and dramatic composition."
+      },
+      {
+        "name": "Soft Light",
+        "description": "Pencahayaan yang menyebar yang menghilangkan bayangan tajam, menciptakan tampilan yang lembut, halus, atau romantis.",
+        "examplePrompt": "A beautiful portrait lit with Soft Light, where shadows are nearly eliminated and the light wraps gently around the subject's features, creating a dreamy, smooth effect."
+      },
+      {
+        "name": "Rim Lighting (Backlight)",
+        "description": "Cahaya ditempatkan di belakang subjek, menciptakan garis luar (rim) cahaya yang terang, memisahkan subjek dari latar belakang dan menambah drama.",
+        "examplePrompt": "A dramatic photograph of a figure standing against a dark background, highlighted only by a strong Rim Lighting effect, creating a glowing silhouette."
+      },
+      {
+        "name": "Motif Cahaya",
+        "description": "Penggunaan pola cahaya dan bayangan tertentu (misalnya, melalui bilah jendela atau tirai) untuk menciptakan tekstur visual di dalam bingkai.",
+        "examplePrompt": "A moody scene where Motif Cahaya is created by light passing through venetian blinds, casting strong, repetitive shadow lines across a character's face."
+      },
+      {
+        "name": "Komposisi Sentral (Center Composition)",
+        "description": "Subjek utama ditempatkan tepat di tengah bingkai, menciptakan fokus yang kuat, formalitas, atau rasa konfrontasi.",
+        "examplePrompt": "A portrait using Center Composition: the subject's face is perfectly centered in the frame, directly staring at the viewer, creating an intense, formal mood."
+      },
+      {
+        "name": "Komposisi Ruang Negatif",
+        "description": "Area kosong di sekitar subjek digunakan secara strategis untuk menonjolkan subjek utama dan menciptakan rasa minimalis atau kesendirian.",
+        "examplePrompt": "A minimalist painting featuring a tiny, brightly colored bird on a long, slender branch, surrounded by vast amounts of smooth, pale Negative Space."
+      },
+      {
+        "name": "Komposisi Garis Diagonal",
+        "description": "Mengatur elemen kunci pada garis diagonal untuk meningkatkan dinamika, gerakan, dan ketegangan visual dalam bingkai statis.",
+        "examplePrompt": "A sports photograph where the runner and the finish line are placed along a strong, ascending diagonal line, emphasizing speed and forward momentum."
+      },
+      {
+        "name": "Komposisi Peraturan Ganjil (Rule of Odds)",
+        "description": "Prinsip bahwa komposisi yang paling menarik secara visual adalah komposisi yang menampilkan jumlah subjek ganjil (tiga, lima, dst.).",
+        "examplePrompt": "A photograph utilizing the Rule of Odds: three identical red apples perfectly spaced on a white table, creating a balanced and visually satisfying arrangement."
+      },
+      {
+        "name": "Komposisi Segitiga (Triangle Composition)",
+        "description": "Mengatur tiga elemen kunci dalam bentuk segitiga untuk menciptakan komposisi yang stabil, solid, dan kuat secara struktural.",
+        "examplePrompt": "A family portrait utilizing Triangle Composition: three subjects arranged in a low, stable triangle formation, conveying unity and strength."
+      }
+    ]
+  }
+]
