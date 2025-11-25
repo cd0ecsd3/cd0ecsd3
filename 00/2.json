@@ -1,0 +1,693 @@
+[
+  {
+    "id": "photo_cinema",
+    "name": "5. FOTOGRAFI & SINEMATOGRAFI",
+    "accentColor": "teal",
+    "icon": "fas fa-camera",
+    "definition": [
+      "Gaya ini meniru hasil akhir visual yang dihasilkan oleh lensa, sensor, dan proses kimia/digital dari fotografi dan pembuatan film.",
+      "Fokus utamanya adalah pada elemen teknis seperti kedalaman ruang (DoF), noise film/grain, pilihan lensa, dan teknik pencahayaan profesional.",
+      "Ciri khasnya adalah realisme visual yang ekstrem atau meniru estetika spesifik dari film/kamera vintage."
+    ],
+    "substyles": [
+      {
+        "name": "Cinematic Film Still",
+        "description": "Meniru bidikan tunggal dari film beranggaran besar, menggunakan rasio aspek lebar (2.35:1), pencahayaan tiga titik yang dramatis, dan grading warna yang kaya.",
+        "examplePrompt": "A cinematic film still of a lone detective standing in a foggy, neon-lit street at 3 AM. Wide angle shot, 2.35:1 aspect ratio, heavy film grain, subtle blue and orange color grading, deep shadows, captured on Arri Alexa."
+      },
+      {
+        "name": "Macro Photography",
+        "description": "Menangkap subjek dari jarak yang sangat dekat, memperbesar detail kecil, dengan kedalaman ruang yang sangat dangkal (bokeh yang kuat).",
+        "examplePrompt": "An extreme close-up macro photograph of a bumblebee resting on the stigma of a purple orchid. Sharp focus on the insect's eyes, very shallow depth of field, natural soft lighting, bokeh background, captured with a 100mm macro lens."
+      },
+      {
+        "name": "Vintage Polaroid",
+        "description": "Meniru foto instan dengan warna yang sedikit pudar, white border yang khas, tekstur yang buram, dan estetika yang nostalgic.",
+        "examplePrompt": "A vintage Polaroid photograph of two friends laughing at a retro amusement park. Square format, slightly overexposed, faded warm color palette, noticeable vignette, subtle light leaks, 1980s aesthetic."
+      },
+      {
+        "name": "Street Photography (B&W)",
+        "description": "Menangkap momen-momen spontan kehidupan sehari-hari. Seringkali monokromatik dengan kontras tinggi untuk menekankan tekstur dan bentuk.",
+        "examplePrompt": "A candid black and white street photograph of an old man walking past a striking shadow in a busy European city. High contrast, decisive moment, natural composition, grainy texture, shot on a Leica M6 with 50mm lens."
+      },
+      {
+        "name": "Studio Portraiture (High Key)",
+        "description": "Potret studio dengan latar belakang yang sangat terang (putih), minim bayangan, memberikan kesan cerah, bersih, dan terbuka.",
+        "examplePrompt": "A high key studio portrait of a young professional wearing a crisp white shirt. Perfectly even, bright lighting, pure white seamless background, sharp focus, clean and minimalist aesthetic, commercial photography standard."
+      },
+      {
+        "name": "Tilt-Shift Miniature Effect",
+        "description": "Menggunakan kedalaman ruang selektif untuk membuat objek nyata tampak seperti miniatur (mainan) dari jarak jauh.",
+        "examplePrompt": "An aerial photograph of a busy traffic intersection manipulated with a tilt-shift effect. Extreme shallow depth of field making the cars and people look like tiny plastic models, vibrant saturated colors, perceived miniature scale."
+      },
+      {
+        "name": "Long Exposure",
+        "description": "Teknik rana lambat untuk mengaburkan gerakan air atau cahaya, menciptakan efek seperti sutra pada sungai atau garis cahaya pada lalu lintas.",
+        "examplePrompt": "A long exposure photograph of a massive waterfall during twilight. The water has a smooth, ethereal, silky texture, dynamic light streaks from passing cars on a nearby bridge, tripod stable, 30 second shutter speed."
+      },
+      {
+        "name": "Infrared Photography",
+        "description": "Menangkap spektrum cahaya inframerah, membuat dedaunan menjadi putih cerah dan langit menjadi gelap. Estetika yang aneh dan sureal.",
+        "examplePrompt": "A black and white infrared photograph of a dense forest. Foliage appears ghostly bright white (Wood Effect), the sky is nearly black, high contrast, surreal and ethereal mood, captured on Kodak Aerochrome."
+      },
+      {
+        "name": "Guerilla Style Documentary",
+        "description": "Gaya film dokumenter yang kasar, seolah-olah direkam dengan kamera genggam, dengan fokus yang sedikit off, pencahayaan alami yang buruk, dan grain yang berat.",
+        "examplePrompt": "A gritty, raw still image from a guerilla documentary film showing a tense conversation in a dimly lit warehouse. Handheld camera shake, poor lighting, heavy digital noise, realistic and unpolished, Dogme 95 style."
+      },
+      {
+        "name": "Vintage Film Noir",
+        "description": "Gaya sinematik tahun 40-an/50-an. Kontras ekstrem antara cahaya dan bayangan (low key), sering menampilkan adegan malam yang basah.",
+        "examplePrompt": "A dramatic Vintage Film Noir still of a mysterious woman leaning over a dark, rain-slicked balcony railing. Extreme chiaroscuro lighting (low key), Venetian blind shadows (Gobbo), moody black and white, 1940s aesthetic."
+      },
+      {
+        "name": "Drone / Aerial View",
+        "description": "Foto yang diambil dari ketinggian, menekankan pola, bentuk, dan skala lanskap dari perspektif mata burung.",
+        "examplePrompt": "A highly detailed drone photograph capturing a complex geometric pattern of rice terraces carved into a mountain side. Perfect vertical alignment (top-down), vibrant green and blue colors, wide scale, clean and sharp focus."
+      },
+      {
+        "name": "Ansel Adams Landscape",
+        "description": "Monokromatik, foto pemandangan alam dengan kontras tonal yang ekstrem, detail yang tajam, dan pemrosesan Zona System untuk rentang tonal maksimal.",
+        "examplePrompt": "A breathtaking black and white landscape photograph of a snowy mountain range and a vast, dark forest below. Deep blacks, pure whites, rich mid-tones, incredibly sharp detail, Ansel Adams Zone System aesthetic."
+      },
+      {
+        "name": "Light Painting",
+        "description": "Teknik *long exposure* di mana sumber cahaya bergerak dilacak untuk 'melukis' bentuk di udara gelap.",
+        "examplePrompt": "A long exposure photograph featuring a figure standing still while drawing a swirling vortex of glowing red and blue light trails around them in the dark. Complex light painting design, zero motion blur on the figure, black background."
+      },
+      {
+        "name": "Analog Film Grain (35mm)",
+        "description": "Fokus pada tekstur yang dihasilkan oleh emulsi film kimia. Menampilkan noise/grain yang terlihat jelas dan rendering warna khas dari film stock tertentu.",
+        "examplePrompt": "A photo portrait of a young musician in a crowded subway car. Noticeable, realistic 35mm film grain, slightly muted colors with a hint of magenta, subtle vignettes, shot on Kodak Portra 400 film stock."
+      },
+      {
+        "name": "Underwater Photography",
+        "description": "Menangkap pemandangan bawah air dengan warna biru/hijau yang dominan dan pencahayaan yang tersebar, seringkali dengan gelembung udara.",
+        "examplePrompt": "A clear underwater photograph of a massive, colorful coral reef and a diver in the distance. Blue/cyan color cast, sun rays piercing the surface (God rays), high clarity, focus on the intricate coral textures."
+      },
+      {
+        "name": "Disposable Camera Flash",
+        "description": "Meniru foto yang diambil dengan kamera sekali pakai: pencahayaan flash yang keras, warna yang terdistorsi, dan bayangan yang gelap.",
+        "examplePrompt": "A casual snapshot photograph of a group of friends celebrating indoors at night. Blinding on-camera flash, deep, sharp shadows, strong red-eye effect, slightly blurred edges, disposable camera aesthetic."
+      },
+      {
+        "name": "Gothic Revival Architecture",
+        "description": "Gaya arsitektur yang dramatis, meniru gereja abad pertengahan dengan lengkungan runcing, ribuan detail pahatan, dan patung gargoyle.",
+        "examplePrompt": "A close-up photograph of the facade of a Gothic Revival cathedral. Focus on the intricate, highly detailed stone gargoyles and rose window, dramatic sidelighting, dark, moody atmosphere, by Walker Evans."
+      },
+      {
+        "name": "High-Speed Flash (Action Freeze)",
+        "description": "Menggunakan flash yang sangat cepat (strobe) untuk membekukan gerakan yang terlalu cepat untuk ditangkap mata, seperti tetesan air atau peluru.",
+        "examplePrompt": "A hyper-detailed, high-speed flash photograph capturing a perfectly spherical milk droplet splashing into a bowl. The collision is frozen mid-air, dark background, vivid colors, focus on the symmetry of the splash."
+      },
+      {
+        "name": "Pinhole Camera (Obscura)",
+        "description": "Meniru kamera lubang jarum: fokus lembut di seluruh gambar, vignette yang kuat, dan pencahayaan yang panjang menghasilkan blur gerakan halus.",
+        "examplePrompt": "A soft, dreamy pinhole camera photograph of an empty beach during the day. Strong dark vignette, infinite depth of field with slight blur, subtle light leaks, rough paper texture, vintage Obscura aesthetic."
+      },
+      {
+        "name": "Commercial Product Shot",
+        "description": "Foto produk yang bersih, tajam, dengan pencahayaan studio yang sempurna untuk menonjolkan tekstur dan bahan.",
+        "examplePrompt": "A sleek commercial product shot of a futuristic stainless steel watch resting on a smooth black surface. Perfect, even studio lighting, subtle reflections, extreme sharpness, clean and minimalist background, advertising quality."
+      },
+      {
+        "name": "Low Key Lighting",
+        "description": "Gaya pencahayaan yang didominasi oleh bayangan gelap, hanya menyisakan sebagian kecil subjek yang diterangi, menciptakan suasana misterius dan tegang.",
+        "examplePrompt": "A dramatic low key portrait of a man's face, with only one eye and cheek illuminated by a single, harsh light source. Deep black background, high contrast shadows, moody and intense expression."
+      },
+      {
+        "name": "Double Exposure",
+        "description": "Teknik di mana dua gambar diekspos pada satu bingkai film atau digital, menciptakan komposisi yang berlapis dan sureal.",
+        "examplePrompt": "A subtle double exposure photograph blending the silhouette of a woman's profile with a dense, misty forest landscape. The trees are visible within the shape of her head, dreamy and ethereal, natural colors, artistic layering."
+      },
+      {
+        "name": "Kodachrome Slide Film",
+        "description": "Meniru film slide klasik Kodak. Ditandai dengan warna-warna yang sangat jenuh, kontras yang tajam, dan rentang dinamis yang luar biasa.",
+        "examplePrompt": "A vibrant street photograph taken in the 1960s. Highly saturated colors (especially red and yellow), extremely sharp contrast, almost hyper-real clarity, classic Kodachrome slide film aesthetic."
+      },
+      {
+        "name": "Solarization / Sabattier Effect",
+        "description": "Efek fotografi di mana nada terang dan gelap dibalik, menciptakan efek sebagian negatif yang menonjolkan garis luar (outlines).",
+        "examplePrompt": "A black and white photograph of a nude figure stylized with the Sabattier (Solarization) effect. White and black tones are reversed in areas, creating glowing outlines around the figure, surreal and high-art aesthetic, Man Ray inspired."
+      },
+      {
+        "name": "High Definition Render (Photorealistic)",
+        "description": "Rendering 3D yang berusaha mencapai realisme foto yang sempurna, seringkali dengan detail mikroskopis dan pencahayaan global yang kompleks.",
+        "examplePrompt": "A photorealistic high definition render of a chrome sphere resting on a worn leather sofa. Meticulously detailed reflection mapping, subsurface scattering on the leather, physically accurate lighting, 16K resolution, Octane Render."
+      }
+    ]
+  },
+  {
+    "id": "graphic_print",
+    "name": "6. DESAIN GRAFIS & CETAK",
+    "accentColor": "red",
+    "icon": "fas fa-drafting-compass",
+    "definition": [
+      "Fokus pada komunikasi visual, tata letak, dan tipografi. Gaya ini mengacu pada teknik yang digunakan dalam percetakan, poster, dan branding.",
+      "Ciri khasnya adalah penggunaan warna spot, garis yang bersih dan terdefinisi, komposisi yang kuat, serta peran tipografi sebagai elemen visual.",
+      "Seringkali memiliki batasan media (seperti jumlah warna cetak) yang diterjemahkan menjadi estetika yang disederhanakan dan berani."
+    ],
+    "substyles": [
+      {
+        "name": "Screen Printing (Silk-Screen)",
+        "description": "Meniru teknik cetak saring. Ditandai dengan warna-warna solid yang tumpang tindih, pendaftaran yang sedikit salah (misregistration), dan tekstur serat kain/kertas yang terlihat.",
+        "examplePrompt": "A bold political poster designed in the Screen Printing style. Limited palette of black, red, and mustard yellow. Rough, visible ink texture, slightly misregistered color layers, strong graphic impact, inspired by Shepard Fairey."
+      },
+      {
+        "name": "Swiss Style / International Style",
+        "description": "Gaya minimalis tahun 1950-an. Menekankan kejelasan, keterbacaan, dan objektivitas menggunakan grid, tipografi sans-serif (seperti Helvetica), dan asimetri.",
+        "examplePrompt": "A minimalist poster designed in the Swiss International Style. Strict grid layout, bold sans-serif typography (Helvetica), asymmetrical composition, red, black, and white color scheme, focus on information clarity."
+      },
+      {
+        "name": "Vintage Propaganda Poster (WWII)",
+        "description": "Poster dari era Perang Dunia. Ditandai dengan komposisi heroik, warna-warna dasar yang berani, dan gaya ilustrasi yang realistis namun disederhanakan.",
+        "examplePrompt": "A high-impact Vintage Propaganda Poster showing a determined worker rolling up his sleeves in front of a factory silhouette. Strong primary colors (red, blue, yellow), powerful, simplified muscle anatomy, bold patriotic text."
+      },
+      {
+        "name": "Bauhaus Design",
+        "description": "Gerakan desain Jerman yang menggabungkan seni dan fungsi. Menggunakan bentuk geometris sederhana, fungsionalitas, dan palet warna yang terbatas.",
+        "examplePrompt": "A clean Bauhaus design poster for an exhibition. Uses only circles, squares, and triangles. Limited color palette of red, black, and light grey. Asymmetrical but balanced composition, minimalist and functional."
+      },
+      {
+        "name": "Stained Glass Window",
+        "description": "Seni kaca patri. Ilustrasi yang terbuat dari potongan-potongan warna yang dipisahkan oleh garis tebal hitam timah (leading), memberikan efek cahaya yang bersinar.",
+        "examplePrompt": "A detailed Stained Glass Window illustration depicting a mythical scene of a phoenix rising from the flames. Thick black outlines (leading), fragmented jewel-toned colors (ruby, sapphire, emerald), glowing light effect."
+      },
+      {
+        "name": "Risograph Print",
+        "description": "Meniru pencetakan digital/stenciling. Ditandai dengan ketidaksempurnaan, warna neon yang tumpang tindih, dan tekstur bergaris (banding) yang kasar.",
+        "examplePrompt": "A vibrant poster printed in the Risograph style. Uses only two bright colors (fluorescent orange and teal), noticeable color overlap and misregistration, rough halftone dot pattern and vertical banding texture, chaotic and energetic."
+      },
+      {
+        "name": "Woodcut / Relief Printing",
+        "description": "Meniru cetakan timbul dari balok kayu atau lino. Garis tebal, kontras tinggi, dan area solid tinta hitam pada kertas berserat.",
+        "examplePrompt": "A stark Woodcut Relief Printing illustration of a howling wolf in a forest. Bold, jagged black lines, high contrast, rough texture of the wood grain visible through the ink, monochromatic and powerful."
+      },
+      {
+        "name": "Comic Book (Silver Age)",
+        "description": "Gaya buku komik dari tahun 50-an/60-an. Penggunaan Benday Dots untuk bayangan/warna, garis luar yang tebal, dan warna primer yang mencolok.",
+        "examplePrompt": "A dynamic Comic Book panel (Silver Age) of a superhero flying through the air. Thick, clean black outlines, bright, blocky colors, visible Benday dot patterns on the skin and sky, aggressive perspective, Jack Kirby inspired."
+      },
+      {
+        "name": "Infographic / Technical Drawing",
+        "description": "Gaya visual yang digunakan untuk menyajikan data atau instruksi teknis. Garis yang bersih, label yang jelas, dan ikon yang tepat.",
+        "examplePrompt": "A detailed Infographic illustration showing the inner workings of a complex time-travel device. Clean, labeled cross-section diagrams, precise blue and orange lines, schematic aesthetic, technical manual quality."
+      },
+      {
+        "name": "WPA Poster Style",
+        "description": "Poster wisata Amerika tahun 30-an/40-an. Ilustrasi yang disederhanakan, bentuk-bentuk geometris, dan palet warna bumi yang lembut.",
+        "examplePrompt": "A nostalgic WPA Poster Style travel illustration advertising Yellowstone National Park. Simple, stylized geometric shapes for mountains and geysers, flat, muted earth-tone colors (brown, beige, pale yellow), bold sans-serif type at the bottom."
+      },
+      {
+        "name": "Letterpress Printing",
+        "description": "Meniru cetakan tekan. Ditandai dengan kesan (indentasi) fisik tinta yang ditekan ke kertas, seringkali dengan huruf tebal dan komposisi yang sederhana.",
+        "examplePrompt": "A close-up photograph of a Letterpress print reading 'Welcome'. Deep, tactile impression of the thick black ink into heavy cotton paper, slightly uneven ink distribution, minimalist typography, high-quality craft aesthetic."
+      },
+      {
+        "name": "Psychedelic Poster (60s)",
+        "description": "Poster musik era tahun 60-an. Tipografi yang hampir tidak terbaca, bentuk-bentuk yang berputar, warna-warna yang bergetar, dan estetika halusinasi.",
+        "examplePrompt": "A chaotic and vibrant Psychedelic Poster design for a rock concert. The hand-drawn typography warps and swirls into the background, intense clashing colors (magenta, lime green), distorted and melting figures, Art Nouveau influence, Wes Wilson style."
+      },
+      {
+        "name": "Geometric Minimalism (Logo)",
+        "description": "Fokus pada penggunaan bentuk geometris murni untuk menciptakan logo atau simbol yang bersih, mudah diingat, dan abadi.",
+        "examplePrompt": "A clean and modern Geometric Minimalist logo design for a tech company. The logo consists only of a perfect circle, a triangle, and a single straight line, simple monochrome black on white, elegant and balanced."
+      },
+      {
+        "name": "Stencil Art (Graffiti)",
+        "description": "Meniru seni stensil. Ditandai dengan area warna yang terpotong tajam, batas-batas yang kaku, dan tekstur semprotan (overspray) yang terlihat.",
+        "examplePrompt": "A sharp, multi-layered Stencil Art piece on a rough brick wall, depicting a child holding a bouquet of flowers. Uses only black, white, and red spray paint. Visible overspray and texture of the brick beneath, Banksy inspired."
+      },
+      {
+        "name": "Linocut Print",
+        "description": "Mirip dengan Woodcut, tetapi garis-garisnya lebih halus dan lengkungannya lebih mulus karena materi linoleum yang lembut.",
+        "examplePrompt": "A smooth Linocut Print illustration of a large cat sitting calmly in a bed of ferns. Clean, sweeping lines, high contrast black and white, subtle organic texture from the lino surface, modern printmaking."
+      },
+      {
+        "name": "Chalkboard Hand Lettering",
+        "description": "Meniru tulisan tangan artistik di papan tulis dengan kapur. Fokus pada berbagai font, dekorasi kecil, dan tekstur kapur yang berdebu.",
+        "examplePrompt": "A detailed Chalkboard Hand Lettering illustration of a motivational quote surrounded by ornate scrollwork and flourishes. Realistic chalk dust texture, varied typography styles, black background, coffee shop aesthetic."
+      },
+      {
+        "name": "Zine / Photocopy Art",
+        "description": "Estetika publikasi independen yang murah. Gambar beresolusi rendah, hitam-putih, dengan efek *noise* fotokopi dan *halftone* kasar.",
+        "examplePrompt": "A low-fidelity Zine / Photocopy Art illustration combining crude drawings and grainy photographic elements. High contrast black and white, noticeable photocopy noise and banding, DIY punk aesthetic."
+      },
+      {
+        "name": "Holographic Foil Print",
+        "description": "Meniru cetakan foil. Memberikan efek logam yang sangat reflektif dan berwarna-warni, seringkali untuk poster atau kartu perdagangan.",
+        "examplePrompt": "A highly reflective Holographic Foil Print of a stylized star emblem. The surface shimmers with a rainbow gradient when light hits it, sharp, clean lines, high contrast with a dark surrounding area, premium packaging aesthetic."
+      },
+      {
+        "name": "Vintage Map Cartography",
+        "description": "Meniru peta yang digambar tangan dari era eksplorasi. Teks kursif, kompas mawar yang detail, dan warna-warna yang memudar.",
+        "examplePrompt": "A detailed Vintage Map Cartography drawing of a fictional island. Hand-drawn coastlines, ornate compass rose, illustrations of sea monsters in the ocean, parchment paper texture, faded brown and beige ink."
+      },
+      {
+        "name": "Minimalist Book Cover",
+        "description": "Desain sampul buku yang bersih dan sederhana. Menggunakan tipografi sebagai fokus utama dengan sedikit atau tanpa ilustrasi.",
+        "examplePrompt": "A minimalist book cover design for a serious novel. Features only large, elegant serif typography in white against a solid, deep-blue background. Asymmetrical layout, focused and stark."
+      },
+      {
+        "name": "Posterization (Limited Color)",
+        "description": "Mengurangi jumlah warna dalam sebuah gambar secara drastis (misalnya hanya 4 warna), menciptakan bidang-bidang warna yang datar dan kontras tajam.",
+        "examplePrompt": "A stylized portrait created using the Posterization technique. Only uses four distinct colors: black, white, sky blue, and deep red. Sharp, hard edges between colors, graphic and bold, pop art influence."
+      },
+      {
+        "name": "Typographic Portrait",
+        "description": "Potret yang seluruhnya dibentuk dari kata-kata, huruf, dan angka, dengan ukuran dan kepadatan teks yang berbeda untuk menciptakan bayangan dan bentuk.",
+        "examplePrompt": "A detailed Typographic Portrait of Albert Einstein. The entire image is composed of tiny, dense black text (his famous quotes), different font sizes creating shading and contour, white background, intricate visual text arrangement."
+      },
+      {
+        "name": "Retro Cartoon (1930s Rubber Hose)",
+        "description": "Gaya animasi awal dengan karakter yang memiliki anggota badan fleksibel seperti selang karet (rubber hose) dan ekspresi yang berlebihan.",
+        "examplePrompt": "A whimsical Retro Cartoon illustration in the 1930s Rubber Hose style of a dancing, mischievous cat wearing a bow tie. Simple black outlines, limited pie-cut eyes, monochromatic or duotone colors, hand-drawn animation feel."
+      },
+      {
+        "name": "Neumorphism UI Design",
+        "description": "Gaya desain antarmuka pengguna (UI) yang membuat elemen tampak seperti timbul dari permukaan atau tertekan ke dalamnya (soft shadows).",
+        "examplePrompt": "A clean Neumorphism UI design for a futuristic control panel. Buttons and screens appear as soft, extruded shapes from the light grey background, subtle inner and outer shadows, smooth rounded corners, minimalist and tactile."
+      },
+      {
+        "name": "Escher Perspective",
+        "description": "Ilustrasi yang menampilkan perspektif yang tidak mungkin, tangga yang naik ke atas dalam lingkaran, dan arsitektur yang melanggar hukum fisika.",
+        "examplePrompt": "An impossible structure designed in the M.C. Escher Perspective style, featuring a waterfall that flows back to its source and interconnected, perpetual staircases. Highly detailed pencil drawing, precise geometric logic, mind-bending architecture."
+      }
+    ]
+  },
+  {
+    "id": "abstract_modern",
+    "name": "7. ABSTRAK & MODERNISME",
+    "accentColor": "yellow",
+    "icon": "fas fa-shapes",
+    "definition": [
+      "Menggambarkan gaya seni yang sengaja menjauhi representasi visual dunia nyata, berfokus pada bentuk, warna, garis, dan tekstur untuk berkomunikasi.",
+      "Gaya ini mengeksplorasi ide, emosi, dan prinsip formal daripada objek. Seringkali menantang harapan penonton tentang apa itu seni.",
+      "Ciri khasnya adalah non-objektif, menekankan sifat medium itu sendiri (bahan, pigmen, kanvas)."
+    ],
+    "substyles": [
+      {
+        "name": "Abstract Expressionism (Action Painting)",
+        "description": "Penekanan pada proses artistik, menampilkan sapuan kuas yang tebal dan energi tinggi, tetesan warna yang spontan, dan komposisi yang emosional.",
+        "examplePrompt": "A chaotic and visceral Abstract Expressionism action painting featuring aggressive dripping and splattering of black, red, and yellow enamel paint across a massive canvas. High energy, raw emotional feel, inspired by Jackson Pollock."
+      },
+      {
+        "name": "Color Field Painting",
+        "description": "Gaya Abstrak Ekspresionisme yang dicirikan oleh bidang-bidang warna datar yang besar dan solid, seringkali berinteraksi untuk menciptakan suasana yang meditatif.",
+        "examplePrompt": "A calming Color Field Painting composed of three large, horizontal, gently blending fields of color: deep indigo at the top, soft lavender in the middle, and warm ochre at the bottom. Subtle texture, Rothko inspired."
+      },
+      {
+        "name": "Suprematism",
+        "description": "Gerakan seni Rusia yang berfokus pada bentuk geometris dasar (persegi, lingkaran) dan palet warna terbatas, mengutamakan 'keunggulan perasaan murni'.",
+        "examplePrompt": "A stark Suprematism painting featuring a few simple geometric forms—a black square, a red circle, and a white rectangle—floating in an asymmetrical composition on a pure white background. Minimalist and fundamental, Kazimir Malevich style."
+      },
+      {
+        "name": "Kinetic Art",
+        "description": "Seni yang menekankan gerakan. Dalam konteks AI, ini berarti simulasi visual dari pola yang berputar atau elemen yang bergerak.",
+        "examplePrompt": "A 3D render of a complex Kinetic Art sculpture made of hundreds of tiny, polished chrome rods that appear to be spinning rapidly, creating a dynamic, shimmering moiré pattern. Elegant, precise, and visually dizzying."
+      },
+      {
+        "name": "Tessellation Pattern",
+        "description": "Pola yang terdiri dari ubin atau bentuk yang berulang tanpa celah atau tumpang tindih. Seringkali menggunakan bentuk-bentuk organik atau geometris yang kompleks.",
+        "examplePrompt": "A complex Tessellation pattern covering an infinite plane, using interlocking, stylized shapes of doves and fish. Seamless repetition, limited two-color palette (blue and white), precise mathematical geometry."
+      },
+      {
+        "name": "Op Art (Optical Art)",
+        "description": "Seni yang menggunakan ilusi optik melalui pola geometris atau garis yang berulang, menciptakan ilusi gerakan, kedipan, atau pembengkokan.",
+        "examplePrompt": "A dramatic Op Art pattern composed of thousands of dense, parallel black and white lines that curve subtly to create the illusion of a bulging sphere protruding from the flat surface. Visually vibrating and mesmerizing."
+      },
+      {
+        "name": "Minimalism (Sculpture)",
+        "description": "Menekankan bentuk yang sangat sederhana, non-representasional, dan seringkali skala industri. Fokus pada material murni dan ruang.",
+        "examplePrompt": "A minimalist, large-scale sculpture made of two massive, polished corten steel cubes placed side-by-side in a vast, empty white gallery space. Clean edges, focus on the rough texture of the steel and its deep color, Donald Judd inspired."
+      },
+      {
+        "name": "Data Visualization Art",
+        "description": "Seni yang menggunakan data untuk menghasilkan bentuk dan pola yang kompleks, seringkali menyerupai diagram ilmiah atau peta koneksi.",
+        "examplePrompt": "A complex Data Visualization artwork representing global network connectivity. Thousands of glowing, intertwined lines forming a dense, chaotic ball against a dark background, colorful nodes indicating data points, technical and abstract."
+      },
+      {
+        "name": "Lyrical Abstraction",
+        "description": "Gaya yang lebih lembut dan lebih puitis dari Abstrak Ekspresionisme, menggunakan sapuan kuas yang mengalir dan warna-warna yang lebih harmonis.",
+        "examplePrompt": "A soft Lyrical Abstraction painting featuring gentle, sweeping brushstrokes of light pink, pale blue, and cream colors. Focus on movement and harmony, watercolor-like transparency, dreamlike and poetic."
+      },
+      {
+        "name": "De Stijl (Neoplasticism)",
+        "description": "Gaya Belanda yang hanya menggunakan garis horizontal dan vertikal, dan tiga warna primer (merah, biru, kuning), ditambah hitam dan putih. Ekstrem dalam kesederhanaan.",
+        "examplePrompt": "A strict De Stijl painting composed of intersecting black horizontal and vertical lines forming a grid, with three rectangles filled with solid red, blue, and yellow. Pure geometric abstraction, Mondrian inspired."
+      },
+      {
+        "name": "Abstract Geometric Pattern",
+        "description": "Pola abstrak yang diciptakan hanya dari bentuk geometris. Fokus pada ritme, perulangan, dan interaksi bentuk.",
+        "examplePrompt": "A seamless Abstract Geometric Pattern composed of densely packed, overlapping hexagons and triangles. Vibrant teal, purple, and orange color scheme, clean vector lines, highly decorative and hypnotic."
+      },
+      {
+        "name": "Hard Edge Painting",
+        "description": "Gaya Abstrak Ekspresionisme yang menggunakan bidang warna yang sangat solid dan tepi yang sangat tajam tanpa gradasi.",
+        "examplePrompt": "A large Hard Edge painting featuring three interlocking, non-objective shapes in solid black, deep magenta, and pure white. Perfectly clean, crisp edges between the color fields, precise and stark."
+      },
+      {
+        "name": "Conceptual Art (Text-based)",
+        "description": "Seni di mana ide atau konsep lebih penting daripada objek seni itu sendiri. Seringkali hanya berupa teks, pernyataan, atau instruksi.",
+        "examplePrompt": "A conceptual art piece composed of a single line of simple, black stencil text on a vast, empty white canvas: 'The meaning is in the space between the words.'"
+      },
+      {
+        "name": "Digital Fluid Simulation",
+        "description": "Simulasi cairan atau gas yang sangat mendetail, menonjolkan pergerakan, turbulensi, dan interaksi warna dalam medium non-representasional.",
+        "examplePrompt": "A high-resolution Digital Fluid Simulation render of two viscous, brightly colored liquids (electric green and deep purple) slowly mixing and swirling in a confined space. Complex volumetric lighting, mesmerizing turbulence patterns."
+      },
+      {
+        "name": "Photorealist Painting (Chuck Close)",
+        "description": "Lukisan yang meniru foto dengan detail yang ekstrem, namun seringkali dibangun dari grid, blok warna, atau pola kecil yang terlihat jelas saat dilihat dari dekat.",
+        "examplePrompt": "A large-scale photorealist portrait of an older man's face, meticulously painted but clearly constructed from hundreds of small, square, abstract color blocks when viewed close-up. Grid structure visible, Chuck Close style."
+      },
+      {
+        "name": "Postmodern Appropriation",
+        "description": "Seni yang mengambil gambar yang sudah ada (ikon pop, karya seni klasik) dan memanipulasinya, mempertanyakan orisinalitas dan makna.",
+        "examplePrompt": "A Postmodern Appropriation piece featuring Leonardo da Vinci's Mona Lisa wearing a pair of modern, oversized neon pink sunglasses. Blended photograph and digital painting, jarring juxtaposition, commentary on cultural icons."
+      },
+      {
+        "name": "Graffiti Writing / Tagging",
+        "description": "Fokus pada seni kaligrafi (tagging) atau *piece* yang rumit dengan gelembung, bayangan 3D, dan *wildstyle* yang hampir tidak terbaca.",
+        "examplePrompt": "A detailed Graffiti Writing piece (Wildstyle) covering a metal train car. Complex, interlocking letters in bright orange, chrome silver, and deep blue, intricate highlights and shadow effects, dynamic street art energy."
+      },
+      {
+        "name": "Organic Abstraction",
+        "description": "Menggunakan bentuk-bentuk organik dan biologis (sel, amoeba, tumbuhan) yang tidak jelas atau berlebihan, tanpa menjadi representasional.",
+        "examplePrompt": "A highly textured Organic Abstraction painting featuring swirling, fluid shapes resembling magnified cell structures and microscopic life. Earthy and subdued colors (ochre, moss green), thick, layered texture."
+      },
+      {
+        "name": "Neo-Expressionism",
+        "description": "Gerakan tahun 80-an. Pengembalian pada figur dan emosi, tetapi dengan goresan yang kasar, warna-warna yang kotor, dan citra yang mentah.",
+        "examplePrompt": "A raw, emotional Neo-Expressionist painting of a human figure screaming. Crude, aggressive brushstrokes, thick layers of dark, dirty colors (browns, blacks, murky red), intense psychological feel, Jean-Michel Basquiat style."
+      },
+      {
+        "name": "Cubism (Synthetic)",
+        "description": "Versi yang lebih sederhana dan penuh warna dari Kubisme, menggabungkan bentuk-bentuk yang dipecah menjadi pola dekoratif dan menempelkan elemen (kolase).",
+        "examplePrompt": "A Synthetic Cubism painting of a still life on a table. The objects are simplified into broad, interlocking color planes and geometric shapes, bright, flat colors (blue, green, yellow), collage elements simulated, inspired by later Braque."
+      },
+      {
+        "name": "Stippling / Dot Art",
+        "description": "Seni yang dibuat seluruhnya dari ribuan titik kecil (pointillism dalam monokrom), digunakan untuk menciptakan bayangan dan kepadatan.",
+        "examplePrompt": "A detailed Stippling / Dot Art portrait of a wise old owl. The entire image is rendered using only dense, black ink dots on white paper, varying dot density to create shadows and volume, incredible precision."
+      },
+      {
+        "name": "Grid System Illustration",
+        "description": "Ilustrasi atau desain yang menggunakan grid yang jelas sebagai fondasi, menciptakan keteraturan, ritme, dan tampilan yang terstruktur secara digital.",
+        "examplePrompt": "A technical illustration of a mechanical device overlaid with a visible, precise golden ratio grid system. Clean white lines on a grey background, perfect alignment, emphasis on structure and composition."
+      },
+      {
+        "name": "Textile Art / Weaving Pattern",
+        "description": "Simulasi visual dari tekstil, permadani, atau pola tenun yang rumit. Fokus pada serat, simpul, dan pola berulang.",
+        "examplePrompt": "A photorealistic rendering of a complex Aztec-inspired Textile Art weaving pattern. Focus on the coarse, natural texture of the wool fibers, rich, earthy colors (red, brown, cream), intricate geometric pattern, macro detail."
+      },
+      {
+        "name": "Psychoanalytic Art",
+        "description": "Seni yang mencoba memvisualisasikan teori atau proses psikoanalisis (misalnya, Id, Ego, Superego) melalui simbolisme sureal dan gelap.",
+        "examplePrompt": "A dark, highly symbolic Psychoanalytic Art illustration depicting a dreamscape where fractured mirrors reflect different emotional states of a single figure. Subdued colors, heavy psychological tension, deeply introspective and surreal."
+      },
+      {
+        "name": "Assemblage / Found Object Art",
+        "description": "Seni yang dibuat dari perakitan objek-objek 'temuan' (sampah, barang bekas). Fokus pada tekstur kasar dan sejarah objek.",
+        "examplePrompt": "A photorealistic image of a complex Assemblage sculpture made from rusted metal parts, old wooden blocks, and broken electronic components. Heavy shadow casting, focus on the grime and wear of the found objects, raw and industrial."
+      }
+    ]
+  },
+  {
+    "id": "cultural_historical",
+    "name": "8. ERA SEJARAH & BUDAYA",
+    "accentColor": "brown",
+    "icon": "fas fa-landmark",
+    "definition": [
+      "Menirukan gaya artistik, arsitektur, atau artefak yang spesifik dari periode sejarah, peradaban, atau budaya tertentu.",
+      "Fokus pada otentisitas detail, penggunaan bahan, dan pola dekoratif yang khas dari era tersebut.",
+      "Gaya ini membutuhkan pemahaman yang mendalam tentang konteks sejarah dan estetika yang unik."
+    ],
+    "substyles": [
+      {
+        "name": "Ancient Egyptian Hieroglyphs",
+        "description": "Meniru seni Mesir kuno. Figur dalam profil, penggambaran yang datar, dan penggunaan hieroglif sebagai elemen dekoratif dan naratif.",
+        "examplePrompt": "A mural illustration in the Ancient Egyptian Hieroglyphs style depicting a pharaoh standing triumphantly on a barge. Flat perspective, bold color blocks (ochre, turquoise, black), intricate hieroglyphic text surrounding the figures, papyrus texture background."
+      },
+      {
+        "name": "Baroque Still Life",
+        "description": "Lukisan benda mati abad ke-17. Ditandai dengan pencahayaan dramatis, detail yang mewah (kaca, buah-buahan), dan simbolisme moralistik (vanitas).",
+        "examplePrompt": "A lavish Baroque Still Life painting featuring a silver goblet, ripe grapes, a skull, and a burnt-out candle on a dark wooden table. Extreme Chiaroscuro lighting, meticulous detail on the reflective surfaces, rich dark colors, Vanitas theme."
+      },
+      {
+        "name": "Roman Mosaic",
+        "description": "Menciptakan gambar dari potongan-potongan batu kecil (tesserae), seringkali menampilkan adegan mitologis atau geometris dalam skala besar.",
+        "examplePrompt": "A large-scale Roman Mosaic depicting a dynamic scene of a gladiator fighting a lion in an arena. Rough, square tesserae texture, natural stone colors (reds, whites, browns), simple yet detailed figures, ancient Roman floor art."
+      },
+      {
+        "name": "Victorian Engraving",
+        "description": "Ilustrasi buku yang sangat detail dari era Victoria, seringkali monokromatik dan menggunakan teknik goresan dan *hatching* yang rumit.",
+        "examplePrompt": "A detailed Victorian Engraving illustration of a bustling, foggy London street filled with carriages and well-dressed figures. Intricate cross-hatching for shading, sense of density and scale, dark monochrome ink on aged paper, period drama aesthetic."
+      },
+      {
+        "name": "Art Deco Architecture (Streamline)",
+        "description": "Gaya arsitektur 1930-an. Garis-garis yang ramping, aerodinamis, menara bertingkat, dan penggunaan material modern (chrome, kaca).",
+        "examplePrompt": "A photograph of a futuristic Streamline Art Deco skyscraper built from polished white stone and chrome. Strong vertical lines, rounded corners, symmetrical composition, dramatic upward perspective, 1930s Metropolis feel."
+      },
+      {
+        "name": "Byzantine Iconography",
+        "description": "Seni religius dari Kekaisaran Bizantium. Figur datar, ekspresi kaku, penggunaan latar belakang emas yang tebal, dan warna permata.",
+        "examplePrompt": "A close-up of a Byzantine Iconography painting of a saint. Flat, stylized figure, large, severe eyes, gold leaf background, rich red and blue colors, painted on a cracked wood panel, sacred art style."
+      },
+      {
+        "name": "Indigenous Aztec Mask",
+        "description": "Seni pahat atau ukiran dari peradaban Aztec atau Maya. Motif geometris yang rumit, warna yang kuat, dan fokus pada dewa dan ritual.",
+        "examplePrompt": "A highly detailed Indigenous Aztec Mask carved from dark jade and inlaid with turquoise and gold. Complex geometric patterns, fierce, stylized facial features, ritualistic aesthetic, focus on the rough stone texture."
+      },
+      {
+        "name": "Medieval Tapestry",
+        "description": "Meniru seni tenun dinding abad pertengahan. Gambar yang datar, tanpa perspektif, penuh detail, dan tekstur anyaman yang kasar.",
+        "examplePrompt": "A large Medieval Tapestry illustration depicting a hunting scene in a forest. Flat, dense composition, figures and animals are highly detailed but without realistic perspective, visible woven wool texture, deep green and red colors."
+      },
+      {
+        "name": "Rococo Pastel",
+        "description": "Gaya abad ke-18 yang ringan dan intim. Penggunaan warna pastel yang lembut, subjek yang romantis atau menyenangkan, dan tekstur yang halus.",
+        "examplePrompt": "A delicate Rococo Pastel painting of a young woman enjoying a swing in an overgrown garden. Soft pinks, creams, and pale greens, dreamy, hazy lighting, emphasis on soft silk textures, Fragonard inspired."
+      },
+      {
+        "name": "Mid-Century Modern Furniture",
+        "description": "Desain tahun 1950-an/60-an. Garis yang bersih, organik, fungsionalitas, dan penggunaan material alami (kayu, kulit, krom).",
+        "examplePrompt": "A studio photograph of a Mid-Century Modern lounge chair (Eames style) placed on a clean white floor next to a tall green plant. Clean lines, organic shape, subtle wooden grain texture, warm lighting, architectural interior design."
+      },
+      {
+        "name": "Art Nouveau Architecture",
+        "description": "Arsitektur akhir abad ke-19. Menggunakan bentuk-bentuk organik dari alam (bunga, sulur, serangga), garis-garis asimetris yang melengkung.",
+        "examplePrompt": "A photograph of an Art Nouveau building facade featuring intricate wrought iron balcony railings shaped like winding vines and stylized flowers. Curved lines, organic motif, soft lighting, inspired by Victor Horta."
+      },
+      {
+        "name": "Tiki Culture / Exotica",
+        "description": "Estetika tahun 50-an/60-an yang terinspirasi dari Polinesia. Menggunakan patung kayu yang kasar, lampu obor, dan warna-warna tropis yang gelap.",
+        "examplePrompt": "A vibrant Tiki Culture illustration of a bar interior decorated with carved wooden masks, thatch roofs, and glowing cocktails. Dark, moody lighting with neon highlights, tropical print patterns, nostalgic mid-century exotica aesthetic."
+      },
+      {
+        "name": "Celtic Knotwork",
+        "description": "Pola dekoratif tradisional Celtic, terdiri dari garis-garis yang terjalin tanpa awal atau akhir, seringkali membentuk bentuk zoomorfik atau geometris.",
+        "examplePrompt": "A complex Celtic Knotwork pattern forming the outline of a detailed stag. The entire image is composed of continuous, interwoven lines, gold ink on a dark green background, intricate and symmetrical."
+      },
+      {
+        "name": "Byzantine Manuscript Illumination",
+        "description": "Halaman buku yang dihiasi dari Bizantium, berbeda dengan Gotik karena lebih datar dan formal, dengan latar belakang emas yang solid.",
+        "examplePrompt": "A close-up of a page from a Byzantine Manuscript Illumination. Intricate border with gold leaf and gem-like colors, formal figures, Greek text calligraphy, medieval religious art."
+      },
+      {
+        "name": "Neoclassical Sculpture",
+        "description": "Seni pahat abad ke-18/19 yang meniru kesempurnaan dan idealisme Yunani/Romawi. Fokus pada anatomi yang sempurna dan drapery yang lembut.",
+        "examplePrompt": "A photorealistic rendering of a Neoclassical marble sculpture of a reclining female figure. Perfect white marble texture, soft, dramatic light emphasizing the smooth skin and delicate folds of the fabric, idealized form, Antonio Canova style."
+      },
+      {
+        "name": "Ancient Greek Pottery (Black-figure)",
+        "description": "Meniru lukisan vas Yunani kuno. Figur siluet hitam pada latar belakang tanah liat merah, dengan detail yang digoreskan.",
+        "examplePrompt": "An illustration in the Ancient Greek Black-Figure Pottery style depicting a mythological battle. Black silhouetted figures on a terracotta red background, internal details etched into the black, side-view profile, classical art."
+      },
+      {
+        "name": "Azulejo Tilework (Portugal)",
+        "description": "Meniru ubin keramik biru-putih (Azulejo) khas Portugal. Ilustrasi yang terdiri dari pola ubin persegi yang berulang atau adegan yang lebih besar.",
+        "examplePrompt": "A large-scale Azulejo Tilework mural depicting a vast Portuguese coastal landscape. Uses only rich cobalt blue and white, visible grid lines and subtle ceramic glaze texture, intricate decorative border."
+      },
+      {
+        "name": "Shabby Chic Interior",
+        "description": "Estetika dekorasi yang menggunakan furnitur lama yang dicat ulang (distressed), tekstil katun putih, dan aksesori bunga vintage.",
+        "examplePrompt": "A photograph of a Shabby Chic interior design scene featuring a distressed wooden cabinet filled with vintage porcelain dishes. Soft natural lighting, white and pastel color palette, lace and floral motifs, romantic and worn-in look."
+      },
+      {
+        "name": "Brutalism Architecture",
+        "description": "Gaya arsitektur tahun 50-an/70-an. Ditandai dengan bentuk-bentuk geometris masif, beton telanjang (*béton brut*), dan tampilan yang kaku.",
+        "examplePrompt": "A severe photograph of a Brutalism architecture building. Massive, unpainted concrete surfaces, sharp angles, repetitive geometric windows, overcast lighting, raw and imposing aesthetic."
+      },
+      {
+        "name": "Japanese Zen Garden",
+        "description": "Menggambarkan taman batu kering (Karesansui). Fokus pada pola kerikil yang dicari, lumut, dan penempatan batu yang minimalis.",
+        "examplePrompt": "A serene photograph of a Japanese Zen Garden (Karesansui). Perfectly raked white gravel forming concentric ripples, large moss-covered stones, minimalist composition, soft, diffused morning light, focus on peace and simplicity."
+      },
+      {
+        "name": "Nautical Tattoo (Old School)",
+        "description": "Gaya tato pelaut tradisional. Garis tebal, warna primer, dan ikon seperti jangkar, kapal, pin-up, dan burung layang-layang.",
+        "examplePrompt": "A bold, traditional Nautical Tattoo Flash illustration of a sailing ship battling a kraken. Thick black outlines, limited color palette of red, green, yellow, and black, simple shading, traditional American Old School style."
+      },
+      {
+        "name": "Renaissance Sfumato",
+        "description": "Teknik lukisan Renaisans yang menggunakan lapisan cat yang sangat tipis untuk menciptakan transisi halus antara warna dan bayangan, memberikan efek kabur atau berasap.",
+        "examplePrompt": "A Renaissance portrait using the Sfumato technique. Soft, misty transitions between light and shadow, blurred edges, serene and ethereal mood, focus on the gentle expression, inspired by Leonardo da Vinci."
+      },
+      {
+        "name": "Pre-Columbian Art (Inca Gold)",
+        "description": "Seni yang meniru artefak emas dari peradaban Inca atau Moche. Motif antropomorfik, pola geometris, dan tekstur logam yang berharga.",
+        "examplePrompt": "A photorealistic render of an intricate Pre-Columbian Inca Gold funerary mask. Highly polished, hammered gold texture, stylized features, geometric embossing, museum lighting."
+      },
+      {
+        "name": "Gilded Age Opulence",
+        "description": "Estetika akhir abad ke-19. Menekankan kemewahan, detail dekoratif yang berlebihan, emas, kain beludru, dan pencahayaan lampu gas yang hangat.",
+        "examplePrompt": "An interior photograph of a Gilded Age ballroom. Overwhelmingly ornate decorations, heavy velvet curtains, massive crystal chandeliers, abundant gold trim and elaborate carvings, warm, luxurious atmosphere."
+      },
+      {
+        "name": "Art of the American Southwest",
+        "description": "Seni yang berakar dari budaya Pueblo atau Navajo. Menggunakan warna-warna bumi, motif geometris dan kesukuan, dan tekstur tanah liat atau tekstil.",
+        "examplePrompt": "A stylized painting of a vast, arid American Southwest landscape featuring a traditional adobe house. Earthy color palette (terracotta, turquoise, sand), simplified geometric forms, traditional folk art style."
+      }
+    ]
+  },
+  {
+    "id": "surreal_lowbrow",
+    "name": "9. SUREALISME & LOWBROW ART",
+    "accentColor": "purple",
+    "icon": "fas fa-hat-wizard",
+    "definition": [
+      "Gaya ini mengeksplorasi alam bawah sadar, mimpi, dan fantasi yang aneh. Menciptakan realitas visual yang mustahil atau tidak logis.",
+      "**Surealisme** fokus pada teknik artistik dan psikologis yang tinggi, sementara **Lowbrow** (atau Pop Surrealism) mengintegrasikan budaya pop, komik, dan kartun.",
+      "Ciri khasnya adalah penyandingan objek yang mengejutkan dan atmosfer yang seringkali tenang namun mengganggu."
+    ],
+    "substyles": [
+      {
+        "name": "Magical Realism Painting",
+        "description": "Menggambarkan dunia nyata dengan detail yang akurat, tetapi memasukkan satu atau dua elemen magis atau tidak mungkin secara alami, seolah itu normal.",
+        "examplePrompt": "A detailed oil painting in the Magical Realism style of an old bookstore on a rainy day, where the books on the shelves are subtly hovering a few inches above the wood. Realistic light and texture, calm and matter-of-fact tone, very subtle strange element."
+      },
+      {
+        "name": "Pop Surrealism / Lowbrow Art",
+        "description": "Menggabungkan keanehan Surealisme dengan ikonografi budaya pop, kartun, dan kitsch. Seringkali karakter bermata besar dan warna yang cerah.",
+        "examplePrompt": "A vibrant Pop Surrealism / Lowbrow Art painting of a pink-haired girl with large, glittering eyes riding a giant, three-eyed snail through a candy landscape. Smooth, high-gloss finish, bright, highly saturated colors, Juxtapoz magazine aesthetic, by Mark Ryden."
+      },
+      {
+        "name": "Dadaism Collage",
+        "description": "Seni yang dihasilkan dari pengacakan, kolase, dan objek yang tidak memiliki hubungan, seringkali bersifat politik atau anti-seni.",
+        "examplePrompt": "A chaotic Dadaism collage made from cut-out pieces of Victorian advertisements, disconnected geometric shapes, and nonsensical words. Asymmetrical and random arrangement, rough paper edges, anti-aesthetic design."
+      },
+      {
+        "name": "Dark Surrealism (Beksiński)",
+        "description": "Surealisme yang sangat gelap, atmosfer apokaliptik dan distopia, dengan fokus pada arsitektur organik yang mengerikan dan tokoh-tokoh tanpa wajah.",
+        "examplePrompt": "A massive, dark landscape painting in the Dark Surrealism style, featuring massive, bone-like organic structures rising from a desert plain under a blood-red sky. Meticulous texture, deep shadows, overwhelming sense of dread and apocalypse, Zdzisław Beksiński inspired."
+      },
+      {
+        "name": "Dreamscape (René Magritte)",
+        "description": "Surealisme yang menggabungkan objek-objek biasa dalam konteks yang membingungkan atau menentang logika, seringkali dengan suasana yang tenang.",
+        "examplePrompt": "A quiet Dreamscape painting featuring a man in a bowler hat standing on a beach, but his face is completely obscured by a giant green apple floating in front of it. Clear blue sky, highly realistic painting style, simple but illogical scene, René Magritte style."
+      },
+      {
+        "name": "Visionary Art",
+        "description": "Seni yang bertujuan untuk menggambarkan pengalaman mistis, spiritual, atau halusinasi dari alam bawah sadar.",
+        "examplePrompt": "A complex, highly detailed Visionary Art painting depicting a swirling vortex of multi-colored energy and light, populated by celestial beings and geometric symbols. Intense detail, psychedelic colors, spiritual and transformative mood."
+      },
+      {
+        "name": "Psychedelic Poster (Modern)",
+        "description": "Versi modern dari gaya 60-an, dengan tipografi berputar, warna neon, dan efek distorsi digital yang halus.",
+        "examplePrompt": "A modern Psychedelic Poster design featuring flowing, electric blue and pink liquid patterns that consume the typography. Subtle digital distortion effects, high saturation, smooth vector curves, contemporary graphic design."
+      },
+      {
+        "name": "Kitsch Art",
+        "description": "Seni yang disengaja 'bercita rasa buruk' atau sentimental yang berlebihan, seringkali menggunakan objek kitsch yang populer secara massal.",
+        "examplePrompt": "A painting of a sad, anthropomorphic kitten with extremely large, wet eyes, surrounded by sparkling glitter and flowers. Overly sentimental subject, bright, saccharine colors, intentionally Kitsch aesthetic."
+      },
+      {
+        "name": "Esoteric Occult Illustration",
+        "description": "Seni yang berfokus pada simbolisme okultisme, astrologi, dan praktik esoterik. Seringkali monokromatik dan sangat detail.",
+        "examplePrompt": "A highly detailed, intricate Esoteric Occult illustration of a human figure surrounded by complex astrological and alchemical symbols. Pen and ink style, black and white monochrome, heavy symbolism, Dürer inspired engravings."
+      },
+      {
+        "name": "Cosmic Pop Art",
+        "description": "Kombinasi gaya komik Pop Art dengan tema kosmik, menampilkan karakter fiksi ilmiah dengan warna-warna yang berani.",
+        "examplePrompt": "A vibrant Cosmic Pop Art canvas print of an astronaut giving a thumbs up in front of a brightly colored, swirling galaxy. Thick black outlines, solid fields of color, Ben-Day dots for shading, optimistic and bold."
+      },
+      {
+        "name": "Gothic Lowbrow (Camille Rose Garcia)",
+        "description": "Lowbrow art dengan estetika yang lebih gelap, sering menampilkan karakter yang imut namun menyeramkan, seperti anak-anak atau makhluk kartun di latar yang suram.",
+        "examplePrompt": "A Gothic Lowbrow painting of a pale girl with black braided hair holding a wilting flower, standing in a dark, stylized forest with crooked trees. Dark color palette, large, sad eyes, slight unsettling atmosphere, high-contrast digital paint."
+      },
+      {
+        "name": "Metaphysical Painting",
+        "description": "Gaya yang mendahului Surealisme. Ditandai dengan alun-alun kota yang sunyi, manekin tanpa wajah, bayangan yang panjang, dan suasana yang membingungkan.",
+        "examplePrompt": "A Metaphysical Painting of a deserted, classical Italian piazza with deep, illogical shadows cast by a hidden sun. A faceless tailor's mannequin stands alone in the center, eerie silence, geometric architecture, Giorgio de Chirico style."
+      },
+      {
+        "name": "Art of the Grotesque",
+        "description": "Fokus pada hal-hal yang aneh, menakutkan, dan distorsi, seringkali menggabungkan elemen manusia dan hewan untuk efek karikatur yang menyeramkan.",
+        "examplePrompt": "A dark, highly detailed illustration in the Art of the Grotesque style of a monstrous figure that is half-man, half-insect, standing in a dark chamber. Highly textured skin, deep shadows, unsettling and bizarre."
+      },
+      {
+        "name": "Post-Internet Art",
+        "description": "Seni yang mencerminkan budaya internet: kesalahan digital, stok foto yang buruk, filter, dan estetika komputer awal.",
+        "examplePrompt": "A Digital Painting in the Post-Internet Art style featuring a collage of low-resolution stock images, pixelated gradients, Windows 95 icons, and overly glossy 3D renders of everyday objects. Deliberately poor quality, hyper-saturated colors, ironic and nostalgic."
+      },
+      {
+        "name": "UFO / Conspiracy Art",
+        "description": "Ilustrasi yang berfokus pada teori konspirasi, alien, UFO, dan *cryptid* lainnya, seringkali dengan estetika gaya tahun 90-an.",
+        "examplePrompt": "A dark, grainy illustration in the UFO / Conspiracy Art style of a flying saucer hovering over a suburban neighborhood at night. Heavy lens flares, subtle digital noise, high contrast, reminiscent of 90s X-Files promotional art."
+      },
+      {
+        "name": "Folk Art Surrealism",
+        "description": "Surealisme yang disederhanakan, dengan fokus pada bentuk-bentuk naif (anak-anak) dan warna-warna cerah, menceritakan kisah-kisah fantastis.",
+        "examplePrompt": "A Folk Art Surrealism painting of a vibrant blue fish floating in the sky above a small, brightly colored village. Simple, naive drawing style, strong outlines, flat perspective, playful and imaginative."
+      },
+      {
+        "name": "Steampunk Surrealism",
+        "description": "Menggabungkan teknologi uap (gigi, kuningan) dengan skenario sureal yang tidak logis (misalnya, jamur tumbuh dari mesin uap yang mengambang).",
+        "examplePrompt": "A detailed Steampunk Surrealism illustration of a mechanical grandfather clock melting into a puddle of oil and brass gears on a deserted, cobblestone street. Sepia tones, high detail on the mechanisms, illogical composition."
+      },
+      {
+        "name": "Bio-Mechanical Surrealism (Giger)",
+        "description": "Menggambarkan perpaduan horor antara mesin dan biologi, menciptakan bentuk-bentuk yang gelap, seksual, dan organik-mekanis.",
+        "examplePrompt": "A dark, intricate Bio-Mechanical Surrealism illustration of a human skull merging seamlessly with polished chrome tubing and hydraulic wires. Monochrome grey and black, high texture, unsettling and claustrophobic, H.R. Giger inspired."
+      },
+      {
+        "name": "Art Brut / Outsider Art",
+        "description": "Seni yang dibuat oleh seniman yang tidak terlatih secara formal. Ditandai dengan komposisi yang kasar, gambar yang mentah, dan fokus pada obsesi pribadi.",
+        "examplePrompt": "A raw, intense Art Brut painting of a screaming face with exaggerated features and crude, thick oil paint application. Chaotic color palette, child-like drawing quality, expressive and visceral."
+      },
+      {
+        "name": "Digital Photomontage",
+        "description": "Teknik kolase digital yang menggabungkan banyak foto menjadi komposisi baru yang mulus dan realistis, seringkali untuk efek sureal.",
+        "examplePrompt": "A highly refined Digital Photomontage of a massive, perfectly smooth ocean wave curling over a dense, dark forest canopy. Hyper-realistic, seamless blending of the two impossible elements, deep blue and green color palette, high-art surreal photography."
+      },
+      {
+        "name": "Low-Fi Horror Poster",
+        "description": "Poster film horor yang digambar atau dilukis dengan buruk secara sengaja, meniru film amatir dengan warna yang kotor dan gambar yang sederhana.",
+        "examplePrompt": "A hand-painted, Low-Fi Horror Movie Poster for a zombie film. Crude, thick brushwork, messy typography, washed-out colors (sickly green and brown), purposely low-quality exploitation film aesthetic."
+      },
+      {
+        "name": "Tiki Mug Design",
+        "description": "Desain cangkir keramik yang terinspirasi dari patung Tiki Polinesia. Fokus pada ukiran yang kasar, warna tanah, dan tekstur glasir yang tebal.",
+        "examplePrompt": "A detailed 3D render of a stylized Tiki Mug carved into the shape of a grimacing human face. Rough, brown ceramic texture with thick, glossy green and red glaze details, Polynesian folk art aesthetic."
+      },
+      {
+        "name": "Psychedelic Blacklight Art",
+        "description": "Seni yang dirancang untuk bersinar di bawah cahaya hitam (UV). Warna-warna neon yang berani dan desain yang berputar-putar/halusinasi.",
+        "examplePrompt": "A vibrant Blacklight Art painting of a smiling alien face composed of swirling concentric circles. Uses only fluorescent colors (hot pink, electric orange, neon green), thick paint texture, designed to glow brightly under UV light."
+      },
+      {
+        "name": "Dream Logic Scene",
+        "description": "Adegan yang mengikuti logika mimpi: objek berubah menjadi yang lain, waktu tidak linear, dan emosi yang kuat mendominasi.",
+        "examplePrompt": "A surreal painting of a clock turning into a snake, while a small child plays with giant, floating chess pieces in a cloudy sky. The logic is nonsensical but emotionally coherent, soft, muted colors, dreamlike atmosphere."
+      },
+      {
+        "name": "Kustom Kulture / Pin-up Art",
+        "description": "Seni yang berasal dari budaya mobil *hot rod* tahun 50-an. Melibatkan mobil yang dimodifikasi, tengkorak, dan karakter *pin-up* yang digambar dengan berani.",
+        "examplePrompt": "A detailed Kustom Kulture illustration of a classic 1950s hot rod car with flames painted on the side, accompanied by a stylized pin-up girl leaning against the wheel. Clean lines, bright, bold colors, heavy gloss, Ed Roth Rat Fink influence."
+      }
+    ]
+  }
+]
+
