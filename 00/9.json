@@ -1,0 +1,222 @@
+[
+  {
+    "id": "style_34_pose_dinamis",
+    "name": "34. POSE DINAMIS & TINDAKAN (DYNAMIC & ACTION POSES)",
+    "accentColor": "red",
+    "icon": "fas fa-bolt",
+    "definition": [
+      "Merupakan pose yang menangkap momen singkat dari kecepatan, potensi energi, atau dampak fisik, dirancang untuk melawan statisitas dan menantang hukum gravitasi.",
+      "Penciptaan garis aksi (line of action) yang jelas dan dramatis sangat ditekankan untuk menciptakan ilusi gerakan berlanjut dan memandu mata penonton.",
+      "Digunakan secara fundamental dalam komik, manga, dan animasi untuk menonjolkan momen-momen klimaks, pertarungan, atau transfer kekuatan yang intens."
+    ],
+    "substyles": [
+      {
+        "name": "Line of Action Pose",
+        "description": "Pose yang menekankan kurva tunggal atau aliran yang dominan melalui tubuh, membuat gerakan terasa cairan dan alami. [attachment_0](attachment)",
+        "examplePrompt": "An anime character in a Line of Action Pose, leaping into the air with their body forming a graceful S-curve, sword raised and ready to strike. Highly dynamic angle, dramatic lighting, high-speed movement blur."
+      },
+      {
+        "name": "Contrapposto Pose (Aksi)",
+        "description": "Meskipun klasik, pose ini digunakan dalam aksi untuk menciptakan ketegangan otot di mana berat badan dipindahkan ke satu kaki, memberikan kesan persiapan sebelum bergerak.",
+        "examplePrompt": "A muscular anime hero standing in a powerful Contrapposto Pose, one hand resting on a massive axe, the other hand on their hip. Intense gaze, heavy armor, ready for battle."
+      },
+      {
+        "name": "Impact Frame Pose",
+        "description": "Pose di momen persis setelah benturan keras, menekankan ledakan energi, goncangan, dan ketidakseimbangan. Seringkali disertai efek kejut/debu.",
+        "examplePrompt": "An anime mecha pilot in an Impact Frame Pose, bracing fiercely against the cockpit controls as their giant robot is hit by an energy blast. Intense internal lighting, shattered glass effects."
+      },
+      {
+        "name": "Jumping Attack Pose (Aerial)",
+        "description": "Pose yang ditangkap di puncak lompatan atau saat karakter menukik ke bawah, memaksimalkan penggunaan ruang negatif di sekitarnya.",
+        "examplePrompt": "A female anime assassin in a sharp Jumping Attack Pose, suspended high in the air with both knees tucked and a single katana aimed straight down. Night sky background, cinematic angle."
+      },
+      {
+        "name": "Dash/Speed Lines Pose",
+        "description": "Pose berlari atau bergerak cepat, biasanya digambarkan dengan kaki yang melangkah lebar dan tubuh condong ke depan, diperkuat dengan garis-garis kecepatan atau efek visual angin.",
+        "examplePrompt": "A male anime character in a Dash/Speed Lines Pose, sprinting at superhuman speed through a city street, visible speed lines trailing behind him, dynamic perspective from the ground up."
+      },
+      {
+        "name": "Tension and Release Pose",
+        "description": "Pose yang menunjukkan tubuh dipelintir dan dikencangkan untuk menahan atau melepaskan kekuatan (misalnya, menarik busur atau menyiapkan pukulan berat).",
+        "examplePrompt": "An anime sorceress in a Tension and Release Pose, both arms contorted to channel massive magical energy, veins glowing brightly, facial expression of intense concentration."
+      },
+      {
+        "name": "Flourish Pose (Senjata)",
+        "description": "Pose yang menunjukkan karakter dengan anggun memutar atau mengayunkan senjata sebagai bagian dari transisi atau pameran keterampilan.",
+        "examplePrompt": "An anime swordsman in a dramatic Flourish Pose, spinning his twin blades in a complex figure-eight pattern, coat fluttering dynamically in the wind."
+      },
+      {
+        "name": "Defensive Stance Pose",
+        "description": "Pose yang kuat dan rendah, dengan pusat gravitasi yang stabil, seringkali dengan lengan yang melindungi kepala atau dada, menunjukkan pertahanan dan ketahanan.",
+        "examplePrompt": "An anime knight in a heavy Defensive Stance Pose, shield planted firmly on the ground, head lowered, ready to absorb a powerful blow. Dust cloud around their feet."
+      },
+      {
+        "name": "Crouching Readiness Pose",
+        "description": "Karakter berjongkok rendah atau hampir menyentuh tanah, menunjukkan persiapan untuk melompat, menyergap, atau bergerak cepat dari posisi tersembunyi.",
+        "examplePrompt": "An anime ninja in a Crouching Readiness Pose on a dark rooftop, body low to the ground, one hand touching the tiles, eyes intensely focused on a target below."
+      },
+      {
+        "name": "Over-the-Shoulder Look (Action)",
+        "description": "Karakter melihat ke belakang sambil berjalan menjauh atau melarikan diri, menunjukkan kepercayaan diri atau ancaman yang masih ada.",
+        "examplePrompt": "A tired but determined anime protagonist in an Over-the-Shoulder Look Pose, walking away from a massive explosion behind them, glancing back with a knowing smirk."
+      },
+      {
+        "name": "Mid-Air Transformation Pose",
+        "description": "Pose yang ditangkap saat karakter sedang berubah bentuk atau mendapatkan kekuatan baru di udara, dengan efek energi yang mengalir keluar dari tubuh.",
+        "examplePrompt": "An anime magical girl in a Mid-Air Transformation Pose, engulfed in swirling light and energy, limbs outstretched, forming a dramatic silhouette."
+      },
+      {
+        "name": "Power Up/Charging Pose",
+        "description": "Pose yang menunjukkan karakter menarik energi, biasanya dengan tinju terkepal, tubuh tegang, dan aura yang jelas atau efek cahaya yang intens.",
+        "examplePrompt": "A young anime warrior in a classic Power Up/Charging Pose, screaming intensely as green lightning and energy surge around their body, muscles straining."
+      }
+    ]
+  },
+  {
+    "id": "style_35_pose_emosional",
+    "name": "35. POSE EMOSIONAL & DRAMATIS (EMOTIONAL & DRAMATIC POSES)",
+    "accentColor": "blue",
+    "icon": "fas fa-theater-masks",
+    "definition": [
+      "Pose yang fokus pada visualisasi keadaan mental, konflik internal, atau luapan emosi ekstrem (sedih, putus asa, marah, bahagia) tanpa memerlukan gerakan fisik yang besar.",
+      "Bahasa tubuh, seperti penempatan tangan, kemiringan kepala, dan postur punggung, berfungsi sebagai narasi utama untuk menyampaikan nuansa psikologis yang kompleks.",
+      "Keefektifan pose ini sangat bergantung pada faktor-faktor sinematik seperti pencahayaan (misalnya, *chiaroscuro* atau *rim lighting*) dan komposisi framing untuk memperkuat suasana hati yang dramatis."
+    ],
+    "substyles": [
+      {
+        "name": "Melancholy Head-Down Pose",
+        "description": "Pose kesedihan atau penyesalan di mana kepala karakter terkulai ke bawah, seringkali menutupi mata atau sebagian wajah untuk menyembunyikan emosi.",
+        "examplePrompt": "A brooding anime character in a Melancholy Head-Down Pose, sitting alone on a park bench in the rain, hands clasped tightly, face partially obscured by wet hair. Muted blue color palette."
+      },
+      {
+        "name": "Despair and Defeat Pose",
+        "description": "Pose tubuh yang runtuh (entah berlutut atau membungkuk), menunjukkan kekalahan total, kelelahan, atau keputusasaan yang luar biasa.",
+        "examplePrompt": "An anime villain in a Despair and Defeat Pose, kneeling on broken ground after their final plan failed, hands hanging limply, lighting is dim and harsh."
+      },
+      {
+        "name": "Hands-Clenched Frustration Pose",
+        "description": "Pose di mana tangan mengepal kuat (seringkali di depan mulut atau dahi), menunjukkan frustrasi yang tertahan, kemarahan, atau kecemasan yang mendalam.",
+        "examplePrompt": "A young anime student in a Hands-Clenched Frustration Pose, seated at a desk late at night, shoulders hunched, staring intensely at a textbook, feeling overwhelmed."
+      },
+      {
+        "name": "Dramatic Back-View Pose",
+        "description": "Pose di mana punggung karakter menghadap penonton, memberikan misteri atau fokus pada bahu dan siluet untuk menyampaikan kesendirian atau ketegasan.",
+        "examplePrompt": "A silent, powerful anime figure in a Dramatic Back-View Pose, standing at the edge of a cliff overlooking a massive city at dawn. Long, flowing cloak, sense of monumental scale."
+      },
+      {
+        "name": "Gazing into the Distance Pose (Pensive)",
+        "description": "Pose di mana karakter melihat ke kejauhan, seringkali dengan mata setengah tertutup atau ekspresi kosong, menunjukkan pemikiran mendalam atau refleksi.",
+        "examplePrompt": "An anime philosopher in a Pensive Gazing into the Distance Pose, leaning against a large window, looking out at the foggy morning, one hand resting softly on the glass."
+      },
+      {
+        "name": "Reaching Out Pose (Longing)",
+        "description": "Pose di mana satu atau kedua lengan terentang, seringkali ke arah yang tidak terlihat atau kosong, melambangkan kerinduan, panggilan bantuan, atau harapan.",
+        "examplePrompt": "A sweet anime girl in a Reaching Out Pose, standing in a field of flowers, one hand stretched up towards the bright sky, soft sunlight, expressing deep longing."
+      },
+      {
+        "name": "Protective Embrace Pose",
+        "description": "Dua karakter saling berpelukan, dengan satu karakter (pelindung) menaungi yang lain, menunjukkan kehangatan, perlindungan, atau perpisahan yang menyedihkan.",
+        "examplePrompt": "A strong anime protagonist holding a smaller, injured companion in a tender Protective Embrace Pose, faces hidden against each other's shoulders. Warm, internal lighting, sense of safety amidst chaos."
+      },
+      {
+        "name": "Overwhelmed Cover-Up Pose",
+        "description": "Karakter menutupi wajah dengan kedua tangan (atau satu tangan dan lengan), menunjukkan keterkejutan, isak tangis, atau tidak mampu menghadapi kenyataan.",
+        "examplePrompt": "An anime character standing in a brightly lit room in an Overwhelmed Cover-Up Pose, their body shaking slightly, fingers gripping the hair, completely hiding their expression."
+      },
+      {
+        "name": "Triumphant Victory Pose",
+        "description": "Pose yang angkuh dan terbuka, biasanya dengan lengan terentang ke atas, kepala dimiringkan ke belakang, dan ekspresi kegembiraan atau kemenangan yang besar.",
+        "examplePrompt": "A hyper-confident anime champion in a Triumphant Victory Pose, standing atop a defeated foe, one fist raised high to the sky, surrounded by cheering crowds and spotlights."
+      },
+      {
+        "name": "The Villain's Calculated Smirk Pose",
+        "description": "Pose formal tetapi mengancam. Karakter berdiri tegak, seringkali dengan tangan di belakang punggung atau sedikit membungkuk, dengan seringai kecil yang menyampaikan rencana jahat.",
+        "examplePrompt": "A sophisticated anime villain in The Villain's Calculated Smirk Pose, standing perfectly still in a luxurious office, one hand subtly adjusting their tie, eyes gleaming with malicious intent."
+      },
+      {
+        "name": "The Broken Doll Pose",
+        "description": "Pose di mana karakter terlihat tidak bernyawa, dengan anggota badan yang jatuh longgar atau terpelintir secara tidak wajar, sering menunjukkan manipulasi atau hilangnya jiwa/kontrol.",
+        "examplePrompt": "A mysterious anime girl floating motionless in water in The Broken Doll Pose, arms and legs limp, eyes wide open but vacant, surrounded by dark blue water and light ripples."
+      },
+      {
+        "name": "Shy/Flustered Cover Pose",
+        "description": "Pose di mana karakter menggunakan objek (seperti buku atau tangan) untuk menutupi wajah atau menoleh, menunjukkan rasa malu, kegugupan, atau canggung.",
+        "examplePrompt": "A cute anime boy in a Shy/Flustered Cover Pose, holding a large textbook up to hide his blushing face, eyes peeking out slightly from above the book, nervous energy."
+      }
+    ]
+  },
+  {
+    "id": "style_36_pose_stilistik",
+    "name": "36. POSE STILISTIK & SIMBOLIS (STYLISTIC & SYMBOLIC POSES)",
+    "accentColor": "purple",
+    "icon": "fas fa-star",
+    "definition": [
+      "Pose yang melayani tujuan murni visual atau simbolis, seringkali berasal dari parodi, referensi budaya pop (meme, ikonografi anime/manga), atau seni pertunjukan.",
+      "Pose ini cenderung berlebihan (over-the-top), non-naturalistik, dan memprioritaskan 'impact factor' dan siluet yang kuat dibandingkan dengan kebenaran anatomis atau realisme.",
+      "Secara inheren berfungsi sebagai 'signature look' atau penanda genre yang langsung dapat dikenali, seperti pose pahlawan super pendaratan atau gaya yang dipelopori oleh seniman tertentu."
+    ],
+    "substyles": [
+      {
+        "name": "Jojo's Bizarre Adventure Pose (Jojo Pose)",
+        "description": "Pose yang sangat berlebihan, dramatis, dan sangat fleksibel yang menantang anatomi, seringkali dengan sudut aneh, pinggul yang dipelintir, dan ekspresi yang intens. ",
+        "examplePrompt": "An anime character in an extreme, highly stylized Jojo Pose: back arched impossibly, fingers contorted, head turned sharply to the viewer, intense shadow and highlight contrast, Jojo's Bizarre Adventure style."
+      },
+      {
+        "name": "Power Stance (Superhero Landing)",
+        "description": "Pose pahlawan super ikonik: satu lutut di tanah, satu tangan di tanah/kepal di depan, tubuh condong ke depan, tiba setelah lompatan/penerbangan yang intens.",
+        "examplePrompt": "An anime anti-hero in a classic Power Stance (Superhero Landing), kneeling dramatically on a rooftop after a high-speed descent, heavy dust surrounding their impact point, cinematic low angle."
+      },
+      {
+        "name": "Finger Frame Pose (Mengamati)",
+        "description": "Karakter menggunakan jari atau tangan mereka untuk membingkai sebagian wajah atau mata mereka, menunjukkan observasi yang tajam, kecerdasan, atau manipulasi.",
+        "examplePrompt": "A genius anime detective in a Finger Frame Pose, one hand raised to frame their intensely focused eye, sitting in a dark, quiet library, subtle rim lighting."
+      },
+      {
+        "name": "Tense Shoulders Shrug Pose",
+        "description": "Gerakan mengangkat bahu yang tidak santai, menunjukkan ketidakpedulian yang dipaksakan, kelelahan mental, atau penerimaan yang enggan.",
+        "examplePrompt": "A tired anime office worker in a Tense Shoulders Shrug Pose, looking defeated while holding a briefcase, standing in a crowd of identically dressed people. Rainy city environment."
+      },
+      {
+        "name": "The Thinker/Chin Rest Pose",
+        "description": "Pose klasik refleksi: karakter duduk atau berdiri dengan satu tangan menopang dagu, menunjukkan pemikiran yang dalam, perencanaan, atau kebosanan yang elegan.",
+        "examplePrompt": "An older, dignified anime wizard in a Chin Rest Pose, seated by a large magical tome, one elbow propped on the table, thoughtful expression."
+      },
+      {
+        "name": "One Hand in Pocket Pose (Coolness)",
+        "description": "Pose santai tetapi percaya diri. Satu tangan dimasukkan ke saku, seringkali dengan bahu sedikit miring, menyampaikan ketenangan dan 'coolness' yang tak terganggu.",
+        "examplePrompt": "A stylish anime protagonist in a One Hand in Pocket Pose, leaning casually against a wall, subtle smile, wearing cool street fashion, high-contrast urban night setting."
+      },
+      {
+        "name": "The Back-to-Back Pose (Duo)",
+        "description": "Dua karakter berdiri saling membelakangi, masing-masing menghadap ancaman di arah yang berlawanan, menyimbolkan kemitraan dan perlindungan bersama.",
+        "examplePrompt": "A male and female anime duo in a fierce Back-to-Back Pose, each readying a unique weapon, surrounded by shadowy figures, strong bond implied."
+      },
+      {
+        "name": "Hand on Hip Pose (Sassy/Commanding)",
+        "description": "Pose yang kuat dan arogan. Tangan diletakkan di pinggul, menonjolkan pinggul, seringkali menunjukkan otoritas, ketidaksabaran, atau arogansi yang menyenangkan.",
+        "examplePrompt": "A fashionable anime schoolgirl in a Hand on Hip Pose, giving a commanding, slightly annoyed expression to a hapless boy, vibrant school rooftop scene."
+      },
+      {
+        "name": "The Crossed Arms Stance (Skeptical/Closed)",
+        "description": "Lengan disilangkan di dada. Menunjukkan ketidaksetujuan, skeptisisme, atau sikap tertutup/defensif, tetapi juga dapat menyiratkan keseriusan.",
+        "examplePrompt": "An adult anime mentor figure in a Crossed Arms Stance, observing their student's training with a stern, skeptical expression, intense shadow cast over their eyes."
+      },
+      {
+        "name": "Arms Wide Open Pose (Welcome/Vulnerable)",
+        "description": "Lengan terentang lebar, menyimbolkan sambutan, penerimaan, penyerahan diri, atau kerentanan yang terbuka. Penuh dengan pathos dramatis.",
+        "examplePrompt": "A wounded anime savior figure in an Arms Wide Open Pose, standing on a hill as a blinding light shines down, expressing both pain and complete acceptance/vulnerability."
+      },
+      {
+        "name": "The Pointed Finger Pose (Accusation/Directive)",
+        "description": "Satu jari diarahkan ke penonton atau karakter lain. Digunakan untuk menuduh, memberi perintah, atau mengklaim otoritas.",
+        "examplePrompt": "An anime court prosecutor in a dramatic Pointed Finger Pose, yelling an accusation across the courtroom, sharp, intense lighting, focus on the finger."
+      },
+      {
+        "name": "The 'V' Sign Pose (Peace/Playful)",
+        "description": "Dua jari (telunjuk dan tengah) diangkat membentuk V. Pose yang ringan dan sering digunakan dalam fashion atau adegan kehidupan sekolah untuk menunjukkan kesenangan atau kedamaian.",
+        "examplePrompt": "A cheerful anime schoolgirl posing for a photo in a 'V' Sign Pose, winking playfully, surrounded by colorful spring cherry blossoms, bright and airy tone."
+      }
+    ]
+  }
+]
+
