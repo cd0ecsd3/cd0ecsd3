@@ -1,0 +1,755 @@
+[
+  {
+    "id": "style_1_dinamis",
+    "name": "1. POSE DINAMIS & AKSI",
+    "accentColor": "red",
+    "icon": "fas fa-bolt",
+    "definition": [
+      "Pose yang menangkap momen cepat, potensi energi, atau benturan fisik yang kuat.",
+      "Memanfaatkan 'Garis Aksi' (Line of Action) yang dramatis (seperti S-curve atau C-curve) untuk mengarahkan aliran gerakan.",
+      "Umum digunakan dalam komik, manga shonen, film aksi, dan ilustrasi pertarungan."
+    ],
+    "subpose": [
+      {
+        "name": "Line of Action (S-Curve)",
+        "description": "Pose yang menggunakan satu garis melengkung untuk memandu arah tubuh, menciptakan gerakan yang alami dan mengalir.",
+        "exampleAnime": "A full-body anime illustration, extreme low-angle perspective (worm's eye view). A charismatic hero leaping toward the camera, torso forming a dynamic S-curve. The hero is wielding a glowing sword, with intense, focused eyes. Detailed dynamic fabric folds on the flowing cape and uniform. Dramatic backlighting from a central energy source.",
+        "exampleRealistic": "A dancer captured mid-spin with the spine forming a clean S-curve and the clothing trailing the motion. High-speed photography, shallow depth of field, focusing on the dancer's face.",
+        "exampleAnatomy": "A gesture/anatomy sketch showing a simplified spine curve, ribcage tilt, and pelvis rotation aligned with the line of action. Highlight the core muscles and the relaxed state of the non-supporting limbs."
+      },
+      {
+        "name": "Reaksi Benturan (Impact Reaction)",
+        "description": "Momen setelah serangan mendarat, menunjukkan gelombang kejut dan energi yang menyebar.",
+        "exampleAnime": "A gritty manga panel style. Close-up on a character being violently knocked backward by an unseen force. Hair and tattered clothing are whipped into the air, creating secondary motion lines. The pose shows maximal spine hyperextension and a look of pain/shock. Speed lines radiating outward from the point of impact.",
+        "exampleRealistic": "A person receiving a strong push, their feet momentarily lifted off the ground, captured in high-speed flash photography, emphasizing blurred movement.",
+        "exampleAnatomy": "The body line is dominated by sharp, straight lines moving away from the point of impact, with tense joints. Emphasize the neck tension and the sudden, jerky alignment of the skeletal structure."
+      },
+      {
+        "name": "Lompatan (The Leap)",
+        "description": "Pose di tengah lompatan, menangkap puncak pendakian sebelum mendarat.",
+        "exampleAnime": "An action anime shot from a slightly high angle (bird's eye view). A female ninja suspended perfectly mid-air, knees tucked close to her chest. She holds a short dagger in a reverse grip, poised for a descent. The lighting is harsh and dramatic, casting sharp shadows on the folded limbs.",
+        "exampleRealistic": "A ballet dancer executing a Grand Jeté, body fully horizontal and stretched, viewed from the side, emphasizing the split legs and pointed toes.",
+        "exampleAnatomy": "High center of gravity, no ground contact, limbs fully extended or tightly folded. Sketch the muscle groups (especially quadriceps and hamstrings) under maximum tension."
+      },
+      {
+        "name": "Berlari Kencang (Running at Full Speed)",
+        "description": "Pose berlari dengan kecepatan tinggi, satu kaki di udara, seluruh tubuh condong ke depan.",
+        "exampleAnime": "A realistic illustration of a marathon runner captured at the peak of their stride (all feet off the ground). The body is severely angled forward, showing maximum antagonistic movement in the arms and legs. Intense muscle definition is visible in the calves and thighs. Shallow depth of field focusing on the determined face.",
+        "exampleRealistic": "A 100-meter sprinter, maximum opposing movement of arms and legs, torso leaning aggressively forward, focus on the power generated from the bent supporting leg.",
+        "exampleAnatomy": "A strong diagonal line through the body axis, the supporting leg is nearly straight, and the lifted leg is sharply bent. Show the deltoids and gluteal muscles under intense exertion."
+      },
+      {
+        "name": "Maju Menyerbu (Charging Forward)",
+        "description": "Pose saat bergerak cepat menuju lawan, seringkali dengan senjata diacungkan.",
+        "exampleAnime": "A dramatic fantasy comic style. A heavily armored warrior, viewed from a close front-on perspective, charging with full momentum. The sword is raised high overhead in a two-handed grip. The front leg stomps down hard, kicking up dust and debris. Extreme determination on the face.",
+        "exampleRealistic": "A rugby player breaking through the opponent's defense line, head down, body low to the ground, legs churning with power and forward thrust.",
+        "exampleAnatomy": "Unstable balance (leaning aggressively forward), the back leg pushes off, shoulders squared toward the objective. Emphasize the straight line of force extending from the back heel through the spine to the chest."
+      },
+      {
+        "name": "Sikap Bertahan (Defensive Stance)",
+        "description": "Sikap siaga yang dinamis, menunjukkan kewaspadaan dan potensi energi.",
+        "exampleAnime": "A detailed anatomical drawing, focusing on muscle tension. A martial artist in a low, wide 'cat stance' with their weight centered, hands open and ready near the chest. The spine is perfectly vertical. Highlighted tension in the quadriceps and core muscles, showing energy coiled for an imminent move.",
+        "exampleRealistic": "A 'Horse Stance' in Kung Fu, viewed slightly from below, emphasizing the solid, unshakeable foundation and the low center of gravity.",
+        "exampleAnatomy": "Low and wide center of gravity, limbs coiled (spring-like), and a long, straight neck. Annotate the precise angle of the knees and the locked position of the lower back for stability."
+      },
+      {
+        "name": "Tendangan Berputar (Spin Kick)",
+        "description": "Momen kaki terentang penuh di udara saat tendangan berputar.",
+        "exampleAnime": "A dynamic comic book cover art. A female fighter executing a powerful 180-degree roundhouse kick. The kicking leg is fully extended and horizontal. The supporting leg is pivot-toed. The body shows maximum rotational twist, with the opposing arm extended for counterbalance. Focus on the snap motion.",
+        "exampleRealistic": "A Taekwondo athlete performing a 'Tornado Kick', captured mid-rotation, emphasizing the blurring movement of the torso and the sharpness of the extended foot.",
+        "exampleAnatomy": "Strong hip rotation, shoulders follow the leg, the body forms an I or inverted L shape. Show the gluteus medius and core muscles responsible for maintaining the high leg position and balance."
+      },
+      {
+        "name": "Berguling di Udara (Mid-Air Roll)",
+        "description": "Pose berguling di udara untuk menghindari sesuatu atau bersiap mendarat.",
+        "exampleAnime": "A character flipping in the air after falling from a height, with detailed motion lines indicating the speed of the rotation. Arms are tightly tucked to minimize air resistance.",
+        "exampleRealistic": "A parkour athlete performing a tight mid-air tuck roll. The body is curled into a compact sphere (C-curve), head tucked, knees near the chest, minimizing impact area. Captured in motion blur.",
+        "exampleAnatomy": "Body curled (C-curve), knees close to the chest, creating a compact, spherical shape. Highlight the skeletal structure protecting the spine and the curled posture of the neck."
+      },
+      {
+        "name": "Meningkatkan Kekuatan (Power Up Stance)",
+        "description": "Pose sebelum melepaskan serangan energi, menunjukkan akumulasi kekuatan.",
+        "exampleAnime": "A high-impact shonen manga style. A character standing with legs wide, facing forward, arms pulled back to the sides of the head. Intense visual energy (chi) is swirling violently around the hands and entire body. The expression is one of maximum strain and concentration. Symmetric composition.",
+        "exampleRealistic": "A bodybuilder striking an extreme muscle-flexing pose, viewed from a low angle, emphasizing the sheer size and symmetry of the figure, with veins bulging from the exertion.",
+        "exampleAnatomy": "Symmetrical pose, legs firmly planted, tense muscles, focus on the hands and shoulders. Show the tension radiating from the core outward to the extremities."
+      },
+      {
+        "name": "Mendarat Keras (Landing Hard)",
+        "description": "Momen setelah mendarat dari ketinggian, lutut ditekuk untuk menyerap benturan.",
+        "exampleAnime": "A cinematic shot of a superhero landing on rough terrain. One fist is braced on the ground, the opposite knee is bent sharply to absorb impact, creating a dramatic, low silhouette. The background is a destroyed city, emphasizing the force of the landing. Dust and small stones fly up.",
+        "exampleRealistic": "A skydiver who has just touched down, showing the bent knees and forward lean to counteract momentum, with parachute straps visible.",
+        "exampleAnatomy": "Low center of gravity, thighs and calves at a 90-degree angle, relatively straight back. Highlight the compressed joints and the tension in the quadriceps as shock absorbers."
+      },
+      {
+        "name": "Akhir Ayunan Pedang (Sword Swing Finish)",
+        "description": "Akhir dari ayunan pedang, senjata ditarik menjauhi tubuh.",
+        "exampleAnime": "A traditional Japanese ink wash (sumi-e) style. A lone warrior stands mid-stance after delivering a fatal blow. The sword is now held behind their back, extended away from the body, showing the end of the rotation. The posture is leaning slightly back, and the movement has just stopped, creating an aura of stillness.",
+        "exampleRealistic": "A golfer completing their club swing, full follow-through position, showing maximum hip rotation and the body facing the direction of the shot.",
+        "exampleAnatomy": "Maximum hip rotation, extended arms, body twisted and leaning slightly backward. Annotate the spinal rotation and the release of tension in the muscles."
+      },
+      {
+        "name": "Menarik Panah (Arrow Nocking)",
+        "description": "Momen sebelum melepaskan panah, busur ditarik hingga ketegangan maksimum.",
+        "exampleAnime": "A detailed fantasy illustration. A female elf archer at the 'full draw' position. The string hand is pulled back firmly to the corner of the mouth, the bow arm is straight and locked. The body leans back slightly, maximizing tension. Intense focus on the eye looking down the arrow shaft.",
+        "exampleRealistic": "An Olympic archery athlete in the 'full draw' position, facing sideways, emphasizing the straight line from the arrow tip through the elbow.",
+        "exampleAnatomy": "An asymmetrical T-pose, the pulling arm is bent, shoulders stable. Show the strong tension in the latissimus dorsi muscle (back) and the relaxed trapezius muscle."
+      },
+      {
+        "name": "Jatuh Terlentang (Falling Backward)",
+        "description": "Pose jatuh ke belakang (guling belakang) dengan satu tangan sebentar menopang momentum.",
+        "exampleAnime": "A dynamic 3D render. A character mid-fall backward from a trip, the back arched and head slightly lifted to see the ground, hands instinctively reaching out for support. The pose shows the moment before hitting the ground. Low center of gravity, emphasis on the arched spine.",
+        "exampleRealistic": "A person slipping on ice, the body awkwardly twisted, arms flailing to catch balance, capturing the sudden loss of control.",
+        "exampleAnatomy": "Head lifted to protect the neck, curved back, legs extended upward. Emphasize the dislocated 'Line of Action' and the sudden, reactive tension in the neck muscles."
+      },
+      {
+        "name": "Meluncur Menghindar (Evasion Slide)",
+        "description": "Pose meluncur di tanah atau lantai untuk menghindari serangan rendah.",
+        "exampleAnime": "A neo-noir comic panel. A character sliding horizontally across a wet floor to evade a blast or obstacle. One arm is tucked in, the other is extended for support. The body is perfectly parallel to the ground. Viewpoint is level with the floor, emphasizing the speed.",
+        "exampleRealistic": "A baseball player 'sliding' into base, viewed from the side, with the leading foot stretched forward and a cloud of dirt flying up.",
+        "exampleAnatomy": "Body horizontal, one leg bent forward, arms supporting the body weight. Highlight the straight line of the sliding leg and the protective tuck of the head/neck."
+      },
+      {
+        "name": "Berlari di Dinding (Wall Run)",
+        "description": "Pose di mana kaki menekan dinding, tubuh condong secara horizontal.",
+        "exampleAnime": "A high-speed photograph. A parkour athlete running horizontally up a concrete wall. The outer leg pushes strongly off the wall, while the body is angled perpendicular to the ground. The pose emphasizes the temporary, impossible nature of the balance.",
+        "exampleRealistic": "A rock climber using small footrests, viewed from below, showing the body pressed tightly against the vertical surface.",
+        "exampleAnatomy": "Unnatural balance, one foot bent 90 degrees supporting, body parallel to the ground. Detail the strain on the ankle and the forward lean of the torso."
+      },
+      {
+        "name": "Mengelak (Dodge and Weave)",
+        "description": "Pose tinju merunduk ke samping untuk menghindari pukulan lawan.",
+        "exampleAnime": "A black and white photograph of a boxing match. A fighter executing a deep 'bob and weave' movement, the torso curved into a sharp C-shape to let the opponent's punch fly over their shoulder. The legs are stable and wide. Focus on the strong neck muscles allowing the rapid movement.",
+        "exampleRealistic": "An MMA athlete performing a 'bob and weave', viewed from the front, showing the head narrowly missing the opponent's glove, emphasis on the crouched posture.",
+        "exampleAnatomy": "A quick C-curve on the spine, stable hips, shoulders tilted sharply. Annotate the powerful contraction of the obliques and the stability provided by the wide leg stance."
+      },
+      {
+        "name": "Menarik Ketegangan (Tension Pull)",
+        "description": "Pose menarik tali, rantai, atau tuas yang sangat berat.",
+        "exampleAnime": "A high-detail heroic fantasy illustration. A warrior straining, pulling a massive chain anchored far away. The body is leaned severely backward, legs braced and straight, almost parallel to the ground. Every muscle (traps, lats, biceps) is maximally flexed and highlighted with harsh directional lighting.",
+        "exampleRealistic": "An athlete in a 'Tug of War' pulling with maximum force, viewed from the side, showing the low center of gravity and the deep forward lean of the opponent.",
+        "exampleAnatomy": "Very low center of gravity, body leaning backward, legs stretched far forward. Highlight the maximal contraction of the latissimus dorsi and the deep stabilizing tension in the legs."
+      },
+      {
+        "name": "Menarik Cepat (Quick Draw)",
+        "description": "Momen senjata api atau pedang baru saja ditarik dari sarungnya.",
+        "exampleAnime": "A Western cinematic scene. A gunslinger, viewed from a slightly low angle, having just drawn his pistol. The drawing hand is fully extended and locked on target, the other hand is near the holster. The body is tense, and a slight puff of smoke emanates from the muzzle.",
+        "exampleRealistic": "A police officer quickly drawing a weapon from the holster, emphasizing the speed and precise hand placement, with focused eye line.",
+        "exampleAnatomy": "Elbows bent close to the body, eyes straight ahead, shoulders slightly raised due to tension. Show the quick, minimal rotation of the hips required for the draw."
+      },
+      {
+        "name": "Ayunan Kapak dari Atas (Axe Swing Overhead)",
+        "description": "Pose mengayunkan kapak atau palu godam dari atas ke bawah.",
+        "exampleAnime": "An epic video game concept art. A barbarian warrior at the apex of an overhead axe swing. The weapon is held vertically above the head, the back is arched in preparation for the downward thrust, and the knees are bent, loading the full body weight into the strike.",
+        "exampleRealistic": "A lumberjack when the axe is at the peak of the swing, viewed from the back, emphasizing the width of the shoulders and the arch of the spine.",
+        "exampleAnatomy": "Shoulders greatly extended, back arched backward, legs supporting the weight. Detail the spinal hyperextension and the preparation for muscle activation on the downswing."
+      },
+      {
+        "name": "Blok Perisai (Shield Block)",
+        "description": "Momen perisai menerima benturan, tubuh sedikit condong ke belakang untuk menahan.",
+        "exampleAnime": "A medieval fantasy illustration. A knight bracing with a large shield held tightly in front of the torso. The stance is wide and low. The knees are bent, and the body leans slightly into the shield, absorbing a powerful blow. Steam or magical energy is visible impacting the shield.",
+        "exampleRealistic": "Riot police resisting crowd pressure, viewed from the front, focusing on the locked arms and the wide, solid leg stance.",
+        "exampleAnatomy": "Wide and sturdy legs, locked arms and hands, tense neck. Show the weight distribution evenly across both feet and the straight spine maintaining structural integrity."
+      },
+      {
+        "name": "Mengumpulkan Momentum (Winding Up)",
+        "description": "Pose persiapan, memutar tubuh untuk membangun momentum sebelum melepaskan serangan/lemparan.",
+        "exampleAnime": "A sports photography style. A baseball pitcher at the moment of maximal 'wind-up' or counter-rotation. The hips and shoulders are twisted in opposing directions, creating a visible torque in the torso. The pitching arm is extended back, and the non-pivot foot is lifted.",
+        "exampleRealistic": "A golfer at the peak of their body rotation, viewed from the back, showing the club held high and the head remaining focused on the ball.",
+        "exampleAnatomy": "Hips and shoulders rotate in opposite directions (counter-rotation), creating a 'spiral' in the body. Annotate the stretch and tension in the oblique muscles and the stored elastic energy."
+      },
+      {
+        "name": "Serangan Berdiri dengan Tangan (Handstand Attack)",
+        "description": "Melakukan serangan sambil menyeimbangkan diri di satu atau dua tangan.",
+        "exampleAnime": "A dynamic action sketch. A martial artist performing a handstand, supporting their full weight on one hand, while the legs are split wide for a forceful downward kick. The pose is inverted, emphasizing the core strength required to maintain the vertical line.",
+        "exampleRealistic": "A gymnast performing a 'flip' from a hand position, showing the moment of transition from handstand to rotation.",
+        "exampleAnatomy": "Straight vertical body, or legs bent over the head for kicking, stable shoulders. Highlight the trapezius and deltoid muscles bearing the entire body weight."
+      },
+      {
+        "name": "Memanjat Naik (Climbing Up)",
+        "description": "Pose menarik diri ke atas langkan atau tepi, menggunakan kekuatan lengan.",
+        "exampleAnime": "A realistic illustration of a rock climber 'mantling' over a ledge. Both arms are bent and pulling, showing maximal tension in the forearms and biceps. The body is pressed close to the rock surface, legs bent and poised to push up.",
+        "exampleRealistic": "A mountain climber pulling themselves over a large rock, viewed from above, emphasizing the hand grip and muscle strain.",
+        "exampleAnatomy": "Arms greatly bent (tense biceps and latissimus dorsi), legs searching for a foothold, body leaning forward. Show the contracting muscles on the inside of the arms and the stretched back muscles."
+      },
+      {
+        "name": "Melempar Tombak (Throwing Spear)",
+        "description": "Momen tombak atau lembing dilepaskan, diikuti oleh gerakan maju tubuh.",
+        "exampleAnime": "An illustration of an Olympic javelin thrower. The body is fully extended and arched backward like a taut bow immediately before the release. The trailing arm and leg form a long, dynamic diagonal line leading to the spear.",
+        "exampleRealistic": "A soldier throwing a spear, viewed from the side, emphasizing the rotational force generated from the ground up through the hips and shoulders.",
+        "exampleAnatomy": "Back arches backward momentarily, followed by the hips rotating quickly forward. Detail the sequential chain of muscle activation from the lower body to the throwing arm."
+      },
+      {
+        "name": "Luncuran Balik (Backflip Launch)",
+        "description": "Pose di awal salto ke belakang, sebelum tubuh berputar penuh.",
+        "exampleAnime": "A comic book panel showing a character at the beginning of a rapid backflip. They are low to the ground in a deep squat, arms sweeping up to initiate the rotation. The pose captures the explosive upward thrust. Focus on the bent knees and pushing motion.",
+        "exampleRealistic": "A parkour participant at the beginning of a backflip, viewed from the ground, emphasizing the push-off and the sudden rise in the center of gravity.",
+        "exampleAnatomy": "Knees bent very sharply (squat position), arms raised for momentum, gaze directed backward. Show the rapid extension of the quadriceps and glutes at the point of jump."
+      }
+    ]
+  },
+  {
+    "id": "style_2_santai",
+    "name": "2. POSE SANTAI & RILEX",
+    "accentColor": "blue",
+    "icon": "fas fa-couch",
+    "definition": [
+      "Pose yang menunjukkan kurangnya ketegangan, kenyamanan, atau aktivitas non-mendesak.",
+      "Memanfaatkan 'Garis Aksi' yang lembut, seringkali berbentuk J atau C, atau garis patah (Contrapposto yang rileks).",
+      "Umum digunakan dalam genre Slice of Life, ilustrasi karakter sehari-hari, dan fashion."
+    ],
+    "subpose": [
+      {
+        "name": "Berdiri Santai (Contrapposto)",
+        "description": "Berdiri dengan santai dengan berat ditopang pada satu kaki, menyebabkan pinggul dan bahu miring berlawanan.",
+        "exampleAnime": "A slice-of-life anime background scene. A male character in a relaxed Contrapposto stance. Weight shifted entirely to the straight leg, causing the hip to tilt and the opposite shoulder to drop. One hand is casually slipped into a back pocket. Soft ambient morning light.",
+        "exampleRealistic": "A fashion model posing casually, one hand on their hip, looking over their shoulder, emphasizing the gentle curve of the spine.",
+        "exampleAnatomy": "One leg straight (supporting), the other leg bent (relaxed), the spine slightly curved C. Annotate the tilt of the pelvis and the relaxed state of the knee joint on the non-weight-bearing leg."
+      },
+      {
+        "name": "Bersandar di Dinding (Leaning Against Wall)",
+        "description": "Bersandar pada permukaan vertikal, biasanya dengan satu bahu atau punggung.",
+        "exampleAnime": "A low-key urban photography style. A character leaning with their entire back and one shoulder against a concrete wall. Arms are crossed over the chest in a defensive but relaxed manner. The head is slightly tilted back, gazing upward. The body forms a slight diagonal line.",
+        "exampleRealistic": "Someone waiting on a street corner, shoulder resting against the wall, reading a newspaper, showing minimal muscle engagement.",
+        "exampleAnatomy": "The body axis is tilted from the vertical, the resting shoulder is lower, arms are relaxed or supporting the head. Detail the pressure points where the back makes contact with the wall."
+      },
+      {
+        "name": "Tangan di Saku (Hands in Pockets)",
+        "description": "Berdiri atau berjalan dengan kedua tangan tersembunyi di saku celana atau jaket.",
+        "exampleAnime": "A muted color manga cover illustration. A female character standing still, both hands completely hidden in the front pockets of her hoodie. The shoulders are slightly hunched forward, emphasizing a feeling of withdrawal or introspection. Gentle light source from the side.",
+        "exampleRealistic": "A pedestrian in winter seeking warmth, head slightly bowed, focusing on the enclosed hands.",
+        "exampleAnatomy": "Shoulders slightly dropped forward, chest slightly sunken, elbows bent 90 degrees. Show the relaxed muscles of the trapezius and upper back."
+      },
+      {
+        "name": "Duduk dan Membaca (Sitting and Reading)",
+        "description": "Duduk tenang sambil memegang buku, kepala sedikit menunduk.",
+        "exampleAnime": "A warm, cozy illustration. A person seated comfortably on an old armchair, immersed in reading a book held loosely in both hands. Head is slightly bowed, illuminated by a warm reading lamp. The spine is curved in a relaxed, deep C-shape.",
+        "exampleRealistic": "Someone in a cafe, holding a cup while reading, viewed from a close-up, focusing on the gentle grasp of the hands on the book.",
+        "exampleAnatomy": "The spine is straight yet relaxed, arms holding the weight of the book in front of the chest. Show the angle of the neck leaning forward towards the reading material."
+      },
+      {
+        "name": "Tangan di Belakang Kepala (Arms Behind Head)",
+        "description": "Berbaring atau duduk dengan tangan dikaitkan di belakang kepala, siku terbuka lebar.",
+        "exampleAnime": "A bright summer day illustration. A person lying supine on green grass, arms interlocked behind their head, elbows pointing up. The chest is completely open and relaxed, reflecting a feeling of contentment and ease. View from the ground level looking up.",
+        "exampleRealistic": "Someone sunbathing on the beach, viewed from a high angle, emphasizing the stretched torso and open chest cavity.",
+        "exampleAnatomy": "Chest is open, shoulders raised, abdomen elongated, minimal S-curve of the spine. Annotate the stretch in the abdominal muscles and the relaxation of the back muscles."
+      },
+      {
+        "name": "Duduk Bersila (Crossed Legs Sitting)",
+        "description": "Duduk di kursi atau lantai dengan satu kaki disilangkan di atas yang lain (Gaya India atau di atas lutut).",
+        "exampleAnime": "An interior scene, focused on posture. A character sitting cross-legged (tailor style) on a rug, maintaining a straight, comfortable spine without tension. Hands are resting palms-up on the knees. Calm, meditative expression.",
+        "exampleRealistic": "Someone sitting on the floor playing a board game, viewed from a slightly high angle, emphasizing the triangular shape formed by the crossed legs.",
+        "exampleAnatomy": "Hips are raised higher, knees are bent, the spine is upright for balance. Show the external rotation in the hip joints and the vertical alignment of the upper body."
+      },
+      {
+        "name": "Berpikir (Hand on Chin)",
+        "description": "Berdiri atau duduk sambil menopang dagu dengan satu tangan, menunjukkan pemikiran mendalam.",
+        "exampleAnime": "A dramatic close-up portrait with deep shadows. A figure seated at a desk, the chin delicately supported by the index finger and thumb. The eyes are narrowed in deep concentration, and the brow is slightly furrowed. Elbow rests on the surface for support.",
+        "exampleRealistic": "A student listening to a lecturer, fingers touching the lips, viewed from the side, emphasizing the thoughtful tilt of the head.",
+        "exampleAnatomy": "Elbows bent, head slightly tilted, focus on the hand (focal point). Detail the subtle pressure point where the finger meets the jawline."
+      },
+      {
+        "name": "Melamun (Daydreaming)",
+        "description": "Berdiri atau duduk dengan pandangan kosong, seringkali dengan tangan memegang benda kecil (pena, cangkir).",
+        "exampleAnime": "A moody, atmospheric scene. A person is sitting sideways on a windowsill, looking out at the rain. The hands are resting lightly in their lap, and the gaze is unfocused and distant. The pose is passive and relaxed, showing zero muscle tension.",
+        "exampleRealistic": "Someone at a bus stop, their gaze distant, body leaning gently against a support pole, emphasizing the lack of defined purpose in the posture.",
+        "exampleAnatomy": "Soft and 'flowing' posture, no visible tension. Show the lack of engagement in the abdominal and back muscles (slight slouch)."
+      },
+      {
+        "name": "Meregangkan Badan dan Menguap (Stretching and Yawning)",
+        "description": "Pose meregangkan tubuh setelah bangun tidur atau setelah duduk lama.",
+        "exampleAnime": "A simple, fluid sketch. A figure standing and performing a full-body stretch and yawn after waking up. Both arms are extended high and reaching, causing the spine to arch backward slightly (inverted C-curve). The body line is highly elongated.",
+        "exampleRealistic": "A very relaxed 'Mountain Pose' in Yoga, arms fully extended overhead, on tiptoes, emphasizing the full vertical length of the body.",
+        "exampleAnatomy": "Spine elongated, arms raised above the head, inverted C-curve. Highlight the stretched intercostal muscles and the elevation of the scapulae."
+      },
+      {
+        "name": "Tangan di Pinggul (Hands on Hips)",
+        "description": "Berdiri tegak dengan tangan diletakkan di pinggul, seringkali menunjukkan kepercayaan diri yang santai.",
+        "exampleAnime": "A confident character portrait. A figure standing square to the camera, both hands placed firmly on the hips with elbows pointing out sharply. The chest is projected slightly forward, conveying a casual but assertive attitude. Symmetric composition.",
+        "exampleRealistic": "A coach overseeing a training session, viewed from the back, emphasizing the symmetrical stance and open posture.",
+        "exampleAnatomy": "Chest protruded, elbows open, hips slightly tilted, legs often spaced wide apart. Show the slight contraction of the back muscles to maintain the upright, assertive torso."
+      },
+      {
+        "name": "Duduk di Meja (Sitting at Desk)",
+        "description": "Duduk di depan meja, mungkin mengetik, atau hanya bersandar.",
+        "exampleAnime": "A realistic indoor scene. A student sitting at a cluttered desk, one arm propping up the head/temple, clearly showing exhaustion. The back is slightly slumped (subtle C-curve). The hand supporting the head is the key point of the pose.",
+        "exampleRealistic": "An office worker in front of a computer, leaning back in their chair, arms resting on the armrests, relaxed but professional.",
+        "exampleAnatomy": "Elbows support the body weight, the back is slightly hunched (C-curve) or upright, neck leaning forward. Detail the pressure of the elbow on the table surface."
+      },
+      {
+        "name": "Mengangkat Bahu (Shrugging Shoulders)",
+        "description": "Mengangkat bahu dan tangan terbuka, menunjukkan ketidakpedulian atau ketidakmampuan.",
+        "exampleAnime": "A full-body sketch showing uncertainty. A person standing, the head slightly tilted, and both shoulders lifted high toward the ears. The arms are slightly bent and open, palms facing up, indicating a non-committal, confused, or indifferent gesture. Neutral lighting.",
+        "exampleRealistic": "Someone asked for directions and doesn't know the answer, with a neutral or slightly bewildered facial expression.",
+        "exampleAnatomy": "Shoulders lifted high, arms hanging loosely, neutral or confused facial expression. Highlight the contraction of the upper trapezius muscle."
+      },
+      {
+        "name": "Mendengarkan dengan Seksama (Listening Closely)",
+        "description": "Kepala sedikit miring, seringkali dengan tangan di dekat telinga, menunjukkan pendengaran yang fokus.",
+        "exampleAnime": "A half-body portrait. A person is leaning forward intently, the head cocked to one side, and one hand cupped behind the ear to better catch a whisper. The pose emphasizes the concentration on auditory input. Slight forward lean of the torso.",
+        "exampleRealistic": "Someone listening to music through headphones, with their head tilted slightly to the side to hear the beat better.",
+        "exampleAnatomy": "Head tilted on the neck axis, body slightly leaning towards the sound source. Show the elongated sternocleidomastoid muscle on the opposite side of the tilt."
+      },
+      {
+        "name": "Mengambil Swafoto (Taking a Selfie)",
+        "description": "Memegang ponsel di depan wajah, memiringkan kepala, dengan lengan terentang.",
+        "exampleAnime": "A bright, high-energy scene. A character holding a phone high and far away with an extended arm, striking a quick pose (e.g., peace sign). The head is tilted playfully toward the 'camera lens'. The pose is asymmetrical and focused on the extended arm line.",
+        "exampleRealistic": "Someone at a tourist attraction, holding the camera high up, viewed from the phone's perspective (close-up on the face).",
+        "exampleAnatomy": "The arm is a strong straight line, facial expression focused on the 'lens'. Annotate the straight, locked elbow joint and the subtle rotation of the wrist."
+      },
+      {
+        "name": "Duduk di Lantai (Lutut Diangkat)",
+        "description": "Duduk di lantai dengan lutut ditarik ke dada dan lengan melingkari lutut.",
+        "exampleAnime": "A vulnerable, indoor scene. A person seated on the floor with their knees drawn up close to the chest, and the arms wrapped tightly around the legs. The pose is fully closed and curled inward (maximum C-curve), suggesting shyness, sadness, or a desire for comfort.",
+        "exampleRealistic": "A small child playing a board game on the floor, curled up, head resting on their knees.",
+        "exampleAnatomy": "Body curled (C-curve), head bowed, very low center of gravity. Show the compression in the abdomen and the tucked position of the pelvis."
+      },
+      {
+        "name": "Satu Tangan di Pinggul (Rileks)",
+        "description": "Berdiri dengan satu tangan di pinggul, bahu rileks, menunjukkan pose menunggu.",
+        "exampleAnime": "A casual portrait. A figure standing in a subtle Contrapposto, one hand resting lightly on the hip. The shoulder on the same side is slightly raised, while the opposing arm hangs loosely. The expression is patient and relaxed. Gentle tilt in the hips.",
+        "exampleRealistic": "A receptionist chatting with a colleague, viewed from the side, emphasizing the relaxed S-curve of the spine.",
+        "exampleAnatomy": "Hips slightly tilted, the shoulder not holding the hip is slightly lower, gentle contrast. Highlight the relaxed weight distribution on one side of the body."
+      },
+      {
+        "name": "Tidur (Wajah Menghadap Bawah)",
+        "description": "Berbaring telungkup di atas bantal atau meja, lengan disilangkan di bawah kepala.",
+        "exampleAnime": "A close-up shot on a desk. A character is sleeping deeply, face resting sideways on crossed arms placed on a flat surface. The body lines are completely slack and relaxed, showing the absence of muscle tension. Folds of clothing are soft.",
+        "exampleRealistic": "Sleeping in bed sideways, body slightly curled, viewed from a close-up, focusing on the relaxed facial muscles.",
+        "exampleAnatomy": "Body very relaxed, no muscle tension, loose clothing folds. Show the full curvature of the spine (deep C-curve) in the relaxed sleeping position."
+      },
+      {
+        "name": "Memperbaiki Kacamata (Adjusting Glasses)",
+        "description": "Menggunakan satu jari untuk mendorong kacamata kembali ke hidung.",
+        "exampleAnime": "A refined, detailed illustration. A character using a single index finger to push their spectacles back up the bridge of their nose. The head is slightly tilted down, drawing attention to the precise, delicate action of the hand and finger on the face.",
+        "exampleRealistic": "Someone interrupted while reading, the hand quickly moving to adjust the glasses, brief moment of concentration.",
+        "exampleAnatomy": "Focus on the small, delicate hand movement, head slightly tilted down. Detail the subtle lines of the hand and the contact point on the nose bridge."
+      },
+      {
+        "name": "Menggulir Ponsel (Phone Scrolling)",
+        "description": "Duduk atau berdiri sambil melihat ke bawah ke layar ponsel yang dipegang dengan kedua tangan.",
+        "exampleAnime": "A realistic, everyday scene. A person seated, hunched slightly forward, head bowed deeply (tech neck) while scrolling on a smartphone held in both hands. The posture forms a visible, rounded curve in the upper back and neck.",
+        "exampleRealistic": "A very common position in public places, viewed from the side, emphasizing the severity of the forward head posture.",
+        "exampleAnatomy": "Neck leaning forward (tech neck), elbows bent in front of the hips, body slightly hunched. Show the stretched muscles in the back of the neck and the compression at the front."
+      },
+      {
+        "name": "Mengikat Rambut (Tied Hair)",
+        "description": "Pose saat mengikat rambut ke belakang, kedua tangan terangkat di dekat kepala.",
+        "exampleAnime": "A dynamic portrait from the back. A figure with both arms raised high above the head, hands actively gathering hair into a ponytail. The pose emphasizes the stretched lines of the armpits, neck, and shoulders. Neck is elongated.",
+        "exampleRealistic": "Someone getting ready in front of a mirror, viewed from the back, showing the curve of the waist and the upward reach of the arms.",
+        "exampleAnatomy": "Arms raised, showing the stretched area of the neck and armpits. Highlight the elevated scapulae and the rotation of the shoulder joints."
+      },
+      {
+        "name": "Menghangatkan Tangan (Warming Hands - Rubbing)",
+        "description": "Menggosok kedua tangan di depan dada untuk menghasilkan kehangatan.",
+        "exampleAnime": "A character in a snowy or cold environment, viewed from the front, showing the huddled, enclosed posture.",
+        "exampleRealistic": "Someone outdoors at night, huddling their shoulders, with visible breath mist.",
+        "exampleAnatomy": "Arms close to the body ('inward' position), shoulders slightly raised due to cold. Show the contraction of the arms and the huddle of the upper body for thermoregulation."
+      },
+      {
+        "name": "Berlutut dan Berdoa (Kneeling and Praying)",
+        "description": "Berlutut di tanah dengan tangan terkunci di depan dada atau wajah.",
+        "exampleAnime": "A solemn, low-light illustration. A figure kneeling upright (seiza position), hands clasped together (anjali mudra) and raised to the chest or face. The spine is straight, and the focus is entirely on the hands and the bowed head. Pose conveys deep submission and focus.",
+        "exampleRealistic": "Someone deep in prayer/meditation, viewed from a close-up, focusing on the calm expression and the clasped hands.",
+        "exampleAnatomy": "Center of gravity on the knees, straight spine, hands become the focal point. Detail the symmetrical alignment of the back and neck."
+      },
+      {
+        "name": "Duduk dengan Lutut Diangkat (Tangan di Lutut)",
+        "description": "Duduk dengan kaki lurus, lutut ditekuk, dan lengan bawah bersandar di lutut.",
+        "exampleAnime": "A contemplative outdoor scene. A figure seated on a stone ledge, legs extended with knees slightly bent, and forearms resting casually on the knees. The posture is open and stable, suitable for long observation. The head is upright, looking into the distance.",
+        "exampleRealistic": "Someone on the beach watching the waves, arms relaxed and supporting the head on the knees.",
+        "exampleAnatomy": "The spine curves gently, head upright, stable and open position. Show the contact points of the elbows and the slight forward tilt of the upper torso."
+      },
+      {
+        "name": "Memegang Minuman (Holding Drink)",
+        "description": "Pose santai sambil memegang cangkir atau botol, seringkali di satu tangan.",
+        "exampleAnime": "A cozy, focused portrait. A person seated, holding a warm mug of coffee with both hands, bringing it close to their face. The head is slightly bowed, and the eyes are softly closed, focusing on the sensory experience. Gentle, warm light.",
+        "exampleRealistic": "Someone in a bar holding a glass of wine, viewed from a close-up, focusing on the light reflecting on the glass.",
+        "exampleAnatomy": "Arm bent towards the chest or mouth, posture adjusted to the position of the object. Detail the gentle, non-tensed grip of the fingers on the cup."
+      },
+      {
+        "name": "Melihat ke Belakang (Looking Back Over Shoulder)",
+        "description": "Berdiri atau berjalan, dan hanya memutar kepala untuk melihat ke belakang.",
+        "exampleAnime": "A dynamic half-body portrait. A character mid-stride, but their head is maximally rotated backward over one shoulder to look at an unexpected sound/person. The torso remains facing forward, emphasizing the tension in the neck muscles (sternocleidomastoid).",
+        "exampleRealistic": "Someone hears a sound and quickly turns their head, capturing the momentary pause in their movement.",
+        "exampleAnatomy": "Head rotated to the maximum limit, shoulders remain straight, neck is tense. Show the twisting of the cervical vertebrae and the strain in the trapezius."
+      }
+    ]
+  },
+  {
+    "id": "style_3_emosional",
+    "name": "3. POSE EMOSIONAL & EKSPRESIF",
+    "accentColor": "yellow-600",
+    "icon": "fas fa-face-grin-tears",
+    "definition": [
+      "Pose yang utamanya ditujukan untuk menyampaikan keadaan mental atau perasaan yang kuat.",
+      "Seluruh tubuh (termasuk postur, tangan, dan kaki) mendukung ekspresi wajah.",
+      "Menggunakan simetri untuk kesedihan/rasa malu, dan asimetri untuk kegembiraan/kemarahan."
+    ],
+    "subpose": [
+      {
+        "name": "Kegembiraan Luar Biasa (Overwhelming Joy)",
+        "description": "Ekspresi kegembiraan yang meluap, seringkali dengan tangan diangkat di udara.",
+        "exampleAnime": "A bright, celebratory illustration. A figure jumping slightly off the ground, both arms thrown wide open and upward in a dramatic V-shape. The face has an exaggerated, beaming smile, with the head tilted back slightly in pure, uninhibited elation. High-key lighting.",
+        "exampleRealistic": "Fans at a concert, hands waving high up in the air, viewed from a low angle, emphasizing the energy of the crowd.",
+        "exampleAnatomy": "Chest open, shoulders pulled back, inverted C-curve of the spine (arching). Highlight the expansion of the ribcage and the open, welcoming gesture of the arms."
+      },
+      {
+        "name": "Kesedihan Mendalam/Menangis (Deep Grief/Crying)",
+        "description": "Pose kesedihan yang mendalam, kepala tertunduk atau tersembunyi di tangan.",
+        "exampleAnime": "A deeply shadowed, dramatic scene. A person is crouched low, kneeling on the ground, their head completely hidden and buried into their arms or knees. The entire body is curved and shrinking inward (closed pose), conveying overwhelming, visceral despair. Focus on the hunched, shaking shoulders.",
+        "exampleRealistic": "Someone at a funeral, covering their face with a handkerchief, shoulders trembling, viewed from the back.",
+        "exampleAnatomy": "Body curled (C-curve), low center of gravity, sagging body lines. Show the compression of the torso and the protective, closed posture of the limbs."
+      },
+      {
+        "name": "Kemarahan Intens (Intense Anger)",
+        "description": "Ekspresi kemarahan ekstrem, tangan terkepal, tubuh condong ke depan.",
+        "exampleAnime": "A high-contrast comic book panel. A character standing rigid, leaning aggressively forward, fists clenched so tightly the knuckles are white. The jaw is set, and neck veins are prominent with rage. The posture is frontal and threatening, with zero ambiguity.",
+        "exampleRealistic": "Someone in the middle of an argument, pointing aggressively at the opponent, viewed from a slightly low angle to emphasize dominance.",
+        "exampleAnatomy": "Tense muscles in the neck and jaw, body aggressively leaning forward, arms bent and stiff. Highlight the extreme contraction of the forearm and neck muscles."
+      },
+      {
+        "name": "Keputusasaan Total/Hancur (Total Despair/Broken)",
+        "description": "Tubuh yang hancur, kehilangan kekuatan, ambruk tanpa daya ke tanah.",
+        "exampleAnime": "A realistic sketch of ultimate exhaustion and failure. A figure is slumped against a wall or lying prone, all muscular tension lost. The limbs are loosely spread, lacking the power to support the body. The pose is characterized by complete, heavy relaxation (limpness) due to emotional breakdown.",
+        "exampleRealistic": "Someone who just received bad news, sitting in a chair with poor posture, head hanging low, arms dangling.",
+        "exampleAnatomy": "Posture not self-supporting, spine curved, extremities drooping (limp). Show the complete absence of muscle engagement, making the body look heavy and slack."
+      },
+      {
+        "name": "Kaget/Horor (Shock/Horror)",
+        "description": "Reaksi terkejut yang ekstrem, mulut terbuka lebar, tangan seringkali menutupi mulut atau terangkat ke wajah.",
+        "exampleAnime": "A dynamic three-quarter view. A person standing with a sudden, sharp intake of breath, body recoiling backward, arms flung outward in defense or disbelief. The eyes are wide, and the mouth is open. The pose is off-balance, demonstrating a sharp shift away from the threat.",
+        "exampleRealistic": "Someone witnessing an accident, viewed from a close-up on the face and hands, emphasizing the sharp intake of breath.",
+        "exampleAnatomy": "Balance disrupted (leaning backward), chest open, neck tense, sharp lines on the arms. Detail the sudden upward movement of the hands toward the face in a protective gesture."
+      },
+      {
+        "name": "Pembangkangan/Tantangan (Defiance/Challenge)",
+        "description": "Berdiri tegak dengan sikap menantang, tangan di pinggul atau lengan disilangkan, mata lurus ke depan.",
+        "exampleAnime": "A low-angle shot emphasizing power. A character standing firmly with legs wide apart, chest pushed out, and hands crossed confidently over the chest. The head is slightly tilted up, making direct, unwavering eye contact with the viewer. The stance is aggressively symmetric.",
+        "exampleRealistic": "An athlete arguing with the referee, hands on hips, body slightly tilted forward, asserting dominance.",
+        "exampleAnatomy": "Symmetrical and sturdy posture, chest puffed out, stable center of gravity. Show the vertical alignment of the spine and the stable, locked position of the hips."
+      },
+      {
+        "name": "Rasa Malu (Covering Face)",
+        "description": "Menutupi wajah dengan satu atau kedua tangan karena rasa malu atau canggung.",
+        "exampleAnime": "A soft, tender anime portrait. A figure standing, head slightly bowed, with one or both hands covering the flushed cheeks and lower face. The pose is closed and shy, attempting to hide the reaction. The fingers lightly touch the skin.",
+        "exampleRealistic": "Someone covering their face due to an embarrassing mistake, viewed from a profile, emphasizing the bowed head.",
+        "exampleAnatomy": "Head bowed, shoulders slightly raised covering, body slightly curled (inward). Focus on the delicate, protective posture of the hands over the facial area."
+      },
+      {
+        "name": "Tekad Kuat (Fierce Determination)",
+        "description": "Fokus intens, tangan terkepal di samping, tubuh sedikit condong ke depan, siap beraksi.",
+        "exampleAnime": "A close-up on the upper body. The character's shoulders are squared, the torso is perfectly upright and rigid, and the hands are clenched tightly at the sides. The neck is held stiffly. The entire focus is on the intensely narrowed, resolute gaze and the set jawline.",
+        "exampleRealistic": "A team leader giving a motivational speech, standing firm, fists tight, conveying unwavering resolve.",
+        "exampleAnatomy": "Tense body (stiff), stable hips, strong straight line from the neck to the lower back. Highlight the isometric tension in the entire upper body."
+      },
+      {
+        "name": "Rayuan/Menggoda (Seduction/Flirtation)",
+        "description": "Pose menggoda, seringkali melibatkan sentuhan pada rambut, melihat ke balik bahu, atau condong ke depan.",
+        "exampleAnime": "A stylish portrait with soft focus. A character in a relaxed Contrapposto, one hand gently touching their neck or hair, and the head is tilted back to look over the shoulder. The body forms a subtle, alluring S-curve. The pose is inviting and intimate.",
+        "exampleRealistic": "A perfume model, tilting their head flirtatiously, viewed from a close-up, emphasizing the eye contact.",
+        "exampleAnatomy": "A gentle S-curve of the body, focus on the lines of the neck and hips, the eyes are the main point of contact. Show the gentle stretch in the side of the neck."
+      },
+      {
+        "name": "Apatis/Bosan (Apathy/Boredom)",
+        "description": "Pose lesu, berat badan di satu kaki, tangan di saku, mata setengah tertutup.",
+        "exampleAnime": "A realistic character study in a classroom. A student slouched deeply in their chair, body visibly sagging, one arm holding up the chin with minimal effort. The eyes are half-closed, and the posture shows a complete lack of interest or motivation (extreme 'Line of Action' relaxation).",
+        "exampleRealistic": "Someone waiting in a waiting room, expressionless, viewed from a profile, emphasizing the slumped shoulders.",
+        "exampleAnatomy": "Poor posture (slouching), drooping shoulders, bent neck, lack of energy in the 'Line of Action'. Detail the compressed discs in the lower back due to the slouch."
+      },
+      {
+        "name": "Memohon/Meminta (Pleading/Begging)",
+        "description": "Tangan terkunci di depan dada atau wajah, kepala menunduk ke depan, mata memohon.",
+        "exampleAnime": "A full-body illustration showing vulnerability. A person standing, leaning forward slightly, hands pressed together in a desperate plea (prayer gesture). The eyes are directed upwards, seeking mercy. The body language is completely submissive and open.",
+        "exampleRealistic": "A small child begging for candy from their parents, viewed from a low angle, emphasizing the small, pleading figure.",
+        "exampleAnatomy": "Vulnerable body (open), hands are the focus of the plea, non-threatening posture. Show the slight contraction of the arms to hold the hands together."
+      },
+      {
+        "name": "Rahasia/Berbisik (Secretive/Whispering)",
+        "description": "Satu orang mendekat ke telinga orang lain, satu tangan menutupi mulut pembicara.",
+        "exampleAnime": "A candid street photography shot. Two figures leaned in close to each other, one speaking directly into the other's ear. The speaker's hand is cupped near their mouth to shield the sound, creating a highly specific, closed contact point. Strong forward lean.",
+        "exampleRealistic": "School friends gossiping in the cafeteria, viewed from a distance, emphasizing the huddled, secretive posture.",
+        "exampleAnatomy": "Strong C-curve of the body from the waist to the head, arms bent towards the mouth and ear. Detail the compression of the neck on the side of the tilt."
+      },
+      {
+        "name": "Arogansi/Superioritas (Arrogance/Superiority)",
+        "description": "Dada dibusungkan, kepala diangkat tinggi, seringkali dengan lengan disilangkan atau dikunci di belakang punggung.",
+        "exampleAnime": "An aristocratic portrait. A figure standing with a vertical spine, chin sharply raised, and hands clasped behind the lower back. The chest is prominently puffed out. The high angle of the head forces the gaze downward, emphasizing haughtiness and control.",
+        "exampleRealistic": "A CEO giving a speech, standing straight, looking over the audience with a condescending smile.",
+        "exampleAnatomy": "A very upright and rigid posture, long neck, raised chin. Highlight the tension in the trapezius muscles holding the head high and the extended spine."
+      },
+      {
+        "name": "Kelegaan/Kelelahan (Relief/Exhaustion)",
+        "description": "Tangan menopang lutut atau kepala tertunduk setelah momen stres besar.",
+        "exampleAnime": "A dramatic moment of repose. A figure bent over, hands placed on the knees to support the upper body, head hanging low. This pose emphasizes the labored breathing and the need for immediate support after intense physical exertion. The back is heavily curved.",
+        "exampleRealistic": "A marathon runner after reaching the finish line, gasping for air, viewed from the back, showing the curved spine.",
+        "exampleAnatomy": "Curved back, hands and feet supporting body weight, showing muscle fatigue. Detail the relaxation of the core and the reliance on the skeletal structure for support."
+      },
+      {
+        "name": "Pencerahan Mendadak (Sudden Realization - Aha!)",
+        "description": "Tangan terkepal di sisi kepala atau di udara, mata melebar saat mendapatkan ide.",
+        "exampleAnime": "A dynamic cartoon/comic style illustration. A character suddenly snaps upright from a seated position, one hand balled into a fist and striking the palm of the other hand, or pointing dramatically upwards. Eyes are wide open with sudden inspiration. The body is galvanized into action.",
+        "exampleRealistic": "Someone slapping their forehead when they realize something, viewed from a close-up, emphasizing the sudden, sharp movement.",
+        "exampleAnatomy": "Quick upright posture, hands draw attention to the head, sudden burst of energy. Show the rapid extension of the spine and the sharp movement of the arm."
+      },
+      {
+        "name": "Keraguan/Skeptisisme (Doubt/Skepticism)",
+        "description": "Alis terangkat, kepala sedikit miring ke samping, lengan disilangkan di dada.",
+        "exampleAnime": "A half-body casual shot. A character standing with arms crossed firmly across the chest (defensive barrier), head tilted sideways, and eyebrows slightly raised in an expression of mistrust or disbelief. The body is relaxed but closed off.",
+        "exampleRealistic": "Someone suspicious during a negotiation, viewed from a three-quarter angle, emphasizing the critical gaze.",
+        "exampleAnatomy": "Arms crossed (as a barrier), body relaxed yet defensive. Show the slight tension in the shoulders and the subtle tilt of the head on the neck axis."
+      },
+      {
+        "name": "Kegembiraan/Tepuk Tangan (Excitement/Clapping)",
+        "description": "Tangan bertepuk di depan dada atau di atas kepala, tubuh sedikit condong ke depan.",
+        "exampleAnime": "A vibrant action scene. A figure standing with legs apart for stability, clapping hands enthusiastically above their chest or head. The head is tilted back, showing an open-mouth smile. The whole body radiates high, positive energy.",
+        "exampleRealistic": "An audience member at a theater performance applauding, viewed from the front, focusing on the rapid hand movement.",
+        "exampleAnatomy": "Fast and repetitive hand movement, shoulders raised, focus on the fingers. Highlight the quick, rhythmic contraction of the forearm muscles."
+      },
+      {
+        "name": "Menyembunyikan Diri/Malu (Hiding/Shame)",
+        "description": "Bersembunyi di balik objek atau punggung orang lain, tubuh menyusut (meringkuk).",
+        "exampleAnime": "A vulnerable, cowering pose. A person is hunched low, minimizing their profile, with their head pulled down into the shoulders. They are trying to shield themselves, making the body form a small, tight knot of protection.",
+        "exampleRealistic": "Someone trying not to be seen in a crowd, viewed from the back, emphasizing the hunched shoulders and bowed head.",
+        "exampleAnatomy": "Body rounded, head pulled into the shoulders, trying to occupy the smallest possible space. Show the tension in the neck and the rounded spine (kyphosis)."
+      },
+      {
+        "name": "Melambaikan Tangan (Waving Goodbye - Energetic)",
+        "description": "Melambaikan tangan dengan gerakan besar, tubuh dan kepala berputar mengikuti gerakan lengan.",
+        "exampleAnime": "A dynamic, farewell scene. A figure standing on tiptoes, leaning slightly forward, with one arm fully extended and waving enthusiastically above the head. The other hand is often bracing on a surface. The body is open and reaching outward.",
+        "exampleRealistic": "Someone saying goodbye from a distance, viewed from a low angle, emphasizing the reach of the arm.",
+        "exampleAnatomy": "Arms raised above the shoulders, hands open, energy spread throughout the body. Detail the full extension of the shoulder and the open palm."
+      },
+      {
+        "name": "Frustrasi/Menarik Rambut (Frustration/Hair Pulling)",
+        "description": "Tangan mengacak-acak rambut atau menarik wajah karena frustrasi.",
+        "exampleAnime": "A high-tension portrait. A figure sitting, bent forward, with both hands raking tightly through their hair and pulling it away from the forehead. The pose emphasizes mental anguish and stress, with strong, visible tension in the arms and jaw.",
+        "exampleRealistic": "A student who cannot solve an exam question, hands buried in their hair, eyes closed in distress.",
+        "exampleAnatomy": "Head bent down, hands pulling hair (tension), body is tense. Highlight the strain in the forearms and the downward tilt of the head."
+      },
+      {
+        "name": "Menguping (Listening - Eavesdropping)",
+        "description": "Condong ke depan, tangan diletakkan di dekat telinga, seringkali tersembunyi di balik pintu atau sudut.",
+        "exampleAnime": "A sneaky, low-profile pose. A person crouched low behind an object (like a door frame), leaning their head forward with great care to listen intently. The body line is highly asymmetrical and curved, designed to be hidden.",
+        "exampleRealistic": "Someone trying to listen to a conversation from the next room, viewed from a close-up, focusing on the ear pressed against the wall.",
+        "exampleAnatomy": "A subtle and hidden S-curve of the body, focus on the ears and narrowed eyes. Show the forward tilt of the head and the contraction of the neck muscles."
+      },
+      {
+        "name": "Kemenangan/Kegagahan (Triumph/Victory)",
+        "description": "Satu atau kedua tangan diangkat di udara, kepala diangkat tinggi, seringkali di atas lutut.",
+        "exampleAnime": "An epic, victorious moment. A figure is kneeling on one knee, head raised high, with one fist punched into the air. The chest is expanded in pride, and the lighting is dramatic, highlighting the heroic silhouette. Full-body display of achievement.",
+        "exampleRealistic": "A gold medal winner, fists clenched in the air, shouting in elation, viewed from a high angle.",
+        "exampleAnatomy": "Full open chest (proud chest), tense shoulders, straight and high body line. Highlight the expansion of the chest cavity and the upward trajectory of the arms."
+      },
+      {
+        "name": "Terkejut (Jumping Back)",
+        "description": "Reaksi cepat melompat ke belakang karena kejutan mendadak.",
+        "exampleAnime": "An exaggerated, immediate reaction shot. A person has sharply jumped backward, both feet slightly off the ground, knees bent, and arms thrown up defensively near the face. The body is recoiling from an immediate shock.",
+        "exampleRealistic": "Someone startled by a loud noise, viewed from the front, showing the wide eyes and open mouth.",
+        "exampleAnatomy": "Very disrupted balance, all limbs lifted off the ground quickly. Show the sudden, uncontrolled flexion of the knee and hip joints."
+      },
+      {
+        "name": "Memohon (Kneeling)",
+        "description": "Berlutut di tanah, wajah menghadap ke atas, lengan terentang memohon bantuan.",
+        "exampleAnime": "A dramatic, emotional scene. A figure is kneeling on both knees, head slightly bowed, with arms stretched out imploringly towards an unseen character. The pose is one of total submission and desperate appeal.",
+        "exampleRealistic": "Someone publicly apologizing, viewed from a low angle, emphasizing the vulnerability.",
+        "exampleAnatomy": "Knees bear the weight, hips low, body lines show vulnerability. Highlight the exposed neck and the open, non-threatening posture of the arms."
+      },
+      {
+        "name": "Mengusap Air Mata (Wiping Away Tears)",
+        "description": "Satu jari atau tangan mengusap air mata dari mata.",
+        "exampleAnime": "A close-up profile. A figure looking downwards, one hand (or the back of the hand/fingers) delicately wiping a single tear track away from the eye/cheek area. The pose is subtle, emphasizing a quiet, controlled display of sadness.",
+        "exampleRealistic": "Someone touched by a movie, viewed from a close-up, focusing on the delicate hand movement near the eye.",
+        "exampleAnatomy": "Subtle movement, head slightly tilted, focus on the finger touching the face. Detail the slight contraction of the orbicularis oculi (eye muscle) when crying."
+      }
+    ]
+  },
+  {
+    "id": "style_4_interaksi",
+    "name": "4. POSE INTERAKSI & KELOMPOK",
+    "accentColor": "green",
+    "icon": "fas fa-handshake",
+    "definition": [
+      "Pose yang melibatkan dua atau lebih karakter dan berfokus pada hubungan spasial atau fisik di antara mereka.",
+      "Membutuhkan komposisi yang hati-hati untuk memastikan pembaca tahu siapa yang berinteraksi dengan siapa.",
+      "Garis pandang dan titik kontak fisik adalah kunci."
+    ],
+    "subpose": [
+      {
+        "name": "Jabat Tangan (Handshake - Bisnis)",
+        "description": "Dua orang berdiri berhadapan, berjabat tangan dengan erat, menunjukkan persetujuan atau sapaan formal.",
+        "exampleAnime": "A high-stakes business illustration. Two figures standing upright and facing each other, executing a firm, formal two-handed handshake. The bodies are rigid and symmetric, emphasizing professionalism and agreement. The point of contact (the hands) is centered and in sharp focus.",
+        "exampleRealistic": "Two politicians shaking hands in front of the media, viewed from a close-up on the hands, showing the firm grip.",
+        "exampleAnatomy": "Both bodies upright, the shaking arms form a strong inverted V-line. Show the contraction of the forearm and hand muscles during the grip."
+      },
+      {
+        "name": "Pelukan Menenangkan (Comforting Hug)",
+        "description": "Pelukan lembut, satu karakter memeluk yang lain, seringkali dengan kepala bersandar di bahu.",
+        "exampleAnime": "A tender, emotional illustration. Two characters locked in a close, protective embrace. The 'giver' stands firm, cradling the other's head into their shoulder, with one hand gently stroking their back. The 'receiver' is slumped inward. The pose is highly asymmetrical, showing protection.",
+        "exampleRealistic": "A friend offering comfort during a difficult time, viewed from the side, emphasizing the closeness of the heads.",
+        "exampleAnatomy": "The 'receiver' body curves inward, the 'giver' body becomes a straight, supportive line, arms encircling the body. Highlight the difference in tension between the two bodies."
+      },
+      {
+        "name": "High Five/Tinju (Fist Bump)",
+        "description": "Dua orang menyentuh tangan (high five) atau tinju (fist bump) di udara, merayakan.",
+        "exampleAnime": "A dynamic, fun scene. Two figures jumping slightly, arms shooting outward to meet in a perfect, explosive fist bump. The heads are close together, smiling excitedly. The energy is concentrated on the moment of hand contact.",
+        "exampleRealistic": "Athletes celebrating a point scored, viewed from a low angle, emphasizing the upward movement of the arms.",
+        "exampleAnatomy": "Heads close together, arms stretched straight towards the central point of contact. Show the upward thrust of the shoulders and the straight line of the extended arms."
+      },
+      {
+        "name": "Menggendong Pengantin (Carrying Bride Style)",
+        "description": "Satu karakter mengangkat yang lain, menggendong mereka di dada.",
+        "exampleAnime": "A dramatic rescue scene. A strong figure carrying a second, relaxed/unconscious figure across their chest (bridal carry). The carrier's center of gravity is low and stable, while the carried figure's body is limp and curved to fit the carrier's arms. Focus on the contrasting body tensions.",
+        "exampleRealistic": "A wedding photo pose (bridal carry), viewed from the side, emphasizing the gentle curve of the carried body.",
+        "exampleAnatomy": "The lifting character's legs are wide apart, center of gravity low, the carried character's body is relaxed and floating. Highlight the carrier's biceps and legs under heavy strain."
+      },
+      {
+        "name": "Bertengkar/Berteriak (Argument/Shouting Match)",
+        "description": "Dua karakter berdiri sangat dekat, menunjuk atau memegang kerah lawan.",
+        "exampleAnime": "A highly aggressive confrontation panel. Two figures standing toe-to-toe, leaning aggressively into each other, one pointing a finger near the opponent's face. The posture is tense and confrontational, with hands and faces as the primary focus of the conflict.",
+        "exampleRealistic": "Two people arguing fiercely on the street, viewed from a low angle, emphasizing the close proximity and aggressive body language.",
+        "exampleAnatomy": "Bodies leaning forward toward the opponent (aggressive), arms tense and pointing. Show the forward tilt of the pelvis and the contraction of the neck muscles."
+      },
+      {
+        "name": "Menari Berpasangan (Partners Dancing - Waltz)",
+        "description": "Dua karakter dalam posisi menari formal, dengan satu tangan dipegang dan yang lain di bahu/pinggang.",
+        "exampleAnime": "A classic, elegant illustration of ballroom dancing. Two figures in the closed waltz hold, one hand clasped high, the other at the partner's back. The heads are turned slightly away, and the bodies move as one unit, emphasizing fluid, synchronized movement.",
+        "exampleRealistic": "Standard ballroom dance pose, viewed from the side, emphasizing the frame and the connection between the partners.",
+        "exampleAnatomy": "Bodies close, heads tilted away from each other, legs show the rhythm of movement. Detail the light, controlled contact points of the hands and waists."
+      },
+      {
+        "name": "Bergandengan Tangan (Hand-Holding - Romantis)",
+        "description": "Dua karakter berjalan berdampingan, tangan digenggam dengan lembut.",
+        "exampleAnime": "A warm, cinematic shot. Two characters walking side-by-side, hands gently clasped in the center between them. The bodies are relaxed and parallel, suggesting comfort and companionship. The hands form a small, relaxed focal point.",
+        "exampleRealistic": "Elderly parents holding hands during a casual walk, viewed from the side, focusing on the simple, intimate gesture.",
+        "exampleAnatomy": "Bodies relaxed, hips and shoulders parallel, hands are the focus of soft touch. Show the relaxed state of the arms hanging loosely at the sides."
+      },
+      {
+        "name": "Menggendong di Punggung (Piggyback Ride)",
+        "description": "Satu karakter menopang yang lain di punggung mereka.",
+        "exampleAnime": "A joyful, casual illustration. A figure giving another a piggyback ride. The carrier stands upright with slightly bent knees for stability, while the carried person's arms are wrapped around the carrier's neck, and their legs are wrapped around the waist. Focus on the secure, stable weight distribution.",
+        "exampleRealistic": "A father carrying his child, viewed from a low angle, emphasizing the height and weight of the carried person.",
+        "exampleAnatomy": "The supporting character's legs are slightly bent (low center of gravity), the carried character's legs wrap around the supporter's waist. Highlight the strong, contracting muscles of the carrier's back and legs."
+      },
+      {
+        "name": "Swafoto Kelompok (Group Selfie)",
+        "description": "Tiga atau lebih karakter berkerumun, kepala berdekatan, satu tangan memegang kamera.",
+        "exampleAnime": "A fun, crowded photograph. Five friends huddled together tightly, all heads tilted inward toward a central phone held by an outstretched arm. The composition is circular, focusing all attention inward on the faces and the act of taking the photo.",
+        "exampleRealistic": "Friends at a music festival, viewed from the phone's perspective, emphasizing the close, smiling faces.",
+        "exampleAnatomy": "Heads are the main focus, bodies close and slightly tilted, creating a compact 'blob' shape. Show the compression of the shoulders due to the tight space."
+      },
+      {
+        "name": "Menyelamatkan/Menangkap (Rescue/Catch)",
+        "description": "Satu karakter baru saja menangkap yang lain yang jatuh, lengan melingkari pinggang.",
+        "exampleAnime": "A dramatic moment of salvation. A figure has just caught a falling person, cradling them securely in their arms. The catcher's body is tensed and bracing, while the caught person's body is relaxed and drooping in a C-curve, contrasting tension and release.",
+        "exampleRealistic": "Two colleagues helping each other from falling, viewed from a low angle, emphasizing the dramatic catch.",
+        "exampleAnatomy": "The catcher's body is tense, the caught body curves relaxed in the catcher's arms. Detail the strong, stabilizing position of the catcher's legs and back."
+      },
+      {
+        "name": "Berbagi Rahasia (Heads Together)",
+        "description": "Dua karakter berdekatan, kepala hampir bersentuhan (seperti 'gosip').",
+        "exampleAnime": "An intimate, candid shot. Two female friends leaning their heads so close they are almost touching, sharing a whispered conversation. The shoulders are drawn inward, creating a private space. The focus is on their shared gaze and suppressed laughter.",
+        "exampleRealistic": "Two people whispering in a crowd, viewed from a high angle, emphasizing the secrecy of the huddle.",
+        "exampleAnatomy": "Strong C-curve of the body from the waist to the head, arms bent towards the mouth and ear. Detail the compression of the neck on the side of the tilt."
+      },
+      {
+        "name": "Duduk Berdampingan (Back to Back)",
+        "description": "Dua karakter duduk di tanah atau langkan, punggung bersentuhan, rileks.",
+        "exampleAnime": "A scene of quiet companionship. Two figures sitting on the ground, leaning back against each other's shoulders or backs. The pose is relaxed and symmetrical, suggesting mutual support and rest. Legs are often extended outwards.",
+        "exampleRealistic": "A couple watching the sunrise, viewed from the back, focusing on the shared horizon.",
+        "exampleAnatomy": "Back contact is a straight line, legs extended, bodies relaxed. Highlight the full, relaxed curve of the spine in the seated position."
+      },
+      {
+        "name": "Menunjuk Bersama (Pointing Together)",
+        "description": "Dua atau lebih karakter menunjuk ke arah yang sama, menunjukkan tujuan bersama.",
+        "exampleAnime": "A dynamic group composition. Three characters standing shoulder-to-shoulder, all extending their right arms to point to a singular, unseen point in the distance. The three arms form parallel, converging lines, emphasizing shared focus and direction.",
+        "exampleRealistic": "A tourist guide pointing to a landmark, viewed from the side, emphasizing the extended arms.",
+        "exampleAnatomy": "Arms are strong lines meeting at the focal point (Rule of Thirds), bodies aligned. Show the full extension of the shoulder and elbow joints for the pointing gesture."
+      },
+      {
+        "name": "Mengangkat dari Tanah (Lifting Off the Ground)",
+        "description": "Satu karakter mengangkat yang lain sepenuhnya ke udara (misalnya, dalam perayaan).",
+        "exampleAnime": "A moment of peak celebration. A strong figure lifting a lighter figure entirely off the ground in a spontaneous, joyous embrace. The lifted person's legs dangle freely, and their body is horizontal, demonstrating weightlessness from excitement.",
+        "exampleRealistic": "A father lifting his child in the park, viewed from a low angle, emphasizing the joy and height.",
+        "exampleAnatomy": "The lifting character's center of gravity is very low, the lifted body is horizontal and light. Highlight the intense contraction of the lifter's back and arm muscles (biceps, lats)."
+      },
+      {
+        "name": "Mengajar/Membimbing (Teaching/Instructing)",
+        "description": "Satu karakter menunjukkan sesuatu kepada yang lain (misalnya, memegang tangan mereka untuk memandu).",
+        "exampleAnime": "A focused training scene. An older mentor standing close behind a student, guiding the student's hands on a tool (e.g., a sword hilt or brush). The mentor's body is dominant, and the student's body is receptive and focused on the hands.",
+        "exampleRealistic": "A teacher guiding a student playing the guitar, viewed from a close-up on the hands and instrument.",
+        "exampleAnatomy": "Hand contact is the focal point, the teacher's body is behind and more dominant. Detail the precise placement of the mentor's hand over the student's hand for guidance."
+      },
+      {
+        "name": "Berpegangan Tangan (Mengangkat) (Holding Hands - Lifting)",
+        "description": "Satu karakter menarik yang lain dari tanah atau dari posisi jatuh.",
+        "exampleAnime": "A high-tension scene. Two figures connected by only their hands. The pulling figure is low and leaning severely backward, maximizing counter-weight tension. The figure being pulled has their arm extended straight up. The diagonal line of tension is the key element.",
+        "exampleRealistic": "Helping someone up from a chair, viewed from the side, emphasizing the pulling motion.",
+        "exampleAnatomy": "Arms stretched diagonally (tension line), the pulling body leans backward. Show the strain in the forearm muscles and the straight, locked elbow of the pulled person."
+      },
+      {
+        "name": "Berkumpul/Rapat Tim (Group Huddle/Team Talk)",
+        "description": "Tiga atau lebih karakter berkumpul, kepala berdekatan, lengan dirangkul di bahu.",
+        "exampleAnime": "A motivational, close-knit composition. Five individuals in a tight circle, heads bowed low toward the center, hands/arms draped over each other's shoulders. The pose is closed and intimate, symbolizing unity and private discussion.",
+        "exampleRealistic": "Friends planning a surprise birthday party, viewed from above, emphasizing the circular arrangement of the heads.",
+        "exampleAnatomy": "A compact round or oval shape, faces directed towards the center point. Show the slight contraction of the arms over the shoulders for contact."
+      },
+      {
+        "name": "Kontes Tatapan (Staring Contest)",
+        "description": "Dua karakter berdiri sangat dekat, menatap mata lawan tanpa berkedip.",
+        "exampleAnime": "A dramatic confrontation. Two characters standing perfectly still, close but not touching, with rigid, vertical bodies. The entire tension is focused on the intense, unblinking eye contact between them. Symmetric and highly charged.",
+        "exampleRealistic": "A children's game in the park, viewed from a close-up on the faces, emphasizing the intense eye contact.",
+        "exampleAnatomy": "Faces very close, bodies upright and rigid, the eye line is the main focus. Detail the tense muscles in the neck and jaw maintaining the static position."
+      },
+      {
+        "name": "Sikap Bertarung Dua Orang (Two-Person Fight Stance)",
+        "description": "Dua petarung dalam jarak dekat, lengan saling memblokir, menunjukkan ketegangan yang siap meledak.",
+        "exampleAnime": "An illustration of pre-conflict tension. Two opponents in aggressive martial arts stances, circling each other. Arms are raised defensively, weight is low on the balls of the feet, and the bodies are highly coiled, showing immense potential energy.",
+        "exampleRealistic": "Two people facing each other on the street, viewed from a low angle, emphasizing the confrontational posture.",
+        "exampleAnatomy": "Bodies facing each other, low center of gravity, arms are tense lines in the center. Show the coiled energy in the legs and the protective position of the forearms."
+      },
+      {
+        "name": "Satu Berlutut (Asking)",
+        "description": "Satu karakter berlutut di depan yang lain, seringkali untuk lamaran atau permintaan serius.",
+        "exampleAnime": "A formal, submission pose. One figure is kneeling respectfully on one knee, head slightly bowed, while the other figure stands tall and dominant, looking down. The contrast in height and posture defines the power dynamic.",
+        "exampleRealistic": "A marriage proposal (knee-down proposal), viewed from a slightly high angle, emphasizing the vulnerability of the kneeling figure.",
+        "exampleAnatomy": "High contrast between the kneeling character (low) and the standing character (high). Highlight the bent knee and the vertical alignment of the standing figure's spine."
+      },
+      {
+        "name": "Tangan di Bahu (Encouragement)",
+        "description": "Satu karakter meletakkan tangan di bahu yang lain, menunjukkan dukungan atau kepemimpinan.",
+        "exampleAnime": "A supportive, gentle interaction. One person standing slightly behind another, placing a hand firmly and reassuringly on their shoulder. The gesture is one of quiet leadership or empathy. The recipient's body is slightly slumped, the giver's is straight.",
+        "exampleRealistic": "A coach speaking to an athlete, viewed from a close-up on the hand and shoulder contact.",
+        "exampleAnatomy": "Hand and shoulder are the contact points, faces either confronting or facing the same direction. Detail the weight and firmness of the hand resting on the shoulder."
+      },
+      {
+        "name": "Berjalan Bergandengan Tangan (Walking Arm in Arm)",
+        "description": "Dua karakter berjalan dengan lengan dikaitkan atau berpegangan di siku.",
+        "exampleAnime": "A cheerful, synchronized movement scene. Two figures walking together, their arms linked casually at the elbow. Their legs and hips move in unison, creating a flowing, shared rhythm in their steps. The bodies are very close.",
+        "exampleRealistic": "An old couple taking a stroll in the afternoon, viewed from the side, focusing on the synchronized steps.",
+        "exampleAnatomy": "Hips and legs move synchronously, creating the same walking rhythm. Show the close proximity of the upper torsos and the relaxed state of the linked arms."
+      },
+      {
+        "name": "Bersandar pada Seseorang (Leaning on Someone)",
+        "description": "Satu karakter bersandar pada yang lain karena kelelahan, mabuk, atau keintiman.",
+        "exampleAnime": "A scene showing dependence. A person (the leaner) has completely relaxed their weight and is slumped heavily onto the shoulder and side of their companion (the supporter). The supporter's posture is rigid and stable, bearing the full, dead weight.",
+        "exampleRealistic": "Someone falling asleep on another passenger's shoulder on a train, viewed from a close-up, emphasizing the relaxed head.",
+        "exampleAnatomy": "The leaning body is relaxed and tilted, the supporting body is upright and stable. Highlight the strong, vertical line of the supporter's spine and the passive curve of the leaner's body."
+      },
+      {
+        "name": "Sorakan Kelompok (Group Cheer)",
+        "description": "Tiga atau lebih karakter dengan tangan di udara, berteriak kegirangan.",
+        "exampleAnime": "A chaotic, jubilant scene. Multiple figures jumping randomly, all arms and hands flailing in the air, yelling in excitement. The movements are asymmetric and uncoordinated, conveying uncontrolled, overwhelming happiness.",
+        "exampleRealistic": "A crowd of fans celebrating, viewed from a high angle, emphasizing the random, energetic movements.",
+        "exampleAnatomy": "Random dynamic movements, all hands and heads directed towards the center or up. Show the explosive, uncontrolled extension of the limbs."
+      },
+      {
+        "name": "Penyembahan/Kagum (Worship/Admiration)",
+        "description": "Satu karakter berlutut atau membungkuk di hadapan yang lain yang berdiri tegak.",
+        "exampleAnime": "A high-contrast power scene. A figure standing tall and centered, while a supplicant kneels low on both knees before them, head bowed deeply. The extreme difference in vertical height emphasizes the hierarchy and reverence.",
+        "exampleRealistic": "Someone performing a formal salutation or bow, viewed from a low angle, emphasizing the authority of the standing figure.",
+        "exampleAnatomy": "High-low position contrast, the worshiper's body is very curved downward, the admired body is straight and tall. Highlight the complete submission of the worshiper's posture."
+      }
+    ]
+  }
+]
+
