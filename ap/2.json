@@ -1,377 +1,653 @@
 [
   {
-    "id": "style_5_unik",
-    "name": "5. POSE UNIK & GAYA",
-    "accentColor": "purple",
-    "icon": "fas fa-star",
+    "id": "style_5_fashion",
+    "name": "5. POSE FASHION & ESTETIKA",
+    "accentColor": "#FF69B4",
+    "icon": "fas fa-crown",
     "definition": [
-      "Pose yang mencolok, sangat bergaya, atau dramatis yang dirancang untuk daya tarik visual maksimal.",
-      "Seringkali digunakan untuk sampul, seni kunci, atau untuk menekankan sifat karakter yang unik.",
-      "Memanfaatkan ekstremitas, siluet, dan keseimbangan yang tidak konvensional."
+      "Pose yang kaku, berlebihan, atau tidak alami, dirancang untuk menonjolkan pakaian atau siluet.",
+      "Mengutamakan garis tubuh yang tajam, keseimbangan yang tidak konvensional, dan ekspresi yang dingin atau dramatis.",
+      "Sering digunakan dalam fotografi editorial, *catwalk*, dan ilustrasi mode."
     ],
     "subpose": [
       {
-        "name": "Pose Pahlawan Klasik (Classic Hero Pose)",
-        "description": "Berdiri tegak dengan kaki terpisah, satu kepalan tangan di pinggul, bahu ditarik ke belakang, menunjukkan keberanian dan kepahlawanan.",
-        "exampleAnime": "A bright, heroic anime illustration. A character standing with legs apart, chest out, and one fist firmly planted on the hip. The other arm is extended slightly upward in a determined gesture, dramatic sun flare, anime.",
-        "exampleRealistic": "Concept art, iconic superhero stance: A figure standing on a cliff edge, back to the sun, one fist on the hip, gazing confidently into the distance. Focus on the large, symmetrical silhouette.",
-        "exampleAnatomy": "Black and white anatomical sketch. A symmetrical, wide stance figure. Highlight the vertical spine, flared ribcage, and the rigid angle of the arm on the hip, easy beginner prompt."
+        "name": "The High-Fashion Arch",
+        "description": "Berdiri tegak dengan punggung dilengkungkan ke belakang secara berlebihan, kepala miring, menciptakan garis busur 'C' yang ekstrem.",
+        "exampleAnime": "High-fashion anime illustration, digital watercolor style. A glamorous figure standing with an exaggerated back arch, emphasizing the flow of an expensive, sweeping gown. Expression is bored and intense. Use soft, diffused lighting and complex fabric shading, anime, high-fashion.",
+        "exampleRealistic": "Concept art, dramatic studio shoot: A model standing with an extreme back arch, hands held delicately at the waist. Focus on the sharp shadow play and the unnatural elegance of the pose."
       },
       {
-        "name": "Pose 'Over The Shoulder'",
-        "description": "Tubuh menghadap jauh, tetapi kepala berputar untuk melihat ke belakang, seringkali dengan senjata di bahu.",
-        "exampleAnime": "A dynamic anime portrait from the back. A rogue character walking away, but the head is sharply turned back over the shoulder, giving an intense glare. A large sword rests casually on the opposite shoulder, anime.",
-        "exampleRealistic": "Concept art, high detail, tension: A mercenary with a futuristic rifle resting over the shoulder, turning the head back with a cold, focused expression. Focus on the textures of the gear and the tension in the neck muscles.",
-        "exampleAnatomy": "Black and white anatomical sketch. A figure with the torso facing away. Show the maximal rotation of the head and the straight line of the weapon resting on the shoulder, easy beginner prompt."
+        "name": "The Broken Doll",
+        "description": "Pose dengan anggota tubuh kaku dan tertekuk pada sudut yang aneh (mirip manekin yang rusak), seringkali duduk atau setengah berbaring.",
+        "exampleAnime": "Gothic fashion anime illustration, dark theme. A beautiful but lifeless-looking character sitting on a velvet chair, limbs positioned at disjointed, sharp angles, head tilted unnaturally. Deep shadows and detailed lace texture, anime, dark aesthetic.",
+        "exampleRealistic": "Concept art, surreal photography: A figure seated on the floor, one knee bent extremely high, the other leg straight, arms hanging limply. Focus on the glossy skin texture and blank expression."
       },
       {
-        "name": "Pose Jongkok Angkuh (Arrogant Squat)",
-        "description": "Berjongkok dengan lutut di dada, memandang ke bawah dari atas, menunjukkan superioritas.",
-        "exampleAnime": "A menacing anime villain portrait. A figure squatting low on a high perch, arms resting casually on their knees, looking down with an amused, superior smirk. Low-angle perspective from below, anime.",
-        "exampleRealistic": "Concept art, villainous high perch: A main antagonist squatting low on a ruined monument, arms draped over the knees, gazing down at the tiny figures below. Focus on the contrast between the low body and the high vantage point.",
-        "exampleAnatomy": "Black and white anatomical sketch. A figure in a low squat, back rounded. Highlight the compression of the abdomen and the relaxed position of the arms resting on the knees, easy beginner prompt."
+        "name": "The Finger-Point Stare",
+        "description": "Pose close-up wajah di mana karakter menunjuk ke mata mereka sendiri dengan jari telunjuk (satu atau kedua) sambil menatap tajam.",
+        "exampleAnime": "Close-up anime portrait, intense gaze, shojo style. A character is pointing a finger precisely at the corner of their own eye or tear duct, maintaining severe eye contact with the viewer. Use striking color contrast and high detail on the eyes, anime.",
+        "exampleRealistic": "Concept art, beauty shot: A model pointing a delicate finger to the outer corner of their eye. Focus on the makeup detail and the sharp contrast of the finger against the skin."
       },
       {
-        "name": "Tendangan Gunting (Scissor Kick)",
-        "description": "Berdiri di satu kaki, kaki yang lain lurus dan terangkat tinggi (vertikal atau horizontal).",
-        "exampleAnime": "A martial arts anime keyframe. A female fighter executing a perfect vertical split kick, the supporting leg is straight, and the kicking leg is raised 90 degrees or higher. The arms are extended for perfect balance, anime.",
-        "exampleRealistic": "Concept art, martial arts focus, balance: A fighter executing a perfect, high vertical split kick. Focus on the tension in the hamstring of the kicking leg and the absolute balance required on the supporting leg.",
-        "exampleAnatomy": "Black and white anatomical sketch. A figure in a vertical split. Highlight the extreme stretch in the groin and hamstring of the kicking leg, and the straight line of the standing leg, easy beginner prompt."
+        "name": "The Asymmetrical Lean",
+        "description": "Seluruh berat badan dipindahkan ke satu sisi, kepala dan pinggul miring ke arah yang berlawanan, menciptakan asimetri total.",
+        "exampleAnime": "Street fashion anime illustration, low-key lighting. A cool character leaning heavily against an invisible support, one shoulder drastically lower than the other. Slouchy posture but intense expression, anime, detailed urban background.",
+        "exampleRealistic": "Concept art, fashion editorial: A model in oversized clothing leaning to one side, creating voluminous folds in the fabric. Focus on the texture and volume of the attire."
       },
       {
-        "name": "Sikap Membaca Mantra (Casting Stance)",
-        "description": "Pose dengan lengan terentang asimetris, jari ditekuk, menunjukkan kekuatan magis yang terkumpul.",
-        "exampleAnime": "A dramatic fantasy anime illustration. A sorceress standing in a wide, asymmetrical stance, one hand extended high, palm up, gathering energy, and the other hand low, palm down, grounding it. Intense magical glow and swirling particles, anime.",
-        "exampleRealistic": "Concept art, high fantasy, arcane: A wizard standing wide, one arm raised high to the sky, the other thrust low to the ground. Magical runes glow intensely around the hands. Focus on the contrasting, asymmetrical tension in the arms.",
-        "exampleAnatomy": "Black and white anatomical sketch. A figure in an asymmetrical stance with one arm up and one arm down. Highlight the dynamic diagonal line created by the arms, easy beginner prompt."
+        "name": "The Floating Walk",
+        "description": "Pose saat berjalan dengan langkah memanjang, pinggul diayunkan tinggi, membuat kaki terlihat sangat panjang dan ringan.",
+        "exampleAnime": "Runway anime illustration, dynamic motion. A character walking with an exaggeratedly long stride, one leg straight and the other lifting high, creating a 'floating' illusion. Focus on the movement of the coat/skirt hems, anime, bright lights.",
+        "exampleRealistic": "Concept art, *catwalk* simulation: A model mid-stride, captured where both feet are momentarily off the ground. Focus on the elegant extension of the limbs."
       },
       {
-        "name": "Pose 'Spider-Man' (Wall Cling)",
-        "description": "Berlutut dengan satu tangan atau kedua tangan di permukaan vertikal, menempel seolah-olah di dinding.",
-        "exampleAnime": "A stylized urban anime illustration. A character clinging to the side of a tall skyscraper, one foot and both hands pressing against the glass. The pose is low and coiled, ready to spring, anime.",
-        "exampleRealistic": "Concept art, sci-fi infiltration: A stealth operative clinging to the ceiling or wall, one hand holding tight, legs coiled underneath. The pose emphasizes the temporary, gravity-defying balance and contained power.",
-        "exampleAnatomy": "Black and white anatomical sketch. A figure in a coiled, low crouch on a vertical plane. Show the exaggerated bend of the knees and the strong grip of the hands, easy beginner prompt."
+        "name": "Hands-on-Head (Stres Estetika)",
+        "description": "Karakter memegang kedua tangan di atas kepala atau menekan pelipis dengan telapak tangan, seringkali dengan ekspresi kesakitan yang tenang.",
+        "exampleAnime": "Aesthetic anime illustration, emotional intensity. A character pressing their palms gently to their temples, eyes closed, conveying quiet drama or headache. Soft, dramatic side lighting, anime.",
+        "exampleRealistic": "Concept art, stylized emotion: A figure seated, leaning forward, hands pressed against the sides of the head. Focus on the delicate tension in the neck and arms."
       },
       {
-        "name": "Jatuh Melayang (Floating Fall)",
-        "description": "Pose jatuh secara lambat atau terkontrol, tubuh berbaring datar seolah-olah di udara.",
-        "exampleAnime": "An ethereal anime illustration. A character falling slowly through the sky/space, body completely slack and horizontal, hair and clothing floating gently around them. The expression is serene and passive, anime.",
-        "exampleRealistic": "Concept art, zero-gravity environment: An astronaut floating horizontally in a huge, open space station, arms and legs slightly splayed. Focus on the relaxed, limp posture, emphasizing the lack of gravity.",
-        "exampleAnatomy": "Black and white anatomical sketch. A figure lying perfectly horizontal and relaxed. Use soft, gentle lines to show the total absence of tension or support, easy beginner prompt."
+        "name": "The 'Vogue' Face",
+        "description": "Close-up wajah yang kaku dan tanpa emosi, mata sedikit terangkat, garis rahang tajam.",
+        "exampleAnime": "Hyper-realistic anime portrait, striking makeup. Close-up on the face with a perfectly blank, aloof expression, looking slightly up and past the viewer. Sharp cel shading on the cheekbones, anime, high detail.",
+        "exampleRealistic": "Concept art, magazine cover quality: Extreme close-up on a face with immaculate skin, lips slightly parted, a cold and detached expression. Focus on the flawless detail."
       },
       {
-        "name": "Pose 'The Matrix' (Bullet Time)",
-        "description": "Tubuh melengkung ke belakang secara ekstrem untuk menghindari sesuatu, seolah-olah dalam gerakan lambat.",
-        "exampleAnime": "A high-action cinematic anime scene. A spy sharply arched backward to avoid a laser beam or bullet passing inches from the face. The back is hyper-extended, and one hand is bracing on the floor for support, anime.",
-        "exampleRealistic": "Concept art, extreme slow motion: A character arched backward to the point of impossibility, avoiding a low-flying object. Focus on the texture of the stretched clothing and the extreme curvature of the spine.",
-        "exampleAnatomy": "Black and white anatomical sketch. A figure in extreme backward arch. Show the hyper-extension of the spine and the stabilizing position of the arms and feet, easy beginner prompt."
+        "name": "Kaki Silang (The Crossed Leg)",
+        "description": "Berdiri dengan kaki bersilang rapat, seringkali diimbangi dengan pinggul miring dan tangan di pinggul.",
+        "exampleAnime": "Shoujo fashion anime illustration, cute and confident. A female character standing with legs tightly crossed, one hand sassily placed on her hip, smiling mischievously. Bright, bubbly colors, anime.",
+        "exampleRealistic": "Concept art, casual street style: A person standing at a traffic light with legs crossed at the mid-calf, leaning slightly back. Focus on the balanced, casual stance."
       },
       {
-        "name": "Pukulan Dua Tinju (Two-Fisted Punch)",
-        "description": "Kedua tinju terkepal, ditarik ke belakang, atau dilepaskan ke depan secara bersamaan.",
-        "exampleAnime": "A shonen manga style illustration. A massive, muscular character unleashing a simultaneous, forward-thrusting punch with both fists. The stance is wide and low, channeling energy from the ground up, explosive speed lines, anime.",
-        "exampleRealistic": "Concept art, epic destruction: A powerful figure unleashing a simultaneous double-fisted punch against a massive wall. Focus on the impact and the symmetrical, forward-leaning force of the pose.",
-        "exampleAnatomy": "Black and white anatomical sketch. A figure in a wide, symmetrical stance. Highlight the straight, parallel lines of both extended arms and the low, stable base, easy beginner prompt."
+        "name": "The Tilted Shoulder",
+        "description": "Satu bahu dinaikkan tinggi dan bahu yang lain diturunkan, menciptakan ketegangan leher yang dramatis.",
+        "exampleAnime": "Elegant anime illustration, serious mood. A tall character standing with one shoulder raised dramatically, head slightly tucked in, giving a severe, powerful look. Use sharp shadows and strong vertical lines, anime.",
+        "exampleRealistic": "Concept art, intense portrait: A figure looking over a dramatically raised shoulder. Focus on the shadows cast by the collarbone and neck tension."
       },
       {
-        "name": "Sikap Penyembuhan (Healing Stance)",
-        "description": "Sikap meditatif, biasanya tangan terbuka dan memancarkan cahaya di depan dada.",
-        "exampleAnime": "A peaceful fantasy anime scene. A healer standing still, hands held open and palms-up near the chest, emitting a soft, warm green light. The posture is symmetric, vertical, and perfectly calm, anime.",
-        "exampleRealistic": "Concept art, tranquil, glowing energy: A figure standing calmly, hands held open and palms-up near the chest, emitting a soft, healing light. The posture is perfectly vertical and serene. Focus on the hands as the source of light.",
-        "exampleAnatomy": "Black and white anatomical sketch. A figure in a symmetric, vertical stance. Highlight the open, relaxed hands as the focal point, easy beginner prompt."
+        "name": "The Cape Sweep",
+        "description": "Pose dinamis di mana karakter sedang memutar, menyebabkan jubah atau gaun panjang mereka menyapu di sekelilingnya.",
+        "exampleAnime": "Epic fantasy anime illustration, action pose. A powerful character captured mid-spin, their long, luxurious cape swirling dramatically around their body in a perfect circle. Use flowing movement lines and high contrast lighting, anime.",
+        "exampleRealistic": "Concept art, cinematic movement: A figure in a heavy, flowing coat captured in a fast spin. Focus on the wind and fabric dynamics."
       },
       {
-        "name": "Mengambil Napas (Gasping for Air)",
-        "description": "Pose setelah kelelahan, tangan diletakkan di dada atau leher, kepala ke atas, terengah-engah.",
-        "exampleAnime": "A high-drama anime scene. A character collapsing to their knees, one hand clutching their throat or chest, head tilted back, gasping for breath. The body is in distress and highly curved, anime.",
-        "exampleRealistic": "Concept art, raw distress: A figure on their knees, one hand clutching the throat, head tilted back, gasping for air after a near-drowning or extreme run. Focus on the exposed, strained neck and the sharp angles of the body.",
-        "exampleAnatomy": "Black and white anatomical sketch. A figure kneeling, one hand on the chest/throat. Show the sharp, angular body line and the emphasis on the chest and neck area, easy beginner prompt."
+        "name": "Membelakangi Kamera (Over the Shoulder)",
+        "description": "Karakter membelakangi penonton, tetapi menoleh ke belakang untuk melihat melewati bahu.",
+        "exampleAnime": "Manga panel style, mysterious character. A figure with a long coat standing with their back to the viewer, turning only their head to look back over their shoulder with a piercing gaze. Heavy shadows and silhouette focus, anime/manga.",
+        "exampleRealistic": "Concept art, film noir: A woman standing in a smoky alley, looking back over her bare shoulder with a seductive, dangerous look. Focus on the sharp shadow texture."
       },
       {
-        "name": "Pose 'Cool' (One-Legged Balance)",
-        "description": "Berdiri di satu kaki, kaki yang lain ditekuk atau diistirahatkan di lutut, untuk pose yang keren dan tidak konvensional.",
-        "exampleAnime": "A stylish urban anime portrait. A character standing casually on one leg, the other foot resting on the opposite knee, hands in pockets. The pose is non-chalant but requires subtle balance, anime.",
-        "exampleRealistic": "Concept art, street fashion, casual balance: A young adult standing casually on one leg, the other foot resting lightly on the opposite knee, arms crossed. Focus on the subtle shift in the center of gravity.",
-        "exampleAnatomy": "Black and white anatomical sketch. A figure balancing on one leg. Highlight the vertical line of the supporting leg and the relaxed, bent position of the free leg, easy beginner prompt."
+        "name": "The High-Knee Step",
+        "description": "Berjalan atau melangkah dengan satu lutut diangkat sangat tinggi, seringkali di depan tubuh.",
+        "exampleAnime": "Dynamic fashion anime illustration. A confident character taking a large, exaggerated step with one knee raised almost to chest level. Use clean, dynamic lines and bold colors, anime.",
+        "exampleRealistic": "Concept art, theatrical movement: A model marching with a high-stepping gait, emphasizing the shape of the leg muscles."
       },
       {
-        "name": "Tenggelam (Sinking)",
-        "description": "Pose seluruh tubuh menahan, lengan terentang, seolah-olah tenggelam di air atau pasir.",
-        "exampleAnime": "A dramatic monochrome anime scene. A figure mid-fall into a dark liquid, arms stretched outward in desperation, body angled diagonally. Clothes cling to the sinking form, anime.",
-        "exampleRealistic": "Concept art, deep water, struggle: A figure sinking into dark, troubled water, arms flailing upward. Focus on the distorted body shape and the desperate reach of the hands.",
-        "exampleAnatomy": "Black and white anatomical sketch. A figure angled diagonally, arms up, showing the struggling posture of a person sinking, easy beginner prompt."
+        "name": "The Lean Back",
+        "description": "Karakter bersandar ke belakang seolah-olah ditarik oleh kekuatan tak terlihat, tetapi tetap seimbang di ujung kaki.",
+        "exampleAnime": "Avant-garde anime illustration. A character standing almost falling backward, defying gravity, held in perfect tension. Body forming a long, elegant line. Use minimalist background and sharp focus, anime.",
+        "exampleRealistic": "Concept art, contemporary dance: A dancer holding an impossible lean backward, balanced perfectly on one heel. Focus on the core strength and tension."
       },
       {
-        "name": "Mencengkeram Lengan (Clutching Arm)",
-        "description": "Satu tangan mencengkeram lengan yang lain dengan erat, menunjukkan rasa sakit internal, rasa bersalah, atau pengekangan diri.",
-        "exampleAnime": "A psychological anime portrait. A character standing rigidly, one hand clutching the forearm of the other arm tightly. The focus is on the strained, white knuckles, conveying deep internal turmoil, anime.",
-        "exampleRealistic": "Concept art, internal conflict, tension: A figure standing alone, one hand clutching the bicep of the opposite arm tightly. Focus on the white knuckles and the contained, rigid body posture.",
-        "exampleAnatomy": "Black and white anatomical sketch. A figure with one hand gripping the opposite arm. Detail the tension and strain in the fingers of the gripping hand, easy beginner prompt."
+        "name": "The Hand Rest (di Lutut)",
+        "description": "Karakter duduk dan meletakkan kedua tangan atau satu tangan dengan anggun di atas lutut yang tertekuk.",
+        "exampleAnime": "Elegant shojo anime illustration, refined atmosphere. A female character sitting in a chair, one knee slightly raised, one hand resting gently on top of the knee. Posture is graceful and controlled, anime.",
+        "exampleRealistic": "Concept art, formal portrait: A figure sitting on a velvet ottoman, hands clasped neatly and resting on one raised knee. Focus on the intricate fabric detail."
       },
       {
-        "name": "Berputar Cepat (Rapid Spin)",
-        "description": "Tubuh berputar cepat, satu kaki disilangkan di depan yang lain, lengan terentang atau dilipat.",
-        "exampleAnime": "A dynamic action keyframe. A character spinning rapidly, arms extended horizontally, legs crossed over each other. Motion lines swirl around the figure, emphasizing the rotational speed, anime.",
-        "exampleRealistic": "Concept art, mid-rotation, speed: A dancer or fighter mid-spin. The body is vertical, arms outstretched, with the legs crossed or tightly together. Focus on the speed blur around the edges.",
-        "exampleAnatomy": "Black and white anatomical sketch. A figure mid-spin. Highlight the vertical axis of rotation and the horizontal line of the outstretched arms for balance, easy beginner prompt."
+        "name": "Tangan Menutupi Separuh Wajah",
+        "description": "Satu tangan menutupi separuh wajah (mata atau mulut) untuk menambah misteri atau drama.",
+        "exampleAnime": "Dark fantasy anime illustration, mysterious figure. A character's face is half-covered by a pale hand, only one eye visible and staring out intensely from the shadow. Use heavy, moody cross-hatching, anime/manga.",
+        "exampleRealistic": "Concept art, hidden identity: A figure wearing a wide-brimmed hat, one hand covering the nose and mouth, leaving only the eyes visible. Focus on the texture of the gloves."
       },
       {
-        "name": "Tangan di Pipi (Hand on Cheek - Pensive)",
-        "description": "Tangan diletakkan di pipi, menunjukkan kepenatan, kesedihan yang lembut, atau pemikiran yang mendalam.",
-        "exampleAnime": "A soft, introspective anime illustration. A character sitting quietly, one hand resting gently against the side of the cheek and temple. The eyes are half-closed in contemplation, soft shadows, anime.",
-        "exampleRealistic": "Concept art, gentle melancholy: A figure seated, one hand resting softly against the side of the face, gazing into the distance. The gesture is one of gentle self-soothing or quiet sadness.",
-        "exampleAnatomy": "Black and white anatomical sketch. A close-up on the head and hand. Show the soft, non-tense contact of the palm/fingers on the cheekbone, easy beginner prompt."
+        "name": "The Hip Pop",
+        "description": "Berdiri dengan kaki lurus, tetapi pinggul didorong keras ke satu sisi, menciptakan lekukan pada pinggang.",
+        "exampleAnime": "Confident model anime illustration. A character standing with a sassy 'hip pop' motion, one hand on the waist, a challenging smirk. Use exaggerated body lines and pop colors, anime.",
+        "exampleRealistic": "Concept art, confident portrait: A person standing with the weight shifted entirely to one side, causing a strong outward curve of the hip. Focus on the sharpness of the pose."
       },
       {
-        "name": "Memeluk Objek (Hugging an Object)",
-        "description": "Memeluk objek besar (misalnya, tiang, tas, bantal) dengan kedua tangan.",
-        "exampleAnime": "A cozy, indoor anime scene. A small character sitting on the floor, tightly hugging a large, plush pillow to their chest. The entire body is curved protectively around the object, anime.",
-        "exampleRealistic": "Concept art, sentimental focus: A figure sitting on a porch step, tightly hugging an old, worn backpack or guitar case. The pose is closed and protective, showing deep sentimental attachment to the object.",
-        "exampleAnatomy": "Black and white anatomical sketch. A figure sitting, arms wrapped tightly around a central, soft object. Emphasize the closed, curved posture of the body, easy beginner prompt."
+        "name": "Melihat ke Bawah (Eksistensial)",
+        "description": "Kepala dimiringkan ke bawah, pandangan mata mengarah ke tanah atau sepatu, conveying kesedihan yang estetik.",
+        "exampleAnime": "Melancholic anime illustration, rain effects. A character standing under an awning, head deeply bowed, gazing at the reflections on the wet street. Use cold, diffused lighting, shojo style anime.",
+        "exampleRealistic": "Concept art, emotional isolation: A figure standing alone on a long dock, looking down at their feet and the dark water below. Focus on the lonely posture."
       },
       {
-        "name": "Lengan Terentang (Wide Open Arms)",
-        "description": "Berdiri dengan kedua lengan terentang lebar, menunjukkan sambutan, penyerahan, atau kebebasan.",
-        "exampleAnime": "An epic, celebratory anime scene. A figure standing on a high point, arms spread wide to the sides, head tilted up to the sky. The pose is one of complete openness and acceptance, dramatic sun rays, anime.",
-        "exampleRealistic": "Concept art, majestic freedom: A figure standing on a mountain peak, arms spread wide in a gesture of freedom and welcoming the environment. Focus on the powerful V-shape silhouette against the sky.",
-        "exampleAnatomy": "Black and white anatomical sketch. A figure standing with both arms extended horizontally (T-pose variant). Highlight the open chest and the straight, expansive line of the arms, easy beginner prompt."
+        "name": "The Power Squat",
+        "description": "Karakter berjongkok rendah dengan punggung tegak, lutut ditekuk tajam, seringkali memegang senjata di depan.",
+        "exampleAnime": "Dynamic sci-fi anime illustration. A cyberpunk warrior in a low, powerful squat, balanced perfectly on the balls of their feet, holding a laser rifle aimed forward. Use neon reflections and sharp metal textures, anime.",
+        "exampleRealistic": "Concept art, tactical surveillance: A soldier crouched low behind a rocky cover, waiting patiently. Focus on the stability of the low center of gravity."
       },
       {
-        "name": "Berjalan Santai (Casual Stride)",
-        "description": "Gaya berjalan yang santai dan seimbang, tidak terburu-buru, berat berayun di pinggul.",
-        "exampleAnime": "A fashion-forward anime scene. A character walking with a relaxed, long stride, one hand casually in a pocket, the torso slightly swaying to the rhythm of the walk. Subtle, confident movement, anime.",
-        "exampleRealistic": "Concept art, street fashion, confident walk: A model-like figure walking with a long, casual stride. The torso is upright but relaxed, one hand loosely holding a bag. Focus on the gentle swing of the opposite arm.",
-        "exampleAnatomy": "Black and white anatomical sketch. A figure mid-walk, showing the natural, flowing antagonistic movement of the arms and legs (opposite arms swinging with opposite legs), easy beginner prompt."
+        "name": "The 'T'-Pose (Minimalis)",
+        "description": "Berdiri tegak lurus dengan lengan direntangkan lurus ke samping, mirip dengan pose default model 3D.",
+        "exampleAnime": "Minimalist aesthetic anime illustration. A character standing perfectly still in a 'T' pose in the center of an empty, vast white room. Focus on the clean lines and the stark simplicity, anime, minimalist art.",
+        "exampleRealistic": "Concept art, surreal art: A figure standing motionless in a void, arms extended perfectly horizontal. Focus on the absolute stillness and symmetry."
       },
       {
-        "name": "Berpegangan Tangan di Dada (Hands Clasped at Chest)",
-        "description": "Tangan dikepal atau digenggam di depan dada, menunjukkan introspeksi, hormat, atau persiapan diam-diam.",
-        "exampleAnime": "A serious anime portrait. A figure standing, hands clasped or linked tightly right in front of the sternum. The pose is closed and symmetric, conveying focused, internal thought, anime.",
-        "exampleRealistic": "Concept art, solemn environment, focus: A figure standing motionless, hands clasped tightly in front of the chest. The body is upright and rigid, suggesting focused prayer or deep, solemn introspection.",
-        "exampleAnatomy": "Black and white anatomical sketch. A figure with hands clasped in front of the chest. Highlight the symmetrical nature of the pose and the detailed interlocking of the fingers, easy beginner prompt."
+        "name": "Tangan di Leher Depan",
+        "description": "Satu atau kedua tangan diletakkan di depan leher atau tenggorokan dalam posisi tertutup, menunjukkan kerentanan atau ketegangan.",
+        "exampleAnime": "Emotional anime illustration. A character standing, hands gently clasped over the front of their neck, eyes wide and vulnerable. Soft, trembling line art, anime, shojo style.",
+        "exampleRealistic": "Concept art, subtle fear: A person sitting stiffly, one hand unconsciously gripping the base of their throat. Focus on the nervous energy."
       },
       {
-        "name": "Pose 'Vampire' (Cape Flare)",
-        "description": "Pose dramatis dengan satu lengan ditekuk di dada dan yang lain terentang, jubah atau pakaian membentang di belakang.",
-        "exampleAnime": "A dramatic, gothic anime illustration. A vampire lord standing, one arm dramatically thrown out, the other crossed over the chest. The stance is wide, and the large cloak is flared dramatically around them, creating a large, dark silhouette, anime.",
-        "exampleRealistic": "Concept art, gothic drama, flared cape: A dramatic figure standing on a balcony, one arm extended, the large, voluminous cloak flared out dynamically behind them by a sudden wind. Focus on the intricate, sharp silhouette.",
-        "exampleAnatomy": "Black and white anatomical sketch. A figure in a wide, dramatic stance. Highlight the complex, sharp folds of a large cape extending from the back, easy beginner prompt."
+        "name": "The Head-Rest Arm",
+        "description": "Berdiri atau duduk, satu lengan diletakkan melintang di atas kepala, bertumpu pada lengan yang lain atau bahu.",
+        "exampleAnime": "Casual slice of life anime illustration. A character sitting back lazily, one arm bent and draped across the top of their head, relaxed expression. Warm sunlight, anime.",
+        "exampleRealistic": "Concept art, relaxed pose: A figure lounging on a patio chair, one arm draped over the back of their head, enjoying the sun. Focus on the easy lines of the body."
       },
       {
-        "name": "Memeluk Diri (Self-Embrace)",
-        "description": "Satu lengan menyilang di dada, tangan mencengkeram bahu yang berlawanan, menunjukkan perlindungan diri atau kesendirian.",
-        "exampleAnime": "A vulnerable anime portrait. A figure standing, one arm tightly crossed over the chest, the hand grabbing the opposite shoulder. The head is slightly bowed, conveying coldness or self-comfort, anime.",
-        "exampleRealistic": "Concept art, urban loneliness: A figure standing in a cold, dim light, one arm crossing the torso to tightly hold the opposite shoulder. The posture is hunched and self-protective.",
-        "exampleAnatomy": "Black and white anatomical sketch. A figure in a self-embrace. Highlight the tension of the arm crossing the chest and the slight hunch of the shoulders, easy beginner prompt."
+        "name": "Berputar Melompat (Graceful)",
+        "description": "Karakter melompat dan berputar di udara dengan kaki terentang, seperti balerina.",
+        "exampleAnime": "Ballet inspired anime illustration. A graceful female figure captured mid-air during a full pirouette jump, legs extended beautifully, eyes closed in concentration. Use ethereal light and flowing ribbon effects, anime, high detail.",
+        "exampleRealistic": "Concept art, dynamic dance: A ballerina in a full jeté, spinning rapidly. Focus on the extended lines of the body and the blurring background."
       },
       {
-        "name": "Menarik Topeng/Hoodie (Mask/Hoodie Pull)",
-        "description": "Satu atau dua tangan menarik topeng ke bawah atau kerudung ke atas untuk menyembunyikan wajah.",
-        "exampleAnime": "A mysterious anime character portrait. A figure pulling the edge of a face mask down with one finger, revealing a subtle smirk. The other hand is hidden in a pocket, conveying stealth and secrecy, anime.",
-        "exampleRealistic": "Concept art, sci-fi stealth: A figure pulling the edge of a metallic helmet or hood down with one hand, concealing the face. Focus on the dark shadows cast by the hood/mask.",
-        "exampleAnatomy": "Black and white anatomical sketch. A close-up on the head and hand. Detail the precise motion of the hand pulling fabric/mask over the face, easy beginner prompt."
+        "name": "The Hidden Hand",
+        "description": "Karakter berdiri, satu tangan tersembunyi sepenuhnya di belakang punggung, menciptakan asimetri yang mengundang rasa ingin tahu.",
+        "exampleAnime": "Mysterious anime illustration, detective style. A character standing with one hand casually visible, the other hand completely hidden behind their back, suggesting a hidden weapon or secret. Use sharp focus and shadow contrast, anime.",
+        "exampleRealistic": "Concept art, silent negotiation: A figure standing calmly, one hand visible on the table, the other hand behind the back. Focus on the contrast between the relaxed and hidden arm."
       },
       {
-        "name": "Merangkak Maju (Crawl/Stalk)",
-        "description": "Pose dengan empat titik (tangan dan lutut) di tanah, bergerak perlahan ke depan.",
-        "exampleAnime": "A sneaky, tension-filled anime scene. A military or stealth character crawling low and slowly across the ground. The body is perfectly horizontal and low to the floor, emphasizing silent, controlled movement, anime.",
-        "exampleRealistic": "Concept art, jungle warfare, low crawl: A soldier low-crawling through dense foliage. The body is perfectly flat against the ground, using elbows and knees for propulsion. Focus on the horizontal line of the torso.",
-        "exampleAnatomy": "Black and white anatomical sketch. A figure in a low crawl position. Use a horizontal line to show the parallelism with the ground. Highlight the staggered position of the hands and knees, easy beginner prompt."
+        "name": "Jempol ke Atas (Sarcastic)",
+        "description": "Karakter memberikan tanda jempol ke atas (*thumbs up*), tetapi dengan ekspresi wajah yang muram atau sarkastik.",
+        "exampleAnime": "Comedic anime illustration, dry humor. A character giving a forced, slightly manic thumbs-up sign, their face displaying a clear, tired, or sarcastic smile. Use minimalist shading and focus on the eyes, anime.",
+        "exampleRealistic": "Concept art, dry wit: A person giving a lukewarm thumbs-up, their face clearly showing disinterest or forced enthusiasm. Focus on the subtle tension in the smile."
       },
       {
-        "name": "Pose 'Peace Sign' (V-Sign)",
-        "description": "Satu tangan diangkat ke wajah dengan dua jari terentang membentuk tanda 'V'.",
-        "exampleAnime": "A bright, playful anime portrait. A character giving a dramatic 'peace sign' near their eye, winking playfully. The body posture is casual and light, conveying youthful energy, anime.",
-        "exampleRealistic": "Concept art, playful expression, close-up: A young adult striking a bold 'peace sign' with two fingers near the corner of the eye, smiling widely. Focus on the hand gesture and the bright expression.",
-        "exampleAnatomy": "Black and white anatomical sketch. A close-up on the hand and face. Detail the V-shape formed by the index and middle fingers, easy beginner prompt."
+        "name": "The High-Fashion Squat",
+        "description": "Berjongkok dengan posisi yang sangat rendah, seringkali dengan wajah menghadap ke depan dan lengan menggantung bebas.",
+        "exampleAnime": "Avant-garde anime illustration, dramatic perspective. A character is in a very low, almost full squat, looking up at the viewer with an intense, unblinking gaze. Use sharp angular body lines and high detail clothing, anime, fashion style.",
+        "exampleRealistic": "Concept art, urban exploration: A figure squatting low on a mossy, uneven ledge, maintaining intense eye contact. Focus on the textures of the surroundings."
       }
     ]
   },
   {
-    "id": "style_6_seated",
-    "name": "6. POSE DUDUK LANJUTAN",
-    "accentColor": "orange",
-    "icon": "fas fa-chair",
+    "id": "style_6_meditasi",
+    "name": "6. POSE MEDITASI & SPIRITUAL",
+    "accentColor": "#6A5ACD",
+    "icon": "fas fa-leaf",
     "definition": [
-      "Pose yang berfokus pada berbagai cara tubuh dapat bersandar, melengkung, dan beristirahat saat duduk.",
-      "Mengutamakan garis punggung, sudut kaki, dan penempatan lengan untuk menyampaikan suasana hati.",
-      "Sangat baik untuk studi proporsi duduk dan pakaian yang menggantung."
+      "Pose yang berfokus pada ketenangan, keseimbangan internal, dan koneksi spiritual atau energi.",
+      "Ciri khasnya adalah simetri, *mudra* (isyarat tangan simbolis), dan postur yang stabil.",
+      "Digunakan untuk menggambarkan kebijaksanaan, ketenangan, atau kekuatan batin."
     ],
     "subpose": [
       {
-        "name": "Duduk Melengkung (Slumped Seated)",
-        "description": "Duduk di kursi dengan punggung sangat melengkung (C-curve) dan bahu miring ke depan.",
-        "exampleAnime": "A tired anime illustration. A person seated in a chair, severely slumped forward, resting their head on the back of the seat in front of them. The entire spine forms an exaggerated C-curve, anime.",
-        "exampleRealistic": "Concept art, exhaustion, deep slump: A figure seated at a long table, completely slumped over. The back is severely rounded, suggesting deep physical or emotional exhaustion.",
-        "exampleAnatomy": "Black and white anatomical sketch. A seated figure with an extreme C-curve in the spine. Emphasize the collapsed ribcage and the inward curve of the shoulders, easy beginner prompt."
+        "name": "Lotus Penuh (Padmasana)",
+        "description": "Duduk bersila dengan kedua kaki di atas paha yang berlawanan, punggung tegak sempurna.",
+        "exampleAnime": "Fantasy anime illustration, spiritual power. A sage sitting in a perfect full lotus pose (Padmasana) on a floating rock, glowing with soft, blue internal energy. Use calm, symmetrical composition and flowing robes, anime, detailed nature background.",
+        "exampleRealistic": "Concept art, tranquil setting: A figure meditating in the full lotus pose on a stone platform, surrounded by calm water. Focus on the deep serenity and perfect vertical alignment."
       },
       {
-        "name": "Duduk di Tanah (Kaki Terentang)",
-        "description": "Duduk di lantai dengan kaki terentang lurus ke depan, tubuh bersandar sedikit ke belakang di tangan.",
-        "exampleAnime": "A casual outdoor anime scene. A group of friends sitting on a park lawn, legs stretched straight out, leaning back slightly with hands supporting their weight behind them, talking happily, anime.",
-        "exampleRealistic": "Concept art, casual outdoor: A figure sitting on a stone slab, legs extended straight out, hands placed behind for support. The posture is open and relaxed, suitable for sunbathing or casual talk.",
-        "exampleAnatomy": "Black and white anatomical sketch. A figure seated on the ground, legs straight, hands behind the back. Highlight the long, straight lines of the legs and the slight backward lean of the torso, easy beginner prompt."
+        "name": "Mudra Jhana",
+        "description": "Tangan diletakkan di pangkuan, telapak tangan menghadap ke atas, ibu jari saling bersentuhan, membentuk segitiga.",
+        "exampleAnime": "Zen anime illustration, high detail. Close-up on the hands of a meditating character, perfectly forming the Dhyana Mudra. Subtle light emanating from the center of the hands. Use clean, focused lighting and delicate line art, anime.",
+        "exampleRealistic": "Concept art, high contrast light: Close-up on hands forming the Jhana Mudra, lit by a single candle flame. Focus on the delicate bone structure and skin texture."
       },
       {
-        "name": "Duduk 'Side Saddle' (Duduk Miring)",
-        "description": "Duduk di kursi atau langkan dengan kedua kaki disilangkan atau dijuntaikan ke satu sisi.",
-        "exampleAnime": "A feminine anime portrait. A girl sitting sideways on a windowsill, both legs dangling and bent to the side, one arm resting on the ledge. The pose is elegant and asymmetrical, anime.",
-        "exampleRealistic": "Concept art, elegant seated pose: A figure seated sideways on a high ledge, both legs crossed and dangling to the right. The torso remains upright, creating an elegant, twisted line.",
-        "exampleAnatomy": "Black and white anatomical sketch. A figure seated sideways, showing the angle of the hips and the clean curve of the legs pointing to one side, easy beginner prompt."
+        "name": "Mudra Gyan (Kebijaksanaan)",
+        "description": "Duduk bersila, jari telunjuk menyentuh ibu jari (lingkaran) di setiap lutut, telapak tangan menghadap ke atas.",
+        "exampleAnime": "Fantasy anime illustration, ancient temple setting. A wise monk sitting in a simple cross-legged pose, hands resting on knees, forming the Gyan Mudra. Use soft, ambient light and deep, meditative expression, anime.",
+        "exampleRealistic": "Concept art, wisdom: A figure sitting under a massive ancient tree, hands resting on knees with the Gyan Mudra. Focus on the peaceful stillness."
       },
       {
-        "name": "Duduk di Kursi Malas (Reclined Lounging)",
-        "description": "Berbaring di kursi malas atau sofa dengan satu kaki ditekuk dan yang lain terentang.",
-        "exampleAnime": "A high-class anime scene. A wealthy character reclining dramatically on a chaise lounge, one knee bent high, the other leg extended. One hand holds a glass. The posture is deliberately luxurious and asymmetrical, anime.",
-        "exampleRealistic": "Concept art, luxury leisure: A figure reclining on a massive velvet sofa, one arm resting on the back, one leg bent. The pose is completely relaxed and sprawling, occupying a lot of space.",
-        "exampleAnatomy": "Black and white anatomical sketch. A figure reclining. Highlight the open, sprawling body lines and the contrast between the bent and extended legs, easy beginner prompt."
+        "name": "The Vertical Float",
+        "description": "Karakter melayang vertikal di udara dengan kaki menggantung santai, punggung tegak, menunjukkan kontrol energi.",
+        "exampleAnime": "Sci-fi/Fantasy anime illustration. A character hovering effortlessly a few feet off the ground, eyes closed, body perfectly vertical and relaxed. Subtle ripple effect of surrounding energy, anime.",
+        "exampleRealistic": "Concept art, zero gravity training: An astronaut floating vertically in a chamber, completely relaxed, demonstrating mastery over their movement. Focus on the weightlessness."
       },
       {
-        "name": "Pose Bersimpuh (Seiza/Formal Kneeling)",
-        "description": "Berlutut dengan punggung lurus dan duduk di atas tumit (pose formal Jepang).",
-        "exampleAnime": "A formal Japanese anime setting. A figure kneeling perfectly upright in the Seiza position, hands resting gently on the thighs. The posture is highly symmetric, rigid, and respectful, anime.",
-        "exampleRealistic": "Concept art, traditional Japanese interior: A figure kneeling in the Seiza position. Focus on the perfectly vertical line of the spine and the symmetry of the kneeling legs.",
-        "exampleAnatomy": "Black and white anatomical sketch. A figure kneeling (Seiza). Emphasize the straight, vertical line of the back and the folded position of the lower legs beneath the body, easy beginner prompt."
+        "name": "Puja (Berdoa)",
+        "description": "Berlutut dengan punggung lurus, tangan diangkat ke atas dengan telapak tangan terbuka ke arah langit.",
+        "exampleAnime": "Spiritual anime illustration, sunrise scene. A character kneeling on a rooftop, both hands raised high above the head, palms open to the rising sun in a gesture of prayer or offering. Use warm, golden hour lighting, anime.",
+        "exampleRealistic": "Concept art, religious ritual: A figure kneeling on rugged ground, head tilted back, hands lifted and open to the sky. Focus on the rough textures and the light source."
       },
       {
-        "name": "Berjongkok Penuh (Full Squat)",
-        "description": "Berjongkok rendah, tumit menempel di tanah, lutut di dada, sering digunakan untuk menunggu atau bersembunyi.",
-        "exampleAnime": "A quiet anime scene. A child character in a full, deep squat, chin resting lightly on their knees, waiting patiently. The body is a compact, stable shape, anime.",
-        "exampleRealistic": "Concept art, urban stealth: A figure in a deep, hidden squat in the shadows, waiting. The pose is compact and low to the ground, minimizing profile.",
-        "exampleAnatomy": "Black and white anatomical sketch. A figure in a deep squat. Highlight the low center of gravity and the tight, coiled shape of the body, easy beginner prompt."
+        "name": "Savasana (Mayat)",
+        "description": "Berbaring telentang sepenuhnya, anggota badan terentang dan santai, mata tertutup.",
+        "exampleAnime": "Tranquil slice of life anime illustration, indoor light. A character lying perfectly still on a yoga mat or floor, limbs slightly spread, fully relaxed. The scene is calm and simple, anime.",
+        "exampleRealistic": "Concept art, deep relaxation: A person lying flat on their back, completely still, focusing on the subtle movement of breathing. Focus on the absolute lack of tension."
       },
       {
-        "name": "Duduk di Kursi dengan Kaki Menyilang (Crossed Legs on Chair)",
-        "description": "Duduk di kursi dengan kedua kaki disilangkan di pergelangan kaki atau betis, tubuh condong ke depan.",
-        "exampleAnime": "A focused student anime portrait. A character sitting on a chair, legs crossed at the ankles, leaning forward with elbows on the desk, deep in study. The posture is forward and engaged, anime.",
-        "exampleRealistic": "Concept art, academic focus: A figure seated in a wooden chair, legs crossed at the ankle, leaning forward with elbows on the table, reading intently. Focus on the forward tilt and concentration.",
-        "exampleAnatomy": "Black and white anatomical sketch. A seated figure leaning forward. Show the legs crossed neatly at the ankles and the forward curve of the spine over the thighs, easy beginner prompt."
+        "name": "Membuka Energi (Tangan Terentang)",
+        "description": "Berdiri dengan kaki terpisah, kedua tangan direntangkan ke samping dan sedikit ke depan, telapak tangan menghadap ke depan.",
+        "exampleAnime": "Shonen anime power scene, energy channeling. A character standing with arms extended slightly forward and out, palms open, visibly absorbing or emitting a huge sphere of crackling energy. Use vibrant blue/green glow effects, anime.",
+        "exampleRealistic": "Concept art, channeling power: A figure standing on a desolate plain, arms wide, seeming to summon a storm. Focus on the intensity of the gesture."
       },
       {
-        "name": "Duduk dengan Lutut ke Samping (Knees to Side)",
-        "description": "Duduk di lantai dengan lutut ditekuk, tetapi kaki di sisi luar pinggul (seperti ekor putri duyung).",
-        "exampleAnime": "A playful anime illustration. A girl sitting on the floor, both knees bent and folded to one side (Z-sit or mermaid pose), upper body perfectly straight. The pose is cute and feminine, anime.",
-        "exampleRealistic": "Concept art, playful floor pose: A figure seated on a carpet, both knees bent and folded to the left, with the torso upright. Focus on the clean, asymmetrical line created by the legs.",
-        "exampleAnatomy": "Black and white anatomical sketch. A figure seated with both knees folded to one side. Highlight the rotation in the hips and the vertical line of the upper body, easy beginner prompt."
+        "name": "Pose Pohon (Vrksasana)",
+        "description": "Berdiri tegak di satu kaki, kaki yang lain ditekuk dan diletakkan di paha bagian dalam, tangan di *anjali mudra* (doa).",
+        "exampleAnime": "Yoga anime illustration, nature setting. A character in a perfect Tree Pose (Vrksasana) on a forest path, hands pressed together in prayer at the chest. Use soft, dappled light and focus on balance, anime.",
+        "exampleRealistic": "Concept art, perfect balance: A figure standing in Vrksasana on a narrow cliff edge. Focus on the tension required to maintain stillness."
       },
       {
-        "name": "Duduk di Tepi (Sitting on an Edge)",
-        "description": "Duduk di tepi bangunan, meja, atau kursi, kaki menjuntai bebas.",
-        "exampleAnime": "A dramatic cityscape anime scene. A character sitting casually on the edge of a high rooftop, legs dangling freely, looking out at the city lights. The pose is relaxed but suggests danger, anime.",
-        "exampleRealistic": "Concept art, urban rooftop, danger: A figure sitting casually on the edge of a massive skyscraper, legs dangling over the precipice. Focus on the loose, relaxed body posture contrasting with the high-altitude danger.",
-        "exampleAnatomy": "Black and white anatomical sketch. A figure seated on a horizontal line (the edge), legs hanging straight down. Show the simple 90-degree bend at the hip, easy beginner prompt."
+        "name": "Bow of Respect (Busur Hormat)",
+        "description": "Membungkuk dalam-dalam dari pinggang, tangan lurus di samping atau di depan.",
+        "exampleAnime": "Traditional Japanese anime illustration. A character performing a deep, respectful bow (Ojigi), bending 90 degrees at the waist, hands straight at the sides. Clean, minimalist lines, anime.",
+        "exampleRealistic": "Concept art, formal greeting: A person in formal wear executing a perfect, deep bow to show reverence. Focus on the precise angle of the bend."
       },
       {
-        "name": "Duduk dengan Kaki Diangkat (Feet Up on Desk)",
-        "description": "Duduk di kursi dengan punggung bersandar dan kedua kaki di atas meja.",
-        "exampleAnime": "A casual, arrogant anime illustration. A character leaning back in a chair with hands linked behind the head, both feet propped up on the edge of a desk. The posture is one of extreme relaxation and disregard, anime.",
-        "exampleRealistic": "Concept art, arrogant leisure: A powerful figure leaning far back in a chair, arms behind the head, both feet propped up high on a formal table. Focus on the wide, relaxed, superior posture.",
-        "exampleAnatomy": "Black and white anatomical sketch. A figure with the torso leaning back and the legs extended and elevated (feet up). Highlight the sharp angle at the knee and the stretched hip flexors, easy beginner prompt."
+        "name": "Meditasi Berjalan (Kin-hin)",
+        "description": "Berjalan sangat lambat, fokus pada setiap langkah, mata tertunduk sedikit.",
+        "exampleAnime": "Zen anime illustration, temple garden. A character walking with deliberate slowness on a gravel path, hands loosely clasped behind their back, deep in concentration. Soft, diffused lighting, anime.",
+        "exampleRealistic": "Concept art, mindful movement: A figure walking barefoot on grass, body perfectly upright, focusing intensely on the sensation of their feet touching the ground."
       },
       {
-        "name": "Duduk 'Zen' (Meditation Pose)",
-        "description": "Duduk bersila dengan punggung lurus, tangan di lutut (mudra), menunjukkan fokus atau meditasi.",
-        "exampleAnime": "A spiritual anime scene. A monk figure sitting perfectly upright in a half-lotus position, hands resting palms-up on the knees (mudra gesture). The eyes are closed, and the spine is a perfectly straight, vertical line, anime.",
-        "exampleRealistic": "Concept art, deep meditation: A figure seated in a quiet, natural setting, spine perfectly straight, hands in a mudra position. Focus on the stillness and the rigid verticality of the body.",
-        "exampleAnatomy": "Black and white anatomical sketch. A figure in a cross-legged meditative pose. Emphasize the straight, vertical line of the spine and the symmetrical placement of the hands on the knees, easy beginner prompt."
+        "name": "Penyeimbangan Lengan di Tanah (Bakasana)",
+        "description": "Berjongkok rendah, tubuh seimbang di atas lengan yang ditekuk, kaki melayang di udara.",
+        "exampleAnime": "Dynamic yoga anime illustration. A strong character holding a perfect Crow Pose (Bakasana), balanced entirely on their arms, looking forward calmly. Use sharp angular lines and a clean background, anime.",
+        "exampleRealistic": "Concept art, immense strength: A figure balancing in Bakasana, emphasizing the compression of the core and the strength of the triceps."
       },
       {
-        "name": "Duduk Menyelubungi (Cocoon Pose)",
-        "description": "Duduk di lantai, lutut ditarik ke dada, kepala tersembunyi, seolah-olah bersembunyi di dalam cangkang.",
-        "exampleAnime": "A vulnerable anime illustration. A person seated on the floor, curled into a tight ball, knees pulled to the chest, head buried. The arms are wrapped protectively around the legs, minimizing all external contact, anime.",
-        "exampleRealistic": "Concept art, intense isolation: A figure seated on the floor, curled into the tightest possible fetal ball, head buried deep. The entire body is a closed, dark knot, conveying complete isolation.",
-        "exampleAnatomy": "Black and white anatomical sketch. A figure curled tightly on the floor. Use extreme C-curve for the spine. Highlight the full closure and minimal visibility of the body parts, easy beginner prompt."
+        "name": "Mudra Vitarka (Mengajar)",
+        "description": "Jari telunjuk dan ibu jari membentuk lingkaran (seperti 'oke'), tangan diangkat di depan bahu, telapak tangan menghadap ke luar.",
+        "exampleAnime": "Teacher anime illustration, intellectual setting. A charismatic teacher standing, making the Vitarka Mudra with one hand while explaining a complex concept. Focused, confident expression, anime.",
+        "exampleRealistic": "Concept art, philosophical debate: A figure gesturing with the Vitarka Mudra during a calm explanation. Focus on the clarity of the gesture."
       },
       {
-        "name": "Duduk dengan Kaki Ditekuk (Knees Bent, Feet Flat)",
-        "description": "Duduk di lantai dengan lutut ditekuk dan kedua telapak kaki menempel di tanah, tangan di sekeliling lutut.",
-        "exampleAnime": "A relaxed outdoor anime scene. A figure sitting on a blanket, knees bent and together, feet flat on the ground. Hands are casually resting on the knees or ground. The posture is stable and open, anime.",
-        "exampleRealistic": "Concept art, casual floor sit: A figure sitting on a picnic blanket, knees bent, feet flat, arms resting on the grass. The posture is stable and grounded, suitable for listening or observation.",
-        "exampleAnatomy": "Black and white anatomical sketch. A figure seated with bent knees and flat feet. Highlight the stable triangular base formed by the hips and feet, easy beginner prompt."
+        "name": "Salamba Sirsasana (Headstand)",
+        "description": "Berdiri terbalik dengan kepala di tanah dan lengan membentuk penyangga, kaki lurus ke atas.",
+        "exampleAnime": "Intense yoga anime illustration. A flexible character holding a perfect supported headstand (Salamba Sirsasana) in an empty, sunny studio. Focus on the perfect vertical line of the body, anime.",
+        "exampleRealistic": "Concept art, gravity defiance: A figure holding a stable headstand on a rocky surface, showing complete control and core engagement."
       },
       {
-        "name": "Duduk di Bar/Stool (Bar Stool Seating)",
-        "description": "Duduk tinggi di bangku bar tanpa sandaran, satu kaki biasanya terlipat di bawah atau disilangkan.",
-        "exampleAnime": "A sophisticated bar anime scene. A figure seated high on a bar stool, one leg casually hooked around the stool leg, one hand resting on the bar counter. The posture is elevated and stylish, anime.",
-        "exampleRealistic": "Concept art, high-tech bar: A figure seated high on a sleek, metallic bar stool. The torso is upright, one leg is wrapped around the stool, creating a subtle, elegant curve.",
-        "exampleAnatomy": "Black and white anatomical sketch. A figure seated on a high stool. Emphasize the long, vertical line of the torso and the asymmetrical position of the legs, easy beginner prompt."
+        "name": "Mantra Chanting (Tangan Menangkup)",
+        "description": "Duduk, tangan menangkup di depan mulut, seperti sedang melantunkan mantra atau bersenandung.",
+        "exampleAnime": "Spiritual anime illustration, dim lighting. A character sitting quietly, hands cupped tightly in front of their mouth, eyes closed, seemingly chanting a mantra. Subtle sound wave effect (implied), anime.",
+        "exampleRealistic": "Concept art, serene moment: A figure sitting in a quiet, dark church, hands cupped to their mouth, softly humming a tune. Focus on the gentle curve of the hands."
       },
       {
-        "name": "Berbaring Miring (Side Lying - Elbow Prop)",
-        "description": "Berbaring miring dengan kepala ditopang oleh satu siku, gaya rileks kuno.",
-        "exampleAnime": "A humorous anime beach scene. A character lying on their side on a towel, propped up on one elbow, looking bored. The body forms a flowing S-curve from the elbow to the feet, anime.",
-        "exampleRealistic": "Concept art, ancient Roman leisure: A figure reclining on their side on a silk cushion, propped up on one elbow. The posture is one of extreme, ancient leisure and observation.",
-        "exampleAnatomy": "Black and white anatomical sketch. A figure lying on the side, propped up on one elbow. Highlight the C-curve of the upper body supported by the rigid elbow, easy beginner prompt."
+        "name": "Duduk Mengambang (Half Lotus)",
+        "description": "Duduk bersila dengan satu kaki di atas paha yang berlawanan (*ardha padmasana*), tubuh sedikit miring.",
+        "exampleAnime": "Casual fantasy anime illustration. A character sitting in the half-lotus pose on the edge of a pond, relaxed but thoughtful. Focus on the asymmetrical comfort, anime, detailed nature.",
+        "exampleRealistic": "Concept art, outdoor study: A person sitting in the half-lotus pose on a smooth, flat rock by a stream, writing in a small notebook. Focus on the slight tilt of the posture."
       },
       {
-        "name": "Duduk di Lutut Satu Kaki (One-Knee Up Seated)",
-        "description": "Duduk di lantai atau kursi, dengan satu lutut ditekuk ke atas, lengan bersandar di atasnya.",
-        "exampleAnime": "A contemplative anime scene. A figure seated on a low wall, one knee pulled up to the chest, the forearm resting on the knee. The other leg is dangling. The pose is thoughtful and stable, anime.",
-        "exampleRealistic": "Concept art, contemplative outdoor: A figure seated on a ledge, one knee pulled up, supporting the weight of the forearm. The pose is stable, allowing for deep thought.",
-        "exampleAnatomy": "Black and white anatomical sketch. A figure seated, one knee elevated. Highlight the supporting line of the forearm resting on the bent knee, easy beginner prompt."
+        "name": "Penyerahan Diri (Lengan Terentang ke Bawah)",
+        "description": "Berdiri, lengan menjuntai ke samping, telapak tangan menghadap ke belakang atau ke luar, menunjukkan kerentanan total.",
+        "exampleAnime": "Emotional anime illustration, moment of truth. A character standing still, arms loose at their sides, palms open to the sky or viewer, an expression of total emotional surrender. Use exposed, soft lighting, anime.",
+        "exampleRealistic": "Concept art, confrontation: A figure standing absolutely still in an open field, arms hanging loosely, accepting their fate. Focus on the exposed, vulnerable pose."
       },
       {
-        "name": "Duduk Tegak (Perfectly Upright Seated)",
-        "description": "Duduk di kursi dengan punggung lurus 90 derajat, menunjukkan formalitas atau fokus yang intens.",
-        "exampleAnime": "A formal meeting anime illustration. A character seated perfectly upright on a wooden chair, hands clasped lightly in their lap. The back is a perfectly straight, vertical line, conveying rigid professionalism, anime.",
-        "exampleRealistic": "Concept art, formal intensity: A figure seated at a large, empty table, spine perfectly straight at 90 degrees, hands folded in their lap. The pose conveys intense, restrained formality.",
-        "exampleAnatomy": "Black and white anatomical sketch. A figure seated perfectly straight (90 degrees). Emphasize the vertical line of the spine and the horizontal line of the thighs, easy beginner prompt."
+        "name": "Melindungi Aura (Tangan di Sekitar Tubuh)",
+        "description": "Berdiri, lengan dilingkarkan di sekitar tubuh, tidak memeluk tetapi menjaga jarak tertentu, melindungi 'aura' atau energi.",
+        "exampleAnime": "Mystical anime illustration. A character standing in a defensive meditative stance, hands held a foot away from the body, palms inward, creating a glowing shield of energy around them. Use strong glow effects, anime.",
+        "exampleRealistic": "Concept art, energy practice: A figure standing with arms circling their own body at a distance, performing a Qigong movement. Focus on the concentration and slow motion (implied)."
       },
       {
-        "name": "Duduk di Tangga (Stairs Seating)",
-        "description": "Duduk di tangga, biasanya dengan satu kaki di anak tangga di atas dan yang lain di bawah.",
-        "exampleAnime": "A youthful anime scene. A group of students sitting casually on a wide outdoor staircase, using the steps to create staggered, asymmetrical leg positions. The posture is social and relaxed, anime.",
-        "exampleRealistic": "Concept art, casual urban interaction: Two figures sitting on wide stone steps, using the varying heights to create different leg angles. The pose is relaxed and asymmetrical.",
-        "exampleAnatomy": "Black and white anatomical sketch. A figure seated on a step. Highlight the staggered leg positions and the different angles created by the steps, easy beginner prompt."
+        "name": "Menarik Napas Dalam (Tangan di Perut)",
+        "description": "Berdiri atau duduk, kedua tangan diletakkan di perut bagian bawah (*dantian*), mata tertutup, fokus pada pernapasan.",
+        "exampleAnime": "Zen moment anime illustration. A character sitting calmly, both hands resting gently on their lower abdomen, eyes closed, expressing deep, controlled breathing. Peaceful expression, anime.",
+        "exampleRealistic": "Concept art, breathing exercise: A person standing by a sea shore, hands resting lightly on their stomach, taking a deep, mindful breath. Focus on the quiet movement of the chest."
       },
       {
-        "name": "Duduk di Ayunan (Swing Seating)",
-        "description": "Duduk di ayunan, tubuh condong ke depan atau ke belakang, dengan kaki menjulur keluar.",
-        "exampleAnime": "A nostalgic anime scene. A character seated in a park swing, body leaning slightly forward, legs stretched out high in the air, smiling happily. The posture is one of active, gentle movement, anime.",
-        "exampleRealistic": "Concept art, whimsical movement: A figure seated in an old tire swing, leaning slightly back, legs stretched out. Focus on the tension in the ropes and the gentle curve of the body.",
-        "exampleAnatomy": "Black and white anatomical sketch. A figure seated in a swing. Show the slight C-curve of the torso and the extended line of the legs pointing forward, easy beginner prompt."
+        "name": "Mudra Prithvi (Bumi)",
+        "description": "Jari manis menyentuh ibu jari di setiap tangan, isyarat untuk stabilitas dan hubungan dengan Bumi.",
+        "exampleAnime": "Earth-element fantasy anime illustration. A character standing barefoot on a grassy hill, hands forming the Prithvi Mudra, connected to the earth. Green energy effects, anime.",
+        "exampleRealistic": "Concept art, grounded feeling: A figure sitting on a patch of dirt, hands resting on the ground, forming the Prithvi Mudra. Focus on the tactile connection to the soil."
       },
       {
-        "name": "Tangan di Punggung Kursi (Hands on Chair Back)",
-        "description": "Duduk menghadap ke belakang di kursi, lengan diletakkan di sandaran kursi.",
-        "exampleAnime": "A playful anime portrait. A character straddling a chair backward, arms resting comfortably on the back of the chair, chin on their forearms, looking directly ahead, anime.",
-        "exampleRealistic": "Concept art, casual interview: A figure seated backward on a wooden chair, leaning forward with arms resting on the chair back. The pose is open and casual, but forward-leaning.",
-        "exampleAnatomy": "Black and white anatomical sketch. A figure seated backward on a chair. Highlight the forward tilt of the torso and the parallel line of the forearms resting on the chair back, easy beginner prompt."
+        "name": "Terbangun dari Meditasi",
+        "description": "Karakter tetap di posisinya (bersila) tetapi perlahan membuka mata, melihat sekeliling dengan tenang.",
+        "exampleAnime": "Transitional anime illustration. A character sitting in a meditative pose, just opening their eyes, the world coming back into soft focus. Expression is calm and newly aware, anime.",
+        "exampleRealistic": "Concept art, moment of awakening: A figure in a quiet room, slowly opening their eyes after a long meditation, the light softly hitting their face. Focus on the transition from internal to external awareness."
       },
       {
-        "name": "Duduk Bersila Tertutup (Tight Cross-Legged)",
-        "description": "Duduk bersila dengan kaki ditarik sedekat mungkin ke tubuh, pose yang tertutup dan defensif.",
-        "exampleAnime": "A defensive anime portrait. A character sitting tightly cross-legged on the floor, back slightly hunched, suggesting fear or being closed off. The posture is compact and low, anime.",
-        "exampleRealistic": "Concept art, urban survival: A lone figure seated tightly cross-legged on a cold street corner, arms wrapped around the torso. The pose is closed and self-protecting.",
-        "exampleAnatomy": "Black and white anatomical sketch. A figure sitting tightly cross-legged. Use inward-curving lines to show the compact, closed-off nature of the pose, easy beginner prompt."
+        "name": "Menghormati Guru (Anjali Mudra)",
+        "description": "Berdiri tegak, kedua telapak tangan disatukan di depan dada (isyarat doa), dagu sedikit ditundukkan.",
+        "exampleAnime": "Formal anime illustration, temple setting. A respectful student standing in Anjali Mudra, facing their master. Posture is humble and perfectly straight, anime.",
+        "exampleRealistic": "Concept art, cultural greeting: A person standing in a quiet room, performing a formal 'Namaste' gesture with deep respect. Focus on the perfect alignment of the hands."
       },
       {
-        "name": "Kaki Terlipat (Tucked Feet Seated)",
-        "description": "Duduk di sofa atau kursi dengan satu atau kedua kaki terlipat di bawah tubuh.",
-        "exampleAnime": "A cozy, domestic anime scene. A figure curled up on a large sofa, one leg folded entirely underneath the body, the other leg draped over the armrest. The pose is one of complete, relaxed domesticity, anime.",
-        "exampleRealistic": "Concept art, cozy indoor: A figure curled up on a sofa, reading a book, with both feet tucked completely underneath them. The body is a relaxed, asymmetrical lump of comfort.",
-        "exampleAnatomy": "Black and white anatomical sketch. A figure seated with one leg tucked beneath the body. Show the complex curves created by the folded and supported weight, easy beginner prompt."
+        "name": "Viparita Karani (Legs-up-the-Wall)",
+        "description": "Berbaring telentang, kaki diangkat lurus ke atas, bersandar di dinding atau di udara.",
+        "exampleAnime": "Relaxing anime illustration. A character lying on the floor, their legs resting casually straight up against a wall, reading a book in that inverted pose. Casual, gentle lighting, anime.",
+        "exampleRealistic": "Concept art, restorative yoga: A figure with their legs resting vertically up a white wall, arms relaxed by their sides. Focus on the restful stillness."
       },
       {
-        "name": "Duduk di Lantai Memeluk Kaki (Knees to Chest Hug)",
-        "description": "Duduk di lantai dengan kedua kaki dipeluk erat ke dada, punggung tegak atau sedikit melengkung.",
-        "exampleAnime": "A youthful anime scene. A character sitting on the grass, tightly hugging both knees to their chest, head resting gently on the knees. The pose is one of innocent contentment, anime.",
-        "exampleRealistic": "Concept art, simple contentment: A figure seated on a log, hugging their knees tightly to their chest, chin resting on the kneecaps, staring peacefully at a campfire.",
-        "exampleAnatomy": "Black and white anatomical sketch. A figure sitting with knees pulled to the chest. Highlight the symmetrical, curved line of the body forming a single unit, easy beginner prompt."
+        "name": "Sun Salutation (Urdhva Hastasana)",
+        "description": "Berdiri tegak, kedua lengan direntangkan lurus ke atas, telapak tangan saling berhadapan, punggung sedikit melengkung.",
+        "exampleAnime": "Energetic yoga anime illustration, outdoor scene. A character standing tall, reaching their arms up and back to salute the sun. Dynamic lighting from the sun rays, anime.",
+        "exampleRealistic": "Concept art, morning routine: A person standing on a hillside at sunrise, performing a deep backbend with arms extended, welcoming the light. Focus on the stretch and opening of the chest."
       },
       {
-        "name": "Duduk Bersandar Lengan (Armrest Prop)",
-        "description": "Duduk di kursi dengan siku bersandar di sandaran tangan, kepala ditopang di tangan.",
-        "exampleAnime": "A powerful anime portrait. A character seated in a grand armchair, one elbow resting firmly on the armrest, the hand supporting the head in a pose of contemplative power, anime.",
-        "exampleRealistic": "Concept art, restrained power: A figure seated in a large, leather armchair, one elbow resting firmly on the armrest, the hand supporting a pensive chin. The posture is one of controlled thought.",
-        "exampleAnatomy": "Black and white anatomical sketch. A figure seated, elbow supported on an armrest. Show the straight, rigid line of the supporting arm and the slight tilt of the head, easy beginner prompt."
+        "name": "The Seiza Kneel",
+        "description": "Duduk dengan lutut ditekuk, bersandar pada tumit, punggung tegak, tangan di pangkuan.",
+        "exampleAnime": "Traditional Japanese anime illustration. A character sitting politely in the Seiza position on a tatami mat, hands resting neatly on their thighs, very formal and stable posture. Clean lines, anime.",
+        "exampleRealistic": "Concept art, solemnity: A figure kneeling in Seiza in a quiet room. Focus on the perfect verticality and stillness required for the pose."
       },
       {
-        "name": "Duduk dengan Satu Kaki Menggantung (Dangling Foot)",
-        "description": "Duduk di bangku atau langkan dengan satu kaki menempel di tanah dan yang lain menggantung bebas.",
-        "exampleAnime": "A casual school anime scene. A student sitting on a park bench, one foot flat on the ground, the other swinging gently back and forth. The pose is asymmetrical and relaxed, anime.",
-        "exampleRealistic": "Concept art, waiting casually: A figure seated on a wooden bench, one foot firmly planted, the other dangling slightly off the ground, swinging gently. Focus on the gentle, rhythmic motion.",
-        "exampleAnatomy": "Black and white anatomical sketch. A figure seated, one leg stable, the other hanging freely. Highlight the asymmetrical leg lines and the relaxed foot/ankle, easy beginner prompt."
+        "name": "Mudra Apana (Detoks)",
+        "description": "Jari tengah dan jari manis menyentuh ibu jari di setiap tangan, isyarat untuk melepaskan energi.",
+        "exampleAnime": "Fantasy anime illustration, energy manipulation. A character standing with hands forming the Apana Mudra, hands held out, releasing dark, swirling energy into the ground. Strong graphic effect, anime.",
+        "exampleRealistic": "Concept art, focused healing: A figure sitting, intensely concentrating while holding the Apana Mudra. Focus on the controlled tension in the hands."
+      }
+    ]
+  },
+  {
+    "id": "style_7_horror",
+    "name": "7. POSE HOROR & KETAKUTAN",
+    "accentColor": "#8B0000",
+    "icon": "fas fa-skull-crossbones",
+    "definition": [
+      "Pose yang dirancang untuk membangkitkan kengerian, kejanggalan, atau rasa tidak nyaman (uncanny valley).",
+      "Menggunakan distorsi tubuh, bayangan dramatis, dan gerakan yang patah-patah atau sangat lambat (slow-burn).",
+      "Fokus pada disonansi antara tubuh yang seharusnya normal dan posisi yang tidak wajar."
+    ],
+    "subpose": [
+      {
+        "name": "The Spider Crawl",
+        "description": "Berjalan atau merangkak dengan punggung melengkung ke belakang (*bridge*), tetapi kepala dan kaki bergerak maju.",
+        "exampleAnime": "Horror anime illustration, dark lighting. A female figure crawling on all fours, but the body is unnaturally inverted in a terrifying 'spider walk' position. Limbs are long and skinny. Use extreme shadows and high, eerie reflections in the eyes, anime, horror style.",
+        "exampleRealistic": "Concept art, found footage horror: A figure in a dark hallway performing a disturbing, contorted crawl. Focus on the unnatural strain on the joints and spine."
+      },
+      {
+        "name": "The Broken Neck Tilt",
+        "description": "Kepala dimiringkan ke samping secara berlebihan (lebih dari 45 derajat) dengan senyum yang tidak wajar.",
+        "exampleAnime": "Psychological horror anime illustration. A character standing in an empty room, head tilted extremely to one side as if the neck is broken, but with a wide, unnerving smile. Use muted colors and an unsettling symmetrical composition, anime, horror style.",
+        "exampleRealistic": "Concept art, unsettling character: A figure staring directly at the viewer, head tilted past a natural angle. Focus on the eerie stillness of the pose combined with the smile."
+      },
+      {
+        "name": "Menghadap Dinding (Isolation)",
+        "description": "Karakter berdiri atau duduk menghadap dinding, membelakangi penonton, seringkali kaku dan diam.",
+        "exampleAnime": "Mystery anime illustration, abandoned school setting. A small figure standing motionless in the corner of a dark room, facing the wall, hands hanging limply. Deep, suffocating shadow, anime.",
+        "exampleRealistic": "Concept art, psychological dread: A person standing rigidly in a barren room, facing the corner. Focus on the vulnerability of the exposed back and the stillness."
+      },
+      {
+        "name": "The Lurk (Mengintai)",
+        "description": "Jongkok rendah di tempat yang gelap, hanya kepala dan mata yang mengintip ke atas.",
+        "exampleAnime": "Survival horror anime illustration. A menacing figure crouched low behind a barrel or obstacle, only their gleaming, wide eyes visible over the top, intensely watching the viewer. Use extreme low light and sharp eye highlights, anime.",
+        "exampleRealistic": "Concept art, stalking scene: A figure hidden in dense brush, crouched low, peering out from the shadows with intense focus. Focus on the predatory posture."
+      },
+      {
+        "name": "The Hanging Head",
+        "description": "Kepala karakter digantung longgar ke bawah atau ke samping seolah-olah lehernya tidak memiliki tulang.",
+        "exampleAnime": "Gothic horror anime illustration. A tall, pale figure standing stiffly, but the head is completely lolled to one side, hair obscuring the face, suggesting an unnatural state. Use monochrome palette and stark vertical lines, anime.",
+        "exampleRealistic": "Concept art, possession: A figure slumped in a chair, neck completely relaxed so the head hangs forward and down, completely lifeless. Focus on the gravity and relaxation of death."
+      },
+      {
+        "name": "Menjauh (Crawling Away)",
+        "description": "Karakter merangkak mundur atau merayap menjauh dari penonton, menunjukkan ketakutan ekstrem.",
+        "exampleAnime": "Found footage anime illustration. A character desperately scrambling backward on the ground, away from an unseen horror, face contorted in sheer terror. Use rough, shaky line art and deep lens distortion, anime.",
+        "exampleRealistic": "Concept art, visceral fear: A person on the ground, using their arms to push themselves backward rapidly, body low and panicked. Focus on the desperate scramble."
+      },
+      {
+        "name": "The Wide Stare",
+        "description": "Close-up mata yang terbuka lebar, bola mata terlihat di bawah dan di atas iris, tanpa berkedip.",
+        "exampleAnime": "Extreme horror anime portrait. Close-up on the eyes, wide open in sheer terror or madness, showing the white sclera around the entire iris (Sanpaku eyes). Use jagged lighting and venous detail, anime, horror style.",
+        "exampleRealistic": "Concept art, manic intensity: A face with eyes wide open and unblinking, veins slightly bulging. Focus on the reflective, intense wetness of the eyes."
+      },
+      {
+        "name": "The Unseen Force",
+        "description": "Karakter melayang atau terlempar ke udara, anggota tubuhnya ditekuk secara tidak wajar seolah-olah dikendalikan oleh kekuatan tak terlihat.",
+        "exampleAnime": "Demonic horror anime illustration. A character suspended mid-air, back arched unnaturally, one arm extended as if being choked by an invisible hand. Use heavy dark shadows and sharp body angles, anime.",
+        "exampleRealistic": "Concept art, telekinetic attack: A figure thrown violently against a wall, limbs splayed and twisted at impossible angles by an unseen force. Focus on the impact distortion."
+      },
+      {
+        "name": "Bersembunyi di Bawah Selimut",
+        "description": "Karakter meringkuk di tempat tidur, hanya sebagian kecil mata atau dahi yang mengintip dari balik selimut.",
+        "exampleAnime": "Childhood terror anime illustration. A character hiding completely under a huge duvet, only a terrified eye peeking out from a small gap. Use deep, contrasting shadows around the bed, anime.",
+        "exampleRealistic": "Concept art, intimate fear: A person huddled under heavy blankets, only a sliver of their anxious face visible. Focus on the texture of the thick fabric."
+      },
+      {
+        "name": "The Pacing Shadow",
+        "description": "Karakter berjalan mondar-mandir dalam gerakan kaku, kepala menunduk, tangan terkepal di belakang punggung.",
+        "exampleAnime": "Suspense anime illustration. A dark, silhouetted figure pacing slowly and deliberately in a small, empty room, head bowed in deep, troubling thought. Use minimalist lighting and repetitive action (implied), anime.",
+        "exampleRealistic": "Concept art, nervous tension: A figure pacing back and forth in a prison cell, hands clasped tightly behind the back. Focus on the nervous energy of the movement."
+      },
+      {
+        "name": "The Silent Scream",
+        "description": "Mulut terbuka lebar dalam jeritan, tetapi tangan menutupi mulut dengan paksa, menahan suara.",
+        "exampleAnime": "Extreme emotional horror anime illustration. A close-up on a face screaming silently, one hand pressed hard against the mouth to muffle the sound, eyes wide with distress. Use rough, distorted line art, anime, intense.",
+        "exampleRealistic": "Concept art, raw terror: A person holding their hand tightly over their own screaming mouth, veins standing out in their neck. Focus on the visible pressure."
+      },
+      {
+        "name": "Melipat Diri Sendiri (Contortion)",
+        "description": "Karakter melipat tubuh mereka menjadi bentuk yang sangat kompak dan tidak wajar, seringkali di ruang sempit.",
+        "exampleAnime": "Body horror anime illustration. A slender figure folded tightly inside a small cabinet or locker, limbs bent at disturbing angles, staring out. Use claustrophobic framing and dark details, anime.",
+        "exampleRealistic": "Concept art, extreme flexibility: A contortionist folded into a small box, body bent in an impossible, compact position. Focus on the strain and elasticity of the muscles."
+      },
+      {
+        "name": "The 'Come Closer' (Tangan di Dinding)",
+        "description": "Karakter berdiri di ambang pintu, membungkuk ke depan, satu tangan besar diletakkan di dinding di samping kepala mereka.",
+        "exampleAnime": "Menacing anime illustration, villain reveal. A tall, shadowy figure leaning forward out of a darkened doorway, one massive hand resting flat against the door frame/wall, inviting the viewer closer. Use deep contrast and an intimidating perspective, anime.",
+        "exampleRealistic": "Concept art, imposing figure: A massive silhouette leaning into a room, one hand braced on the door frame, creating a sense of being cornered. Focus on the scale."
+      },
+      {
+        "name": "Bayangan yang Memanjang",
+        "description": "Karakter berdiri normal, tetapi bayangannya di dinding atau lantai membentang dan terdistorsi secara tidak wajar.",
+        "exampleAnime": "Cinematic horror anime illustration. A character standing calmly, but their shadow on the wall is stretched, disproportionate, and monstrously twisted. Focus on the terrifying distortion of the shadow, anime.",
+        "exampleRealistic": "Concept art, surreal horror: A person standing under a low light source, their shadow cast on a textured wall, elongated and menacing with unnatural limbs. Focus on the shadow detail."
+      },
+      {
+        "name": "Menarik Diri (Recoil)",
+        "description": "Karakter tiba-tiba terdorong ke belakang oleh teror, satu tangan terangkat untuk melindungi wajah.",
+        "exampleAnime": "Sudden shock anime illustration. A character recoiling rapidly, stumbling backward, one arm thrown up instinctively to cover the face or block a sight. Exaggerated motion blur and fear on the face, anime.",
+        "exampleRealistic": "Concept art, jump scare moment: A figure suddenly throwing their body backward, eyes squeezed shut, reacting instantly to a loud noise or sudden sight. Focus on the abrupt, panic-driven movement."
+      },
+      {
+        "name": "Tertangkap di Jaring/Tali",
+        "description": "Karakter terjerat, anggota tubuhnya direntangkan dan ditarik oleh tali atau jaring.",
+        "exampleAnime": "Survival horror anime illustration. A character tangled in thick, glowing vines or spider webs, limbs painfully stretched taut, struggling desperately against the bonds. Use complex line work for the restraints, anime.",
+        "exampleRealistic": "Concept art, bondage horror: A figure suspended slightly off the ground, tangled and held fast by thick ropes, posture showing struggle and helplessness. Focus on the texture of the ropes cutting into the skin."
+      },
+      {
+        "name": "The Sinking Head",
+        "description": "Karakter duduk atau berdiri, tetapi kepala mereka terlihat seolah-olah 'tenggelam' atau merosot ke dalam bahu dan dada.",
+        "exampleAnime": "Quiet horror anime illustration, despair theme. A character sitting with shoulders raised high, head sunken deep into the neck and chest, looking defeated and small. Use dim, heavy overhead lighting, anime.",
+        "exampleRealistic": "Concept art, extreme sadness: A person hunched over, their head practically disappearing into the collar of their coat, conveying self-protection and immense emotional weight."
+      },
+      {
+        "name": "The Unblinking Smile",
+        "description": "Wajah close-up yang menunjukkan senyum lebar dan 'terlalu sempurna', tetapi matanya tidak mengikuti (tidak tersenyum).",
+        "exampleAnime": "Uncanny horror anime portrait. Extreme close-up on a face with a wide, unnatural, forced smile (Cheshire cat grin), but the eyes remain wide, blank, and terrifyingly unblinking. Use smooth, unsettling skin texture, anime, horror style.",
+        "exampleRealistic": "Concept art, unsettling android: A figure with an almost perfect, synthetic smile, but their eyes are completely dead and unresponsive. Focus on the disconnect between the mouth and eyes."
+      },
+      {
+        "name": "Mencakar Diri Sendiri",
+        "description": "Karakter mencakar atau mencengkeram lengan, leher, atau dada mereka sendiri dengan kuku yang tajam.",
+        "exampleAnime": "Body horror anime illustration, mental breakdown. A character frantically raking their own skin with sharp fingernails, eyes wild with pain and paranoia. Use jagged, dynamic lines and high color saturation (for blood), anime.",
+        "exampleRealistic": "Concept art, self-harm: A person clutching their own arm so tightly that the skin is being severely pinched, a non-verbal expression of intense psychological pain."
+      },
+      {
+        "name": "Terikat di Kursi",
+        "description": "Karakter diikat di kursi, mencoba melonggarkan ikatan, tubuh tegang dan berjuang.",
+        "exampleAnime": "Torture/Suspense anime illustration. A character strapped tightly to a wooden chair with ropes, leaning forward and pulling hard against the restraints, face contorted in effort. Use harsh, angular lighting, anime.",
+        "exampleRealistic": "Concept art, interrogation: A figure tied to a metal chair, straining every muscle in an attempt to escape. Focus on the visible tension and the texture of the bonds."
+      },
+      {
+        "name": "Lengan Menjangkau dari Kegelapan",
+        "description": "Hanya satu lengan yang menjulur panjang dari bayangan, meraih atau menyentuh karakter/penonton.",
+        "exampleAnime": "Creepy horror anime illustration. A massive, elongated, pale arm with sharp fingernails extending from an area of pitch darkness, reaching slowly toward the viewer. Focus entirely on the menacing detail of the hand, anime.",
+        "exampleRealistic": "Concept art, shadow monster: A single, long, skeletal arm emerging from a patch of deep black shadow, fingers crooked in a grasping gesture. Focus on the contrast and the texture of the skin/bone."
+      },
+      {
+        "name": "Mengambil Posisi Janin (Teror)",
+        "description": "Karakter meringkuk di lantai dalam posisi janin, tetapi dengan postur yang kaku dan tegang, bukan santai.",
+        "exampleAnime": "Psychological trauma anime illustration. A character curled up tightly into a ball on the floor, hugging their knees, but the body is visibly rigid and shaking with fear. Cold, metallic lighting, anime.",
+        "exampleRealistic": "Concept art, intense fear: A figure curled up tightly on a cold tile floor, body trembling, every muscle tense from silent terror. Focus on the defensive, compacted shape."
+      },
+      {
+        "name": "The Upside-Down Hang",
+        "description": "Karakter digantung terbalik, biasanya tidak sadarkan diri atau berlumuran darah.",
+        "exampleAnime": "Gore horror anime illustration. A figure hanging upside down from a ceiling hook, head dangling, hair falling down, body limp. Use heavy blood splatter effects and dim, industrial lighting, anime, horror style.",
+        "exampleRealistic": "Concept art, grim setting: A figure hanging by their ankle, completely inverted and still. Focus on the stark gravity and the long vertical line."
+      },
+      {
+        "name": "Mendorong Kembali Poni",
+        "description": "Satu atau kedua tangan dengan gugup menyisir rambut atau poni ke belakang, memperlihatkan dahi dan mata yang ketakutan.",
+        "exampleAnime": "Nervous breakdown anime illustration. A character using both hands to violently push back their fringe, revealing wide, manic, terrified eyes and a sweaty forehead. Use harsh overhead light, anime.",
+        "exampleRealistic": "Concept art, moment of revelation: A person running a trembling hand through their hair, pushing it back to fully reveal an expression of shock or paranoia. Focus on the sweat and nervous tremor."
+      },
+      {
+        "name": "Tangan di Pipi (Dingin)",
+        "description": "Karakter menekan telapak tangan ke pipi atau mata mereka sendiri, ekspresi dingin, bukan karena malu atau terkejut.",
+        "exampleAnime": "Villainous anime illustration, cold mood. A character standing, pressing a single, perfectly smooth hand against their own cheek, gazing out with a detached, cold, and calculated expression. Clean, sharp lines and cold blue lighting, anime.",
+        "exampleRealistic": "Concept art, emotionless killer: A figure standing motionless, one hand gently pressed to their cheek, observing destruction with an empty, uncaring gaze. Focus on the unsettling calm."
+      }
+    ]
+  },
+  {
+    "id": "style_8_unik",
+    "name": "8. POSE UNIK & NON-KONVENSIONAL",
+    "accentColor": "#00CED1",
+    "icon": "fas fa-magic",
+    "definition": [
+      "Pose yang seringkali tidak realistis atau membutuhkan efek khusus/kekuatan super untuk dipertahankan.",
+      "Menggabungkan elemen tarian, akrobatik, atau postur aneh (meme-worthy).",
+      "Fokus pada kreativitas, humor, atau kemampuan fisik yang mustahil."
+    ],
+    "subpose": [
+      {
+        "name": "The Crouching Hero Landing",
+        "description": "Karakter mendarat setelah melompat tinggi, satu tangan menyentuh tanah, satu lutut di depan, tubuh condong ke depan.",
+        "exampleAnime": "Superhero anime landing illustration, explosion background. A muscular hero crouched low in a dynamic landing pose, one fist slammed into the ground, the other arm stabilizing the body. Smoke and dust swirl around the impact point. Use intense, vibrant colors and extreme perspective, anime, shonen style.",
+        "exampleRealistic": "Concept art, comic book landing: A figure in high-tech armor landing heavily on one knee, one fist punching the ground for stability. Focus on the metallic reflection and impact dust."
+      },
+      {
+        "name": "The Plank (Horizontal)",
+        "description": "Tubuh dipertahankan lurus sempurna secara horizontal di udara atau bertumpu hanya pada dua titik.",
+        "exampleAnime": "Sci-fi anime illustration, anti-gravity effects. A character floating perfectly horizontal, rigid as a board, hands by their sides, moving through space or air effortlessly. Use clean, digital art style and subtle energy lines, anime.",
+        "exampleRealistic": "Concept art, parkour challenge: A free-runner performing a flag pole pose, body held perfectly horizontal off a vertical pole. Focus on the extreme core strength."
+      },
+      {
+        "name": "Berdiri di Satu Tangan",
+        "description": "Seluruh berat badan diimbangi pada satu tangan, kaki di udara, lurus atau ditekuk.",
+        "exampleAnime": "Martial arts anime illustration, dynamic scene. A fighter balanced perfectly on one hand (handstand), the other hand and both legs extended outwards in a fighting kick position. Use sharp line art and a low angle, anime.",
+        "exampleRealistic": "Concept art, acrobatic fight: A figure performing a one-handed handstand while delivering a high kick. Focus on the inverted balance and the strain on the supporting arm."
+      },
+      {
+        "name": "The Jojo Pose (Ekstrem)",
+        "description": "Pose yang sangat berlebihan, teatrikal, asimetris, dengan sudut tajam, seringkali dengan wajah menghadap ke penonton.",
+        "exampleAnime": "Jojo's Bizarre Adventure style anime illustration. A tall, muscular character striking an impossible, heavily stylized pose: back arched, one leg bent and crossing the other, one arm held high in an angular gesture. Use vibrant, unnatural color palettes and unique shading techniques, anime, highly detailed.",
+        "exampleRealistic": "Concept art, theatrical style: A figure in a voluminous outfit striking a complicated, multi-angled, impossible pose. Focus on the sharpness of the overall silhouette."
+      },
+      {
+        "name": "The Inverted Cross",
+        "description": "Karakter tergantung terbalik dari langit-langit atau palang, tubuh lurus dan kaku.",
+        "exampleAnime": "Gymnastics anime illustration, intense training. A strong character hanging upside down from a bar, holding their body straight and rigid in a perfect inverted cross shape. Use intense muscle definition and strong backlighting, anime.",
+        "exampleRealistic": "Concept art, circus acrobat: A figure hanging by their feet, holding their body in a taut, rigid line, arms stretched wide. Focus on the raw gravity effect."
+      },
+      {
+        "name": "Senjata di Bahu (Ringan)",
+        "description": "Senjata besar (misalnya kapak, bazoka) disandarkan dengan santai di bahu, menunjukkan kekuatan tanpa usaha.",
+        "exampleAnime": "Heavy weapons anime illustration, relaxed stance. A young, petite character standing casually with a ridiculously oversized rocket launcher resting lightly on one shoulder, smiling gently. Humorously disproportionate scale, anime.",
+        "exampleRealistic": "Concept art, sci-fi mercenary: A mercenary in full gear resting a massive, futuristic weapon easily on their shoulder. Focus on the contrast between the weapon's size and the casual hold."
+      },
+      {
+        "name": "The Fourth Wall Break (Menunjuk)",
+        "description": "Karakter menunjuk langsung ke 'kamera' atau penonton dengan mata berkedip atau ekspresi main-main.",
+        "exampleAnime": "Meme-worthy anime illustration. A character winking and pointing a finger directly out of the frame at the viewer, engaging directly with the audience. Use bright, comic book style effects, anime.",
+        "exampleRealistic": "Concept art, breaking convention: A figure stepping out of a painting frame, pointing a conspiratorial finger directly at the viewer. Focus on the surreal element."
+      },
+      {
+        "name": "Duduk Menggantung Kaki",
+        "description": "Duduk di tepi tebing atau atap, kaki menjuntai bebas di udara, menunjukkan ketenangan di ketinggian.",
+        "exampleAnime": "Aesthetic anime illustration, city night. A character sitting calmly on the edge of a very high skyscraper, legs dangling over the side, looking at the city lights. Peaceful, melancholic mood, anime.",
+        "exampleRealistic": "Concept art, urban exploration: A figure sitting on the edge of a high bridge, legs hanging down over the water, relaxed and fearless. Focus on the texture of the stone and the long drop."
+      },
+      {
+        "name": "The Head-Down Bow",
+        "description": "Karakter membungkuk sangat rendah dari pinggang, menyembunyikan wajah di bawah rambut atau lengan yang menjuntai.",
+        "exampleAnime": "Mystery anime illustration. A character standing with a deep, unsettling bow, head hanging almost to their knees, their face completely obscured by hair. Use intense shadow to hide their identity, anime.",
+        "exampleRealistic": "Concept art, silent threat: A figure bowing in an extreme, unnatural posture, head hanging low, suggesting humility or hidden menace. Focus on the line of the hunched back."
+      },
+      {
+        "name": "Melompat Kegirangan (Stomping)",
+        "description": "Karakter melompat ke udara dengan satu kaki ditarik ke belakang, seolah-olah akan 'menginjak' sesuatu.",
+        "exampleAnime": "Comedic shonen anime illustration. A character launching into the air in a moment of extreme, exaggerated excitement or rage, one foot raised high, ready to stomp. Use funny, dynamic motion lines, anime.",
+        "exampleRealistic": "Concept art, childish joy: An adult figure jumping up and down in a moment of pure, unbridled excitement, performing a heavy foot stomp. Focus on the energetic movement."
+      },
+      {
+        "name": "The Crouching Snarl",
+        "description": "Karakter berjongkok dengan punggung melengkung, gigi menyeringai, terlihat seperti binatang buas.",
+        "exampleAnime": "Beast transformation anime illustration. A character hunched in a low, predatory crouch, face contorted in a snarl, revealing sharp fangs. Use dark, angular lines and animalistic posture, anime.",
+        "exampleRealistic": "Concept art, werewolf transformation: A figure dropping into a low, bestial crouch, hands morphing into claws, eyes glowing with primal rage. Focus on the raw, animalistic tension."
+      },
+      {
+        "name": "Membawa Banyak Barang (Keseimbangan)",
+        "description": "Karakter membawa tumpukan barang yang tidak stabil, menggunakan dagu, kepala, dan bahu untuk menyeimbangkan.",
+        "exampleAnime": "Comedic slice of life anime illustration. A character struggling to carry a towering, impossible stack of books, bags, and groceries, balancing precariously. Exaggerated expression of strain, anime.",
+        "exampleRealistic": "Concept art, extreme shopping: A person leaving a store, arms full of bags, using their chin to balance one last item on the top of the pile. Focus on the awkward balancing act."
+      },
+      {
+        "name": "The Matrix Lean (Waktu Lambat)",
+        "description": "Karakter condong ke belakang sejauh mungkin, menghindari sesuatu, tubuh kaku di tengah udara.",
+        "exampleAnime": "Bullet-time anime illustration. A character frozen mid-air, leaning backward at a near-horizontal angle to avoid a laser blast or bullet. Hair and clothes float naturally, anime, sci-fi action.",
+        "exampleRealistic": "Concept art, cinematic action: A figure suspended mid-dive, leaning back dramatically to avoid an unseen projectile. Focus on the smooth, impossible curve of the body."
+      },
+      {
+        "name": "Menggigit Jari/Bibir",
+        "description": "Close-up tangan atau wajah di mana karakter menggigit bibir bawah atau jari mereka dengan cemas.",
+        "exampleAnime": "Shoujo anime illustration, close-up on mouth. A character biting their bottom lip hard, eyes looking down in worry or frustration. Focus on the detail of the lips and teeth, anime.",
+        "exampleRealistic": "Concept art, intense anxiety: A close-up on a person's mouth and hand, where they are nervously chewing on a fingernail or the lower lip. Focus on the subtle tremor."
+      },
+      {
+        "name": "Memegang Dahi (Kelebihan Beban)",
+        "description": "Karakter menekan telapak tangan ke dahi mereka, wajahnya tertutup sebagian, menunjukkan stres mental yang luar biasa.",
+        "exampleAnime": "Psychological anime illustration, high pressure. A student or detective sitting, pressing a hand hard against their forehead, eyes closed, overwhelmed by information. Use geometric line art to show mental strain, anime.",
+        "exampleRealistic": "Concept art, mental block: A person sitting at a large desk, leaning forward, one hand aggressively shielding their eyes and pressing into their forehead. Focus on the raw frustration."
+      },
+      {
+        "name": "The Unnatural Squat",
+        "description": "Berjongkok dengan posisi yang sangat rendah, satu lutut menyentuh tanah, dan tumit kaki lainnya terangkat tinggi.",
+        "exampleAnime": "Avant-garde fashion anime illustration. A model in an unusually low squat, balancing on the ball of one foot and the knee of the other, head held high and aloof. Use sharp lighting and complex shadow work, anime.",
+        "exampleRealistic": "Concept art, awkward stance: A figure crouched low, resting only on the toe of one foot and the kneecap of the other. Focus on the instability of the pose."
+      },
+      {
+        "name": "Berjalan Melalui Hujan (Slumped)",
+        "description": "Berjalan dengan bahu dan kepala membungkuk, tangan menutupi kepala dari hujan (tanpa payung).",
+        "exampleAnime": "Melancholic anime illustration, heavy rain. A character walking slowly under a downpour, head bent low, using their arm to shield their face from the rain. Wet clothes sticking to the body, anime.",
+        "exampleRealistic": "Concept art, desolate mood: A figure walking slowly down a deserted street in heavy rain, shoulders hunched, using a hand to cover their eyes. Focus on the reflection on the wet surface."
+      },
+      {
+        "name": "Menarik Topi/Tudung",
+        "description": "Karakter menarik topi atau tudung mereka ke bawah untuk menyembunyikan mata, meninggalkan wajah dalam bayangan.",
+        "exampleAnime": "Mysterious action anime illustration. A rogue character standing in a dark alley, one hand pulling the brim of their fedora or hood down, eyes invisible in the shadow. Strong dramatic lighting, anime.",
+        "exampleRealistic": "Concept art, concealed identity: A figure wearing a deep hood, pulling the front down with both hands to ensure the face is entirely obscured by darkness. Focus on the silhouette."
+      },
+      {
+        "name": "The Over-the-Top Bow (Menantang)",
+        "description": "Membungkuk berlebihan (seperti pelayan) tetapi dengan senyum yang mengancam atau mata yang menantang.",
+        "exampleAnime": "Villainous anime illustration, grand gesture. A tall villain performing a low, sweeping bow with one arm extended, but their head is turned to the viewer, smiling cruelly. Use theatrical lighting and grand attire, anime.",
+        "exampleRealistic": "Concept art, sarcastic respect: A figure bowing with an elaborate flourish, but their eyes are narrowed in contempt. Focus on the conflict between posture and expression."
+      },
+      {
+        "name": "Kaki Melingkari (The Leg Wrap)",
+        "description": "Karakter berdiri dengan satu kaki melingkari kaki yang lain sepenuhnya, menyilangkan betis dan pergelangan kaki.",
+        "exampleAnime": "Fashionable anime illustration, unique stance. A character standing with their legs tightly wrapped around each other, creating a unique, intertwined silhouette. Head tilted, intense expression, anime.",
+        "exampleRealistic": "Concept art, stylized movement: A model standing with their legs tightly crossed and wrapped, resting their weight on the outer foot. Focus on the intricate line of the legs."
+      },
+      {
+        "name": "Menghilang ke Dalam Bayangan",
+        "description": "Karakter condong ke belakang atau ke samping, berbaur dengan bayangan, hanya menyisakan siluet yang memudar.",
+        "exampleAnime": "Stealth anime illustration. A shadowy assassin figure leaning back into a corner, their body dissolving into the black background, only a faint outline remaining. Use deep black/purple colors and subtle texture, anime.",
+        "exampleRealistic": "Concept art, invisibility: A figure pressing against a dark wall, becoming one with the shadow, their form barely discernible. Focus on the edge where light meets dark."
+      },
+      {
+        "name": "The Hands-Up Shrug",
+        "description": "Lengan diangkat ke atas, telapak tangan terbuka, disertai dengan mengangkat bahu yang berlebihan (tanda 'entahlah' atau ketidakberdayaan).",
+        "exampleAnime": "Comedic anime illustration, highly expressive. A character standing with both shoulders raised to their ears and arms thrown up, palms open, looking helpless and confused. Exaggerated motion and expression, anime.",
+        "exampleRealistic": "Concept art, theatrical gesture: A figure standing with a deep shrug, arms extended in a clear gesture of 'I don't know' or futility. Focus on the roundness of the shoulders."
+      },
+      {
+        "name": "The Backward Walk",
+        "description": "Karakter berjalan mundur perlahan, mempertahankan kontak mata yang tegang dengan penonton/musuh.",
+        "exampleAnime": "Suspenseful anime illustration. A character walking slowly backward away from the viewer, eyes locked on the camera with intense fear or caution. Use slightly shaky camera effect (implied), anime.",
+        "exampleRealistic": "Concept art, slow retreat: A figure slowly backing away through a dark tunnel, maintaining unwavering eye contact with a threat. Focus on the unnatural slowness of the movement."
+      },
+      {
+        "name": "Memegang Wajah dengan Kaki",
+        "description": "Pose ekstrem di mana karakter memegang wajah mereka sendiri dengan salah satu kaki yang terangkat tinggi.",
+        "exampleAnime": "Contortion anime illustration, impossible flexibility. A highly flexible character sitting or lying down, one leg bent and extended so that the foot is resting against their own face/head. Focus on the extreme lines and tension, anime.",
+        "exampleRealistic": "Concept art, impossible flexibility: A figure performing an extreme yoga or contortion pose, using their foot to touch their cheek. Focus on the incredible range of motion."
+      },
+      {
+        "name": "The Maniacal Point",
+        "description": "Karakter menunjuk ke suatu objek atau arah dengan senyum gila, seolah-olah mengungkapkan rahasia menakutkan.",
+        "exampleAnime": "Villain reveal anime illustration. A character standing, pointing dramatically with a rigid finger toward a dark corner, their face lit by a sudden, manic smile. Use harsh, directional lighting, anime.",
+        "exampleRealistic": "Concept art, unsettling guide: A figure standing on a pedestal, pointing an accusatory or crazy finger toward an unseen object. Focus on the intensity of the point."
       }
     ]
   }
